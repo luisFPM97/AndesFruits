@@ -7,7 +7,7 @@ const Productos = () => {
       <div className='pageP'> 
         <h1>Nuestros productos</h1> <div className="products">
           <div className="product">
-            <img className='imgProduct' src="https://cdn.pixabay.com/photo/2020/03/06/17/31/physalis-4907643_1280.jpg" alt="imgProduct" />{" "}
+            <img className='imgProduct' src="https://cdn.portalfruticola.com/2022/11/c92944e8-3712-4369-a9f3-10f689db5e0a.jpg" alt="imgProduct" />{" "}
             <a className="productName" href="">
               UCHUVA
             </a>
