@@ -25,7 +25,7 @@ const Home = () => {
       <div className="subProducts">
         <div className="products">
           <div className="product">
-            <img className='imgProduct' src='https://drive.google.com/file/d/1NZtxbG6OusD-2KEQZ1suSw3Hj8rX3joV/view?usp=drive_link' alt="imgProduct" />{" "}
+            <img className='imgProduct' src='https://drive.google.com/file/d/1NZtxbG6OusD-2KEQZ1suSw3Hj8rX3joV/view' alt="imgProduct" />{" "}
             <a className="productName" href="">
               UCHUVA
             </a>
