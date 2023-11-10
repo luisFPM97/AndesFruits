@@ -59,7 +59,7 @@ const Home = () => {
       <div className="andesDescription">
         <img
           className="logoHome"
-          src="public\img\LOGO VERTICAL.png"
+          src="https://edgarlaverde.netlify.app/public/logos/AE.png"
           alt="logoHome"
         />
         <div className="historyCont">
