@@ -1,0 +1,243 @@
+.homeContainer{
+    padding-top: 70PX;
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+.carrucel{
+    padding-top: 0em;
+    padding-bottom: 2em;
+    display: flex;
+    width: 95%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.imgCarrucel{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.infoI{
+    text-align: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    position:absolute;
+    width: 100%;
+    height: auto;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    top: 25vw;
+}
+.infoI1{
+    font-size: 4vw;
+    color:#515E32;
+    text-shadow: 1px 1px 3px #ECEBD2;
+
+}
+/*#ECEBD2*/
+.infoI2{
+    font-size: 8vw;
+    color:#88A244;
+    text-shadow: 1px 1px 3px #515E32;
+}
+.infoI3{
+    font-size: 3vw;
+    color:#515E32;
+    text-shadow: 1px 1px 3px #ECEBD2;
+}
+.subProducts{
+    
+    background-size:cover ;
+    background-position: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.products{
+    
+    padding-top: 1em;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 3em;
+    justify-content:center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.product{
+    max-width: 300px;
+    height: 360px;
+    border-radius: 0.5em;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.5em;
+    box-shadow: 0.2em 0.2em 3em #d6de80;
+    transition: transform 180ms ease;
+    /*border-bottom: 2px double #515E32;*/
+    background-color: #ffffff69;
+}
+.imgProuct{
+    width: 200px;
+}
+.productName{
+    font-family: 'Edu TAS Beginner', cursive;
+    padding-top: 15%;
+    text-decoration: none;
+    font-weight: bold;
+    color:#515E32;
+    font-size: 20px;
+}
+.product:hover{
+    transform: scale(1.2);
+    background-color: #ffffff;
+}
+.litleProducts{
+    padding-top: 0.5em;
+    font-size: 40PX;
+    color:#515E32;
+    text-decoration: none;
+    font-weight: bold;
+}
+.litleProduct{
+    padding-top: 0.5em;
+    font-size: 60PX;
+    color:#515E32;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.litleProducts:hover{
+    transform: scale(1.005);
+    color:#88A244;
+}
+hr{
+    width: 90%;
+    height: 1px;
+    background-color: #515E32;
+}
+.andesDescription{
+    padding-top: 5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.andesName{
+    font-weight:bolder;
+    padding-top: 0.5%;
+    width: 80%;
+    font-size: 200%;
+    color:#515E32;
+}
+.andesDate{
+    font-weight: bolder;
+    padding-top: 0.5%;
+    width: 80%;
+    font-size: 150%;  
+    color:#515E32;  
+}
+
+.historyCont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.history{
+    padding-top: 1.5em;
+    display: flex;
+    width: 80%;
+    text-align: justify;
+    padding-bottom: 1.5em;
+}
+
+.certified{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+}
+.litleCert{
+    color:#515E32;
+    font-size: 5vw;
+}
+.cert{
+    padding-top: 1em;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 3em;
+    justify-content:center;
+    width: 90%;
+    
+ 
+}
+.certItem{
+    width: 300px;
+    height: 300px;
+    border-radius: 0.5em;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius:50%;
+    box-shadow: 0.2em 0.2em 2em #ffffff8a;
+    transition: transform 180ms ease;
+    /*border-bottom: 2px double #515E32;*/
+    color:#515E32;  
+}
+
+
+.imgCert{
+    width: 200px;
+    height: auto;
+}
+
+.certItem:hover{
+    
+    
+    transform: scale(1.03);
+    background-color: #ffffff8a;
+    color: white;
+    
+    
+    
+    
+    .cert{
+        align-items: center;
+    }
+    
+    
+}
+
+@media screen and (max-width: 800px){
+    .andesDescription{
+        padding-top: 5em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+}
+.fill-green {
+    fill: #00ae4d;
+}

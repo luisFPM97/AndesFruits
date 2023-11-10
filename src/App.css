@@ -1,0 +1,16 @@
+.App{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ECEBD2;
+}footer{
+    height: 2em;
+    width: 100%;
+    background-color: #88A244;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
