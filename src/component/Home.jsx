@@ -15,7 +15,7 @@ const Home = () => {
       <div className="carrucel">
         <img
           className="imgCarrucel"
-          src="/public/img/bananito_slider.jpg"
+          src="https://cdn.pixabay.com/photo/2016/10/06/12/29/lampionblume-1718946_1280.jpg"
           alt="carrucel"
         />
       </div>
