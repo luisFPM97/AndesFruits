@@ -20,7 +20,7 @@ const Navbar = () => {
     <div className="main">
         <div className="navbar" id="myNavbar">
             <ul>
-              <Link className='pagesMenu' to="/"><img className='logo' src="public\img\LOGO VERTICAL.png" alt="logo" /></Link>
+              <Link className='pagesMenu' to="/"><img className='logo' src="https://edgarlaverde.netlify.app/public/logos/AE.png" alt="logo" /></Link>
               <Link className='pagesMenu' to="/quienes-somos">QUIENES SOMOS <span className='border'></span></Link>
               <Link className="pagesMenu" to="/productos">PRODUCTOS<span className='border'></span></Link> 
               <Link className='pagesMenu' to="/instalaciones">INSTALACIONES <span className='border'></span></Link>
