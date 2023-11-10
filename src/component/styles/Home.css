@@ -93,7 +93,7 @@
 }
 .imgProduct{
     width: 200px;
-    heigth: 200px;
+    height: auto;
 }
 .productName{
     font-family: 'Edu TAS Beginner', cursive;
