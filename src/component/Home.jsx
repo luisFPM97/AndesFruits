@@ -25,7 +25,7 @@ const Home = () => {
       <div className="subProducts">
         <div className="products">
           <div className="product">
-            <img className='imgProduct' src='/public/img/uchuva.png' alt="imgProduct" />{" "}
+            <img className='imgProduct' src='/img/uchuva.png' alt="imgProduct" />{" "}
             <a className="productName" href="">
               UCHUVA
             </a>
