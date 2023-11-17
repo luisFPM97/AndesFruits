@@ -7,18 +7,11 @@ import './styles/Navbar.css'
 
 const Navbar = () => {
     
-    function myFunction() {
-        var x = document.getElementById("myNavbar");
-        if (x.className === "navbar") {
-          x.className += " responsive";
-        } else {
-          x.className = "navbar";
-        }
-      }
+  const [showNav, setShowNav] = useState(false);
   return (
     
     <div className="main">
-        <div className="navbar" id="myNavbar">
+        <div className={showNav ? 'navbar responsive' : 'navbar'} id="myNavbar">
             <ul>
               <Link className='pagesMenu' to="/"><img className='logo' src="https://edgarlaverde.netlify.app/public/logos/AE.png" alt="logo" /></Link>
               <Link className='pagesMenu' to="/quienes-somos">QUIENES SOMOS <span className='border'></span></Link>
@@ -27,7 +20,7 @@ const Navbar = () => {
               <Link className='pagesMenu' to="/certificaciones">CERTIFICACIONES <span className='border'></span></Link>
               <Link className='pagesMenu' to="/contactenos">CONTACTENOS <span className='border'></span></Link>   
                         
-              <a className='pagesMenu' href=""  onClick={myFunction}>☰</a>
+              <a className='pagesMenu icon'   onClick={() => setShowNav(!showNav)}>☰</a>
             </ul>
         </div>
         
