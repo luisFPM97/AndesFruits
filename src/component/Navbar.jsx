@@ -27,7 +27,7 @@ const Navbar = () => {
               <Link className='pagesMenu' to="/certificaciones">CERTIFICACIONES <span className='border'></span></Link>
               <Link className='pagesMenu' to="/contactenos">CONTACTENOS <span className='border'></span></Link>   
                         
-              <a className='pagesMenu' href="javascript:void(0);" class="icon" onClick={myFunction}>☰</a>
+              <a className='pagesMenu' href=""  onClick={myFunction}>☰</a>
             </ul>
         </div>
         
