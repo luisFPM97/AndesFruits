@@ -86,10 +86,10 @@
     flex-direction: column;
     align-items: center;
     border-radius: 0.5em;
-    box-shadow: 0.2em 0.2em 3em #d6de80;
+    /*box-shadow: 0.2em 0.2em 3em #d6de80;*/
     transition: transform 180ms ease;
     /*border-bottom: 2px double #515E32;*/
-    background-color: #ffffff69;
+    /*background-color: #ffffff69;*/
 }
 .imgProduct{
     width: 260px;
