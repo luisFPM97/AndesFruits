@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles/QuienesSomos.css'
+
 
 const QuienesSomos = () => {
   return (

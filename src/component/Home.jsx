@@ -1,10 +1,11 @@
 import React from "react";
-import "./styles/Home.css";
+
 import { Link } from "react-router-dom"
 
 const Home = () => {
   return (
     <div className="homeContainer">
+      <div className="background"></div>
       <div className="infoI">
         <span className="infoI1">BIENVENIDOS A...</span>
         <span className="infoI2">ANDES FRUITS</span>
@@ -19,42 +20,42 @@ const Home = () => {
           alt="carrucel"
         />
       </div>
-      <hr />
-      <h2 className="litleProduct">PRODUCTOS</h2>
-      <hr />
-      <div className="subProducts">
-        <div className="products">
-          <div className="product">
-            <img className='imgProduct' src='/img/uchuva.png' alt="imgProduct" />{" "}
-            <a className="productName" href="">
-              UCHUVA
-            </a>
-          </div>
-          <div className="product">
-            <img className='imgProduct' src="/img/gulupa2.png" alt="imgProduct" />{" "}
-            <a className="productName" href="">
-              GULUPA
-            </a>
-          </div>
-          <div className="product">
-            <img className='imgProduct' src="/img/tomate_de_arbol2.png" alt="imgProduct" />
-            <a className="productName" href="">
-              TOMATE DE ARBOL
-            </a>
-          </div>
-          <div className="product">
-            <img className='imgProduct' src="/img/granadilla2.png" alt="imgProduct" />{" "}
-            <a className="productName" href="">
-              GRANADILLA
-            </a>
-          </div>
-
-
+      
+      <div className="productos">
+        <h2 className="litleProduct">PRODUCTOS</h2>
+        <hr />
+        <div className="descipcionP">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi laborum molestiae voluptatum ipsum neque adipisci rerum quaerat, facilis magnam? Commodi laborum pariatur similique cum esse, dolorum veritatis magni? Delectus, nemo?
         </div>
+        <div className="subProducts">
+            <div className="product">
+              <img className='imgProduct' src='/img/uchuva.png' alt="imgProduct" />{" "}
+              <a className="productName" href="">
+                UCHUVA
+              </a>
+            </div>
+            <div className="product">
+              <img className='imgProduct' src="/img/gulupa2.png" alt="imgProduct" />{" "}
+              <a className="productName" href="">
+                GULUPA
+              </a>
+            </div>
+            <div className="product">
+              <img className='imgProduct' src="/img/tomate_de_arbol2.png" alt="imgProduct" />
+              <a className="productName" href="">
+                TOMATE DE ARBOL
+              </a>
+            </div>
+            <div className="product">
+              <img className='imgProduct' src="/img/granadilla2.png" alt="imgProduct" />{" "}
+              <a className="productName" href="">
+                GRANADILLA
+              </a>
+            </div>
+        </div>
+        <Link className="litleProducts" to="/productos">
+          MÁS SOBRE PRODUCTOS
+        </Link>
       </div>
-      <Link className="litleProducts" to="/productos">
-        MÁS SOBRE PRODUCTOS
-      </Link>
       <hr />
       <div className="andesDescription">
         <img

@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles/Instalaciones.css'
+
 
 const Instalaciones = () => {
   return (
