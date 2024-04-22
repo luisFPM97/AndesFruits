@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className="mainM">
         <div className={showNav ? 'navbar responsive' : 'navbar'} id="myNavbar">
             <ul>
-              <Link className='pagesMenu' to="/"><img className='logo' src="/public/img/logo andes horizontal.png" alt="logo" /></Link>
+              <Link className='pagesMenu' to="/"><img className='logo' src="/img/logo andes horizontal.png" alt="logo" /></Link>
               <Link className='pagesMenu' to="/">Inicio<span className='border'></span></Link>
               <Link className='pagesMenu' to="/quienes-somos">Nosotros<span className='border'></span></Link>
               <Link className="pagesMenu" to="/productos">Productos<span className='border'></span></Link> 
