@@ -55,6 +55,7 @@ const Home = () => {
         <Link className="litleProducts" to="/productos">
           MÁS SOBRE PRODUCTOS
         </Link>
+        <hr />
       </div>
       <hr />
       <div className="andesDescription">
