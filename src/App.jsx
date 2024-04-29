@@ -13,6 +13,8 @@ import { BrowserRouter as Router,Route, Routes  } from 'react-router-dom'
 
 function App() {
 
+
+
   return (
     <div className='App'>
       <header></header>
@@ -26,7 +28,24 @@ function App() {
         <Route path="/productos" element={<Productos />} />
       </Routes>
       <footer>
-        <span>© 2021 Copyright: Andes Fruits</span>
+        <div className='fc'>
+        <hr />
+          <div className='firstf'>
+            <span className='titlef'>Andes Fruits</span>
+            <span className='titlef'> Call:(+57)315 3871168 </span>
+          </div>
+          <hr />
+          <div className='fd'>
+            <span>Andes Fruits - Andes Export Company S.A.S</span>
+            <span>Combita - Boyacá(Colombia)</span>
+            <span>Parque industrial Km 1 via Tunja-Paipa</span>
+          </div>
+          <hr />
+          <div className='ff'>
+            <span>© Andes Fruits 2024</span>
+            <span> <a className='lcode' href="https://luis-code.netlify.app/" target='blank'> Luis Code</a></span>
+          </div>
+        </div>
       </footer>
     </div>
   )

@@ -14,12 +14,12 @@ const Navbar = () => {
         <div className={showNav ? 'navbar responsive' : 'navbar'} id="myNavbar">
             <ul>
               <Link className='pagesMenu logoA' to="/"><img className='logo' src="/img/logo andes horizontal.png" alt="logo" /></Link>
-              <Link className='pagesMenu' to="/">Inicio<span className='border'></span></Link>
-              <Link className='pagesMenu' to="/quienes-somos">Nosotros<span className='border'></span></Link>
-              <Link className="pagesMenu" to="/productos">Productos<span className='border'></span></Link> 
-              <Link className='pagesMenu' to="/instalaciones">Instalaciones<span className='border'></span></Link>
-              <Link className='pagesMenu' to="/certificaciones">Certificaciones<span className='border'></span></Link>
-              <Link className='pagesMenu' to="/contactenos">Contactos<span className='border'></span></Link>   
+              <Link className='pagesMenu' onClick={() => setShowNav(!showNav)} to="/">Inicio</Link>
+              <Link className='pagesMenu' onClick={() => setShowNav(!showNav)} to="/quienes-somos">Nosotros</Link>
+              <Link className="pagesMenu" onClick={() => setShowNav(!showNav)} to="/productos">Productos</Link> 
+              <Link className='pagesMenu' onClick={() => setShowNav(!showNav)} to="/instalaciones">Instalaciones</Link>
+              <Link className='pagesMenu' onClick={() => setShowNav(!showNav)} to="/certificaciones">Certificaciones</Link>
+              <Link className='pagesMenu' onClick={() => setShowNav(!showNav)} to="/contactenos">Contactos</Link>   
               
             </ul>
             <a className='pagesMenu icon'   onClick={() => setShowNav(!showNav)}>{showNav ? 'X' : '☰'}</a>
