@@ -41,7 +41,7 @@ const Home = () => {
       <div id="carouselExample" className="carousel slide carousel-fade">
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="/public/img/uchuva.png"  alt="..." />
+            <img src="img/uchuva.png"  alt="..." />
             <div className="cdescript">
               <span className="ctitle">Uchuva</span>
               <p>
@@ -54,7 +54,7 @@ const Home = () => {
             
           </div>
           <div className="carousel-item">
-            <img src="/public/img/gulupa2.png"  alt="..." />
+            <img src="img/gulupa2.png"  alt="..." />
             <div className="cdescript">
               <span className="ctitle">Gulupa</span>
               <p>
@@ -65,7 +65,7 @@ const Home = () => {
             
           </div>
           <div className="carousel-item">
-            <img src="/public/img/maracuya2.png"  alt="..." />
+            <img src="img/maracuya2.png"  alt="..." />
             <div className="cdescript">
               <span className="ctitle">Maracuya</span>
               <p>
