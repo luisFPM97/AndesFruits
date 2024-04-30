@@ -1,4 +1,6 @@
-import React, { useEffect } from 'react'
+import jsPDF from 'jspdf';
+import html2canvas from 'html2canvas';
+import React, { useEffect, useRef, useState } from 'react'
 
 
 const QuienesSomos = () => {
@@ -7,8 +9,24 @@ const QuienesSomos = () => {
     window.scrollTo(0, 0);
   }, []);
 
+
+  const [pdf, setPdf] = useState(null);
+  const refContenedor = useRef(null);
+
+  const descargarPaginaPDF = async () => {
+    const canvas = await html2canvas(refContenedor.current);
+    const imgData = canvas.toDataURL('image/png');
+
+    const doc = new jsPDF();
+    doc.addImage(imgData, 'PNG', 0, 0, 210, 297); // Ajusta el tamaño según tu necesidad
+    doc.save('AndesExport.pdf');
+    setPdf(doc); // Opcional para mostrar un mensaje o enlace de descarga
+  };
+
+
+
   return (
-   <div className="aboutUs" >
+   <div className="aboutUs" ref={refContenedor}>
     <section className="section1" >
       <div className="descripta first">
         <p>
@@ -74,7 +92,7 @@ const QuienesSomos = () => {
           <input type="text" placeholder="Nombre Completo" />
           <input type="email" placeholder="Correo Electrónico" />
         </form>
-        <button>Enviar <i className='bx bx-send' ></i></button>
+        <button onClick={descargarPaginaPDF}>Enviar <i className='bx bx-send' ></i></button>
       </div>
    </div>
   )
