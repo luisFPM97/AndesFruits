@@ -258,10 +258,16 @@ footer{
         border: none;
         font-weight: 500;
         background-color: #88A244;
-        transition: all 0.5s ease;
+        transition: all 0.3s ease-in-out;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        font-size: 20px;
     }
     button:hover{
         background-color: #cbdf81;
+        box-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
+        color: green;
+        font-weight: bold;
+        font-size: 22px;
     }
     form{
         display: flex;
@@ -481,9 +487,8 @@ footer{
             justify-content: center;
             align-items: center; 
             width: 100%;
-            height: 100%;
+            height: 100vh;
             margin-left: 0;
-            margin-top: 30px;    
             .cdescript{
                 max-height: 70vh;
                 width: 85%;
@@ -494,7 +499,7 @@ footer{
                 gap: 5px;
             }
             img{
-                width: 50vw;
+                width: 40vw;
             }
         }
     }
@@ -513,6 +518,9 @@ footer{
                     span{
                         font-size: 19px;
                     }
+                }
+                .sq{
+                    visibility: hidden;
                 }
             }
         }

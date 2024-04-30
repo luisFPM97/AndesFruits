@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 import Home from './component/Home'
 import Certificaciones from './component/Certificaciones'
@@ -13,7 +13,9 @@ import { BrowserRouter as Router,Route, Routes  } from 'react-router-dom'
 
 function App() {
 
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className='App'>
