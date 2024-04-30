@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className="mainM">
         <div className={showNav ? 'navbar responsive' : 'navbar'} id="myNavbar">
             <ul>
-              <Link className='pagesMenu logoA' to="/"><img className='logo' src="/img/logo andes horizontal.png" alt="logo" /></Link>
+              <Link className='pagesMenu logoA' to="/" href="aboutUs"><img className='logo' src="/img/logo andes horizontal.png" alt="logo" /></Link>
               <Link className='pagesMenu' onClick={() => setShowNav(!showNav)} to="/">Inicio</Link>
               <Link className='pagesMenu' onClick={() => setShowNav(!showNav)} to="/quienes-somos">Nosotros</Link>
               <Link className="pagesMenu" onClick={() => setShowNav(!showNav)} to="/productos">Productos</Link> 

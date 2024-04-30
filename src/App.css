@@ -78,7 +78,7 @@ footer{
     height: 70px;
     justify-content: center;
     align-items: center;
-    font-size: 15px;
+    font-size: 20px;
     padding-left: 200px;
     transition: background-color 0.5s ease ;
     ul{
@@ -239,11 +239,18 @@ footer{
     gap: 10px;
     width: 100%;
     display: flex;
+    flex-direction: column;
     font-weight: 600;
+    color: black;
+    font-weight: bold;
     span{
-        filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
+        filter: drop-shadow(0 0 5px rgba(255, 255, 255));
     }
     button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
         margin: 5px;
         height: 80px;
         width: 200px;
@@ -256,8 +263,92 @@ footer{
     button:hover{
         background-color: #cbdf81;
     }
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        background-color: transparent;
+        width: 50%;
+        input{
+            background-color: rgba(255, 255, 255, 0.349);
+            border: none;
+            font-size: 18px;
+            border-radius: 15px;
+            padding: 10px;
+        }
+        input:hover{
+            background-color: rgba(255, 255, 255, 0.7);
+        }
+        
+    }
 }
 
+/*About Us*/
+
+.aboutUs{
+    width: 100%;
+    height: auto;
+    .img{
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(/public/img/dsc_0370.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .section1{
+        
+        height: 100vh;
+        
+        .descripta{
+            position: absolute;
+            width: 50%;
+            height: 100vh;
+            background-color: #cbdf81;
+            color: black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            p{
+                width: 90%;
+                overflow: hidden;
+                font-size: 18px;
+                font-weight: 700;
+                span{
+                    font-size: 23px;
+                    font-weight: bold;
+                    color: green;
+                }
+            }
+            .sq{
+                position: absolute;
+                height: 45px;
+                aspect-ratio: 1;
+                transform: rotate(45deg);
+                background-color: #cbdf81;
+            }
+        }
+        .first{
+            right: 0;
+            .sq{
+                left: -22.5px;
+                border-radius: 0 90% 0 0;
+            }
+        }
+        .second{
+            .sq{
+                right: -22.5px;
+                border-radius: 0 0 0 90%;
+            }
+        }
+    }
+    
+}
 
 
 @keyframes titledown{
@@ -298,7 +389,7 @@ footer{
         align-items: start;
         justify-content: left;
         width: 100%;
-        height: 310px;
+        height: 380px;
         user-select: none;
         background-color: #cbdf81;
         transition: background-color 1s ease ;
@@ -374,6 +465,9 @@ footer{
                 text-align: center;
                 gap: 10px;
             }
+            .titlef{
+                font-size: 22px;
+            }
         }
     }
     .carousel{
@@ -407,6 +501,23 @@ footer{
     .shortC{
         flex-direction: column;
     }
+    .aboutUs{
+        .section1{
+            .descripta{
+                width: 100%;
+                background-color: #cbdf8185;
+                
+                overflow: hidden;
+                p{
+                    font-size: 15px;
+                    span{
+                        font-size: 19px;
+                    }
+                }
+            }
+        }
+    }
+    
 }
 .lcode{
     text-decoration: none;
