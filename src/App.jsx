@@ -46,6 +46,7 @@ function App() {
           <div className='ff'>
             <span>© Andes Fruits 2024</span>
             <span> <a className='lcode' href="https://luis-code.netlify.app/" target='blank'> Luis Code</a></span>
+            <a href="https://andesexp.netlify.app/">deploy</a>
           </div>
         </div>
       </footer>

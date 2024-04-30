@@ -66,6 +66,16 @@ const QuienesSomos = () => {
       <div className="img">
       </div>
     </section>
+
+    <div className="shortC">
+        <span>¿Quieres saber más?</span>
+        <span>Contacta con nosotros</span>
+        <form action="">
+          <input type="text" placeholder="Nombre Completo" />
+          <input type="email" placeholder="Correo Electrónico" />
+        </form>
+        <button>Enviar <i className='bx bx-send' ></i></button>
+      </div>
    </div>
   )
 }
