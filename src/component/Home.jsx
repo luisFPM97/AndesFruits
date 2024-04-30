@@ -50,6 +50,7 @@ const Home = () => {
                 de una membrana o vaina fibrosa (cáliz), fina no comestible, que puede ser de 
                 color amarilla o verde
               </p>
+              <i className='bx bx-right-arrow-circle'></i>
             </div>
             
           </div>
@@ -60,7 +61,8 @@ const Home = () => {
               <p>
               La fruta es casi redonda, con un peso entre 50 y 60g y un diámetro promedio de 
               5,7 cm. Tiene una corteza resistente, lisa y gruesa.
-            </p>
+              </p>
+              <i className='bx bx-right-arrow-circle'></i>
             </div>
             
           </div>
@@ -74,7 +76,8 @@ const Home = () => {
               Cuando la fruta madura, cambia de un color verde intenso a un amarillo brillante, 
               su corteza es gruesa y lisa, aunque con el tiempo tiende a arrugarse debido al proceso 
               natural de maduración. Su interior contiene numerosas y pequeñas semillas comestibles de color negro.
-            </p>
+              </p>
+              <i className='bx bx-right-arrow-circle'></i>
             </div>
             
           </div>
@@ -98,6 +101,13 @@ const Home = () => {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
+
+      <div className="shortC">
+        <span>¿Quieres saber más?</span>
+        <span>Contacta con nosotros</span>
+        <button>Contáctanos</button>
+      </div>
+
     </div>
   );
 };
