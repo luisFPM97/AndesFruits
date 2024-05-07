@@ -13,7 +13,7 @@ const Uchuva = () => {
       const imgData = canvas.toDataURL("image/png");
 
       const doc = new jsPDF();
-      doc.addImage(imgData, "PNG", 0, 0, 210, 230); // Ajusta el tamaño según tu necesidad
+      doc.addImage(imgData, "PNG", 0, 0, 210, 280); // Ajusta el tamaño según tu necesidad
       doc.save("UchuvaAndesExport.pdf");
       setPdf(doc); // Opcional para mostrar un mensaje o enlace de descarga
     };
