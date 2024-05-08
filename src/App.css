@@ -491,6 +491,29 @@ footer{
     }
 }
 
+.prueba{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    .a1{
+        width: 600px;
+        height: 600px;
+        position: absolute;
+        background-color: rgba(19, 107, 8, 1);
+        border-radius: 300px 300px 300px 300px / 400px 400px 200px 200px ;
+    }
+    .a2{
+        position: absolute;
+        width: 80%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.1);
+        
+        
+    }
+}
 
 @keyframes titledown{
     from {

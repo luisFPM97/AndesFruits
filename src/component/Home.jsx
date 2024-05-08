@@ -113,6 +113,10 @@ const Home = () => {
         </form>
         <button>Enviar <i className='bx bx-send' ></i></button>
       </div>
+      <div className="prueba">
+        <div className="a1"></div>
+        <div className="a2"></div>
+      </div>
 
     </div>
   );
