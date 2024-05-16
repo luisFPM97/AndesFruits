@@ -187,8 +187,14 @@ footer{
     overflow: hidden;
     background-color: #cbdf81;
     .carousel-control-prev, .carousel-control-next{
-        background-color: #99c23233;
+        color: black;
         width: 100px;
+    }
+    .bx-chevron-left, .bx-chevron-right{
+        font-weight: 100;
+        font-size: 55px;
+        color: black;
+        text-shadow: 5px black;
     }
     .carousel-item{
         width: 80%;

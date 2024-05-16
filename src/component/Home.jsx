@@ -47,10 +47,7 @@ const Home = () => {
             <div className="cdescript">
               <span className="ctitle">Uchuva</span>
               <p>
-                El fruto es una baya en forma ovoide con un diámetro entre 1,5 y 0,87 
-                pesa de 4 a 6 gramos. Su piel es suave y brillante. El fruto esta recubierto 
-                de una membrana o vaina fibrosa (cáliz), fina no comestible, que puede ser de 
-                color amarilla o verde
+              Un sabor exótico que te transporta a otro mundo.
               </p>
               <i className='bx bx-right-arrow-circle'></i>
             </div>
@@ -61,8 +58,7 @@ const Home = () => {
             <div className="cdescript">
               <span className="ctitle">Gulupa</span>
               <p>
-              La fruta es casi redonda, con un peso entre 50 y 60g y un diámetro promedio de 
-              5,7 cm. Tiene una corteza resistente, lisa y gruesa.
+              El tesoro tropical que te conquistará.
               </p>
               <i className='bx bx-right-arrow-circle'></i>
             </div>
@@ -73,11 +69,7 @@ const Home = () => {
             <div className="cdescript">
               <span className="ctitle">Maracuya</span>
               <p>
-              El Maracuyá pertenece a las frutas de la pasión. La fruta de forma circular a 
-              ovalada pesa entre 110 y 125gr y tiene aproximadamente 6 o 7.5cms de diámetro. 
-              Cuando la fruta madura, cambia de un color verde intenso a un amarillo brillante, 
-              su corteza es gruesa y lisa, aunque con el tiempo tiende a arrugarse debido al proceso 
-              natural de maduración. Su interior contiene numerosas y pequeñas semillas comestibles de color negro.
+              Un solecito tropical que explota en tu paladar.
               </p>
               <i className='bx bx-right-arrow-circle'></i>
             </div>
@@ -90,7 +82,8 @@ const Home = () => {
           data-bs-target="#carouselExample"
           data-bs-slide="prev"
         >
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span><i class='bx bx-chevron-left'></i></span>
+          
           <span className="visually-hidden">Previous</span>
         </button>
         <button
@@ -99,7 +92,8 @@ const Home = () => {
           data-bs-target="#carouselExample"
           data-bs-slide="next"
         >
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span><i class='bx bx-chevron-right'></i></span>
+          
           <span className="visually-hidden">Next</span>
         </button>
       </div>

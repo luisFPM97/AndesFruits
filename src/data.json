@@ -1,0 +1,58 @@
+{
+    "home": {
+      "title": "Inicio",
+      "description": "Bienvenidos a nuestra página web",
+      "sections": [
+        {
+          "title": "Quienes Somos",
+          "description": "Conoce más sobre nuestra empresa",
+          "link": "/quienes-somos"
+        },
+        {
+          "title": "Productos",
+          "description": "Explora nuestros productos",
+          "link": "/productos"
+        },
+        {
+          "title": "Contáctenos",
+          "description": "Póngase en contacto con nosotros",
+          "link": "/contactenos"
+        }
+      ]
+    },
+    "quienesSomos": {
+      "title": "Quienes Somos",
+      "description": "Somos una empresa dedicada a...",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex."
+    },
+    "productos": [
+      {
+        "id": 1,
+        "title": "Producto 1",
+        "description": "Descripción del producto 1",
+        "image": "producto1.jpg",
+        "fichaTecnica": "ficha-tecnica-1.pdf"
+      },
+      {
+        "id": 2,
+        "title": "Producto 2",
+        "description": "Descripción del producto 2",
+        "image": "producto2.jpg",
+        "fichaTecnica": "ficha-tecnica-2.pdf"
+      },
+      {
+        "id": 3,
+        "title": "Producto 3",
+        "description": "Descripción del producto 3",
+        "image": "producto3.jpg",
+        "fichaTecnica": "ficha-tecnica-3.pdf"
+      }
+    ],
+    "contactenos": {
+      "title": "Contáctenos",
+      "description": "Póngase en contacto con nosotros",
+      "address": "Calle 123, Ciudad, País",
+      "phone": "+123 456 7890",
+      "email": "info@example.com"
+    }
+  }

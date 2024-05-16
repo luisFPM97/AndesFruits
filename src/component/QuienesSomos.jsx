@@ -3,12 +3,13 @@ import html2canvas from 'html2canvas';
 import React, { useEffect, useRef, useState } from 'react'
 
 
-const QuienesSomos = () => {
+const QuienesSomos = ({QuienesSomos}) => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
+  console.log(QuienesSomos)
 
   const [pdf, setPdf] = useState(null);
   const refContenedor = useRef(null);

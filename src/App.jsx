@@ -8,7 +8,7 @@ import QuienesSomos from './component/QuienesSomos'
 import Instalaciones from './component/Instalaciones'
 import Productos from './component/Productos'
 import { BrowserRouter as Router,Route, Routes  } from 'react-router-dom'
-
+import data from './data.json'
 
 
 function App() {
@@ -17,13 +17,15 @@ function App() {
     window.scrollTo(0, 0);
   }, []);
 
+  
+
   return (
     <div className='App'>
       <header></header>
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/quienes-somos" element={<QuienesSomos />} />
+        <Route path="/quienes-somos" element={<QuienesSomos  QuienesSomos = {data.quienesSomos}/>} />
         <Route path="/instalaciones" element={<Instalaciones />} />
         <Route path="/certificaciones" element={<Certificaciones />} />
         <Route path="/contactenos" element={<Contact />} />
