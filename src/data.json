@@ -1,29 +1,60 @@
 {
     "home": {
       "title": "Inicio",
-      "description": "Bienvenidos a nuestra página web",
+      "titleE":"Andes Fruits",
+      "header": "Sabores exóticos del Corazon de la Tierra",
+      "description":"Descubre la frescura y el sabor auténtico de nuestras frutas, cultivadas con pasión y entregadas a tu mesa.”",
       "sections": [
         {
           "title": "Quienes Somos",
-          "description": "Conoce más sobre nuestra empresa",
+          "description": "Historia y tradición. Conoce más sobre nuestra trayectoria y filosofía.",
           "link": "/quienes-somos"
         },
         {
           "title": "Productos",
-          "description": "Explora nuestros productos",
+          "description": "Variedad que encanta, calidad que impresiona. Explora nuestra selección de frutas exóticas.",
           "link": "/productos"
         },
         {
           "title": "Contáctenos",
-          "description": "Póngase en contacto con nosotros",
+          "description": "Estamos aquí para ti. Contacta con nuestro equipo para cualquier consulta o pedido.”",
           "link": "/contactenos"
+        },
+        {
+          "title":"Certificaciones",
+          "description":"Comprometidos con la excelencia. Conoce las certificaciones que garantizan nuestra calidad y confiabilidad.",
+          "link":"/certificaciones"
         }
       ]
     },
     "quienesSomos": {
       "title": "Quienes Somos",
-      "description": "Somos una empresa dedicada a...",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex."
+      "history":[
+        {
+            "id":1,
+            "descript":"Desde nuestras raíces en 1999, hemos crecido con la visión de llevar los sabores exóticos de Colombia a cada rincón del mundo. Nuestra pasión por la fruta y el compromiso con la calidad nos han convertido en un puente entre las ricas tierras de los Andes y los paladares exigentes de Europa y Estados Unidos."
+        },
+        {
+            "id":2,
+            "descri":"Nacimos un 9 de septiembre, con el sueño de compartir la uchuva, nuestra estrella, y otras joyas frutales con el mundo. A lo largo de los años, hemos visto cómo nuestro esfuerzo se ha traducido en un crecimiento constante, no solo en ventas sino en la confianza que nuestros clientes depositan en nosotros."
+        },
+        {
+            "id":3,
+            "descri":"Creemos en el bienestar, tanto de quienes disfrutan de nuestras frutas como de quienes las cultivan. Por eso, nos esforzamos día a día para ofrecer productos que no solo deleiten tus sentidos, sino que también cuiden de ti y del planeta."
+        },
+        {
+            "id":4,
+            "descri":"La tradición se encuentra con la innovación en cada fruta deshidratada que seleccionamos, ofreciendo una experiencia única que conserva el sabor y los beneficios naturales de nuestras frutas frescas."
+        },
+        {
+            "id":5,
+            "descri":"Somos más que una empresa; somos una familia que crece unida, valorando y respetando el trabajo de cada uno de nuestros colaboradores y productores. Juntos, celebramos cada logro y enfrentamos cada desafío con determinación."
+        },
+        {
+            "id":6,
+            "descri":"Cada bocado de nuestras frutas es una invitación a explorar la diversidad y la riqueza de Colombia. Te invitamos a ser parte de esta aventura de sabor y calidad que es Andes Fruits Colombia."
+        }
+      ]
     },
     "productos": [
       {
