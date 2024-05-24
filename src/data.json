@@ -1,89 +1,546 @@
 {
-    "home": {
-      "title": "Inicio",
-      "titleE":"Andes Fruits",
-      "header": "Sabores exóticos del Corazon de la Tierra",
-      "description":"Descubre la frescura y el sabor auténtico de nuestras frutas, cultivadas con pasión y entregadas a tu mesa.”",
-      "sections": [
-        {
-          "title": "Quienes Somos",
-          "description": "Historia y tradición. Conoce más sobre nuestra trayectoria y filosofía.",
-          "link": "/quienes-somos"
-        },
-        {
-          "title": "Productos",
-          "description": "Variedad que encanta, calidad que impresiona. Explora nuestra selección de frutas exóticas.",
-          "link": "/productos"
-        },
-        {
-          "title": "Contáctenos",
-          "description": "Estamos aquí para ti. Contacta con nuestro equipo para cualquier consulta o pedido.”",
-          "link": "/contactenos"
-        },
-        {
-          "title":"Certificaciones",
-          "description":"Comprometidos con la excelencia. Conoce las certificaciones que garantizan nuestra calidad y confiabilidad.",
-          "link":"/certificaciones"
-        }
-      ]
+    "es":{
+        "home": {
+            "title": "Inicio",
+            "titleE":"ANDES FRUITS",
+            "header": "Sabores Exóticos del Corazon de la Tierra",
+            "button":"sobre nosotros",
+            "description":"Descubre la frescura y el sabor auténtico de nuestras frutas, cultivadas con pasión y entregadas a tu mesa.”",
+            "sections": [
+              {
+                "title": "Quienes Somos",
+                "description": "Historia y tradición. Conoce más sobre nuestra trayectoria y filosofía.",
+                "link": "/quienes-somos"
+              },
+              {
+                "title": "Productos",
+                "description": "Variedad que encanta, calidad que impresiona. Explora nuestra selección de frutas exóticas.",
+                "link": "/productos"
+              },
+              {
+                "title": "Contáctenos",
+                "description": "Estamos aquí para ti. Contacta con nuestro equipo para cualquier consulta o pedido.”",
+                "link": "/contactenos"
+              },
+              {
+                "title":"Certificaciones",
+                "description":"Comprometidos con la excelencia. Conoce las certificaciones que garantizan nuestra calidad y confiabilidad.",
+                "link":"/certificaciones"
+              }
+            ]
+          },
+          "quienesSomos": {
+            "title": "Quienes Somos",
+            "history":[
+              {
+                  "id":1,
+                  "title":"Raices",
+                  "descript":"Desde nuestras raíces en 1999, hemos crecido con la visión de llevar los sabores exóticos de Colombia a cada rincón del mundo. Nuestra pasión por la fruta y el compromiso con la calidad nos han convertido en un puente entre las ricas tierras de los Andes y los paladares exigentes de Europa y Estados Unidos."
+              },
+              {
+                  "id":2,
+                  "title":"Historia",
+                  "descri":"Nacimos un 9 de septiembre, con el sueño de compartir la uchuva, nuestra estrella, y otras joyas frutales con el mundo. A lo largo de los años, hemos visto cómo nuestro esfuerzo se ha traducido en un crecimiento constante, no solo en ventas sino en la confianza que nuestros clientes depositan en nosotros."
+              },
+              {
+                  "id":3,
+                  "title":"Compromiso",
+                  "descri":"Creemos en el bienestar, tanto de quienes disfrutan de nuestras frutas como de quienes las cultivan. Por eso, nos esforzamos día a día para ofrecer productos que no solo deleiten tus sentidos, sino que también cuiden de ti y del planeta."
+              },
+              {
+                  "id":4,
+                  "title":"Innovacion y Tradicion",
+                  "descri":"La tradición se encuentra con la innovación en cada fruta deshidratada que seleccionamos, ofreciendo una experiencia única que conserva el sabor y los beneficios naturales de nuestras frutas frescas."
+              },
+              {
+                  "id":5,
+                  "title":"Un equipo, una familia",
+                  "descri":"Somos más que una empresa; somos una familia que crece unida, valorando y respetando el trabajo de cada uno de nuestros colaboradores y productores. Juntos, celebramos cada logro y enfrentamos cada desafío con determinación."
+              },
+              {
+                  "id":6,
+                  "title":"El sabor de Andes Fruits",
+                  "descri":"Cada bocado de nuestras frutas es una invitación a explorar la diversidad y la riqueza de Colombia. Te invitamos a ser parte de esta aventura de sabor y calidad que es Andes Fruits Colombia."
+              }
+            ]
+          },
+          "productos": {
+              "title": "Productos",
+              "intro":"Cada fruta es una obra de arte de la naturaleza. Seleccionamos cuidadosamente lo mejor para ti.",
+              "products":[
+                  {
+                    "id": 1,
+                    "title": "Uchuva",
+                    "scientificName":"Physalis peruviana",
+                    "description": "Nativa de Chile y Perú, con una historia de cultivo que se remonta al Imperio Inca",
+                    "curiousFact":"También conocida como aguaymanto, uvilla o Cape gooseberry. Fue introducida en Inglaterra en el siglo XVIII y en Sudáfrica en el siglo XIX",
+                    "table":[
+                      {
+                          "id":1,
+                          "title":"Calorías",
+                          "value":53,
+                          "unit":"Kcal"
+                      },
+                      {
+                          "id":2,
+                          "title":"Proteínas",
+                          "value":1.9,
+                          "unit":"g"
+                      }
+                      ,
+                      {
+                          "id":3,
+                          "title":"Grasas",
+                          "value":0.7,
+                          "unit":"g"
+                      },
+                      {
+                          "id":4,
+                          "title":"Carbohidratos",
+                          "value":11.2,
+                          "unit":"g"
+                      },
+                      {
+                          "id":5,
+                          "title":"Fibra",
+                          "value":4.9,
+                          "unit":"g"
+                      },
+                      {
+                          "id":6,
+                          "title":"Vitamina C",
+                          "value":20,
+                          "unit":"mg"
+                      }
+                    ],
+                    "image": "uchuva.jpg",
+                    "fichaTecnica": "ficha-tecnica-uchuva.pdf"
+                  },
+                  {
+                      "id": 2,
+                      "title": "Bananito",
+                      "scientificName":"No definido",
+                      "description": "Se cree que el banano, del cual el bananito es una variedad, tiene su origen en la región de Indomalaya y fue propagado hacia el oeste y el sur desde allí",
+                      "curiousFact":"En Colombia, el bananito es conocido por su alto contenido de fosforo, potasio, hierro y vitaminas A y B",
+                      "table":[
+                        {
+                            "id":1,
+                            "title":"Calorías",
+                            "value":110,
+                            "unit":"Kcal"
+                        },
+                        {
+                            "id":2,
+                            "title":"Proteínas",
+                            "value":1.2,
+                            "unit":"g"
+                        }
+                        ,
+                        {
+                            "id":3,
+                            "title":"Carbohidratos",
+                            "value":26.2,
+                            "unit":"g"
+                        },
+                        {
+                            "id":4,
+                            "title":"Fibra",
+                            "value":2.3,
+                            "unit":"g"
+                        },
+                        {
+                            "id":5,
+                            "title":"Potasio",
+                            "value":387.8,
+                            "unit":"mg"
+                        },
+                        {
+                            "id":6,
+                            "title":"Calcio",
+                            "value":18.2,
+                            "unit":"mg"
+                        }
+                        
+                      ],
+                      "image": "nananito.jpg",
+                      "fichaTecnica": "ficha-tecnica-bananito.pdf"
+                  },
+                  {
+                      "id": 3,
+                      "title": "Pitaya amarilla",
+                      "scientificName":"No definido",
+                      "description": "Nativa del sur de México y las costas del Pacífico de Guatemala, Costa Rica y El Salvador",
+                      "curiousFact":"La pitahaya amarilla es cultivada principalmente en zonas tropicales y es conocida por su cáscara espinosa y amarilla",
+                      "table":[
+                        {
+                            "id":1,
+                            "title":"Calorías",
+                            "value":102,
+                            "unit":"Kcal"
+                        },
+                        {
+                            "id":2,
+                            "title":"Proteínas",
+                            "value":2,
+                            "unit":"g"
+                        }
+                        ,
+                        {
+                            "id":3,
+                            "title":"Carbohidratos",
+                            "value":22,
+                            "unit":"g"
+                        },
+                        {
+                            "id":4,
+                            "title":"Fibra",
+                            "value":5,
+                            "unit":"g"
+                        },
+                        {
+                            "id":5,
+                            "title":"Hierro",
+                            "value":1.26,
+                            "unit":"mg"
+                        },
+                        {
+                            "id":6,
+                            "title":"Vitamina C",
+                            "value":4.25,
+                            "unit":"mg"
+                        }
+                      ],
+                      "image": "Pitaya-amarilla.jpg",
+                      "fichaTecnica": "ficha-tecnica-pitaya-amarilla.pdf"
+                  },
+                  {
+                      "id": 4,
+                      "title": "Pitaya amarilla",
+                      "scientificName":"No definido",
+                      "description": "Nativo de América del Sur, específicamente de Brasil, Paraguay y Argentina",
+                      "curiousFact":"El nombre maracuyá proviene del Tupi “mara kuya”, que significa “fruta que se sirve a sí misma” o “comida en una cuia”",
+                      "table":[
+                        {
+                            "id":1,
+                            "title":"Calorías",
+                            "value":97,
+                            "unit":"Kcal"
+                        },
+                        {
+                            "id":2,
+                            "title":"Proteínas",
+                            "value":2.2,
+                            "unit":"g"
+                        }
+                        ,
+                        {
+                            "id":3,
+                            "title":"Carbohidratos",
+                            "value":23.4,
+                            "unit":"g"
+                        },
+                        {
+                            "id":4,
+                            "title":"Fibra",
+                            "value":10.4,
+                            "unit":"g"
+                        },
+                        {
+                            "id":5,
+                            "title":"Vitamina A",
+                            "value":64,
+                            "unit":"µg"
+                        },
+                        {
+                            "id":6,
+                            "title":"Vitamina C",
+                            "value":30,
+                            "unit":"mg"
+                        }
+                      ],
+                      "image": "maracuya.jpg",
+                      "fichaTecnica": "ficha-tecnica-maracuya.pdf"
+                  }
+                ]
+          },
+          "contactenos": {
+            "title": "Contáctenos",
+            "description": "Póngase en contacto con nosotros",
+            "address": "Calle 123, Ciudad, País",
+            "phone": "+123 456 7890",
+            "email": "info@example.com"
+          }
     },
-    "quienesSomos": {
-      "title": "Quienes Somos",
-      "history":[
-        {
-            "id":1,
-            "descript":"Desde nuestras raíces en 1999, hemos crecido con la visión de llevar los sabores exóticos de Colombia a cada rincón del mundo. Nuestra pasión por la fruta y el compromiso con la calidad nos han convertido en un puente entre las ricas tierras de los Andes y los paladares exigentes de Europa y Estados Unidos."
-        },
-        {
-            "id":2,
-            "descri":"Nacimos un 9 de septiembre, con el sueño de compartir la uchuva, nuestra estrella, y otras joyas frutales con el mundo. A lo largo de los años, hemos visto cómo nuestro esfuerzo se ha traducido en un crecimiento constante, no solo en ventas sino en la confianza que nuestros clientes depositan en nosotros."
-        },
-        {
-            "id":3,
-            "descri":"Creemos en el bienestar, tanto de quienes disfrutan de nuestras frutas como de quienes las cultivan. Por eso, nos esforzamos día a día para ofrecer productos que no solo deleiten tus sentidos, sino que también cuiden de ti y del planeta."
-        },
-        {
-            "id":4,
-            "descri":"La tradición se encuentra con la innovación en cada fruta deshidratada que seleccionamos, ofreciendo una experiencia única que conserva el sabor y los beneficios naturales de nuestras frutas frescas."
-        },
-        {
-            "id":5,
-            "descri":"Somos más que una empresa; somos una familia que crece unida, valorando y respetando el trabajo de cada uno de nuestros colaboradores y productores. Juntos, celebramos cada logro y enfrentamos cada desafío con determinación."
-        },
-        {
-            "id":6,
-            "descri":"Cada bocado de nuestras frutas es una invitación a explorar la diversidad y la riqueza de Colombia. Te invitamos a ser parte de esta aventura de sabor y calidad que es Andes Fruits Colombia."
-        }
-      ]
-    },
-    "productos": [
-      {
-        "id": 1,
-        "title": "Producto 1",
-        "description": "Descripción del producto 1",
-        "image": "producto1.jpg",
-        "fichaTecnica": "ficha-tecnica-1.pdf"
-      },
-      {
-        "id": 2,
-        "title": "Producto 2",
-        "description": "Descripción del producto 2",
-        "image": "producto2.jpg",
-        "fichaTecnica": "ficha-tecnica-2.pdf"
-      },
-      {
-        "id": 3,
-        "title": "Producto 3",
-        "description": "Descripción del producto 3",
-        "image": "producto3.jpg",
-        "fichaTecnica": "ficha-tecnica-3.pdf"
-      }
-    ],
-    "contactenos": {
-      "title": "Contáctenos",
-      "description": "Póngase en contacto con nosotros",
-      "address": "Calle 123, Ciudad, País",
-      "phone": "+123 456 7890",
-      "email": "info@example.com"
+    "en":{
+        "home": {
+            "title": "Inicio",
+            "titleE":"ANDES FRUITS",
+            "header": "Exotic Flavors of the Earth's Heart",
+            "button":"About Us",
+            "description":"Descubre la frescura y el sabor auténtico de nuestras frutas, cultivadas con pasión y entregadas a tu mesa.”",
+            "sections": [
+              {
+                "title": "Quienes Somos",
+                "description": "Historia y tradición. Conoce más sobre nuestra trayectoria y filosofía.",
+                "link": "/quienes-somos"
+              },
+              {
+                "title": "Productos",
+                "description": "Variedad que encanta, calidad que impresiona. Explora nuestra selección de frutas exóticas.",
+                "link": "/productos"
+              },
+              {
+                "title": "Contáctenos",
+                "description": "Estamos aquí para ti. Contacta con nuestro equipo para cualquier consulta o pedido.”",
+                "link": "/contactenos"
+              },
+              {
+                "title":"Certificaciones",
+                "description":"Comprometidos con la excelencia. Conoce las certificaciones que garantizan nuestra calidad y confiabilidad.",
+                "link":"/certificaciones"
+              }
+            ]
+          },
+          "quienesSomos": {
+            "title": "Quienes Somos",
+            "history":[
+              {
+                  "id":1,
+                  "title":"Raices",
+                  "descript":"Desde nuestras raíces en 1999, hemos crecido con la visión de llevar los sabores exóticos de Colombia a cada rincón del mundo. Nuestra pasión por la fruta y el compromiso con la calidad nos han convertido en un puente entre las ricas tierras de los Andes y los paladares exigentes de Europa y Estados Unidos."
+              },
+              {
+                  "id":2,
+                  "title":"Historia",
+                  "descri":"Nacimos un 9 de septiembre, con el sueño de compartir la uchuva, nuestra estrella, y otras joyas frutales con el mundo. A lo largo de los años, hemos visto cómo nuestro esfuerzo se ha traducido en un crecimiento constante, no solo en ventas sino en la confianza que nuestros clientes depositan en nosotros."
+              },
+              {
+                  "id":3,
+                  "title":"Compromiso",
+                  "descri":"Creemos en el bienestar, tanto de quienes disfrutan de nuestras frutas como de quienes las cultivan. Por eso, nos esforzamos día a día para ofrecer productos que no solo deleiten tus sentidos, sino que también cuiden de ti y del planeta."
+              },
+              {
+                  "id":4,
+                  "title":"Innovacion y Tradicion",
+                  "descri":"La tradición se encuentra con la innovación en cada fruta deshidratada que seleccionamos, ofreciendo una experiencia única que conserva el sabor y los beneficios naturales de nuestras frutas frescas."
+              },
+              {
+                  "id":5,
+                  "title":"Un equipo, una familia",
+                  "descri":"Somos más que una empresa; somos una familia que crece unida, valorando y respetando el trabajo de cada uno de nuestros colaboradores y productores. Juntos, celebramos cada logro y enfrentamos cada desafío con determinación."
+              },
+              {
+                  "id":6,
+                  "title":"El sabor de Andes Fruits",
+                  "descri":"Cada bocado de nuestras frutas es una invitación a explorar la diversidad y la riqueza de Colombia. Te invitamos a ser parte de esta aventura de sabor y calidad que es Andes Fruits Colombia."
+              }
+            ]
+          },
+          "productos": {
+              "title": "Productos",
+              "intro":"Cada fruta es una obra de arte de la naturaleza. Seleccionamos cuidadosamente lo mejor para ti.",
+              "products":[
+                  {
+                    "id": 1,
+                    "title": "Uchuva",
+                    "scientificName":"Physalis peruviana",
+                    "description": "Nativa de Chile y Perú, con una historia de cultivo que se remonta al Imperio Inca",
+                    "curiousFact":"También conocida como aguaymanto, uvilla o Cape gooseberry. Fue introducida en Inglaterra en el siglo XVIII y en Sudáfrica en el siglo XIX",
+                    "table":[
+                      {
+                          "id":1,
+                          "title":"Calorías",
+                          "value":53,
+                          "unit":"Kcal"
+                      },
+                      {
+                          "id":2,
+                          "title":"Proteínas",
+                          "value":1.9,
+                          "unit":"g"
+                      }
+                      ,
+                      {
+                          "id":3,
+                          "title":"Grasas",
+                          "value":0.7,
+                          "unit":"g"
+                      },
+                      {
+                          "id":4,
+                          "title":"Carbohidratos",
+                          "value":11.2,
+                          "unit":"g"
+                      },
+                      {
+                          "id":5,
+                          "title":"Fibra",
+                          "value":4.9,
+                          "unit":"g"
+                      },
+                      {
+                          "id":6,
+                          "title":"Vitamina C",
+                          "value":20,
+                          "unit":"mg"
+                      }
+                    ],
+                    "image": "uchuva.jpg",
+                    "fichaTecnica": "ficha-tecnica-uchuva.pdf"
+                  },
+                  {
+                      "id": 2,
+                      "title": "Bananito",
+                      "scientificName":"No definido",
+                      "description": "Se cree que el banano, del cual el bananito es una variedad, tiene su origen en la región de Indomalaya y fue propagado hacia el oeste y el sur desde allí",
+                      "curiousFact":"En Colombia, el bananito es conocido por su alto contenido de fosforo, potasio, hierro y vitaminas A y B",
+                      "table":[
+                        {
+                            "id":1,
+                            "title":"Calorías",
+                            "value":110,
+                            "unit":"Kcal"
+                        },
+                        {
+                            "id":2,
+                            "title":"Proteínas",
+                            "value":1.2,
+                            "unit":"g"
+                        }
+                        ,
+                        {
+                            "id":3,
+                            "title":"Carbohidratos",
+                            "value":26.2,
+                            "unit":"g"
+                        },
+                        {
+                            "id":4,
+                            "title":"Fibra",
+                            "value":2.3,
+                            "unit":"g"
+                        },
+                        {
+                            "id":5,
+                            "title":"Potasio",
+                            "value":387.8,
+                            "unit":"mg"
+                        },
+                        {
+                            "id":6,
+                            "title":"Calcio",
+                            "value":18.2,
+                            "unit":"mg"
+                        }
+                        
+                      ],
+                      "image": "nananito.jpg",
+                      "fichaTecnica": "ficha-tecnica-bananito.pdf"
+                  },
+                  {
+                      "id": 3,
+                      "title": "Pitaya amarilla",
+                      "scientificName":"No definido",
+                      "description": "Nativa del sur de México y las costas del Pacífico de Guatemala, Costa Rica y El Salvador",
+                      "curiousFact":"La pitahaya amarilla es cultivada principalmente en zonas tropicales y es conocida por su cáscara espinosa y amarilla",
+                      "table":[
+                        {
+                            "id":1,
+                            "title":"Calorías",
+                            "value":102,
+                            "unit":"Kcal"
+                        },
+                        {
+                            "id":2,
+                            "title":"Proteínas",
+                            "value":2,
+                            "unit":"g"
+                        }
+                        ,
+                        {
+                            "id":3,
+                            "title":"Carbohidratos",
+                            "value":22,
+                            "unit":"g"
+                        },
+                        {
+                            "id":4,
+                            "title":"Fibra",
+                            "value":5,
+                            "unit":"g"
+                        },
+                        {
+                            "id":5,
+                            "title":"Hierro",
+                            "value":1.26,
+                            "unit":"mg"
+                        },
+                        {
+                            "id":6,
+                            "title":"Vitamina C",
+                            "value":4.25,
+                            "unit":"mg"
+                        }
+                      ],
+                      "image": "Pitaya-amarilla.jpg",
+                      "fichaTecnica": "ficha-tecnica-pitaya-amarilla.pdf"
+                  },
+                  {
+                      "id": 4,
+                      "title": "Pitaya amarilla",
+                      "scientificName":"No definido",
+                      "description": "Nativo de América del Sur, específicamente de Brasil, Paraguay y Argentina",
+                      "curiousFact":"El nombre maracuyá proviene del Tupi “mara kuya”, que significa “fruta que se sirve a sí misma” o “comida en una cuia”",
+                      "table":[
+                        {
+                            "id":1,
+                            "title":"Calorías",
+                            "value":97,
+                            "unit":"Kcal"
+                        },
+                        {
+                            "id":2,
+                            "title":"Proteínas",
+                            "value":2.2,
+                            "unit":"g"
+                        }
+                        ,
+                        {
+                            "id":3,
+                            "title":"Carbohidratos",
+                            "value":23.4,
+                            "unit":"g"
+                        },
+                        {
+                            "id":4,
+                            "title":"Fibra",
+                            "value":10.4,
+                            "unit":"g"
+                        },
+                        {
+                            "id":5,
+                            "title":"Vitamina A",
+                            "value":64,
+                            "unit":"µg"
+                        },
+                        {
+                            "id":6,
+                            "title":"Vitamina C",
+                            "value":30,
+                            "unit":"mg"
+                        }
+                      ],
+                      "image": "maracuya.jpg",
+                      "fichaTecnica": "ficha-tecnica-maracuya.pdf"
+                  }
+                ]
+          },
+          "contactenos": {
+            "title": "Contáctenos",
+            "description": "Póngase en contacto con nosotros",
+            "address": "Calle 123, Ciudad, País",
+            "phone": "+123 456 7890",
+            "email": "info@example.com"
+          }
     }
-  }
+}

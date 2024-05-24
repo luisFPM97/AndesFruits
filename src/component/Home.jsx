@@ -2,116 +2,24 @@ import React, { useEffect } from "react";
 
 import { Link } from "react-router-dom"
 
-const Home = () => {
+const Home = ({home}) => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
+  console.log(home)
+
   return (
     <div className="home">
-      
-      <div className="section">
-        <h1 className="title">Andes Export</h1>
-        <span className="stitle">
-          Primera compañia Colombiana exportadora de frutas exoticas
-        </span>
-      </div>
-      
-      <div className="section2">
-        <div className="img"></div>
-        <div className="descSec2">
-          <span >En Andes Fruits</span>
-          <p>
-            Cultivamos y exportamos uchuva y gulupa de la más alta calidad,
-            utilizando prácticas agrícolas sostenibles que protegen el medio
-            ambiente y benefician a los pequeños agricultores.
-          </p>
-          <p>
-            Creemos en el comercio justo y trabajamos en estrecha colaboración
-            con nuestros productores para garantizar que reciban un precio justo
-            por sus productos.
-          </p>
-          <p>
-            Al elegir Andes Fruits, usted está apoyando la agricultura
-            sostenible y el desarrollo económico de las comunidades rurales en
-            Colombia.
-          </p>
-        </div>
-      </div>
-      
-      <div id="carouselExample" className="carousel slide carousel-fade">
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img src="img/uchuva.png"  alt="..." />
-            <div className="cdescript">
-              <span className="ctitle">Uchuva</span>
-              <p>
-              Un sabor exótico que te transporta a otro mundo.
-              </p>
-              <i className='bx bx-right-arrow-circle'></i>
-            </div>
-            
+        <section className="homeHeader">
+          <div>
+          <h1>{home.titleE}</h1>
+          <span>{home.header}</span>
+          <button>{home.button}</button>
           </div>
-          <div className="carousel-item">
-            <img src="img/gulupa2.png"  alt="..." />
-            <div className="cdescript">
-              <span className="ctitle">Gulupa</span>
-              <p>
-              El tesoro tropical que te conquistará.
-              </p>
-              <i className='bx bx-right-arrow-circle'></i>
-            </div>
-            
-          </div>
-          <div className="carousel-item">
-            <img src="img/maracuya2.png"  alt="..." />
-            <div className="cdescript">
-              <span className="ctitle">Maracuya</span>
-              <p>
-              Un solecito tropical que explota en tu paladar.
-              </p>
-              <i className='bx bx-right-arrow-circle'></i>
-            </div>
-            
-          </div>
-        </div>
-        <button
-          className="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExample"
-          data-bs-slide="prev"
-        >
-          <span><i class='bx bx-chevron-left'></i></span>
-          
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button
-          className="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExample"
-          data-bs-slide="next"
-        >
-          <span><i class='bx bx-chevron-right'></i></span>
-          
-          <span className="visually-hidden">Next</span>
-        </button>
-      </div>
-
-      <div className="shortC">
-        <span>¿Quieres saber más?</span>
-        <span>Contacta con nosotros</span>
-        <form action="">
-          <input type="text" placeholder="Nombre Completo" />
-          <input type="text" placeholder="Correo Electrónico" />
-        </form>
-        <button>Enviar <i className='bx bx-send' ></i></button>
-      </div>
-      <div className="prueba">
-        <div className="a1"></div>
-        <div className="a2"></div>
-      </div>
-
+          <div className="filter"></div>
+        </section>
     </div>
   );
 };

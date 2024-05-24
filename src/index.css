@@ -2,6 +2,25 @@ body{
     margin: 0;
     width: 100%;
 }
+@font-face{
+    font-family: "AristaPro";
+    src: url(../public/fonts/Zetafonts\ -\ AristaProAlternate-Hairline.otf);
+    font-weight:lighter;
+    font-style:normal;
+}
+@font-face{
+    font-family: "AristaPro";
+    src: url(../public/fonts/Zetafonts\ -\ AristaPro-Fat.otf);
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face{
+    font-family: "AristaPro";
+    src: url(../public/fonts/Zetafonts\ -\ AristaProIcons-SemiBold.otf);
+    font-weight:100;
+    font-style: normal;
+}
 *{
-    font-family: 'Quicksand', sans-serif;
+    
+    font-family: 'AristaPro', sans-serif;
 }

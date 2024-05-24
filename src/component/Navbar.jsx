@@ -10,19 +10,17 @@ const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
   return (
     
-    <div className="mainM">
-        <div className={showNav ? 'navbar responsive' : 'navbar'} id="myNavbar">
+    <div className={showNav ? 'mainM responsive' : 'mainM'}>
+      <Link className='pagesMenu logoA' to="/"  ><img onClick={() => setShowNav(true)} className='logo' src="/img/Recurso.png" alt="logo" /></Link>
+      <a className='pagesMenu icon'   onClick={() => setShowNav(!showNav)}>{showNav ? 'X' : 'X'}</a>
+        <div className="navbar" id="myNavbar">
             <ul>
-              <Link className='pagesMenu logoA' to="/" ><img className='logo' src="/img/logo andes horizontal.png" alt="logo" /></Link>
-              <Link className='pagesMenu' onClick={() => setShowNav(!showNav)} to="/">Inicio</Link>
-              <Link className='pagesMenu' onClick={() => setShowNav(!showNav)} to="/quienes-somos" >Nosotros</Link>
-              <Link className="pagesMenu" onClick={() => setShowNav(!showNav)} to="/productos">Productos</Link> 
-              <Link className='pagesMenu' onClick={() => setShowNav(!showNav)} to="/instalaciones">Instalaciones</Link>
-              <Link className='pagesMenu' onClick={() => setShowNav(!showNav)} to="/certificaciones">Certificaciones</Link>
-              <Link className='pagesMenu' onClick={() => setShowNav(!showNav)} to="/contactenos">Contactos</Link>   
-              
+            <Link className='pagesMenu' onClick={() => setShowNav(!showNav)} to="/quienes-somos" >Nosotros</Link>
+            <Link className="pagesMenu" onClick={() => setShowNav(!showNav)} to="/productos">Productos</Link> 
+            <Link className='pagesMenu' onClick={() => setShowNav(!showNav)} to="/certificaciones">Certificaciones</Link>
+            <Link className='pagesMenu' onClick={() => setShowNav(!showNav)} to="/contactenos">Contactos</Link>
             </ul>
-            <a className='pagesMenu icon'   onClick={() => setShowNav(!showNav)}>{showNav ? 'X' : '☰'}</a>
+            
         </div>
         
         
