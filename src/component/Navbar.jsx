@@ -24,7 +24,8 @@ const Navbar = ({setLanguage, language}) => {
   return (
     
     <div className={showNav ? 'mainM responsive' : 'mainM'}>
-      <img className={showNav ? 'lA lAr' : 'lA'} onClick={() => setShowNav(true)} src="/img/Recurso.png" alt="logo" />
+      <Link  to="/" className={showNav ? 'lA lAr' : 'lA'} ><img  onClick={() => setShowNav(true)} src="/img/Recurso.png" alt="logo" /></Link>
+      
       <Link className={showNav ? 'logoA' : 'logoA'} to="/"  ><img onClick={() => setShowNav(true)} className='logo' src="/img/Recurso.png" alt="logo" /></Link>
       <a className='icon'   onClick={() => setShowNav(!showNav)}>{showNav ? 'X' : ''}</a>
       <div className='language' onClick={changeLanguage}>
