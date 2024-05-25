@@ -2,13 +2,16 @@ import React, { useEffect } from "react";
 
 import { Link } from "react-router-dom"
 
-const Home = ({home}) => {
+const Home = ({home, productos}) => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
-  console.log(home)
+
+
+  const products = productos.products
+  console.log(products)
 
   return (
     <div className="home">
@@ -19,6 +22,23 @@ const Home = ({home}) => {
           <button>{home.button}</button>
           </div>
           <div className="filter"></div>
+        </section>
+        <section className="homeProduct">
+          <div className="hpTitle">
+            <span>{home.sections[1].description}</span>
+          </div>
+          <div className="hpProduct">
+              {
+                products.map((product, i)=>(
+                  <div className="hpProductItem" key={i}>
+                      <img src={product.image} alt={product.title} />
+                      <h3>{product.title}</h3>
+                      <p>{product.phrase}</p>
+                      <button>ver más</button>
+                    </div>
+                ))
+              }
+          </div>
         </section>
     </div>
   );

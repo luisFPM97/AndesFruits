@@ -26,18 +26,23 @@ function App() {
   }, [language, data]);
 
   
+
   
 
   return (
     <div className="App">
       <header></header>
-      <Navbar />
+      <Navbar 
+        setLanguage={setLanguage}
+        language={language}
+      />
       <Routes>
         <Route 
           path="/" 
           element={
           <Home
             home={content.home}
+            productos = {content.productos}
           />
           } />
         <Route
@@ -58,7 +63,7 @@ function App() {
           </div>
           <hr />
           <div className="fd">
-            <button className="btn-lang" onClick={changeLanguage}>{language}</button>
+            
             <span>Andes Fruits - Andes Export Company S.A.S</span>
             <span>Combita - Boyacá(Colombia)</span>
             <span>Parque industrial Km 1 via Tunja-Paipa</span>
