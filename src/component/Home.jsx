@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 const Home = ({home, productos}) => {
 
   useEffect(() => {
-    window.scrollTo(0, 0);
+    /*window.scrollTo(0, 0);*/
   }, []);
 
 
@@ -42,6 +42,21 @@ const Home = ({home, productos}) => {
               }
           </div>
         </section>
+        <section className="shortPage">
+              {
+                home.sections.map((section, i)=>(
+                  <div className="shortPageItem" key={i}>
+                    
+                    <img src={section.image} alt={section.description} />
+                    <h3>{section.description}</h3>
+                    
+                    <button><Link className="linkBtn" to="/">{section.btn}</Link></button>
+                    <div className="filter"></div>
+                  </div>
+                ))
+              }
+        </section>
+        
     </div>
   );
 };

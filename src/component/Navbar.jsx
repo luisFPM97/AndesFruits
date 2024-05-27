@@ -30,7 +30,7 @@ const Navbar = ({setLanguage, language}) => {
       <a className='icon'   onClick={() => setShowNav(!showNav)}>{showNav ? 'X' : ''}</a>
       <div className='language' onClick={changeLanguage}>
         <i className="fa-solid fa-globe"></i>
-        <span className='idioma'>{idioma}</span>| <span className='idiomaSec'>{idiomaSec}</span>
+        <span onClick={() => setShowNav(false)} className='idioma'>{idioma}</span>| <span onClick={() => setShowNav(false)} className='idiomaSec'>{idiomaSec}</span>
       </div>
         <div className="navbar" id="myNavbar">
             <ul>

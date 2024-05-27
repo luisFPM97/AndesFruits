@@ -67,14 +67,18 @@ footer{
 /*Navbar*/
 .lA{
     position: fixed;
-    top: 30px;
-    right: 45%;
+    top: 20px;
+    right: 0;
     width: 122.4px;
     height: 84.5px;
     transition: all 0.3s ease-in-out;
     img{
         width: 100%;
     }
+}
+.lA:hover{
+    transform: scale(1.1);
+    right: 10px;
 }
 .bntMenu{
     position: fixed;
@@ -96,6 +100,10 @@ footer{
         font-size: 25px;
     }
 }
+.bntMenu:hover{
+    width: 120px;
+}
+
 .btnMr{
     right: -100px;
 }
@@ -111,7 +119,7 @@ footer{
     position: fixed;
     z-index: 999;
     top: 0;
-    right: -160%;
+    right: -200%;
     background-color: #2E3C1D;
     transition: all 0.3s ease-in-out;
     .logoA{
@@ -262,8 +270,9 @@ footer{
         .arrowSlider{
             position: absolute;
             top: 50%;
-            width: 120px;
+            width: 60px;
             cursor: pointer;
+            filter: drop-shadow(0 0 2px );
         }
         .aleft{
             left: 20px;
@@ -286,39 +295,56 @@ footer{
                 color: #83A841;
             }
         }
+        .hpProduct::-webkit-scrollbar{
+            height: 20px;
+        }
+        .hpProduct::-webkit-scrollbar-track {
+            background:transparent; /* Color del fondo de la barra de desplazamiento */
+          }
+          .hpProduct::-webkit-scrollbar-thumb {
+            background:#273319; /* Color del pulgar de la barra de desplazamiento */
+          }
         .hpProduct{
             font-weight: bold;
-            width: 80%;
+            width: 100%;
             height: 70%;
             display: flex;
-           
-            overflow:hidden;
+            overflow:auto;
+            position: relative;
+            overflow-x: auto;
+            padding-left: 50px;
+            padding-right: 50px;
             .hpProductItem{
                 position: relative;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                min-width: 33.333%;
-                transition: all 0.3s ease-in-out;
-                
+                max-width: 350px;
+                min-width: 350px;
+                transition: all 0.4s ease-in-out;
+                overflow: hidden;
+                opacity: 0.6;
                 img{
-                    max-width: 100%;
+                    max-width: 90%;
+                    transition: all 0.2s ease-in-out;
                 }
                 h3{
                     font-size: 35px;
                     font-weight: bold;
+                    color: white;
+                    transition: all 0.5s ease-in-out;
                 }
                 p{
                     width: 90%;
                     text-align: center;
                     font-size: 25px;
                     position: absolute;
-                    bottom: -100px;
+                    bottom: 10px;
                     visibility: hidden;
                     opacity: 0;
-                    transition: opacity 0.2s ease-in-out;
-                    transition: all 0.6s ease-in-out;
+                    transition: opacity 0.6s ease-in-out;
+                    color: #C2BD82;
                 }
                 button{
                     font-weight: bold;
@@ -334,11 +360,15 @@ footer{
                     transition: all 0.3s ease-in-out;
                 }
             }
+            
             .hpProductItem:hover{
+                opacity: 1;
+                img{
+                    transform: scale(1.1);
+                }
                 p{
                     position: relative;
                     visibility: visible;
-                    bottom: 0px;
                     opacity: 1;
                 }
                 button{
@@ -348,6 +378,87 @@ footer{
                 button:hover{
                     background-color: #587239;
                 }
+            }
+        }
+    }
+    .shortPage{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        overflow: hidden;
+        gap: 0;
+        .shortPageItem{
+            width: calc(100%/3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease-in-out;
+            position: relative;
+            
+            .filter{
+                position: absolute;
+                width: calc(100%*3);
+                background-color: black;
+                opacity: 0.5;
+                height: 100vh;
+                z-index: 0;
+            }
+            img{
+                height: 110%;
+                object-fit:fill;
+                position: absolute;
+            }
+            h3{
+                position: absolute;
+                width: 85%;
+                font-weight: bold;
+                color:#F0EFD9;
+                filter: drop-shadow(0 0 5px black);
+                bottom: 50px;
+                transition: all 0.3s ease-in-out;
+            }
+            button{
+                position: absolute;
+                bottom: -30px;
+                font-size: 20px;
+                height: 40px;
+                border: none;
+                background-color: #2E3C1D;
+                color: #F0EFD9;
+                font-weight: bold;
+                border-radius: 20px;
+                width: 120px;
+                opacity: 0;
+                transition: all 0.4s ease-in-out;
+                filter: drop-shadow(0 0 10px #587239);
+                .linkBtn{
+                    text-decoration: none;
+                    color: #F0EFD9;
+                }
+            }
+        }
+        .shortPageItem:hover{
+            transform: scale(1.1);
+            img{
+                z-index: 1;
+            }
+            h3{
+                bottom: 90px;
+                width: 85%;
+                z-index: 1;
+            }
+            button{
+                z-index: 1;
+                bottom: 50px;
+                opacity: 1;
+                
+            }
+            button:hover{
+                background-color: #587239;
+                filter: drop-shadow(0 0 10px #2E3C1D);
+                
             }
         }
     }

@@ -10,22 +10,23 @@
               {
                 "title": "Quienes Somos",
                 "description": "Historia y tradición. Conoce más sobre nuestra trayectoria y filosofía.",
-                "link": "/quienes-somos"
+                "link": "/quienes-somos",
+                "btn":"ver más",
+                "image":"/img/sec1.jpg"
               },
               {
                 "title": "Productos",
                 "description": "Variedad que encanta, calidad que impresiona. Explora nuestra selección de frutas exóticas.",
-                "link": "/productos"
-              },
-              {
-                "title": "Contáctenos",
-                "description": "Estamos aquí para ti. Contacta con nuestro equipo para cualquier consulta o pedido.”",
-                "link": "/contactenos"
+                "link": "/productos",
+                "btn":"ver más",
+                "image":"/img/sec2.jpg"
               },
               {
                 "title":"Certificaciones",
                 "description":"Comprometidos con la excelencia. Conoce las certificaciones que garantizan nuestra calidad y confiabilidad.",
-                "link":"/certificaciones"
+                "link":"/certificaciones",
+                "btn":"ver más",
+                "image":"/img/sec3.jpg"
               }
             ]
           },
@@ -278,27 +279,28 @@
             "titleE":"ANDES FRUITS",
             "header": "Exotic Flavors of the Earth's Heart",
             "button":"About Us",
-            "description":"Descubre la frescura y el sabor auténtico de nuestras frutas, cultivadas con pasión y entregadas a tu mesa.”",
+            "description":"Discover the freshness and authentic flavor of our fruits, grown with passion and delivered to your table.",
             "sections": [
               {
                 "title": "Quienes Somos",
-                "description": "Historia y tradición. Conoce más sobre nuestra trayectoria y filosofía.",
-                "link": "/quienes-somos"
+                "description": "History and Tradition. Learn more about our history and philosophy.",
+                "link": "/quienes-somos",
+                "btn":"see more",
+                "image":"/img/sec1.jpg"
               },
               {
                 "title": "Productos",
-                "description": "Variedad que encanta, calidad que impresiona. Explora nuestra selección de frutas exóticas.",
-                "link": "/productos"
-              },
-              {
-                "title": "Contáctenos",
-                "description": "Estamos aquí para ti. Contacta con nuestro equipo para cualquier consulta o pedido.”",
-                "link": "/contactenos"
+                "description": "A variety that enchants, a quality that impresses. Explore our selection of exotic fruits",
+                "link": "/productos",
+                "btn":"see more",
+                "image":"/img/sec2.jpg"
               },
               {
                 "title":"Certificaciones",
-                "description":"Comprometidos con la excelencia. Conoce las certificaciones que garantizan nuestra calidad y confiabilidad.",
-                "link":"/certificaciones"
+                "description":"Committed to Excellence: Certifications that Guarantee Our Quality and Reliability",
+                "link":"/certificaciones",
+                "btn":"see more",
+                "image":"/img/sec3.jpg"
               }
             ]
           },
@@ -345,6 +347,7 @@
                     "id": 1,
                     "title": "Uchuva",
                     "scientificName":"Physalis peruviana",
+                    "phrase":"A tropical explosion of flavor that dances on your tongue",
                     "description": "Nativa de Chile y Perú, con una historia de cultivo que se remonta al Imperio Inca",
                     "curiousFact":"También conocida como aguaymanto, uvilla o Cape gooseberry. Fue introducida en Inglaterra en el siglo XVIII y en Sudáfrica en el siglo XIX",
                     "table":[
@@ -386,7 +389,7 @@
                           "unit":"mg"
                       }
                     ],
-                    "image": "uchuva.jpg",
+                    "image": "/img/uchuva.png",
                     "fichaTecnica": "ficha-tecnica-uchuva.pdf"
                   },
                   {
