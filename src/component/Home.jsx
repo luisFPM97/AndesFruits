@@ -19,7 +19,7 @@ const Home = ({home, productos}) => {
           <div>
           <h1>{home.titleE}</h1>
           <span>{home.header}</span>
-          <button>{home.button}</button>
+          <button><Link className="btnLink" to={home.link}>{home.button}</Link></button>
           </div>
           <div className="filter"></div>
         </section>
@@ -50,7 +50,7 @@ const Home = ({home, productos}) => {
                     <img src={section.image} alt={section.description} />
                     <h3>{section.description}</h3>
                     
-                    <button><Link className="linkBtn" to="/">{section.btn}</Link></button>
+                    <button><Link className="linkBtn" to={section.link}>{section.btn}</Link></button>
                     <div className="filter"></div>
                   </div>
                 ))

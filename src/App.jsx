@@ -11,7 +11,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import data from "./data.json";
 
 function App() {
-  const [language, setLanguage] = useState("es");
+  const [language, setLanguage] = useState("en");
   const [content, setContent] = useState(data[language]);
 
   function changeLanguage() {

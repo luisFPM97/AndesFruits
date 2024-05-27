@@ -3,6 +3,7 @@
         "home": {
             "title": "Inicio",
             "titleE":"ANDES FRUITS",
+            "link": "/quienes-somos",
             "header": "Sabores Exóticos del Corazon de la Tierra",
             "button":"sobre nosotros",
             "description":"Descubre la frescura y el sabor auténtico de nuestras frutas, cultivadas con pasión y entregadas a tu mesa.”",
@@ -277,6 +278,7 @@
         "home": {
             "title": "Inicio",
             "titleE":"ANDES FRUITS",
+            "link": "/quienes-somos",
             "header": "Exotic Flavors of the Earth's Heart",
             "button":"About Us",
             "description":"Discover the freshness and authentic flavor of our fruits, grown with passion and delivered to your table.",

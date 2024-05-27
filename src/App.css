@@ -234,14 +234,20 @@ footer{
                 border-radius: 50px;
                 border: none;
                 background-color: #2E3C1D;
-                color: #B9D075;
+                
                 font-weight: bold;
                 font-size: 35px;
                 transition: all 0.3s ease-in-out;
+                .btnLink{
+                    text-decoration: none;
+                    color: #B9D075;
+                }
             }
             button:hover{
                 background-color: #587239;
-                color: #d5e998;
+                .btnLink{
+                    color: #d5e998;
+                }
             }
         }
         .filter{
