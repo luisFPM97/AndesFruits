@@ -300,15 +300,22 @@ footer{
                 color: #83A841;
             }
         }
-        .hpProduct::-webkit-scrollbar{
-            height: 20px;
+        .hpProduct::-webkit-scrollbar {
+            width: 400px; 
+            height: 10px;
         }
         .hpProduct::-webkit-scrollbar-track {
-            background:transparent; /* Color del fondo de la barra de desplazamiento */
-          }
+            width: 200px;
+            height: 10px;
+            margin: 550px;
+            background-color: #58723948;
+            border-radius: 10px;
+        }
           .hpProduct::-webkit-scrollbar-thumb {
-            background:#273319; /* Color del pulgar de la barra de desplazamiento */
-          }
+            height: 10px;
+            border-radius: 10px;
+            background-color:#83A841;
+        }
         .hpProduct{
             font-weight: bold;
             width: 100%;
@@ -519,6 +526,7 @@ footer{
                 overflow: scroll;
                 padding-left: 0px;
                 padding-right: 0px;
+                width: 100%;
                 scroll-snap-type: x mandatory;
                 .hpProductItem{
                     min-width: 100% ;
@@ -527,8 +535,21 @@ footer{
                     scroll-snap-align:center;
                 }
             }
-            .hpProduct::-webkit-scrollbar{
-                height: 0px;
+            .hpProduct::-webkit-scrollbar {
+                width: 100%; /* Ancho de 200px */
+                
+            }
+            .hpProduct::-webkit-scrollbar-track {
+                width: 100%; /* Ancho de 200px */
+                height: 10px;
+                margin: 170px; /* La mitad del ancho */
+                background-color: #58723948;
+                border-radius: 10px;
+            }
+              .hpProduct::-webkit-scrollbar-thumb {
+                height: 10px;
+                border-radius: 10px;
+                background-color:#83A841;
             }
         }
         .shortPage{
