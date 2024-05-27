@@ -536,7 +536,6 @@ footer{
                 }
             }
             .hpProduct::-webkit-scrollbar {
-                
                 width: 100%;
             }
             .hpProduct::-webkit-scrollbar-track {
@@ -544,13 +543,11 @@ footer{
                 margin: 170px;
                 background-color: #58723948;
                 border-radius: 10px;
-                
             }
               .hpProduct::-webkit-scrollbar-thumb {
                 height: 10px;
                 border-radius: 10px;
                 background-color:#83A841;
-                position: fixed;
             }
         }
         .shortPage{
