@@ -440,7 +440,7 @@
                         }
                         
                       ],
-                      "image": "nananito.jpg",
+                      "image": "/img/bananito2.png",
                       "fichaTecnica": "ficha-tecnica-bananito.pdf"
                   },
                   {
@@ -488,12 +488,12 @@
                             "unit":"mg"
                         }
                       ],
-                      "image": "Pitaya-amarilla.jpg",
+                      "image": "/img/pitaya2.png",
                       "fichaTecnica": "ficha-tecnica-pitaya-amarilla.pdf"
                   },
                   {
                       "id": 4,
-                      "title": "Pitaya amarilla",
+                      "title": "Maracuya",
                       "scientificName":"No definido",
                       "description": "Nativo de América del Sur, específicamente de Brasil, Paraguay y Argentina",
                       "curiousFact":"El nombre maracuyá proviene del Tupi “mara kuya”, que significa “fruta que se sirve a sí misma” o “comida en una cuia”",
@@ -536,7 +536,7 @@
                             "unit":"mg"
                         }
                       ],
-                      "image": "maracuya.jpg",
+                      "image": "/img/maracuya2.png",
                       "fichaTecnica": "ficha-tecnica-maracuya.pdf"
                   }
                 ]
