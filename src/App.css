@@ -472,8 +472,50 @@ footer{
 
 
 
-@media screen and (max-width:1200px) {
-    
+@media screen and (max-width:980px) {
+    .home{
+        .homeProduct{
+            .arrowSlider{
+                visibility: hidden;
+            }
+            .hpProduct{
+                position: relative;
+                overflow: scroll;
+                padding-left: 0px;
+                padding-right: 0px;
+                scroll-snap-type: x mandatory;
+                .hpProductItem{
+                    min-width: 100% ;
+                    position: sticky !important;
+                    object-fit: cover;
+                    scroll-snap-align:center;
+                }
+            }
+            .hpProduct::-webkit-scrollbar{
+                height: 0px;
+            }
+        }
+        .shortPage{
+            flex-direction: column;
+            height: auto;
+            .shortPageItem{
+                width: 100%;
+                height: 90vh;
+                overflow: hidden;
+                position: relative;
+                .filter{
+                    height: calc(100%*3);
+                    position: absolute;
+                }
+                img{
+                    object-fit:fill;
+                    height: auto;
+                    min-height: 100vh;
+                    min-width: 100%;
+                }
+            }
+        }
+    }
     
 }
 .lcode{
