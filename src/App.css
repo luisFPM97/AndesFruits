@@ -68,7 +68,7 @@ footer{
 .lA{
     position: fixed;
     top: 30px;
-    right: 30px;
+    right: 45%;
     width: 122.4px;
     height: 84.5px;
     transition: all 0.3s ease-in-out;
@@ -100,15 +100,18 @@ footer{
     right: -100px;
 }
 .lAr{
-    right: -150px;
+    
+    /*right: -150px;*/
+    opacity: 0;
 }
 .mainM{
+    
     width: 764.8px;
     height: 100vh;
     position: fixed;
     z-index: 999;
     top: 0;
-    right: -100%;
+    right: -160%;
     background-color: #2E3C1D;
     transition: all 0.3s ease-in-out;
     .logoA{
