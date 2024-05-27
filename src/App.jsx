@@ -24,7 +24,7 @@ function App() {
       setContent(data[language]);
     }
   }, [language, data]);
-
+  console.log(content)
   
 
   
@@ -58,15 +58,14 @@ function App() {
         <div className="fc">
           <hr />
           <div className="firstf">
-            <span className="titlef">Andes Fruits</span>
-            <span className="titlef"> Call:(+57)315 3871168 </span>
+            <span className="titlef">{content.home.titleE}</span>
+            <span className="titlef">{content.contactenos.phone}</span>
           </div>
           <hr />
           <div className="fd">
             
             <span>Andes Fruits - Andes Export Company S.A.S</span>
-            <span>Combita - Boyacá(Colombia)</span>
-            <span>Parque industrial Km 1 via Tunja-Paipa</span>
+            <span>{content.contactenos.address}</span>
           </div>
           <hr />
           <div className="ff">
@@ -79,10 +78,9 @@ function App() {
                 target="blank"
               >
                 {" "}
-                Luis Code
+                 dev by Luis Code
               </a>
             </span>
-            <a href="https://andesexp.netlify.app/">deploy</a>
           </div>
         </div>
       </footer>
