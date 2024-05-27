@@ -76,6 +76,29 @@ footer{
         width: 100%;
     }
 }
+.bntMenu{
+    position: fixed;
+    top: 114.5px;
+    right: 0px;
+    border: none;font-weight: bold;
+    font-size: 20px;
+    height: 45px;
+    width: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 45px 0px 0px 45px ;
+    background-color: #83A841;
+    color:#F0EFD9;
+    transition: all 0.3s ease-in-out;
+    i{
+        font-size: 25px;
+    }
+}
+.btnMr{
+    right: -100px;
+}
 .lAr{
     right: -150px;
 }
