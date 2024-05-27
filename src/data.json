@@ -346,7 +346,7 @@
               "intro":"Cada fruta es una obra de arte de la naturaleza. Seleccionamos cuidadosamente lo mejor para ti.",
               "products":[
                   {
-                    "id": 1,
+                    "id": 0,
                     "title": "Uchuva",
                     "scientificName":"Physalis peruviana",
                     "phrase":"A tropical explosion of flavor that dances on your tongue",
@@ -395,7 +395,7 @@
                     "fichaTecnica": "ficha-tecnica-uchuva.pdf"
                   },
                   {
-                      "id": 2,
+                      "id": 1,
                       "title": "Bananito",
                       "scientificName":"No definido",
                       "description": "Se cree que el banano, del cual el bananito es una variedad, tiene su origen en la región de Indomalaya y fue propagado hacia el oeste y el sur desde allí",
@@ -444,7 +444,7 @@
                       "fichaTecnica": "ficha-tecnica-bananito.pdf"
                   },
                   {
-                      "id": 3,
+                      "id": 2,
                       "title": "Pitaya amarilla",
                       "scientificName":"No definido",
                       "description": "Nativa del sur de México y las costas del Pacífico de Guatemala, Costa Rica y El Salvador",
@@ -492,7 +492,7 @@
                       "fichaTecnica": "ficha-tecnica-pitaya-amarilla.pdf"
                   },
                   {
-                      "id": 4,
+                      "id": 3,
                       "title": "Maracuya",
                       "scientificName":"No definido",
                       "description": "Nativo de América del Sur, específicamente de Brasil, Paraguay y Argentina",

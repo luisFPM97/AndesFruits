@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 
 import { Link } from "react-router-dom"
+import FichaTecnica from "./FichaTecnica";
+import ProductCard from "./ProductCard";
 
 const Home = ({home, productos}) => {
 
@@ -32,12 +34,10 @@ const Home = ({home, productos}) => {
           <div className="hpProduct">
               {
                 products.map((product, i)=>(
-                  <div className="hpProductItem" key={i}>
-                      <img src={product.image} alt={product.title} />
-                      <h3>{product.title}</h3>
-                      <p>{product.phrase}</p>
-                      <button>ver más</button>
-                    </div>
+                  <ProductCard
+                  key={i}
+                  product={product}
+                  />
                 ))
               }
           </div>

@@ -9,10 +9,16 @@ import Instalaciones from "./component/Instalaciones";
 import Productos from "./component/Productos";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import data from "./data.json";
+import FichaTecnica from "./component/FichaTecnica";
+import ProductCard from "./component/ProductCard";
 
 function App() {
   const [language, setLanguage] = useState("en");
   const [content, setContent] = useState(data[language]);
+  
+  const [productid, setProductid] = useState();
+  console.log(productid)
+  
 
   function changeLanguage() {
     setLanguage(language === "en" ? "es" : "en");
@@ -53,6 +59,8 @@ function App() {
         <Route path="/certificaciones" element={<Certificaciones />} />
         <Route path="/contactenos" element={<Contact />} />
         <Route path="/productos" element={<Productos />} />
+        <Route path="/FichaTecnica" element={<FichaTecnica productid={productid}/>}/>
+        <Route path="/ProductCard" element={<ProductCard   productid={productid} setProductid={setProductid}/>}/>
       </Routes>
       <footer>
         <div className="fc">

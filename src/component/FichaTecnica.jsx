@@ -1,8 +1,11 @@
 import React from 'react'
 
-const FichaTecnica = () => {
+const FichaTecnica = (productid) => {
+    console.log(productid)
   return (
-    <div>FichaTecnica</div>
+    <div>
+        <h1>{productid.title}</h1>
+    </div>
   )
 }
 
