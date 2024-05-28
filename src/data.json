@@ -85,6 +85,7 @@
                     "phrase":"Un solecito tropical que explota en tu paladar",
                     "description": "Nativa de Chile y Perú, con una historia de cultivo que se remonta al Imperio Inca",
                     "curiousFact":"También conocida como aguaymanto, uvilla o Cape gooseberry. Fue introducida en Inglaterra en el siglo XVIII y en Sudáfrica en el siglo XIX",
+                    "ftitle":"Ficha Tecnica",
                     "table":[
                       {
                           "id":1,
@@ -135,6 +136,7 @@
                       "phrase":"¡el snack perfecto para recargar tus pilas!",
                       "description": "Se cree que el banano, del cual el bananito es una variedad, tiene su origen en la región de Indomalaya y fue propagado hacia el oeste y el sur desde allí",
                       "curiousFact":"En Colombia, el bananito es conocido por su alto contenido de fosforo, potasio, hierro y vitaminas A y B",
+                      "ftitle":"Ficha Tecnica",
                       "table":[
                         {
                             "id":1,
@@ -186,6 +188,7 @@
                       "phrase":"¡una fruta que vale la pena descubrir!",
                       "description": "Nativa del sur de México y las costas del Pacífico de Guatemala, Costa Rica y El Salvador",
                       "curiousFact":"La pitahaya amarilla es cultivada principalmente en zonas tropicales y es conocida por su cáscara espinosa y amarilla",
+                      "ftitle":"Ficha Tecnica",
                       "table":[
                         {
                             "id":1,
@@ -236,6 +239,7 @@
                       "phrase":"¡una explosión de sabor que te dejará con ganas de más!",
                       "description": "Nativo de América del Sur, específicamente de Brasil, Paraguay y Argentina",
                       "curiousFact":"El nombre maracuyá proviene del Tupi “mara kuya”, que significa “fruta que se sirve a sí misma” o “comida en una cuia”",
+                      "ftitle":"Ficha Tecnica",
                       "table":[
                         {
                             "id":1,
@@ -286,6 +290,7 @@
                     "phrase":"¡una fruta que te conquistará con su delicadeza!",
                     "description": "Se cree que es nativa de América del Sur, con una amplia distribución en regiones tropicales y subtropicales.",
                     "curiousFact":"A menudo se confunde con la fruta de la pasión, pero son frutas diferentes",
+                    "ftitle":"Ficha Tecnica",
                     "table":[
                       {
                           "id":0,
@@ -330,6 +335,7 @@
                     "phrase":"¡una fruta que te cuida!",
                     "description": "La gulupa, una variedad de maracuyá, crece en la región de Cajamarca en Perú y en los departamentos de Cundinamarca y Boyacá en Colombia.",
                     "curiousFact":"Es conocida por su efecto sedante que incluso se dice que ayuda a regular los sueños",
+                    "ftitle":"Ficha Tecnica",
                     "table":[
                         {
                             "id":0,
@@ -374,6 +380,7 @@
                     "phrase":"¡una fruta que te cuida por dentro y por fuera!",
                     "description": "Originario de los Andes de Perú y Bolivia, se ha adaptado a climas fríos de páramos y se ha distribuido por toda la cordillera andina.",
                     "curiousFact":"A pesar de su nombre, no es un tomate sino una fruta con un sabor único que combina en muchas elaboraciones",
+                    "ftitle":"Ficha Tecnica",
                     "table":[
                     {
                         "id":0,
@@ -418,6 +425,7 @@
                     "phrase":"¡una fruta cítrica con un sabor intenso y refrescante!",
                     "description": "Nativo de Asia Oriental, estos pequeños árboles se cultivan en todo el mundo subtropical",
                     "curiousFact":"En China, los kumquats se confitan con frecuencia y se utilizan para decoración navideña en algunas partes de Estados Unidos",
+                    "ftitle":"Ficha Tecnica",
                     "table":[
                     {
                         "id":0,
@@ -462,6 +470,7 @@
                     "phrase":"¡Un alimento esencial para una vida saludable y deliciosa!",
                     "description": "Fue cultivado y vendido por primera vez por el cartero y horticultor aficionado Rudolph Hass en California",
                     "curiousFact":"Más del 80% de los aguacates en Estados Unidos son de la variedad Hass, y es el aguacate más cultivado en Nueva Zelanda",
+                    "ftitle":"Ficha Tecnica",
                     "table":[
                         {
                             "id":0,
@@ -506,6 +515,7 @@
                     "phrase":"¡una fruta que te transportará a un paraíso tropical!",
                     "description": "Fue cultivado y vendido por primera vez por el cartero y horticultor aficionado Rudolph Hass en California",
                     "curiousFact":"Más del 80% de los aguacates en Estados Unidos son de la variedad Hass, y es el aguacate más cultivado en Nueva Zelanda",
+                    "ftitle":"Ficha Tecnica",
                     "table":[
                     {
                         "id":0,
@@ -638,6 +648,7 @@
                   "phrase":"A tropical explosion of flavor that dances on your tongue",
                   "description": "Nativa de Chile y Perú, con una historia de cultivo que se remonta al Imperio Inca",
                   "curiousFact":"También conocida como aguaymanto, uvilla o Cape gooseberry. Fue introducida en Inglaterra en el siglo XVIII y en Sudáfrica en el siglo XIX",
+                  "ftitle":"Data Sheet",
                   "table":[
                     {
                         "id":1,
@@ -688,6 +699,7 @@
                     "phrase":"¡The perfect snack to recharge your batteries!",
                     "description": "Se cree que el banano, del cual el bananito es una variedad, tiene su origen en la región de Indomalaya y fue propagado hacia el oeste y el sur desde allí",
                     "curiousFact":"En Colombia, el bananito es conocido por su alto contenido de fosforo, potasio, hierro y vitaminas A y B",
+                    "ftitle":"Data Sheet",
                     "table":[
                       {
                           "id":1,
@@ -739,6 +751,7 @@
                     "phrase":"¡A fruit worth discovering!",
                     "description": "Nativa del sur de México y las costas del Pacífico de Guatemala, Costa Rica y El Salvador",
                     "curiousFact":"La pitahaya amarilla es cultivada principalmente en zonas tropicales y es conocida por su cáscara espinosa y amarilla",
+                    "ftitle":"Data Sheet",
                     "table":[
                       {
                           "id":1,
@@ -789,6 +802,7 @@
                     "phrase":"¡An explosion of flavor that will leave you wanting more!",
                     "description": "Nativo de América del Sur, específicamente de Brasil, Paraguay y Argentina",
                     "curiousFact":"El nombre maracuyá proviene del Tupi “mara kuya”, que significa “fruta que se sirve a sí misma” o “comida en una cuia”",
+                    "ftitle":"Data Sheet",
                     "table":[
                       {
                           "id":1,
@@ -839,6 +853,7 @@
                   "phrase":"¡A fruit that will win you over with its delicacy!",
                   "description": "Se cree que es nativa de América del Sur, con una amplia distribución en regiones tropicales y subtropicales.",
                   "curiousFact":"A menudo se confunde con la fruta de la pasión, pero son frutas diferentes",
+                  "ftitle":"Data Sheet",
                   "table":[
                     {
                         "id":0,
@@ -883,6 +898,7 @@
                   "phrase":"¡A fruit that takes care of you!",
                   "description": "La gulupa, una variedad de maracuyá, crece en la región de Cajamarca en Perú y en los departamentos de Cundinamarca y Boyacá en Colombia.",
                   "curiousFact":"Es conocida por su efecto sedante que incluso se dice que ayuda a regular los sueños",
+                  "ftitle":"Data Sheet",
                   "table":[
                       {
                           "id":0,
@@ -927,6 +943,7 @@
                   "phrase":"¡A fruit that takes care of you inside and out!",
                   "description": "Originario de los Andes de Perú y Bolivia, se ha adaptado a climas fríos de páramos y se ha distribuido por toda la cordillera andina.",
                   "curiousFact":"A pesar de su nombre, no es un tomate sino una fruta con un sabor único que combina en muchas elaboraciones",
+                  "ftitle":"Data Sheet",
                   "table":[
                   {
                       "id":0,
@@ -971,6 +988,7 @@
                   "phrase":"¡A citrus fruit with an intense and refreshing flavor!",
                   "description": "Nativo de Asia Oriental, estos pequeños árboles se cultivan en todo el mundo subtropical",
                   "curiousFact":"En China, los kumquats se confitan con frecuencia y se utilizan para decoración navideña en algunas partes de Estados Unidos",
+                  "ftitle":"Data Sheet",
                   "table":[
                   {
                       "id":0,
@@ -1015,6 +1033,7 @@
                   "phrase":"¡An essential food for a healthy and delicious life!",
                   "description": "Fue cultivado y vendido por primera vez por el cartero y horticultor aficionado Rudolph Hass en California",
                   "curiousFact":"Más del 80% de los aguacates en Estados Unidos son de la variedad Hass, y es el aguacate más cultivado en Nueva Zelanda",
+                  "ftitle":"Data Sheet",
                   "table":[
                       {
                           "id":0,
@@ -1059,6 +1078,7 @@
                   "phrase":"¡ A fruit that will transport you to a tropical paradise!",
                   "description": "Fue cultivado y vendido por primera vez por el cartero y horticultor aficionado Rudolph Hass en California",
                   "curiousFact":"Más del 80% de los aguacates en Estados Unidos son de la variedad Hass, y es el aguacate más cultivado en Nueva Zelanda",
+                  "ftitle":"Data Sheet",
                   "table":[
                   {
                       "id":0,
