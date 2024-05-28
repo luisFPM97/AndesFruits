@@ -54,7 +54,7 @@ function App() {
         <Route path="/instalaciones" element={<Instalaciones />} />
         <Route path="/certificaciones" element={<Certificaciones />} />
         <Route path="/contactenos" element={<Contact />} />
-        <Route path="/productos" element={<Productos />} />
+        <Route path="/productos" element={<Productos setProductid ={setProductid}  productos = {content.productos}/>} />
         <Route path="/FichaTecnica" element={<FichaTecnica productid={productid} productos = {content.productos}/>}/>
         <Route path="/ProductCard" element={<ProductCard  />}/>
       </Routes>

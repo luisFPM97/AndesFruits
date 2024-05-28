@@ -13,10 +13,10 @@ const ProductCard = ({product,setProductid, productid}) => {
     
   return (
     <div className="hpProductItem" >
-                      <img src={product.image} alt={product.title} />
-                      <h3>{product.title}</h3>
-                      <p>{product.phrase}</p>
-                      <button onClick={() => defId(product.id)} ><Link className='linkP' to="/FichaTecnica">{product.botton}</Link></button>
+        <img src={product.image} alt={product.title} />
+        <h3>{product.title}</h3>
+        <p>{product.phrase}</p>
+        <button onClick={() => defId(product.id)} ><Link className='linkP' to="/FichaTecnica">{product.botton}</Link></button>
     </div>
   )
 }

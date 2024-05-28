@@ -74,6 +74,7 @@
           },
         "productos": {
               "title": "Productos",
+              "phrase":"No te conformes con lo ordinario, descubre la magia y vive una experiencia sensorial inolvidable",
               "intro":"Cada fruta es una obra de arte de la naturaleza. Seleccionamos cuidadosamente lo mejor para ti.",
               "products":[
                   {
@@ -125,12 +126,13 @@
                     ],
                     "image": "/img/uchuva.png",
                     "fichaTecnica": "ficha-tecnica-uchuva.pdf"
-                  },
+                   },
                   {
                       "id": 1,
                       "title": "Bananito",
                       "botton":"ver más",
                       "scientificName":"No definido",
+                      "phrase":"¡el snack perfecto para recargar tus pilas!",
                       "description": "Se cree que el banano, del cual el bananito es una variedad, tiene su origen en la región de Indomalaya y fue propagado hacia el oeste y el sur desde allí",
                       "curiousFact":"En Colombia, el bananito es conocido por su alto contenido de fosforo, potasio, hierro y vitaminas A y B",
                       "table":[
@@ -175,12 +177,13 @@
                       ],
                       "image": "/img/bananito2.png",
                       "fichaTecnica": "ficha-tecnica-bananito.pdf"
-                  },
+                   },
                   {
                       "id": 2,
                       "title": "Pitaya amarilla",
                       "botton":"ver más",
                       "scientificName":"No definido",
+                      "phrase":"¡una fruta que vale la pena descubrir!",
                       "description": "Nativa del sur de México y las costas del Pacífico de Guatemala, Costa Rica y El Salvador",
                       "curiousFact":"La pitahaya amarilla es cultivada principalmente en zonas tropicales y es conocida por su cáscara espinosa y amarilla",
                       "table":[
@@ -224,12 +227,13 @@
                       ],
                       "image": "/img/pitaya2.png",
                       "fichaTecnica": "ficha-tecnica-pitaya-amarilla.pdf"
-                  },
+                   },
                   {
                       "id": 3,
                       "title": "Maracuya",
                       "botton":"ver más",
                       "scientificName":"No definido",
+                      "phrase":"¡una explosión de sabor que te dejará con ganas de más!",
                       "description": "Nativo de América del Sur, específicamente de Brasil, Paraguay y Argentina",
                       "curiousFact":"El nombre maracuyá proviene del Tupi “mara kuya”, que significa “fruta que se sirve a sí misma” o “comida en una cuia”",
                       "table":[
@@ -273,10 +277,274 @@
                       ],
                       "image": "/img/maracuya2.png",
                       "fichaTecnica": "ficha-tecnica-maracuya.pdf"
-                  }
+                   },
+                  {
+                    "id": 4,
+                    "title": "Granadilla",
+                    "botton":"ver más",
+                    "scientificName":"No definido",
+                    "phrase":"¡una fruta que te conquistará con su delicadeza!",
+                    "description": "Se cree que es nativa de América del Sur, con una amplia distribución en regiones tropicales y subtropicales.",
+                    "curiousFact":"A menudo se confunde con la fruta de la pasión, pero son frutas diferentes",
+                    "table":[
+                      {
+                          "id":0,
+                          "title":"Proteínas",
+                          "value":"0.340-0.47",
+                          "unit":"g"
+                      },
+                      {
+                          "id":1,
+                          "title":"Grasas",
+                          "value":"1.5-3.18",
+                          "unit":"g"
+                      }
+                      ,
+                      {
+                          "id":2,
+                          "title":"Fibra",
+                          "value":"5.6-13.7",
+                          "unit":"g"
+                      },
+                      {
+                          "id":3,
+                          "title":"Calcio",
+                          "value":"5.6-13.7",
+                          "unit":"mg"
+                      },
+                      {
+                          "id":4,
+                          "title":"Hierro",
+                          "value":"0.58-1.56",
+                          "unit":"mg"
+                      }
+                    ],
+                    "image": "/img/granadilla2.png",
+                    "fichaTecnica": "ficha-tecnica-maracuya.pdf"
+                   },
+                  {
+                    "id": 5,
+                    "title": "Gulupa",
+                    "botton":"ver más",
+                    "scientificName":"No definido",
+                    "phrase":"¡una fruta que te cuida!",
+                    "description": "La gulupa, una variedad de maracuyá, crece en la región de Cajamarca en Perú y en los departamentos de Cundinamarca y Boyacá en Colombia.",
+                    "curiousFact":"Es conocida por su efecto sedante que incluso se dice que ayuda a regular los sueños",
+                    "table":[
+                        {
+                            "id":0,
+                            "title":"Calorías",
+                            "value":17,
+                            "unit":"Kcal"
+                        },
+                        {
+                            "id":1,
+                            "title":"Fibra",
+                            "value":2,
+                            "unit":"g"
+                        }
+                        ,
+                        {
+                            "id":2,
+                            "title":"Vitamina C",
+                            "value":"9%",
+                            "unit":"del Valor Diario (VD)"
+                        },
+                        {
+                            "id":3,
+                            "title":"Vitamina A",
+                            "value":"8%",
+                            "unit":"del VD"
+                        },
+                        {
+                            "id":4,
+                            "title":"Hierro",
+                            "value":"2%",
+                            "unit":"del VD"
+                        }
+                    ],
+                    "image": "/img/gulupa2.png",
+                    "fichaTecnica": "ficha-tecnica-maracuya.pdf"
+                   },
+                  {
+                    "id": 6,
+                    "title": "Tomate de arbol",
+                    "botton":"ver más",
+                    "scientificName":"No definido",
+                    "phrase":"¡una fruta que te cuida por dentro y por fuera!",
+                    "description": "Originario de los Andes de Perú y Bolivia, se ha adaptado a climas fríos de páramos y se ha distribuido por toda la cordillera andina.",
+                    "curiousFact":"A pesar de su nombre, no es un tomate sino una fruta con un sabor único que combina en muchas elaboraciones",
+                    "table":[
+                    {
+                        "id":0,
+                        "title":"Calorías",
+                        "value":40,
+                        "unit":"Kcal"
+                    },
+                    {
+                        "id":1,
+                        "title":"Proteínas",
+                        "value":1.7,
+                        "unit":"g"
+                    }
+                    ,
+                    {
+                        "id":2,
+                        "title":"Carbohidratos",
+                        "value":9.7,
+                        "unit":"g"
+                    },
+                    {
+                        "id":3,
+                        "title":"Grasas",
+                        "value":0.4,
+                        "unit":"g"
+                    },
+                    {
+                        "id":4,
+                        "title":"Fibra",
+                        "value":6,
+                        "unit":"g"
+                    }
+                    ],
+                    "image": "/img/tomate_de_arbol2.png",
+                    "fichaTecnica": "ficha-tecnica-maracuya.pdf"
+                   },
+                  {
+                    "id": 7,
+                    "title": "Kumquat",
+                    "botton":"ver más",
+                    "scientificName":"No definido",
+                    "phrase":"¡una fruta cítrica con un sabor intenso y refrescante!",
+                    "description": "Nativo de Asia Oriental, estos pequeños árboles se cultivan en todo el mundo subtropical",
+                    "curiousFact":"En China, los kumquats se confitan con frecuencia y se utilizan para decoración navideña en algunas partes de Estados Unidos",
+                    "table":[
+                    {
+                        "id":0,
+                        "title":"Calorías",
+                        "value":71,
+                        "unit":"Kcal"
+                    },
+                    {
+                        "id":1,
+                        "title":"Proteínas",
+                        "value":1.9,
+                        "unit":"g"
+                    }
+                    ,
+                    {
+                        "id":2,
+                        "title":"Carbohidratos",
+                        "value":15.9,
+                        "unit":"g"
+                    },
+                    {
+                        "id":3,
+                        "title":"Fibra",
+                        "value":6.5,
+                        "unit":"g"
+                    },
+                    {
+                        "id":4,
+                        "title":"Vitamina C",
+                        "value":44,
+                        "unit":"mg"
+                    }
+                    ],
+                    "image": "/img/Kumquat.png",
+                    "fichaTecnica": "ficha-tecnica-maracuya.pdf"
+                   },
+                  {
+                    "id": 8,
+                    "title": "Aguacate Hass",
+                    "botton":"ver más",
+                    "scientificName":"No definido",
+                    "phrase":"¡Un alimento esencial para una vida saludable y deliciosa!",
+                    "description": "Fue cultivado y vendido por primera vez por el cartero y horticultor aficionado Rudolph Hass en California",
+                    "curiousFact":"Más del 80% de los aguacates en Estados Unidos son de la variedad Hass, y es el aguacate más cultivado en Nueva Zelanda",
+                    "table":[
+                        {
+                            "id":0,
+                            "title":"Calorías",
+                            "value":227,
+                            "unit":"Kcal"
+                        },
+                        {
+                            "id":1,
+                            "title":"Proteínas",
+                            "value":2.7,
+                            "unit":"g"
+                        }
+                        ,
+                        {
+                            "id":2,
+                            "title":"Carbohidratos",
+                            "value":12,
+                            "unit":"g"
+                        },
+                        {
+                            "id":3,
+                            "title":"Fibra",
+                            "value":9.2,
+                            "unit":"g"
+                        },
+                        {
+                            "id":4,
+                            "title":"Grasas",
+                            "value":21,
+                            "unit":"mg"
+                        }
+                    ],
+                    "image": "/img/aguacate_hass.png",
+                    "fichaTecnica": "ficha-tecnica-maracuya.pdf"
+                   },
+                  {
+                    "id": 9,
+                    "title": "Mangostino",
+                    "botton":"ver más",
+                    "scientificName":"No definido",
+                    "phrase":"¡una fruta que te transportará a un paraíso tropical!",
+                    "description": "Fue cultivado y vendido por primera vez por el cartero y horticultor aficionado Rudolph Hass en California",
+                    "curiousFact":"Más del 80% de los aguacates en Estados Unidos son de la variedad Hass, y es el aguacate más cultivado en Nueva Zelanda",
+                    "table":[
+                    {
+                        "id":0,
+                        "title":"Calorías",
+                        "value":227,
+                        "unit":"Kcal"
+                    },
+                    {
+                        "id":1,
+                        "title":"Proteínas",
+                        "value":2.7,
+                        "unit":"g"
+                    }
+                    ,
+                    {
+                        "id":2,
+                        "title":"Carbohidratos",
+                        "value":12,
+                        "unit":"g"
+                    },
+                    {
+                        "id":3,
+                        "title":"Fibra",
+                        "value":9.2,
+                        "unit":"g"
+                    },
+                    {
+                        "id":4,
+                        "title":"Grasas",
+                        "value":21,
+                        "unit":"mg"
+                    }
+                    ],
+                    "image": "/img/mangostino.png",
+                    "fichaTecnica": "ficha-tecnica-maracuya.pdf"
+                   }
                 ]
           },
-          "contactenos": {
+        "contactenos": {
             "title": "Contáctenos",
             "description": "Póngase en contacto con nosotros",
             "address": "Combita, Boyacá - parque industrial Km 1 vua Tunja - Paipa",
@@ -286,7 +554,7 @@
     },
     "en":{
         "home": {
-            "title": "Inicio",
+            "title": "Home",
             "titleE":"ANDES FRUITS",
             "link": "/quienes-somos",
             "header": "Exotic Flavors of the Earth's Heart",
@@ -316,253 +584,521 @@
               }
             ]
           },
-          "quienesSomos": {
-            "title": "Quienes Somos",
+        "quienesSomos": {
+            "title": "About Us",
             "history":[
               {
                   "id":0,
-                  "title":"Raices",
+                  "title":"Roots",
                   "image":"/img/raices.jpg",
-                  "descript":"Desde nuestras raíces en 1999, hemos crecido con la visión de llevar los sabores exóticos de Colombia a cada rincón del mundo. Nuestra pasión por la fruta y el compromiso con la calidad nos han convertido en un puente entre las ricas tierras de los Andes y los paladares exigentes de Europa y Estados Unidos."
+                  "descript":"From our roots in 1999, we have grown with the vision of bringing the exotic flavors of Colombia to every corner of the world. Our passion for fruit and commitment to quality have made us a bridge between the rich lands of the Andes and the demanding palates of Europe and the United States."
               },
               {
                   "id":1,
-                  "title":"Historia",
+                  "title":"History",
                   "image":"/img/historia.jpg",
-                  "descript":"Nacimos un 9 de septiembre, con el sueño de compartir la uchuva, nuestra estrella, y otras joyas frutales con el mundo. A lo largo de los años, hemos visto cómo nuestro esfuerzo se ha traducido en un crecimiento constante, no solo en ventas sino en la confianza que nuestros clientes depositan en nosotros."
+                  "descript":"We were born on September 9th, with the dream of sharing our star fruit, the goldenberry, and other fruit jewels with the world. Over the years, we have seen our efforts translate into constant growth, not only in sales but also in the trust that our customers place in us."
               },
               {
                   "id":2,
-                  "title":"Compromiso",
+                  "title":"Commitment",
                   "image":"/img/compromiso.jpg",
-                  "descript":"Creemos en el bienestar, tanto de quienes disfrutan de nuestras frutas como de quienes las cultivan. Por eso, nos esforzamos día a día para ofrecer productos que no solo deleiten tus sentidos, sino que también cuiden de ti y del planeta."
+                  "descript":"We believe in the well-being of both those who enjoy our fruits and those who grow them. That's why we strive every day to offer products that not only delight your senses but also care for you and the planet."
               },
               {
                   "id":3,
-                  "title":"Innovacion y Tradicion",
+                  "title":"Innovation and Tradition",
                   "image":"/img/innovacion.jpg",
-                  "descript":"La tradición se encuentra con la innovación en cada fruta deshidratada que seleccionamos, ofreciendo una experiencia única que conserva el sabor y los beneficios naturales de nuestras frutas frescas."
+                  "descript":"Tradition meets innovation in every dehydrated fruit we select, offering a unique experience that preserves the flavor and natural benefits of our fresh fruits."
               },
               {
                   "id":4,
-                  "title":"Un equipo, una familia",
+                  "title":"Together, we are one",
                   "image":"/img/familia.jpg",
-                  "descript":"Somos más que una empresa; somos una familia que crece unida, valorando y respetando el trabajo de cada uno de nuestros colaboradores y productores. Juntos, celebramos cada logro y enfrentamos cada desafío con determinación."
+                  "descript":"We are more than a company; we are a family that grows together, valuing and respecting the work of each of our collaborators and producers. Together, we celebrate every achievement and face every challenge with determination."
               },
               {
                   "id":5,
-                  "title":"El sabor de Andes Fruits",
+                  "title":"The Taste of  Andes Fruits",
                   "image":"/img/sabor.jpg",
-                  "descript":"Cada bocado de nuestras frutas es una invitación a explorar la diversidad y la riqueza de Colombia. Te invitamos a ser parte de esta aventura de sabor y calidad que es Andes Fruits Colombia."
+                  "descript":"Every bite of our fruits is an invitation to explore the diversity and richness of Colombia. We invite you to be part of this adventure of flavor and quality that is Andes Fruits Colombia."
               }
             ]
           },
-          "productos": {
-              "title": "Productos",
-              "intro":"Cada fruta es una obra de arte de la naturaleza. Seleccionamos cuidadosamente lo mejor para ti.",
+        "productos": {
+              "title": "Products",
+              "phrase":"Don't settle for the ordinary, discover the magic and live an unforgettable sensory experience",
+              "intro":"Each fruit is a work of art by nature. We carefully select the best for you",
               "products":[
-                  {
-                    "id": 0,
-                    "title": "Uchuva",
+                {
+                  "id": 0,
+                  "title": "Uchuva",
+                  "botton":"see more",
+                  "scientificName":"Physalis peruviana",
+                  "phrase":"A tropical explosion of flavor that dances on your tongue",
+                  "description": "Nativa de Chile y Perú, con una historia de cultivo que se remonta al Imperio Inca",
+                  "curiousFact":"También conocida como aguaymanto, uvilla o Cape gooseberry. Fue introducida en Inglaterra en el siglo XVIII y en Sudáfrica en el siglo XIX",
+                  "table":[
+                    {
+                        "id":1,
+                        "title":"Calorías",
+                        "value":53,
+                        "unit":"Kcal"
+                    },
+                    {
+                        "id":2,
+                        "title":"Proteínas",
+                        "value":1.9,
+                        "unit":"g"
+                    }
+                    ,
+                    {
+                        "id":3,
+                        "title":"Grasas",
+                        "value":0.7,
+                        "unit":"g"
+                    },
+                    {
+                        "id":4,
+                        "title":"Carbohidratos",
+                        "value":11.2,
+                        "unit":"g"
+                    },
+                    {
+                        "id":5,
+                        "title":"Fibra",
+                        "value":4.9,
+                        "unit":"g"
+                    },
+                    {
+                        "id":6,
+                        "title":"Vitamina C",
+                        "value":20,
+                        "unit":"mg"
+                    }
+                  ],
+                  "image": "/img/uchuva.png",
+                  "fichaTecnica": "ficha-tecnica-uchuva.pdf"
+                 },
+                {
+                    "id": 1,
+                    "title": "Bananito",
                     "botton":"see more",
-                    "scientificName":"Physalis peruviana",
-                    "phrase":"A tropical explosion of flavor that dances on your tongue",
-                    "description": "Nativa de Chile y Perú, con una historia de cultivo que se remonta al Imperio Inca",
-                    "curiousFact":"También conocida como aguaymanto, uvilla o Cape gooseberry. Fue introducida en Inglaterra en el siglo XVIII y en Sudáfrica en el siglo XIX",
+                    "scientificName":"No definido",
+                    "phrase":"¡The perfect snack to recharge your batteries!",
+                    "description": "Se cree que el banano, del cual el bananito es una variedad, tiene su origen en la región de Indomalaya y fue propagado hacia el oeste y el sur desde allí",
+                    "curiousFact":"En Colombia, el bananito es conocido por su alto contenido de fosforo, potasio, hierro y vitaminas A y B",
                     "table":[
                       {
                           "id":1,
                           "title":"Calorías",
-                          "value":53,
+                          "value":110,
                           "unit":"Kcal"
                       },
                       {
                           "id":2,
                           "title":"Proteínas",
-                          "value":1.9,
+                          "value":1.2,
                           "unit":"g"
                       }
                       ,
                       {
                           "id":3,
-                          "title":"Grasas",
-                          "value":0.7,
+                          "title":"Carbohidratos",
+                          "value":26.2,
                           "unit":"g"
                       },
                       {
                           "id":4,
-                          "title":"Carbohidratos",
-                          "value":11.2,
+                          "title":"Fibra",
+                          "value":2.3,
                           "unit":"g"
                       },
                       {
                           "id":5,
-                          "title":"Fibra",
-                          "value":4.9,
+                          "title":"Potasio",
+                          "value":387.8,
+                          "unit":"mg"
+                      },
+                      {
+                          "id":6,
+                          "title":"Calcio",
+                          "value":18.2,
+                          "unit":"mg"
+                      }
+                      
+                    ],
+                    "image": "/img/bananito2.png",
+                    "fichaTecnica": "ficha-tecnica-bananito.pdf"
+                 },
+                {
+                    "id": 2,
+                    "title": "Pitaya amarilla",
+                    "botton":"see more",
+                    "scientificName":"No definido",
+                    "phrase":"¡A fruit worth discovering!",
+                    "description": "Nativa del sur de México y las costas del Pacífico de Guatemala, Costa Rica y El Salvador",
+                    "curiousFact":"La pitahaya amarilla es cultivada principalmente en zonas tropicales y es conocida por su cáscara espinosa y amarilla",
+                    "table":[
+                      {
+                          "id":1,
+                          "title":"Calorías",
+                          "value":102,
+                          "unit":"Kcal"
+                      },
+                      {
+                          "id":2,
+                          "title":"Proteínas",
+                          "value":2,
                           "unit":"g"
+                      }
+                      ,
+                      {
+                          "id":3,
+                          "title":"Carbohidratos",
+                          "value":22,
+                          "unit":"g"
+                      },
+                      {
+                          "id":4,
+                          "title":"Fibra",
+                          "value":5,
+                          "unit":"g"
+                      },
+                      {
+                          "id":5,
+                          "title":"Hierro",
+                          "value":1.26,
+                          "unit":"mg"
                       },
                       {
                           "id":6,
                           "title":"Vitamina C",
-                          "value":20,
+                          "value":4.25,
                           "unit":"mg"
                       }
                     ],
-                    "image": "/img/uchuva.png",
-                    "fichaTecnica": "ficha-tecnica-uchuva.pdf"
+                    "image": "/img/pitaya2.png",
+                    "fichaTecnica": "ficha-tecnica-pitaya-amarilla.pdf"
+                 },
+                {
+                    "id": 3,
+                    "title": "Maracuya",
+                    "botton":"see more",
+                    "scientificName":"No definido",
+                    "phrase":"¡An explosion of flavor that will leave you wanting more!",
+                    "description": "Nativo de América del Sur, específicamente de Brasil, Paraguay y Argentina",
+                    "curiousFact":"El nombre maracuyá proviene del Tupi “mara kuya”, que significa “fruta que se sirve a sí misma” o “comida en una cuia”",
+                    "table":[
+                      {
+                          "id":1,
+                          "title":"Calorías",
+                          "value":97,
+                          "unit":"Kcal"
+                      },
+                      {
+                          "id":2,
+                          "title":"Proteínas",
+                          "value":2.2,
+                          "unit":"g"
+                      }
+                      ,
+                      {
+                          "id":3,
+                          "title":"Carbohidratos",
+                          "value":23.4,
+                          "unit":"g"
+                      },
+                      {
+                          "id":4,
+                          "title":"Fibra",
+                          "value":10.4,
+                          "unit":"g"
+                      },
+                      {
+                          "id":5,
+                          "title":"Vitamina A",
+                          "value":64,
+                          "unit":"µg"
+                      },
+                      {
+                          "id":6,
+                          "title":"Vitamina C",
+                          "value":30,
+                          "unit":"mg"
+                      }
+                    ],
+                    "image": "/img/maracuya2.png",
+                    "fichaTecnica": "ficha-tecnica-maracuya.pdf"
+                 },
+                {
+                  "id": 4,
+                  "title": "Granadilla",
+                  "botton":"see more",
+                  "scientificName":"No definido",
+                  "phrase":"¡A fruit that will win you over with its delicacy!",
+                  "description": "Se cree que es nativa de América del Sur, con una amplia distribución en regiones tropicales y subtropicales.",
+                  "curiousFact":"A menudo se confunde con la fruta de la pasión, pero son frutas diferentes",
+                  "table":[
+                    {
+                        "id":0,
+                        "title":"Proteínas",
+                        "value":"0.340-0.47",
+                        "unit":"g"
+                    },
+                    {
+                        "id":1,
+                        "title":"Grasas",
+                        "value":"1.5-3.18",
+                        "unit":"g"
+                    }
+                    ,
+                    {
+                        "id":2,
+                        "title":"Fibra",
+                        "value":"5.6-13.7",
+                        "unit":"g"
+                    },
+                    {
+                        "id":3,
+                        "title":"Calcio",
+                        "value":"5.6-13.7",
+                        "unit":"mg"
+                    },
+                    {
+                        "id":4,
+                        "title":"Hierro",
+                        "value":"0.58-1.56",
+                        "unit":"mg"
+                    }
+                  ],
+                  "image": "/img/granadilla2.png",
+                  "fichaTecnica": "ficha-tecnica-maracuya.pdf"
+                 },
+                {
+                  "id": 5,
+                  "title": "Gulupa",
+                  "botton":"see more",
+                  "scientificName":"No definido",
+                  "phrase":"¡A fruit that takes care of you!",
+                  "description": "La gulupa, una variedad de maracuyá, crece en la región de Cajamarca en Perú y en los departamentos de Cundinamarca y Boyacá en Colombia.",
+                  "curiousFact":"Es conocida por su efecto sedante que incluso se dice que ayuda a regular los sueños",
+                  "table":[
+                      {
+                          "id":0,
+                          "title":"Calorías",
+                          "value":17,
+                          "unit":"Kcal"
+                      },
+                      {
+                          "id":1,
+                          "title":"Fibra",
+                          "value":2,
+                          "unit":"g"
+                      }
+                      ,
+                      {
+                          "id":2,
+                          "title":"Vitamina C",
+                          "value":"9%",
+                          "unit":"del Valor Diario (VD)"
+                      },
+                      {
+                          "id":3,
+                          "title":"Vitamina A",
+                          "value":"8%",
+                          "unit":"del VD"
+                      },
+                      {
+                          "id":4,
+                          "title":"Hierro",
+                          "value":"2%",
+                          "unit":"del VD"
+                      }
+                  ],
+                  "image": "/img/gulupa2.png",
+                  "fichaTecnica": "ficha-tecnica-maracuya.pdf"
+                 },
+                {
+                  "id": 6,
+                  "title": "Tomate de arbol",
+                  "botton":"see more",
+                  "scientificName":"No definido",
+                  "phrase":"¡A fruit that takes care of you inside and out!",
+                  "description": "Originario de los Andes de Perú y Bolivia, se ha adaptado a climas fríos de páramos y se ha distribuido por toda la cordillera andina.",
+                  "curiousFact":"A pesar de su nombre, no es un tomate sino una fruta con un sabor único que combina en muchas elaboraciones",
+                  "table":[
+                  {
+                      "id":0,
+                      "title":"Calorías",
+                      "value":40,
+                      "unit":"Kcal"
                   },
                   {
-                      "id": 1,
-                      "title": "Bananito",
-                      "botton":"see more",
-                      "scientificName":"No definido",
-                      "description": "Se cree que el banano, del cual el bananito es una variedad, tiene su origen en la región de Indomalaya y fue propagado hacia el oeste y el sur desde allí",
-                      "curiousFact":"En Colombia, el bananito es conocido por su alto contenido de fosforo, potasio, hierro y vitaminas A y B",
-                      "table":[
-                        {
-                            "id":1,
-                            "title":"Calorías",
-                            "value":110,
-                            "unit":"Kcal"
-                        },
-                        {
-                            "id":2,
-                            "title":"Proteínas",
-                            "value":1.2,
-                            "unit":"g"
-                        }
-                        ,
-                        {
-                            "id":3,
-                            "title":"Carbohidratos",
-                            "value":26.2,
-                            "unit":"g"
-                        },
-                        {
-                            "id":4,
-                            "title":"Fibra",
-                            "value":2.3,
-                            "unit":"g"
-                        },
-                        {
-                            "id":5,
-                            "title":"Potasio",
-                            "value":387.8,
-                            "unit":"mg"
-                        },
-                        {
-                            "id":6,
-                            "title":"Calcio",
-                            "value":18.2,
-                            "unit":"mg"
-                        }
-                        
-                      ],
-                      "image": "/img/bananito2.png",
-                      "fichaTecnica": "ficha-tecnica-bananito.pdf"
-                  },
-                  {
-                      "id": 2,
-                      "title": "Pitaya amarilla",
-                      "botton":"see more",
-                      "scientificName":"No definido",
-                      "description": "Nativa del sur de México y las costas del Pacífico de Guatemala, Costa Rica y El Salvador",
-                      "curiousFact":"La pitahaya amarilla es cultivada principalmente en zonas tropicales y es conocida por su cáscara espinosa y amarilla",
-                      "table":[
-                        {
-                            "id":1,
-                            "title":"Calorías",
-                            "value":102,
-                            "unit":"Kcal"
-                        },
-                        {
-                            "id":2,
-                            "title":"Proteínas",
-                            "value":2,
-                            "unit":"g"
-                        }
-                        ,
-                        {
-                            "id":3,
-                            "title":"Carbohidratos",
-                            "value":22,
-                            "unit":"g"
-                        },
-                        {
-                            "id":4,
-                            "title":"Fibra",
-                            "value":5,
-                            "unit":"g"
-                        },
-                        {
-                            "id":5,
-                            "title":"Hierro",
-                            "value":1.26,
-                            "unit":"mg"
-                        },
-                        {
-                            "id":6,
-                            "title":"Vitamina C",
-                            "value":4.25,
-                            "unit":"mg"
-                        }
-                      ],
-                      "image": "/img/pitaya2.png",
-                      "fichaTecnica": "ficha-tecnica-pitaya-amarilla.pdf"
-                  },
-                  {
-                      "id": 3,
-                      "title": "Maracuya",
-                      "botton":"see more",
-                      "scientificName":"No definido",
-                      "description": "Nativo de América del Sur, específicamente de Brasil, Paraguay y Argentina",
-                      "curiousFact":"El nombre maracuyá proviene del Tupi “mara kuya”, que significa “fruta que se sirve a sí misma” o “comida en una cuia”",
-                      "table":[
-                        {
-                            "id":1,
-                            "title":"Calorías",
-                            "value":97,
-                            "unit":"Kcal"
-                        },
-                        {
-                            "id":2,
-                            "title":"Proteínas",
-                            "value":2.2,
-                            "unit":"g"
-                        }
-                        ,
-                        {
-                            "id":3,
-                            "title":"Carbohidratos",
-                            "value":23.4,
-                            "unit":"g"
-                        },
-                        {
-                            "id":4,
-                            "title":"Fibra",
-                            "value":10.4,
-                            "unit":"g"
-                        },
-                        {
-                            "id":5,
-                            "title":"Vitamina A",
-                            "value":64,
-                            "unit":"µg"
-                        },
-                        {
-                            "id":6,
-                            "title":"Vitamina C",
-                            "value":30,
-                            "unit":"mg"
-                        }
-                      ],
-                      "image": "/img/maracuya2.png",
-                      "fichaTecnica": "ficha-tecnica-maracuya.pdf"
+                      "id":1,
+                      "title":"Proteínas",
+                      "value":1.7,
+                      "unit":"g"
                   }
-                ]
+                  ,
+                  {
+                      "id":2,
+                      "title":"Carbohidratos",
+                      "value":9.7,
+                      "unit":"g"
+                  },
+                  {
+                      "id":3,
+                      "title":"Grasas",
+                      "value":0.4,
+                      "unit":"g"
+                  },
+                  {
+                      "id":4,
+                      "title":"Fibra",
+                      "value":6,
+                      "unit":"g"
+                  }
+                  ],
+                  "image": "/img/tomate_de_arbol2.png",
+                  "fichaTecnica": "ficha-tecnica-maracuya.pdf"
+                 },
+                {
+                  "id": 7,
+                  "title": "Kumquat",
+                  "botton":"see more",
+                  "scientificName":"No definido",
+                  "phrase":"¡A citrus fruit with an intense and refreshing flavor!",
+                  "description": "Nativo de Asia Oriental, estos pequeños árboles se cultivan en todo el mundo subtropical",
+                  "curiousFact":"En China, los kumquats se confitan con frecuencia y se utilizan para decoración navideña en algunas partes de Estados Unidos",
+                  "table":[
+                  {
+                      "id":0,
+                      "title":"Calorías",
+                      "value":71,
+                      "unit":"Kcal"
+                  },
+                  {
+                      "id":1,
+                      "title":"Proteínas",
+                      "value":1.9,
+                      "unit":"g"
+                  }
+                  ,
+                  {
+                      "id":2,
+                      "title":"Carbohidratos",
+                      "value":15.9,
+                      "unit":"g"
+                  },
+                  {
+                      "id":3,
+                      "title":"Fibra",
+                      "value":6.5,
+                      "unit":"g"
+                  },
+                  {
+                      "id":4,
+                      "title":"Vitamina C",
+                      "value":44,
+                      "unit":"mg"
+                  }
+                  ],
+                  "image": "/img/Kumquat.png",
+                  "fichaTecnica": "ficha-tecnica-maracuya.pdf"
+                 },
+                {
+                  "id": 8,
+                  "title": "Aguacate Hass",
+                  "botton":"see more",
+                  "scientificName":"No definido",
+                  "phrase":"¡An essential food for a healthy and delicious life!",
+                  "description": "Fue cultivado y vendido por primera vez por el cartero y horticultor aficionado Rudolph Hass en California",
+                  "curiousFact":"Más del 80% de los aguacates en Estados Unidos son de la variedad Hass, y es el aguacate más cultivado en Nueva Zelanda",
+                  "table":[
+                      {
+                          "id":0,
+                          "title":"Calorías",
+                          "value":227,
+                          "unit":"Kcal"
+                      },
+                      {
+                          "id":1,
+                          "title":"Proteínas",
+                          "value":2.7,
+                          "unit":"g"
+                      }
+                      ,
+                      {
+                          "id":2,
+                          "title":"Carbohidratos",
+                          "value":12,
+                          "unit":"g"
+                      },
+                      {
+                          "id":3,
+                          "title":"Fibra",
+                          "value":9.2,
+                          "unit":"g"
+                      },
+                      {
+                          "id":4,
+                          "title":"Grasas",
+                          "value":21,
+                          "unit":"mg"
+                      }
+                  ],
+                  "image": "/img/aguacate_hass.png",
+                  "fichaTecnica": "ficha-tecnica-maracuya.pdf"
+                 },
+                {
+                  "id": 9,
+                  "title": "Mangostino",
+                  "botton":"see more",
+                  "scientificName":"No definido",
+                  "phrase":"¡ A fruit that will transport you to a tropical paradise!",
+                  "description": "Fue cultivado y vendido por primera vez por el cartero y horticultor aficionado Rudolph Hass en California",
+                  "curiousFact":"Más del 80% de los aguacates en Estados Unidos son de la variedad Hass, y es el aguacate más cultivado en Nueva Zelanda",
+                  "table":[
+                  {
+                      "id":0,
+                      "title":"Calorías",
+                      "value":227,
+                      "unit":"Kcal"
+                  },
+                  {
+                      "id":1,
+                      "title":"Proteínas",
+                      "value":2.7,
+                      "unit":"g"
+                  }
+                  ,
+                  {
+                      "id":2,
+                      "title":"Carbohidratos",
+                      "value":12,
+                      "unit":"g"
+                  },
+                  {
+                      "id":3,
+                      "title":"Fibra",
+                      "value":9.2,
+                      "unit":"g"
+                  },
+                  {
+                      "id":4,
+                      "title":"Grasas",
+                      "value":21,
+                      "unit":"mg"
+                  }
+                  ],
+                  "image": "/img/mangostino.png",
+                  "fichaTecnica": "ficha-tecnica-maracuya.pdf"
+                 }
+              ]
           },
-          "contactenos": {
-            "title": "Contáctenos",
+        "contactenos": {
+            "title": "Contact Us",
             "description": "Póngase en contacto con nosotros",
             "address": "Combita, Boyacá - parque industrial Km 1 vua Tunja - Paipa",
             "phone": "(+57)315 3871168",

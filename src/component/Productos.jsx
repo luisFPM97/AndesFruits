@@ -1,58 +1,34 @@
 import React from 'react'
 import Uchuva from './Uchuva'
+import ProductIdCard from './ProductIdCard'
+import ProductCard from './ProductCard'
 
 
-const Productos = () => {
+const Productos = ({setProductid,productos}) => {
+  console.log(productos)
   return (
     <div className='productos'>
-      <section className='listp'>
-        <div className='list'>
-          <h2>Productos</h2>
-          <div className='plist'>
-            <span className='tplist'>Uchuva</span>
-            <div className='descrptp'>
-              <img className='imgp' src="/public/img/uchuva.png" alt="" />
-            </div>
-          </div>
-          <div className='plist'>
-            <span className='tplist'>Gulupa</span>
-            <div className='descrptp'>
-              <img className='imgp' src="/public/img/gulupa2.png" alt="" />
-            </div>
-          </div>
-          <div className='plist'>
-            <span className='tplist'>Maracuya</span>
-            <div className='descrptp'>
-              <img className='imgp' src="/public/img/maracuya2.png" alt="" />
-            </div>
-          </div>
-          <div className='plist'>
-            <span className='tplist'>Granadilla</span>
-            <div className='descrptp'>
-              <img className='imgp' src="/public/img/granadilla2.png" alt="" />
-            </div>
-          </div>
-          <div className='plist'>
-            <span className='tplist'>Pitaya</span>
-            <div className='descrptp'>
-              <img className='imgp' src="/public/img/pitaya2.png" alt="" />
-            </div>
-          </div>
-          <div className='plist'>
-            <span className='tplist'>Feijoa</span>
-            <div className='descrptp'>
-              <img className='imgp' src="/public/img/feijoa2.png" alt="" />
-            </div>
-          </div>
-          <div className='plist'>
-            <span className='tplist'>Bananito</span>
-            <div className='descrptp'>
-              <img className='imgp' src="/public/img/bananito2.png" alt="" />
-            </div>
-          </div>
+      <section className='pHeader'>
+        <div className='infoC'>
+          <h2>{productos.phrase}</h2>
+          <h3>{productos.intro}</h3>
         </div>
       </section>
-      <Uchuva/>
+      <section className='pProducts'>
+        <span>{productos.title}</span>
+        <div className='list'>
+          {
+            productos.products.map((product, i)=>(
+              <ProductCard
+                  key={i}
+                  product={product}
+                  setProductid ={setProductid} 
+                  
+                  />
+            ))
+          }
+        </div>
+      </section>
     </div>
   )
 }
