@@ -512,7 +512,7 @@ footer{
                 font-size: 40px;
                 font-weight: bolder;
                 color: black;
-                filter: drop-shadow(0 0 0.5px #cc7c44);
+                filter: drop-shadow(0 0 15px #cc7c44);
             }
             p{
                 width: 80%;
