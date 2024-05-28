@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 import FichaTecnica from "./FichaTecnica";
 import ProductCard from "./ProductCard";
 
-const Home = ({home, productos}) => {
+const Home = ({home, productos,setProductid,productid}) => {
 
   useEffect(() => {
     /*window.scrollTo(0, 0);*/
@@ -13,7 +13,7 @@ const Home = ({home, productos}) => {
 
 
   const products = productos.products
-  console.log(products)
+ 
 
   return (
     <div className="home">
@@ -37,6 +37,8 @@ const Home = ({home, productos}) => {
                   <ProductCard
                   key={i}
                   product={product}
+                  setProductid ={setProductid} 
+                  productid={productid}
                   />
                 ))
               }

@@ -14,10 +14,11 @@ import ProductCard from "./component/ProductCard";
 
 function App() {
   const [language, setLanguage] = useState("en");
+  const [productid, setProductid] = useState(0);
   const [content, setContent] = useState(data[language]);
   
-  const [productid, setProductid] = useState();
-  console.log(productid)
+  
+  
   
 
   function changeLanguage() {
@@ -30,7 +31,7 @@ function App() {
       setContent(data[language]);
     }
   }, [language, data]);
-  console.log(content)
+  
   
 
   
@@ -49,6 +50,8 @@ function App() {
           <Home
             home={content.home}
             productos = {content.productos}
+            setProductid ={setProductid} 
+            productid={productid}
           />
           } />
         <Route
@@ -59,8 +62,8 @@ function App() {
         <Route path="/certificaciones" element={<Certificaciones />} />
         <Route path="/contactenos" element={<Contact />} />
         <Route path="/productos" element={<Productos />} />
-        <Route path="/FichaTecnica" element={<FichaTecnica productid={productid}/>}/>
-        <Route path="/ProductCard" element={<ProductCard   productid={productid} setProductid={setProductid}/>}/>
+        <Route path="/FichaTecnica" element={<FichaTecnica productid={productid} productos = {content.productos}/>}/>
+        <Route path="/ProductCard" element={<ProductCard  />}/>
       </Routes>
       <footer>
         <div className="fc">
