@@ -35,34 +35,40 @@
             "title": "Quienes Somos",
             "history":[
               {
-                  "id":1,
+                  "id":0,
                   "title":"Raices",
+                  "image":"/img/raices.jpg",
                   "descript":"Desde nuestras raíces en 1999, hemos crecido con la visión de llevar los sabores exóticos de Colombia a cada rincón del mundo. Nuestra pasión por la fruta y el compromiso con la calidad nos han convertido en un puente entre las ricas tierras de los Andes y los paladares exigentes de Europa y Estados Unidos."
               },
               {
-                  "id":2,
+                  "id":1,
                   "title":"Historia",
-                  "descri":"Nacimos un 9 de septiembre, con el sueño de compartir la uchuva, nuestra estrella, y otras joyas frutales con el mundo. A lo largo de los años, hemos visto cómo nuestro esfuerzo se ha traducido en un crecimiento constante, no solo en ventas sino en la confianza que nuestros clientes depositan en nosotros."
+                  "image":"/img/historia.jpg",
+                  "descript":"Nacimos un 9 de septiembre, con el sueño de compartir la uchuva, nuestra estrella, y otras joyas frutales con el mundo. A lo largo de los años, hemos visto cómo nuestro esfuerzo se ha traducido en un crecimiento constante, no solo en ventas sino en la confianza que nuestros clientes depositan en nosotros."
+              },
+              {
+                  "id":2,
+                  "title":"Compromiso",
+                  "image":"/img/compromiso.jpg",
+                  "descript":"Creemos en el bienestar, tanto de quienes disfrutan de nuestras frutas como de quienes las cultivan. Por eso, nos esforzamos día a día para ofrecer productos que no solo deleiten tus sentidos, sino que también cuiden de ti y del planeta."
               },
               {
                   "id":3,
-                  "title":"Compromiso",
-                  "descri":"Creemos en el bienestar, tanto de quienes disfrutan de nuestras frutas como de quienes las cultivan. Por eso, nos esforzamos día a día para ofrecer productos que no solo deleiten tus sentidos, sino que también cuiden de ti y del planeta."
+                  "title":"Innovacion y Tradicion",
+                  "image":"/img/innovacion.jpg",
+                  "descript":"La tradición se encuentra con la innovación en cada fruta deshidratada que seleccionamos, ofreciendo una experiencia única que conserva el sabor y los beneficios naturales de nuestras frutas frescas."
               },
               {
                   "id":4,
-                  "title":"Innovacion y Tradicion",
-                  "descri":"La tradición se encuentra con la innovación en cada fruta deshidratada que seleccionamos, ofreciendo una experiencia única que conserva el sabor y los beneficios naturales de nuestras frutas frescas."
+                  "title":"Un equipo, una familia",
+                  "image":"/img/familia.jpg",
+                  "descript":"Somos más que una empresa; somos una familia que crece unida, valorando y respetando el trabajo de cada uno de nuestros colaboradores y productores. Juntos, celebramos cada logro y enfrentamos cada desafío con determinación."
               },
               {
                   "id":5,
-                  "title":"Un equipo, una familia",
-                  "descri":"Somos más que una empresa; somos una familia que crece unida, valorando y respetando el trabajo de cada uno de nuestros colaboradores y productores. Juntos, celebramos cada logro y enfrentamos cada desafío con determinación."
-              },
-              {
-                  "id":6,
                   "title":"El sabor de Andes Fruits",
-                  "descri":"Cada bocado de nuestras frutas es una invitación a explorar la diversidad y la riqueza de Colombia. Te invitamos a ser parte de esta aventura de sabor y calidad que es Andes Fruits Colombia."
+                  "image":"/img/sabor.jpg",
+                  "descript":"Cada bocado de nuestras frutas es una invitación a explorar la diversidad y la riqueza de Colombia. Te invitamos a ser parte de esta aventura de sabor y calidad que es Andes Fruits Colombia."
               }
             ]
           },
@@ -73,6 +79,7 @@
                   {
                     "id": 0,
                     "title": "Uchuva",
+                    "botton":"ver más",
                     "scientificName":"Physalis peruviana",
                     "phrase":"Un solecito tropical que explota en tu paladar",
                     "description": "Nativa de Chile y Perú, con una historia de cultivo que se remonta al Imperio Inca",
@@ -122,6 +129,7 @@
                   {
                       "id": 1,
                       "title": "Bananito",
+                      "botton":"ver más",
                       "scientificName":"No definido",
                       "description": "Se cree que el banano, del cual el bananito es una variedad, tiene su origen en la región de Indomalaya y fue propagado hacia el oeste y el sur desde allí",
                       "curiousFact":"En Colombia, el bananito es conocido por su alto contenido de fosforo, potasio, hierro y vitaminas A y B",
@@ -171,6 +179,7 @@
                   {
                       "id": 2,
                       "title": "Pitaya amarilla",
+                      "botton":"ver más",
                       "scientificName":"No definido",
                       "description": "Nativa del sur de México y las costas del Pacífico de Guatemala, Costa Rica y El Salvador",
                       "curiousFact":"La pitahaya amarilla es cultivada principalmente en zonas tropicales y es conocida por su cáscara espinosa y amarilla",
@@ -219,6 +228,7 @@
                   {
                       "id": 3,
                       "title": "Maracuya",
+                      "botton":"ver más",
                       "scientificName":"No definido",
                       "description": "Nativo de América del Sur, específicamente de Brasil, Paraguay y Argentina",
                       "curiousFact":"El nombre maracuyá proviene del Tupi “mara kuya”, que significa “fruta que se sirve a sí misma” o “comida en una cuia”",
@@ -310,34 +320,40 @@
             "title": "Quienes Somos",
             "history":[
               {
-                  "id":1,
+                  "id":0,
                   "title":"Raices",
+                  "image":"/img/raices.jpg",
                   "descript":"Desde nuestras raíces en 1999, hemos crecido con la visión de llevar los sabores exóticos de Colombia a cada rincón del mundo. Nuestra pasión por la fruta y el compromiso con la calidad nos han convertido en un puente entre las ricas tierras de los Andes y los paladares exigentes de Europa y Estados Unidos."
               },
               {
-                  "id":2,
+                  "id":1,
                   "title":"Historia",
-                  "descri":"Nacimos un 9 de septiembre, con el sueño de compartir la uchuva, nuestra estrella, y otras joyas frutales con el mundo. A lo largo de los años, hemos visto cómo nuestro esfuerzo se ha traducido en un crecimiento constante, no solo en ventas sino en la confianza que nuestros clientes depositan en nosotros."
+                  "image":"/img/historia.jpg",
+                  "descript":"Nacimos un 9 de septiembre, con el sueño de compartir la uchuva, nuestra estrella, y otras joyas frutales con el mundo. A lo largo de los años, hemos visto cómo nuestro esfuerzo se ha traducido en un crecimiento constante, no solo en ventas sino en la confianza que nuestros clientes depositan en nosotros."
+              },
+              {
+                  "id":2,
+                  "title":"Compromiso",
+                  "image":"/img/compromiso.jpg",
+                  "descript":"Creemos en el bienestar, tanto de quienes disfrutan de nuestras frutas como de quienes las cultivan. Por eso, nos esforzamos día a día para ofrecer productos que no solo deleiten tus sentidos, sino que también cuiden de ti y del planeta."
               },
               {
                   "id":3,
-                  "title":"Compromiso",
-                  "descri":"Creemos en el bienestar, tanto de quienes disfrutan de nuestras frutas como de quienes las cultivan. Por eso, nos esforzamos día a día para ofrecer productos que no solo deleiten tus sentidos, sino que también cuiden de ti y del planeta."
+                  "title":"Innovacion y Tradicion",
+                  "image":"/img/innovacion.jpg",
+                  "descript":"La tradición se encuentra con la innovación en cada fruta deshidratada que seleccionamos, ofreciendo una experiencia única que conserva el sabor y los beneficios naturales de nuestras frutas frescas."
               },
               {
                   "id":4,
-                  "title":"Innovacion y Tradicion",
-                  "descri":"La tradición se encuentra con la innovación en cada fruta deshidratada que seleccionamos, ofreciendo una experiencia única que conserva el sabor y los beneficios naturales de nuestras frutas frescas."
+                  "title":"Un equipo, una familia",
+                  "image":"/img/familia.jpg",
+                  "descript":"Somos más que una empresa; somos una familia que crece unida, valorando y respetando el trabajo de cada uno de nuestros colaboradores y productores. Juntos, celebramos cada logro y enfrentamos cada desafío con determinación."
               },
               {
                   "id":5,
-                  "title":"Un equipo, una familia",
-                  "descri":"Somos más que una empresa; somos una familia que crece unida, valorando y respetando el trabajo de cada uno de nuestros colaboradores y productores. Juntos, celebramos cada logro y enfrentamos cada desafío con determinación."
-              },
-              {
-                  "id":6,
                   "title":"El sabor de Andes Fruits",
-                  "descri":"Cada bocado de nuestras frutas es una invitación a explorar la diversidad y la riqueza de Colombia. Te invitamos a ser parte de esta aventura de sabor y calidad que es Andes Fruits Colombia."
+                  "image":"/img/sabor.jpg",
+                  "descript":"Cada bocado de nuestras frutas es una invitación a explorar la diversidad y la riqueza de Colombia. Te invitamos a ser parte de esta aventura de sabor y calidad que es Andes Fruits Colombia."
               }
             ]
           },
@@ -348,6 +364,7 @@
                   {
                     "id": 0,
                     "title": "Uchuva",
+                    "botton":"see more",
                     "scientificName":"Physalis peruviana",
                     "phrase":"A tropical explosion of flavor that dances on your tongue",
                     "description": "Nativa de Chile y Perú, con una historia de cultivo que se remonta al Imperio Inca",
@@ -397,6 +414,7 @@
                   {
                       "id": 1,
                       "title": "Bananito",
+                      "botton":"see more",
                       "scientificName":"No definido",
                       "description": "Se cree que el banano, del cual el bananito es una variedad, tiene su origen en la región de Indomalaya y fue propagado hacia el oeste y el sur desde allí",
                       "curiousFact":"En Colombia, el bananito es conocido por su alto contenido de fosforo, potasio, hierro y vitaminas A y B",
@@ -446,6 +464,7 @@
                   {
                       "id": 2,
                       "title": "Pitaya amarilla",
+                      "botton":"see more",
                       "scientificName":"No definido",
                       "description": "Nativa del sur de México y las costas del Pacífico de Guatemala, Costa Rica y El Salvador",
                       "curiousFact":"La pitahaya amarilla es cultivada principalmente en zonas tropicales y es conocida por su cáscara espinosa y amarilla",
@@ -494,6 +513,7 @@
                   {
                       "id": 3,
                       "title": "Maracuya",
+                      "botton":"see more",
                       "scientificName":"No definido",
                       "description": "Nativo de América del Sur, específicamente de Brasil, Paraguay y Argentina",
                       "curiousFact":"El nombre maracuyá proviene del Tupi “mara kuya”, que significa “fruta que se sirve a sí misma” o “comida en una cuia”",

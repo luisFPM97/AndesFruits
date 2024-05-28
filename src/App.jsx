@@ -16,14 +16,7 @@ function App() {
   const [language, setLanguage] = useState("en");
   const [productid, setProductid] = useState(0);
   const [content, setContent] = useState(data[language]);
-  
-  
-  
-  
 
-  function changeLanguage() {
-    setLanguage(language === "en" ? "es" : "en");
-  }
 
   useEffect(() => {
    /* window.scrollTo(0, 0);*/
@@ -56,7 +49,7 @@ function App() {
           } />
         <Route
           path="/quienes-somos"
-          element={<QuienesSomos QuienesSomos={data.quienesSomos} />}
+          element={<QuienesSomos QuienesSomos={content.quienesSomos} />}
         />
         <Route path="/instalaciones" element={<Instalaciones />} />
         <Route path="/certificaciones" element={<Certificaciones />} />

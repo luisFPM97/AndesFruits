@@ -16,7 +16,7 @@ const ProductCard = ({product,setProductid, productid}) => {
                       <img src={product.image} alt={product.title} />
                       <h3>{product.title}</h3>
                       <p>{product.phrase}</p>
-                      <button onClick={() => defId(product.id)} ><Link to="/FichaTecnica">ver más</Link></button>
+                      <button onClick={() => defId(product.id)} ><Link className='linkP' to="/FichaTecnica">{product.botton}</Link></button>
     </div>
   )
 }
