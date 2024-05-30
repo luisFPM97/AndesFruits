@@ -677,18 +677,35 @@ footer{
     align-items: center;
     text-align: center;
     flex-direction: column;
-    padding: 60px;
+    padding: 50px;
     gap: 50px;
+    .rute{
+        width: 100%;
+        display: flex;
+        position: relative;
+        top: -30px;
+        cursor: pointer;
+        font-size: 20px;
+        
+            .linkP{
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+            }
+        
+    }
     .content{
         display: flex;
         justify-content: space-between;
         gap: 10px;
+        width: 85%;
         .info{
             width: 25%;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            text-align: left;
             gap: 10px;
             font-size: 20px;
             font-weight: bold;
@@ -700,7 +717,6 @@ footer{
             justify-content: center;
             align-items: center;
             position: relative;
-            
             img{
                 width: 130%;
                 position: absolute;
@@ -727,12 +743,10 @@ footer{
                     padding: 5px; 
                     border-collapse: collapse;
                     border-radius: 5px;
-                    
-                    
                   }
                   .aright{
                     text-align: right;
-                    width: 60px;
+                    width: 100px;
                     color: white;
                     font-weight: bold;
                   }
@@ -750,36 +764,98 @@ footer{
         
     }
     .description{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
         font-size: 20px;
         font-weight: bold;
     }
-    
     .carrousel-example{
-        
+        overflow: hidden;
         height: 500px;
         width: 600px;
         max-width: 100%;
-        border: 1px solid black;
+        
         display: flex;
         align-items: center;
         align-items: center;
         scroll-snap-type: x mandatory;
-        
+        position: relative;
         .imgC{
-            width: 300%;
+            width: 1800px;
             height: 100%;
             display: flex;
+            position: absolute;
+            animation: slide 6s infinite ease-in-out;
+            opacity: 0;
             div{
-                min-width: calc(100%/3);
-                max-width: 600px;
-                border: 1px solid black;
+                width: 600px;
                 display: flex;
+                justify-content: center;
+                align-items: center;
+                
                 img{
-                    object-fit:fill;
-                    border: 1px solid black;
+                    max-width: 100%;
+                        object-fit:contain;
+                        max-height: 100%;
                 }
             }
         }
+    }
+}
+
+@keyframes slide {
+    0%{
+        left: 0%;
+        opacity: 0;
+    }
+    4.44%{
+        left: 0%;
+        opacity: 1;
+    }
+    24.4%{
+        left: 0%;
+        opacity: 1;
+    }
+    28.8%{
+        left: 0%;
+        opacity: 0;
+    }
+    33.2%{
+        left: -100%;
+        opacity: 0;
+    }
+    37.6%{
+        left: -100%;
+        opacity: 1;
+    }
+    57.6%{
+        left: -100%;
+        opacity: 1;
+    }
+    62%{
+        left: -100%;
+        opacity: 0;
+    }
+    66.4%{
+        left: -200%;
+        opacity: 0;
+    }
+    70.8%{
+        left: -200%;
+        opacity: 1;
+    }
+    90.8%{
+        left: -200%;
+        opacity: 1;
+    }
+    95.2%{
+        left: -200%;
+        opacity: 0;
+    }
+    100%{
+        left: 0%;
+        opacity: 0;
     }
 }
 
@@ -934,6 +1010,62 @@ footer{
                 flex-direction: column;
                 font-size: 20px;
             }
+        }
+    }
+    .fichaTecnica{
+        width: 100%;
+        overflow: hidden;
+        
+        padding-left: 0;
+        padding-right: 0;
+        .content{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 95%;
+            gap: 20px;
+            .info, .table{
+                width: 100%;
+                text-align: center;
+            }
+            .img{
+                width: 70%;
+            }
+            
+        }
+        .description{
+            width: 95%;
+            
+        }
+        .carrousel-example{
+            max-width: 400px;
+            width: 98%;
+            min-width: 300px;
+            overflow: hidden;
+            .imgC{
+                width: 300%;
+                div{
+                    max-width: 400px;
+                    min-width: 300px;
+                    img{
+                        max-width: 100%;
+                        object-fit:contain;
+                        max-height: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media print{
+    .mainM{
+        .bntMenu{
+            display: none;
+        }
+    }
+    .fichaTecnica{
+        .carrousel-example{
+            display: none;
         }
     }
 }

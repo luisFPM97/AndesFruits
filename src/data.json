@@ -83,7 +83,7 @@
                     "botton":"ver más",
                     "scientificName":"Physalis peruviana",
                     "phrase":"Un solecito tropical que explota en tu paladar",
-                    "description": "Nativa de Chile y Perú, con una historia de cultivo que se remonta al Imperio Inca",
+                    "description": "El fruto es una baya en forma ovoide con un diámetro entre 1,5 y 0,87 pesa de 4 a 6 gramos. Su piel es suave y brillante. El fruto esta recubierto de una membrana o vaina fibrosa (cáliz), fina no comestible, que puede ser de color amarilla o verde",
                     "curiousFact":"También conocida como aguaymanto, uvilla o Cape gooseberry. Fue introducida en Inglaterra en el siglo XVIII y en Sudáfrica en el siglo XIX",
                     "ftitle":"Ficha Tecnica",
                     "table":[
@@ -126,7 +126,18 @@
                       }
                     ],
                     "image": "/img/uchuva.png",
-                    "fichaTecnica": "ficha-tecnica-uchuva.pdf"
+                    "fichaTecnica": "ficha-tecnica-uchuva.pdf",
+                    "t1":"ESPECIFICACIONES MICROBIOLÓGICAS",
+                    "d1":"Recuento de mesofilos 3000 UFC/g Máximo Levaduras y hongos 100 UFC/g Máximo Total Coliformes N.M.P 200 UFC/g Máximo Coliformes fecales N.M.P. 0",
+                    "t2":"ESPECIFICACIONES FISICOQUÍMICAS",
+                    "d2":"Medidas a 20°C de JUGO NATURAL Porcentaje total de sólidos (°Brix) 8.0 - 10.5 PH (20°C) 3.1 - 3.4 Relación Brix / Acidez 3.5 - 10.0",
+                    "t3":"TIPO DE TRATAMIENTO",
+                    "d3":"La uchuva es sometida a las etapas de Recibo, Almacenamiento, Selección, Encestado, Secado, Empaque y Despacho",
+                    "t4":"CONDICIONES DE CONSERVACIÓN",
+                    "d4":"Temperatura: Entre 8 -10º C Humedad relativa: Entre 65 - 70%",
+                    "t5":"CONSUMO",
+                    "d5":"Esta fruta se consume cruda como una uva, sola o con otras frutas en ensaladas o con chocolate fundido como postre, y como decoración de platos. También se pueden preparar mermeladas, salsas o rellenos para deliciosas tortas, y para decoración",
+                    "t6":"VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN 27 DIAS"
                    },
                   {
                       "id": 1,
@@ -134,7 +145,7 @@
                       "botton":"ver más",
                       "scientificName":"No definido",
                       "phrase":"¡el snack perfecto para recargar tus pilas!",
-                      "description": "Se cree que el banano, del cual el bananito es una variedad, tiene su origen en la región de Indomalaya y fue propagado hacia el oeste y el sur desde allí",
+                      "description": "El Bananito o Bananito bocadillo, pertenece a la familia de La Musaceas. Su peso oscila entre los 60 y 80 gramos y su tamaño entre los 10 y 12 cms. de longitud. La cáscara es delgada, lisa y de color amarillo, su pulpa es suave y deliciosa, nuestro bananito tiene un aroma a vainilla que incrementa su maravilloso sabor.",
                       "curiousFact":"En Colombia, el bananito es conocido por su alto contenido de fosforo, potasio, hierro y vitaminas A y B",
                       "ftitle":"Ficha Tecnica",
                       "table":[
@@ -178,7 +189,18 @@
                         
                       ],
                       "image": "/img/bananito2.png",
-                      "fichaTecnica": "ficha-tecnica-bananito.pdf"
+                      "fichaTecnica": "ficha-tecnica-bananito.pdf",
+                      "t1":"ESPECIFICACIONES MICROBIOLÓGICAS",
+                      "d1":"Recuento Total de Aeróbicos (SPC) max. 5000 CFU/g. Recuento de hongos filamentosos: <500 CFU/gram Recuento de hongos levaduriformes: <500 CFU/gram Recuento total de coliformes: <3 CFU/gram.",
+                      "t2":"ESPECIFICACIONES FISICOQUÍMICAS",
+                      "d2":"Brix Max. 12 NTU pH 4.0 - 4.3 Acidez 0.95 - 1.45 Sabor dulce Color ámbar, transparente.",
+                      "t3":"TIPO DE TRATAMIENTO",
+                      "d3":"El bananito es sometida a las etapas de Recibo, Almacenamiento, Selección, Clasificación, Empaque y Despacho.",
+                      "t4":"CONDICIONES DE CONSERVACIÓN",
+                      "d4":"Temperatura: Ambiente Humedad relativa: Ambiente. Para evitar su maduración se recomienda ventilarlo.",
+                      "t5":"CONSUMO",
+                      "d5":"Esta fruta se puede disfrutar cruda, se retira la corteza y se consume la pulpa. También se puede obtener una deliciosa bebida, mezclando la pulpa con leche y azúcar.",
+                      "t6":"VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN 12 A 15 DIAS"
                    },
                   {
                       "id": 2,
@@ -186,7 +208,7 @@
                       "botton":"ver más",
                       "scientificName":"No definido",
                       "phrase":"¡una fruta que vale la pena descubrir!",
-                      "description": "Nativa del sur de México y las costas del Pacífico de Guatemala, Costa Rica y El Salvador",
+                      "description": "Fue descubierta por primera vez en forma silvestre por los conquistadores españoles en México, Colombia, Centroamérica y las Antillas, quienes le dieron el nombre de pitaya que significa fruta escamosa.",
                       "curiousFact":"La pitahaya amarilla es cultivada principalmente en zonas tropicales y es conocida por su cáscara espinosa y amarilla",
                       "ftitle":"Ficha Tecnica",
                       "table":[
@@ -229,7 +251,18 @@
                         }
                       ],
                       "image": "/img/pitaya2.png",
-                      "fichaTecnica": "ficha-tecnica-pitaya-amarilla.pdf"
+                      "fichaTecnica": "ficha-tecnica-pitaya-amarilla.pdf",
+                      "t1":"ESPECIFICACIONES MICROBIOLÓGICAS",
+                      "d1":"Recuento total de microorganismos aerobios mesófilos: < 100,000 UFC/g. Coliformes totales: < 1000 UFC/g. Escherichia coli: Ausente en 1 g. Staphylococcus aureus: Ausente en 1 g. Salmonella spp.: Ausente en 25 g. Levaduras y mohos: < 1000 UFC/g.",
+                      "t2":"ESPECIFICACIONES FISICOQUÍMICAS",
+                      "d2":"pH: 5.5 - 6.5. Acidez titulable: 0.3 - 0.6 g/L ácido cítrico. Sólidos solubles: 12 - 18 °Brix. Vitamina C: 20 - 30 mg/100 g. Color: Amarillo intenso.",
+                      "t3":"TIPO DE TRATAMIENTO",
+                      "d3":"La Pitaya es sometida a las etapas de Recibo, Almacenamiento, Selección, Clasificación, Empaque y Despacho.",
+                      "t4":"CONDICIONES DE CONSERVACIÓN",
+                      "d4":"Temperatura de almacenamiento: 8 - 10 °C (46 - 50 °F). Temperatura de transporte: 10 - 12 °C (50 - 54 °F). Humedad relativa: 90 - 95%",
+                      "t5":"CONSUMO",
+                      "d5":"Esta fruta se puede disfrutar cruda, se retira la corteza y se consume la pulpa. También se puede obtener una deliciosa bebida, mezclando la pulpa con leche y azúcar.",
+                      "t6":"Vida útil en almacenamiento: 14 a 21 días"
                    },
                   {
                       "id": 3,
@@ -237,7 +270,7 @@
                       "botton":"ver más",
                       "scientificName":"No definido",
                       "phrase":"¡una explosión de sabor que te dejará con ganas de más!",
-                      "description": "Nativo de América del Sur, específicamente de Brasil, Paraguay y Argentina",
+                      "description": "El Maracuyá pertenece a las frutas de la pasión. La fruta de forma circular a ovalada pesa entre 110 y 125gr y tiene aproximadamente 6 o 7.5cms de diámetro. Cuando la fruta madura, cambia de un color verde intenso a un amarillo brillante, su corteza es gruesa y lisa, aunque con el tiempo tiende a arrugarse debido al proceso natural de maduración. Su interior contiene numerosas y pequeñas semillas comestibles de color negro.",
                       "curiousFact":"El nombre maracuyá proviene del Tupi “mara kuya”, que significa “fruta que se sirve a sí misma” o “comida en una cuia”",
                       "ftitle":"Ficha Tecnica",
                       "table":[
@@ -280,7 +313,18 @@
                         }
                       ],
                       "image": "/img/maracuya2.png",
-                      "fichaTecnica": "ficha-tecnica-maracuya.pdf"
+                      "fichaTecnica": "ficha-tecnica-maracuya.pdf",
+                      "t1":"ESPECIFICACIONES MICROBIOLÓGICAS",
+                      "d1":"Recuento de mesófilos: 1000 UFC/g Máximo Recuento de hongos: 10 UFC/g Máximo Recuento de levaduras: 100 UFC/g Máximo Coliformes totales N.M.P 200 UFC/g Máximo Coliformes fecales N.M.P.0.",
+                      "t2":"ESPECIFICACIONES FISICOQUÍMICAS",
+                      "d2":"Porcentaje total de sólidos (°Brix): 49.5 - 50.5 Relación Brix / Acidez: 3.24 - 4.18 PH (20°C): 2.3 - 2.7 Acidez % (Ácido cítrico): 12.4 - 16.5.",
+                      "t3":"TIPO DE TRATAMIENTO",
+                      "d3":"El Maracuyá es sometido a las etapas de Recibo, Almacenamiento, Selección, Limpieza, Ventilación, Empaque y Despacho.",
+                      "t4":"CONDICIONES DE CONSERVACIÓN",
+                      "d4":"Temperatura: Ambiente Humedad relativa: Ambiente. Para evitar su maduración se recomienda ventilarlo.",
+                      "t5":"CONSUMO",
+                      "d5":"Esta fruta se puede consumir cruda, cortándola por la mitad, agregándole un poco de azúcar a la pulpa y consumiéndola con una cuchara. Además se pueden preparar jugos, néctares, yogurt, mermeladas, licores, helados y pudines.",
+                      "t6":"Vida útil en almacenamiento: 12 a 15 días"
                    },
                   {
                     "id": 4,
@@ -288,7 +332,7 @@
                     "botton":"ver más",
                     "scientificName":"No definido",
                     "phrase":"¡una fruta que te conquistará con su delicadeza!",
-                    "description": "Se cree que es nativa de América del Sur, con una amplia distribución en regiones tropicales y subtropicales.",
+                    "description": "El fruto es una baya de cubierta dura de forma casi esférica de 6-7,8cm de diámetro, que en la mayoría de los casos presenta puntos blanquecinos. Los frutos están unidos a un pedúnculo largo de 3 a 4 cm aproximadamente. El peso promedio puede variar entre 110 y 140g",
                     "curiousFact":"A menudo se confunde con la fruta de la pasión, pero son frutas diferentes",
                     "ftitle":"Ficha Tecnica",
                     "table":[
@@ -325,7 +369,18 @@
                       }
                     ],
                     "image": "/img/granadilla2.png",
-                    "fichaTecnica": "ficha-tecnica-maracuya.pdf"
+                    "fichaTecnica": "ficha-tecnica-maracuya.pdf",
+                    "t1":"ESPECIFICACIONES MICROBIOLÓGICAS",
+                      "d1":"Recuento total de microorganismos aerobios mesófilos: < 100,000 UFC/g. Coliformes totales: < 1000 UFC/g. Escherichia coli: Ausente en 1 g. Staphylococcus aureus: Ausente en 1 g. Salmonella spp.: Ausente en 25 g. Levaduras y mohos: < 1000 UFC/g.",
+                      "t2":"ESPECIFICACIONES FISICOQUÍMICAS",
+                      "d2":"Porcentaje total de sólidos (°Brix): 13.5 - 15.5 Acidez % (Ácido cítrico): 0.32 - 0.38",
+                      "t3":"TIPO DE TRATAMIENTO",
+                      "d3":"La Granadilla es sometida a las etapas de Recibo, Almacenamiento, Selección, Limpieza, Ventilación, Empaque y Despacho.",
+                      "t4":"CONDICIONES DE CONSERVACIÓN",
+                      "d4":"Temperatura: Ambiente Humedad relativa: Ambiente. Para evitar su maduración se recomienda ventilarla.",
+                      "t5":"CONSUMO",
+                      "d5":"Generalmente la granadilla se consume cruda, para esto, simplemente se rompe la cáscara con los dedos y la pulpa se come con una cuchara. También se puede obtener una rica bebida, colando la pulpa y añadiendo agua. El extracto de granadilla puede utilizarse para preparar helados, soufflés, salsas y yogurt.",
+                      "t6":"VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN 20 DIAS"
                    },
                   {
                     "id": 5,
@@ -333,7 +388,7 @@
                     "botton":"ver más",
                     "scientificName":"No definido",
                     "phrase":"¡una fruta que te cuida!",
-                    "description": "La gulupa, una variedad de maracuyá, crece en la región de Cajamarca en Perú y en los departamentos de Cundinamarca y Boyacá en Colombia.",
+                    "description": "La fruta es casi redonda, con un peso entre 50 y 60g y un diámetro promedio de 5,7 cm. Tiene una corteza resistente, lisa y gruesa.",
                     "curiousFact":"Es conocida por su efecto sedante que incluso se dice que ayuda a regular los sueños",
                     "ftitle":"Ficha Tecnica",
                     "table":[
@@ -370,7 +425,18 @@
                         }
                     ],
                     "image": "/img/gulupa2.png",
-                    "fichaTecnica": "ficha-tecnica-maracuya.pdf"
+                    "fichaTecnica": "ficha-tecnica-maracuya.pdf",
+                    "t1":"ESPECIFICACIONES MICROBIOLÓGICAS",
+                      "d1":"Recuento de mesófilos: 1000 UFC/g Máximo Recuento de hongos: 10 UFC/g Máximo Recuento de levaduras: 100 UFC/g Máximo Coliformes totales N.M.P 200 UFC/g Máximo Coliformes fecales N.M.P.0.",
+                      "t2":"ESPECIFICACIONES FISICOQUÍMICAS",
+                      "d2":"Porcentaje total de sólidos (°Brix): 49.5 - 50.5 Relación Brix / Acidez: 3.24 - 4.18 PH (20°C):2.3 - 2.7 Acidez % (Ácido cítrico): 12.4 - 16.5.",
+                      "t3":"TIPO DE TRATAMIENTO",
+                      "d3":"La Gulupa es sometida a las etapas de Recibo, Almacenamiento, Selección, Limpieza y desinfección, Empaque y Despacho.",
+                      "t4":"CONDICIONES DE CONSERVACIÓN",
+                      "d4":"Temperatura: Entre 8 -10º C Humedad relativa: Entre 65 - 70%.",
+                      "t5":"CONSUMO",
+                      "d5":"La Gulupa se puede comer cruda, cortándola por la mitad y comiéndose la pulpa con una cuchara, se puede comer sola o añadiéndole crema y azúcar. También es deliciosa en ensaladas o en jugo, presionando la pulpa sobre un colador y añadiendo agua. La pulpa cernida, pueda utilizarse también para hacer gelatinas, mermeladas, salsas, cócteles y helados.",
+                      "t6":"VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN 1 MES"
                    },
                   {
                     "id": 6,
@@ -378,7 +444,7 @@
                     "botton":"ver más",
                     "scientificName":"No definido",
                     "phrase":"¡una fruta que te cuida por dentro y por fuera!",
-                    "description": "Originario de los Andes de Perú y Bolivia, se ha adaptado a climas fríos de páramos y se ha distribuido por toda la cordillera andina.",
+                    "description": "El fruto es una baya de forma ovoide – apiculada. Tiene una longitud promedio de 7.3 cm, midiendo en su parte más ancha entre 5 y 6cm. El peso promedio puede variar entre 100 y 150g.",
                     "curiousFact":"A pesar de su nombre, no es un tomate sino una fruta con un sabor único que combina en muchas elaboraciones",
                     "ftitle":"Ficha Tecnica",
                     "table":[
@@ -415,7 +481,18 @@
                     }
                     ],
                     "image": "/img/tomate_de_arbol2.png",
-                    "fichaTecnica": "ficha-tecnica-maracuya.pdf"
+                    "fichaTecnica": "ficha-tecnica-maracuya.pdf",
+                    "t1":"ESPECIFICACIONES MICROBIOLÓGICAS",
+                      "d1":"Recuento de mesofilos 100 UFC/g Máximo Levaduras y hongos 30 UFC/g Máximo Total Coliformes N.M.P. <3 Coliformes fecales N.M.P. 0.",
+                      "t2":"ESPECIFICACIONES FISICOQUÍMICAS",
+                      "d2":"Porcentaje total de sólidos (°Brix) 11,0 - 12,0 Acidez % (Ácido cítrico): 1,7 - 2,0 PH: 3,5 - 3,8 Relación Brix / Acidez: 5,5 - 7,0.",
+                      "t3":"TIPO DE TRATAMIENTO",
+                      "d3":"El Tamarillo es sometido a las etapas de Recibo, Almacenamiento, Selección, Limpieza, Clasificación Empaque y Despacho.",
+                      "t4":"CONDICIONES DE CONSERVACIÓN",
+                      "d4":"Temperatura: Ambiente Humedad relativa: Ambiente",
+                      "t5":"CONSUMO",
+                      "d5":"El Tamarillo se puede consumir crudo, pelándolo y cortándolo en rodajas o cortándolo por la mitad y consumiendo la pulpa con una cuchara, se puede cubrir con azúcar o sal dependiendo del gusto. Su uso mas común es en jugo.",
+                      "t6":"VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN 14 DÍAS"
                    },
                   {
                     "id": 7,
@@ -423,7 +500,7 @@
                     "botton":"ver más",
                     "scientificName":"No definido",
                     "phrase":"¡una fruta cítrica con un sabor intenso y refrescante!",
-                    "description": "Nativo de Asia Oriental, estos pequeños árboles se cultivan en todo el mundo subtropical",
+                    "description": " El kumquat, también conocido como naranja enana o quinoto, es un cítrico pequeño y ovalado de color naranja intenso. Su piel es fina y comestible, con un sabor ligeramente dulce y ácido. La pulpa es de color amarillo pálido, con un sabor ácido y jugoso.",
                     "curiousFact":"En China, los kumquats se confitan con frecuencia y se utilizan para decoración navideña en algunas partes de Estados Unidos",
                     "ftitle":"Ficha Tecnica",
                     "table":[
@@ -460,7 +537,18 @@
                     }
                     ],
                     "image": "/img/Kumquat.png",
-                    "fichaTecnica": "ficha-tecnica-maracuya.pdf"
+                    "fichaTecnica": "ficha-tecnica-maracuya.pdf",
+                    "t1":"ESPECIFICACIONES MICROBIOLÓGICAS",
+                      "d1":"Debe estar libre de patógenos como Salmonella, E. coli y Listeria monocytogenes. El nivel de levaduras y mohos debe ser inferior a 1000 UFC/g. ",
+                      "t2":"ESPECIFICACIONES FISICOQUÍMICAS",
+                      "d2":"Acidez titulable: 5-7 g/100 ml de ácido cítrico. pH: 2.5-3.5. Brix (contenido de azúcar): 8-12%. Relación sólidos solubles/acidez: 10-15:1.",
+                      "t3":"TIPO DE TRATAMIENTO",
+                      "d3":"El Kumquat es sometido a las etapas de Recibo, Almacenamiento, Selección, Limpieza, Clasificación Empaque y Despacho.",
+                      "t4":"CONDICIONES DE CONSERVACIÓN",
+                      "d4":"Temperatura: Ambiente Humedad relativa: Ambiente",
+                      "t5":"CONSUMO",
+                      "d5":"Se puede comer fresco, como snack o en ensaladas. Se puede utilizar para hacer mermeladas, jaleas y licores. Se puede confitar o secar.",
+                      "t6":"VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN 14  A 21 DÍAS EN REFRIGERACIÓN"
                    },
                   {
                     "id": 8,
@@ -468,7 +556,7 @@
                     "botton":"ver más",
                     "scientificName":"No definido",
                     "phrase":"¡Un alimento esencial para una vida saludable y deliciosa!",
-                    "description": "Fue cultivado y vendido por primera vez por el cartero y horticultor aficionado Rudolph Hass en California",
+                    "description": "El aguacate Hass es una variedad de aguacate de piel rugosa y color verde oscuro. La pulpa es de color crema verdoso, con un sabor rico y cremoso.",
                     "curiousFact":"Más del 80% de los aguacates en Estados Unidos son de la variedad Hass, y es el aguacate más cultivado en Nueva Zelanda",
                     "ftitle":"Ficha Tecnica",
                     "table":[
@@ -505,7 +593,18 @@
                         }
                     ],
                     "image": "/img/aguacate_hass.png",
-                    "fichaTecnica": "ficha-tecnica-maracuya.pdf"
+                    "fichaTecnica": "ficha-tecnica-maracuya.pdf",
+                    "t1":"ESPECIFICACIONES MICROBIOLÓGICAS",
+                      "d1":"Debe estar libre de patógenos como Salmonella, E. coli y Listeria monocytogenes. Debe estar libre de patógenos como Salmonella, E. coli y Listeria monocytogenes.",
+                      "t2":"ESPECIFICACIONES FISICOQUÍMICAS",
+                      "d2":"Grasa: 15-20%. Proteína: 2-3%. Carbohidratos: 7-10%.  Fibra: 5-7%.  Vitaminas: A, C, E y K. Minerales: potasio, magnesio, calcio y hierro",
+                      "t3":"TIPO DE TRATAMIENTO",
+                      "d3":"El Aguacate Hass es sometido a las etapas de Recibo, Almacenamiento, Selección, Limpieza, Clasificación Empaque y Despacho.",
+                      "t4":"CONDICIONES DE CONSERVACIÓN",
+                      "d4":"Temperatura: Ambiente Humedad relativa: Ambiente",
+                      "t5":"CONSUMO",
+                      "d5":"Se puede comer fresco, como guacamole o en ensaladas. Se puede utilizar para hacer salsas, aderezos y mayonesa. Se puede agregar a batidos y smoothies.",
+                      "t6":"VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN 3 A 5 DÍAS EN REFRIGERACIÓN DESPUÉS DE MADURAR"
                    },
                   {
                     "id": 9,
@@ -513,7 +612,7 @@
                     "botton":"ver más",
                     "scientificName":"No definido",
                     "phrase":"¡una fruta que te transportará a un paraíso tropical!",
-                    "description": "Fue cultivado y vendido por primera vez por el cartero y horticultor aficionado Rudolph Hass en California",
+                    "description": "El mangostino es una fruta tropical de color púrpura oscuro con una cáscara gruesa y rugosa. La pulpa blanca y jugosa tiene un sabor dulce y ligeramente ácido.",
                     "curiousFact":"Más del 80% de los aguacates en Estados Unidos son de la variedad Hass, y es el aguacate más cultivado en Nueva Zelanda",
                     "ftitle":"Ficha Tecnica",
                     "table":[
@@ -550,7 +649,18 @@
                     }
                     ],
                     "image": "/img/mangostino.png",
-                    "fichaTecnica": "ficha-tecnica-maracuya.pdf"
+                    "fichaTecnica": "ficha-tecnica-maracuya.pdf",
+                    "t1":"ESPECIFICACIONES MICROBIOLÓGICAS",
+                      "d1":"Debe estar libre de patógenos como Salmonella, E. coli y Listeria monocytogenes. El nivel de levaduras y mohos debe ser inferior a 1000 UFC/g.",
+                      "t2":"ESPECIFICACIONES FISICOQUÍMICAS",
+                      "d2":"Azúcares: 15-20%. Proteína: 0.5-1%. Grasa: 0.1-0.2%. Fibra: 1-2%. Vitaminas: C y B6. Minerales: potasio, magnesio y calcio",
+                      "t3":"TIPO DE TRATAMIENTO",
+                      "d3":"El Mangostino es sometido a las etapas de Recibo, Almacenamiento, Selección, Limpieza, Clasificación Empaque y Despacho.",
+                      "t4":"CONDICIONES DE CONSERVACIÓN",
+                      "d4":"Temperatura: Ambiente Humedad relativa: Ambiente",
+                      "t5":"CONSUMO",
+                      "d5":"Se puede comer fresco, como snack o en ensaladas. Se puede utilizar para hacer postres, helados y jugos. Se puede secar o confitar.",
+                      "t6":"VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN 2 A 3 DÍAS EN TEMPERATURA AMBIENTE Y DE 5 A 7 DÍAS EN REFRIGERACIÓN"
                    }
                 ]
           },
