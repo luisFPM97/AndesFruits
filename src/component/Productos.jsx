@@ -1,10 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Uchuva from './Uchuva'
 import ProductIdCard from './ProductIdCard'
 import ProductCard from './ProductCard'
 
 
 const Productos = ({setProductid,productos}) => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   console.log(productos)
   return (
     <div className='productos'>

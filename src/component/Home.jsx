@@ -7,7 +7,7 @@ import ProductCard from "./ProductCard";
 const Home = ({home, productos,setProductid,productid}) => {
 
   useEffect(() => {
-    /*window.scrollTo(0, 0);*/
+    window.scrollTo(0, 0);
   }, []);
 
 
