@@ -66,7 +66,7 @@ footer{
 .lA{
     position: fixed;
     top: 20px;
-    right: 0;
+    right: 10px;
     width: 122.4px;
     height: 84.5px;
     transition: all 0.3s ease-in-out;
@@ -99,7 +99,7 @@ footer{
     }
 }
 .bntMenu:hover{
-    width: 120px;
+    width: 132.4px;
 }
 
 .btnMr{
