@@ -275,6 +275,7 @@ footer{
             position: absolute;
             top: 50%;
             width: 60px;
+            height: auto;
             cursor: pointer;
             filter: drop-shadow(0 0 2px );
         }

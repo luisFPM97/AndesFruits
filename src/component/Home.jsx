@@ -10,6 +10,7 @@ const Home = ({home, productos,setProductid,productid}) => {
     window.scrollTo(0, 0);
   }, []);
 
+  const imgurl = 'https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihYsqsM3iMtyZrrIHtDuzE0sRAPlgst3EPcnblxCK_ihPCUO1VD2aE1v0E-8pf64J8ipxpDMRTVjtNqNoHyzOVlFtzXc5VNOdSw=w1600-h777'
 
 
   const products = productos.products
@@ -27,7 +28,7 @@ const Home = ({home, productos,setProductid,productid}) => {
         </section>
         <section className="homeProduct">
         <img className="arrowSlider aleft" src="/img/arrow.svg" alt="" />
-        <img className="arrowSlider aright" src="/img/arrow.svg" alt="" />
+        <img className="arrowSlider aright" src="/img/arrow.svg" alt="Imagen de google" />
           <div className="hpTitle">
             <span>{home.sections[1].description}</span>
           </div>
