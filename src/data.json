@@ -659,6 +659,18 @@
       "address": "Combita, Boyacá - parque industrial Km 1 vía Tunja - Paipa",
       "phone": "(+57)315 3871168",
       "email": "jlaverde@andesexport.com"
+    },
+    "certificaciones":{
+        "title": "Certificaciones",
+        "description": "Certificaciones",
+        "certifications":[
+            {
+                "id":0,
+                "title":"BASC",
+                "subtittle":"Seguridad y confianza en cada paso del proceso.",
+                "description":"La Norma BASC (Business Alliance for Secure Commerce o Alianza Empresarial para un Comercio Seguro) es un programa de cooperación público-privada cuyo objetivo principal es fortalecer la seguridad de la cadena de suministro y prevenir el contrabando, la falsificación y el terrorismo en el comercio internacional."
+            }
+        ]
     }
   },
   "en": {
