@@ -3,12 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    
+    justify-content: space-around;    
 }
 *:focus{
     outline:none!important
@@ -336,7 +331,6 @@ footer{
                 width: calc(100%/11);
                 height: 40vh;
                 transition: all 0.4s ease-in-out;
-                
                 opacity: 0.6;
                 img{
                     
@@ -344,11 +338,12 @@ footer{
                     transition: all 0.2s ease-in-out;
                 }
                 h3{
+                    position: absolute;
+                    bottom: 40px;
                     width: 100%;
-                    font-size: 25px;
+                    font-size: 20px;
                     font-weight: bold;
                     height: 0;
-                    
                     opacity: 0;
                     color: white;
                     transition: all 0.5s ease-in-out;
@@ -388,12 +383,13 @@ footer{
                 opacity: 1;
                 
                 img{
-                    transform: scale(1.4);
+                    transform: scale(1.5);
                 }
                 h3{
-                    position: relative;
+                    position: absolute;
                     visibility: visible;
                     opacity: 1;
+                    bottom: 60px;
                 }
                 button{
                     opacity: 1;
@@ -919,14 +915,38 @@ footer{
                 height: 80%;
                 flex-wrap: nowrap;
                 scroll-snap-type: x mandatory;
+                overflow-x: auto;
+                gap: 0px;
+                padding-right: 30px;
+                padding-left: 30px;
+                justify-content: start;
                 .hpProductItem{
-                    min-width: 100% ;
-                    height: 80%;
-                    position: sticky !important;
+                    position: relative;
+                    min-width: 350px;
+                    height: 350px;
+                    position: sticky ;
                     object-fit: cover;
                     scroll-snap-align:center;
+                    h3{
+                        opacity: 1;
+                        position: absolute;
+                        bottom: 20px;
+                    }
+                    img{
+                        width: 80%;
+                    }
+                }
+                .hpProductItem:hover{
+                    h3{
+                        position: absolute;
+                        bottom: 30px;
+                    }
+                    img{
+                        transform: scale(1.1);
+                    }
                 }
             }
+            
             .hpProduct::-webkit-scrollbar {
                 width: 100%;
             }
