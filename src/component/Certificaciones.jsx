@@ -1,9 +1,26 @@
 import React from 'react'
+import CertificacionesId from './CertificacionesId'
 
 
-const Certificaciones = () => {
+const Certificaciones = (certificaciones) => {
+
+  const certs = certificaciones.certificaciones
+  
+
   return (
-    <div >
+    <div className='certificaciones'>
+      <section className='header'>
+        <h1>{certs.title}</h1>
+        <p>{certs.description}</p>
+      </section>
+      {
+        certs.certifications.map((certification, i )=>(
+          <CertificacionesId
+            key={i}
+            certification = {certification}
+          />
+        ))
+      }
     </div>
   )
 }

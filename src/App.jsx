@@ -52,7 +52,7 @@ function App() {
           element={<QuienesSomos QuienesSomos={content.quienesSomos} />}
         />
         <Route path="/instalaciones" element={<Instalaciones />} />
-        <Route path="/certificaciones" element={<Certificaciones />} />
+        <Route path="/certificaciones" element={<Certificaciones certificaciones={content.certificaciones}/>} />
         <Route path="/contactenos" element={<Contact />} />
         <Route path="/productos" element={<Productos setProductid ={setProductid}  productos = {content.productos}/>} />
         <Route path="/FichaTecnica" element={<FichaTecnica productid={productid} productos = {content.productos}/>}/>
