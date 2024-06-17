@@ -670,7 +670,7 @@
             "subtittle":"Seguridad y confianza en cada paso del proceso.",
             "description":"La Norma BASC (Business Alliance for Secure Commerce o Alianza Empresarial para un Comercio Seguro) es un programa de cooperación público-privada cuyo objetivo principal es fortalecer la seguridad de la cadena de suministro y prevenir el contrabando, la falsificación y el terrorismo en el comercio internacional.",
             "image":"/img/basc.svg",
-            "pdf":"/"
+            "pdf":"/pdf/certbasc.png"
           },
           {
             "id":1,
@@ -694,7 +694,7 @@
             "subtittle":"Excelencia y seguridad alimentaria certificada.",
             "description":"Es un programa de auditoría voluntario que evalúa las prácticas de producción y procesamiento de alimentos frescos para garantizar la seguridad alimentaria. Es reconocido por la Iniciativa Mundial de Seguridad Alimentaria (GFSI), lo que significa que cumple con los estándares internacionales más estrictos para la inocuidad alimentaria.",
             "image":"/img/primuslabs.png",
-            "pdf":"/pdf/certglobal.png"
+            "pdf":"/"
           }
       ]
     }
@@ -1370,7 +1370,7 @@
               "subtittle":"Safety and Trust in Every Step of the Process",
               "description":"The BASC Standard (Business Alliance for Secure Commerce) is a public-private cooperation program whose main objective is to strengthen the security of the supply chain and prevent smuggling, counterfeiting, and terrorism in international trade.",
               "image":"/img/basc.svg",
-              "pdf":"/"
+              "pdf":"/pdf/certbasc.png"
             },
             {
               "id":1,
