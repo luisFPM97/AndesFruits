@@ -12,8 +12,14 @@ const CertificacionesId = (certification) => {
             <h2>{cert.title}</h2>
             <span>{cert.subtittle}</span>
             <p>{cert.description}</p>
+            {
+              cert.pdf === "" ?
+              <div></div>
+              :
+              <a className='cimage' href={cert.pdf} target='blank'><i className='bx bx-link-external'></i></a>
+            }
         </div>
-            <a className='cimage' href={cert.pdf} target='blank'><img src={cert.pdf} alt="" /></a>
+            
     </div>
   )
   

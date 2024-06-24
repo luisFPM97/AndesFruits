@@ -63,7 +63,8 @@ function App() {
           <hr />
           <div className="firstf">
             <span className="titlef">{content.home.titleE}</span>
-            <span className="titlef">{content.contactenos.phone}</span>
+            <span className="titlef"><a target="blank" href={`https://wa.me/+57${content.contactenos.phone}`}><i className='bx bxl-whatsapp' ></i></a>{content.contactenos.phone}</span>
+            
           </div>
           <hr />
           <div className="fd">

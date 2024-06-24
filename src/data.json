@@ -1,80 +1,80 @@
 {
   "es": {
     "home": {
-      "title": "Inicio",
-      "titleE": "ANDES FRUITS",
-      "link": "/quienes-somos",
-      "header": "Sabores Exóticos del Corazon de la Tierra",
-      "button": "sobre nosotros",
-      "description": "Descubre la frescura y el sabor auténtico de nuestras frutas, cultivadas con pasión y entregadas a tu mesa.”",
-      "sections": [
-        {
-          "title": "Quienes Somos",
-          "description": "Historia y tradición. Conoce más sobre nuestra trayectoria y filosofía.",
-          "link": "/quienes-somos",
-          "btn": "ver más",
-          "image": "/img/sec1.jpg"
-        },
-        {
-          "title": "Productos",
-          "description": "Variedad que encanta, calidad que impresiona. Explora nuestra selección de frutas exóticas.",
-          "link": "/productos",
-          "btn": "ver más",
-          "image": "/img/sec2.jpg"
-        },
-        {
-          "title": "Certificaciones",
-          "description": "Comprometidos con la excelencia. Conoce las certificaciones que garantizan nuestra calidad y confiabilidad.",
-          "link": "/certificaciones",
-          "btn": "ver más",
-          "image": "/img/sec3.jpg"
-        }
-      ]
-    },
+    "title": "Inicio",
+    "titleE": "ANDES FRUITS",
+    "link": "/quienes-somos",
+    "header": "Sabores Exóticos del Corazón de la Tierra",
+    "button": "Sobre nosotros",
+    "description": "Descubre la frescura y el sabor auténtico de nuestras frutas, cultivadas con pasión y entregadas a tu mesa.",
+    "sections": [
+      {
+        "title": "Quiénes Somos",
+        "description": "Historia y tradición. Conoce más sobre nuestra trayectoria y filosofía.",
+        "link": "/quienes-somos",
+        "btn": "Ver más",
+        "image": "/img/sec1.jpg"
+      },
+      {
+        "title": "Productos",
+        "description": "Variedad que encanta, calidad que impresiona. Explora nuestra selección de frutas exóticas.",
+        "link": "/productos",
+        "btn": "Ver más",
+        "image": "/img/sec2.jpg"
+      },
+      {
+        "title": "Certificaciones",
+        "description": "Comprometidos con la excelencia. Conoce las certificaciones que garantizan nuestra calidad y confiabilidad.",
+        "link": "/certificaciones",
+        "btn": "Ver más",
+        "image": "/img/sec3.jpg"
+      }
+    ]
+  },
     "quienesSomos": {
-      "title": "Quienes Somos",
-      "history": [
-        {
-          "id": 0,
-          "title": "Raices",
-          "image": "/img/raices.jpg",
-          "descript": "Desde nuestras raíces en 1999, hemos crecido con la visión de llevar los sabores exóticos de Colombia a cada rincón del mundo. Nuestra pasión por la fruta y el compromiso con la calidad nos han convertido en un puente entre las ricas tierras de los Andes y los paladares exigentes de Europa y Estados Unidos."
-        },
-        {
-          "id": 1,
-          "title": "Historia",
-          "image": "/img/historia.jpg",
-          "descript": "Nacimos un 9 de septiembre, con el sueño de compartir la uchuva, nuestra estrella, y otras joyas frutales con el mundo. A lo largo de los años, hemos visto cómo nuestro esfuerzo se ha traducido en un crecimiento constante, no solo en ventas sino en la confianza que nuestros clientes depositan en nosotros."
-        },
-        {
-          "id": 2,
-          "title": "Compromiso",
-          "image": "/img/compromiso.jpg",
-          "descript": "Creemos en el bienestar, tanto de quienes disfrutan de nuestras frutas como de quienes las cultivan. Por eso, nos esforzamos día a día para ofrecer productos que no solo deleiten tus sentidos, sino que también cuiden de ti y del planeta."
-        },
-        {
-          "id": 3,
-          "title": "Innovacion y Tradicion",
-          "image": "/img/innovacion.jpg",
-          "descript": "La tradición se encuentra con la innovación en cada fruta deshidratada que seleccionamos, ofreciendo una experiencia única que conserva el sabor y los beneficios naturales de nuestras frutas frescas."
-        },
-        {
-          "id": 4,
-          "title": "Un equipo, una familia",
-          "image": "/img/familia.jpg",
-          "descript": "Somos más que una empresa; somos una familia que crece unida, valorando y respetando el trabajo de cada uno de nuestros colaboradores y productores. Juntos, celebramos cada logro y enfrentamos cada desafío con determinación."
-        },
-        {
-          "id": 5,
-          "title": "El sabor de Andes Fruits",
-          "image": "/img/sabor.jpg",
-          "descript": "Cada bocado de nuestras frutas es una invitación a explorar la diversidad y la riqueza de Colombia. Te invitamos a ser parte de esta aventura de sabor y calidad que es Andes Fruits Colombia."
-        }
-      ]
-    },
+    "title": "Quienes Somos",
+    "history": [
+      {
+        "id": 0,
+        "title": "Raíces",
+        "image": "/img/raices.jpg",
+        "descript": "Desde nuestras raíces en 1999, hemos crecido con la visión de llevar los sabores exóticos de Colombia a cada rincón del mundo. Nuestra pasión por la fruta y el compromiso con la calidad nos han convertido en un puente entre las ricas tierras de los Andes y los paladares exigentes de Europa y Estados Unidos."
+      },
+      {
+        "id": 1,
+        "title": "Historia",
+        "image": "/img/historia.jpg",
+        "descript": "Nacimos un 9 de septiembre, con el sueño de compartir la uchuva, nuestra estrella, y otras joyas frutales con el mundo. A lo largo de los años, hemos visto cómo nuestro esfuerzo se ha traducido en un crecimiento constante, no solo en ventas sino en la confianza que nuestros clientes depositan en nosotros."
+      },
+      {
+        "id": 2,
+        "title": "Compromiso",
+        "image": "/img/compromiso.jpg",
+        "descript": "Creemos en el bienestar, tanto de quienes disfrutan de nuestras frutas como de quienes las cultivan. Por eso, nos esforzamos día a día para ofrecer productos que no solo deleiten tus sentidos, sino que también cuiden de ti y del planeta."
+      },
+      {
+        "id": 3,
+        "title": "Innovación y Tradición",
+        "image": "/img/innovacion.jpg",
+        "descript": "La tradición se encuentra con la innovación en cada fruta deshidratada que seleccionamos, ofreciendo una experiencia única que conserva el sabor y los beneficios naturales de nuestras frutas frescas."
+      },
+      {
+        "id": 4,
+        "title": "Un equipo, una familia",
+        "image": "/img/familia.jpg",
+        "descript": "Somos más que una empresa; somos una familia que crece unida, valorando y respetando el trabajo de cada uno de nuestros colaboradores y productores. Juntos, celebramos cada logro y enfrentamos cada desafío con determinación."
+      },
+      {
+        "id": 5,
+        "title": "El sabor de Andes Fruits",
+        "image": "/img/sabor.jpg",
+        "descript": "Cada bocado de nuestras frutas es una invitación a explorar la diversidad y la riqueza de Colombia. Te invitamos a ser parte de esta aventura de sabor y calidad que es Andes Fruits Colombia."
+      }
+    ]
+  },
     "productos": {
       "title": "Productos",
-      "phrase": "No te conformes con lo ordinario, descubre la magia y vive una experiencia sensorial inolvidable",
+      "phrase": "No te conformes con lo ordinario, descubre la magia y vive una experiencia sensorial inolvidable.",
       "intro": "Cada fruta es una obra de arte de la naturaleza. Seleccionamos cuidadosamente lo mejor para ti.",
       "products": [
         {
@@ -83,9 +83,9 @@
           "botton": "ver más",
           "scientificName": "Physalis peruviana",
           "phrase": "Un solecito tropical que explota en tu paladar",
-          "description": "El fruto es una baya en forma ovoide con un diámetro entre 1,5 y 0,87 pesa de 4 a 6 gramos. Su piel es suave y brillante. El fruto esta recubierto de una membrana o vaina fibrosa (cáliz), fina no comestible, que puede ser de color amarilla o verde",
-          "curiousFact": "También conocida como aguaymanto, uvilla o Cape gooseberry. Fue introducida en Inglaterra en el siglo XVIII y en Sudáfrica en el siglo XIX",
-          "ftitle": "Ficha Tecnica",
+          "description": "El fruto es una baya en forma ovoide con un diámetro entre 1,5 y 0,87 cm, y pesa de 4 a 6 gramos. Su piel es suave y brillante. El fruto está recubierto de una membrana o vaina fibrosa (cáliz), fina y no comestible, que puede ser de color amarillo o verde.",
+          "curiousFact": "También conocida como aguaymanto, uvilla o Cape gooseberry. Fue introducida en Inglaterra en el siglo XVIII y en Sudáfrica en el siglo XIX.",
+          "ftitle": "Ficha Técnica",
           "table": [
             {
               "id": 1,
@@ -127,26 +127,27 @@
           "image": "/img/uchuva.png",
           "fichaTecnica": "ficha-tecnica-uchuva.pdf",
           "t1": "ESPECIFICACIONES MICROBIOLÓGICAS",
-          "d1": "Recuento de mesofilos 3000 UFC/g Máximo Levaduras y hongos 100 UFC/g Máximo Total Coliformes N.M.P 200 UFC/g Máximo Coliformes fecales N.M.P. 0",
+          "d1": "Recuento de mesófilos 3000 UFC/g Máximo, Levaduras y hongos 100 UFC/g Máximo, Total Coliformes N.M.P 200 UFC/g Máximo, Coliformes fecales N.M.P. 0",
           "t2": "ESPECIFICACIONES FISICOQUÍMICAS",
-          "d2": "Medidas a 20°C de JUGO NATURAL Porcentaje total de sólidos (°Brix) 8.0 - 10.5 PH (20°C) 3.1 - 3.4 Relación Brix / Acidez 3.5 - 10.0",
+          "d2": "Medidas a 20°C de JUGO NATURAL: Porcentaje total de sólidos (°Brix) 8.0 - 10.5, PH (20°C) 3.1 - 3.4, Relación Brix / Acidez 3.5 - 10.0",
           "t3": "TIPO DE TRATAMIENTO",
-          "d3": "La uchuva es sometida a las etapas de Recibo, Almacenamiento, Selección, Encestado, Secado, Empaque y Despacho",
+          "d3": "La uchuva es sometida a las etapas de Recibo, Almacenamiento, Selección, Encestado, Secado, Empaque y Despacho.",
           "t4": "CONDICIONES DE CONSERVACIÓN",
-          "d4": "Temperatura: Entre 8 -10º C Humedad relativa: Entre 65 - 70%",
+          "d4": "Temperatura: Entre 8 -10º C, Humedad relativa: Entre 65 - 70%",
           "t5": "CONSUMO",
-          "d5": "Esta fruta se consume cruda como una uva, sola o con otras frutas en ensaladas o con chocolate fundido como postre, y como decoración de platos. También se pueden preparar mermeladas, salsas o rellenos para deliciosas tortas, y para decoración",
-          "t6": "VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN 27 DIAS"
-        },
+          "d5": "Esta fruta se consume cruda como una uva, sola o con otras frutas en ensaladas o con chocolate fundido como postre, y como decoración de platos. También se pueden preparar mermeladas, salsas o rellenos para deliciosas tortas, y para decoración.",
+          "t6": "VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN 27 DÍAS"
+        }
+        ,
         {
           "id": 1,
           "title": "Bananito",
           "botton": "ver más",
-          "scientificName": "No definido",
-          "phrase": "¡el snack perfecto para recargar tus pilas!",
-          "description": "El Bananito o Bananito bocadillo, pertenece a la familia de La Musaceas. Su peso oscila entre los 60 y 80 gramos y su tamaño entre los 10 y 12 cms. de longitud. La cáscara es delgada, lisa y de color amarillo, su pulpa es suave y deliciosa, nuestro bananito tiene un aroma a vainilla que incrementa su maravilloso sabor.",
-          "curiousFact": "En Colombia, el bananito es conocido por su alto contenido de fosforo, potasio, hierro y vitaminas A y B",
-          "ftitle": "Ficha Tecnica",
+          "scientificName": "Musa acuminata × Musa balbisiana (Híbrido)",
+          "phrase": "¡El snack perfecto para recargar tus pilas!",
+          "description": "El Bananito o Bananito bocadillo, pertenece a la familia de las Musáceas. Su peso oscila entre los 60 y 80 gramos y su tamaño entre los 10 y 12 cm de longitud. La cáscara es delgada, lisa y de color amarillo. Su pulpa es suave y deliciosa, y nuestro bananito tiene un aroma a vainilla que incrementa su maravilloso sabor.",
+          "curiousFact": "En Colombia, el bananito es conocido por su alto contenido de fósforo, potasio, hierro y vitaminas A y B.",
+          "ftitle": "Ficha Técnica",
           "table": [
             {
               "id": 1,
@@ -188,26 +189,27 @@
           "image": "/img/bananito2.png",
           "fichaTecnica": "ficha-tecnica-bananito.pdf",
           "t1": "ESPECIFICACIONES MICROBIOLÓGICAS",
-          "d1": "Recuento Total de Aeróbicos (SPC) max. 5000 CFU/g. Recuento de hongos filamentosos: <500 CFU/gram Recuento de hongos levaduriformes: <500 CFU/gram Recuento total de coliformes: <3 CFU/gram.",
+          "d1": "Recuento Total de Aeróbicos (SPC) máx. 5000 CFU/g. Recuento de hongos filamentosos: <500 CFU/gramo. Recuento de hongos levaduriformes: <500 CFU/gramo. Recuento total de coliformes: <3 CFU/gramo.",
           "t2": "ESPECIFICACIONES FISICOQUÍMICAS",
-          "d2": "Brix Max. 12 NTU pH 4.0 - 4.3 Acidez 0.95 - 1.45 Sabor dulce Color ámbar, transparente.",
+          "d2": "Brix máx. 12 NTU, pH 4.0 - 4.3, Acidez 0.95 - 1.45, Sabor dulce, Color ámbar, transparente.",
           "t3": "TIPO DE TRATAMIENTO",
-          "d3": "El bananito es sometida a las etapas de Recibo, Almacenamiento, Selección, Clasificación, Empaque y Despacho.",
+          "d3": "El bananito es sometido a las etapas de Recibo, Almacenamiento, Selección, Clasificación, Empaque y Despacho.",
           "t4": "CONDICIONES DE CONSERVACIÓN",
-          "d4": "Temperatura: Ambiente Humedad relativa: Ambiente. Para evitar su maduración se recomienda ventilarlo.",
+          "d4": "Temperatura: Ambiente, Humedad relativa: Ambiente. Para evitar su maduración se recomienda ventilarlo.",
           "t5": "CONSUMO",
           "d5": "Esta fruta se puede disfrutar cruda, se retira la corteza y se consume la pulpa. También se puede obtener una deliciosa bebida, mezclando la pulpa con leche y azúcar.",
-          "t6": "VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN 12 A 15 DIAS"
-        },
+          "t6": "VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN 12 A 15 DÍAS"
+        }
+        ,
         {
           "id": 2,
           "title": "Pitaya amarilla",
           "botton": "ver más",
-          "scientificName": "No definido",
-          "phrase": "¡una fruta que vale la pena descubrir!",
-          "description": "Fue descubierta por primera vez en forma silvestre por los conquistadores españoles en México, Colombia, Centroamérica y las Antillas, quienes le dieron el nombre de pitaya que significa fruta escamosa.",
-          "curiousFact": "La pitahaya amarilla es cultivada principalmente en zonas tropicales y es conocida por su cáscara espinosa y amarilla",
-          "ftitle": "Ficha Tecnica",
+          "scientificName": "Selenicereus megalanthus",
+          "phrase": "¡Una fruta que vale la pena descubrir!",
+          "description": "Fue descubierta por primera vez en forma silvestre por los conquistadores españoles en México, Colombia, Centroamérica y las Antillas, quienes le dieron el nombre de pitaya, que significa fruta escamosa.",
+          "curiousFact": "La pitahaya amarilla es cultivada principalmente en zonas tropicales y es conocida por su cáscara espinosa y amarilla.",
+          "ftitle": "Ficha Técnica",
           "table": [
             {
               "id": 1,
@@ -253,22 +255,23 @@
           "t2": "ESPECIFICACIONES FISICOQUÍMICAS",
           "d2": "pH: 5.5 - 6.5. Acidez titulable: 0.3 - 0.6 g/L ácido cítrico. Sólidos solubles: 12 - 18 °Brix. Vitamina C: 20 - 30 mg/100 g. Color: Amarillo intenso.",
           "t3": "TIPO DE TRATAMIENTO",
-          "d3": "La Pitaya es sometida a las etapas de Recibo, Almacenamiento, Selección, Clasificación, Empaque y Despacho.",
+          "d3": "La pitaya es sometida a las etapas de Recibo, Almacenamiento, Selección, Clasificación, Empaque y Despacho.",
           "t4": "CONDICIONES DE CONSERVACIÓN",
-          "d4": "Temperatura de almacenamiento: 8 - 10 °C (46 - 50 °F). Temperatura de transporte: 10 - 12 °C (50 - 54 °F). Humedad relativa: 90 - 95%",
+          "d4": "Temperatura de almacenamiento: 8 - 10 °C (46 - 50 °F). Temperatura de transporte: 10 - 12 °C (50 - 54 °F). Humedad relativa: 90 - 95%.",
           "t5": "CONSUMO",
           "d5": "Esta fruta se puede disfrutar cruda, se retira la corteza y se consume la pulpa. También se puede obtener una deliciosa bebida, mezclando la pulpa con leche y azúcar.",
-          "t6": "Vida útil en almacenamiento: 14 a 21 días"
-        },
+          "t6": "Vida útil en almacenamiento: 14 a 21 días."
+        }
+        ,
         {
           "id": 3,
-          "title": "Maracuya",
+          "title": "Maracuyá",
           "botton": "ver más",
-          "scientificName": "No definido",
-          "phrase": "¡una explosión de sabor que te dejará con ganas de más!",
-          "description": "El Maracuyá pertenece a las frutas de la pasión. La fruta de forma circular a ovalada pesa entre 110 y 125gr y tiene aproximadamente 6 o 7.5cms de diámetro. Cuando la fruta madura, cambia de un color verde intenso a un amarillo brillante, su corteza es gruesa y lisa, aunque con el tiempo tiende a arrugarse debido al proceso natural de maduración. Su interior contiene numerosas y pequeñas semillas comestibles de color negro.",
-          "curiousFact": "El nombre maracuyá proviene del Tupi “mara kuya”, que significa “fruta que se sirve a sí misma” o “comida en una cuia”",
-          "ftitle": "Ficha Tecnica",
+          "scientificName": "Passiflora edulis f. flavicarpa",
+          "phrase": "¡Una explosión de sabor que te dejará con ganas de más!",
+          "description": "El maracuyá pertenece a las frutas de la pasión. La fruta de forma circular a ovalada pesa entre 110 y 125 gramos y tiene aproximadamente 6 o 7.5 cm de diámetro. Cuando la fruta madura, cambia de un color verde intenso a un amarillo brillante. Su corteza es gruesa y lisa, aunque con el tiempo tiende a arrugarse debido al proceso natural de maduración. Su interior contiene numerosas y pequeñas semillas comestibles de color negro.",
+          "curiousFact": "El nombre maracuyá proviene del Tupi “mara kuya”, que significa “fruta que se sirve a sí misma” o “comida en una cuia”.",
+          "ftitle": "Ficha Técnica",
           "table": [
             {
               "id": 1,
@@ -310,26 +313,27 @@
           "image": "/img/maracuya2.png",
           "fichaTecnica": "ficha-tecnica-maracuya.pdf",
           "t1": "ESPECIFICACIONES MICROBIOLÓGICAS",
-          "d1": "Recuento de mesófilos: 1000 UFC/g Máximo Recuento de hongos: 10 UFC/g Máximo Recuento de levaduras: 100 UFC/g Máximo Coliformes totales N.M.P 200 UFC/g Máximo Coliformes fecales N.M.P.0.",
+          "d1": "Recuento de mesófilos: 1000 UFC/g Máximo, Recuento de hongos: 10 UFC/g Máximo, Recuento de levaduras: 100 UFC/g Máximo, Coliformes totales N.M.P 200 UFC/g Máximo, Coliformes fecales N.M.P. 0.",
           "t2": "ESPECIFICACIONES FISICOQUÍMICAS",
-          "d2": "Porcentaje total de sólidos (°Brix): 49.5 - 50.5 Relación Brix / Acidez: 3.24 - 4.18 PH (20°C): 2.3 - 2.7 Acidez % (Ácido cítrico): 12.4 - 16.5.",
+          "d2": "Porcentaje total de sólidos (°Brix): 49.5 - 50.5, Relación Brix / Acidez: 3.24 - 4.18, pH (20°C): 2.3 - 2.7, Acidez % (Ácido cítrico): 12.4 - 16.5.",
           "t3": "TIPO DE TRATAMIENTO",
-          "d3": "El Maracuyá es sometido a las etapas de Recibo, Almacenamiento, Selección, Limpieza, Ventilación, Empaque y Despacho.",
+          "d3": "El maracuyá es sometido a las etapas de Recibo, Almacenamiento, Selección, Limpieza, Ventilación, Empaque y Despacho.",
           "t4": "CONDICIONES DE CONSERVACIÓN",
-          "d4": "Temperatura: Ambiente Humedad relativa: Ambiente. Para evitar su maduración se recomienda ventilarlo.",
+          "d4": "Temperatura: Ambiente, Humedad relativa: Ambiente. Para evitar su maduración se recomienda ventilarlo.",
           "t5": "CONSUMO",
-          "d5": "Esta fruta se puede consumir cruda, cortándola por la mitad, agregándole un poco de azúcar a la pulpa y consumiéndola con una cuchara. Además se pueden preparar jugos, néctares, yogurt, mermeladas, licores, helados y pudines.",
-          "t6": "Vida útil en almacenamiento: 12 a 15 días"
-        },
+          "d5": "Esta fruta se puede consumir cruda, cortándola por la mitad, agregándole un poco de azúcar a la pulpa y consumiéndola con una cuchara. Además, se pueden preparar jugos, néctares, yogurt, mermeladas, licores, helados y pudines.",
+          "t6": "Vida útil en almacenamiento: 12 a 15 días."
+        }
+        ,
         {
           "id": 4,
           "title": "Granadilla",
           "botton": "ver más",
-          "scientificName": "No definido",
-          "phrase": "¡una fruta que te conquistará con su delicadeza!",
-          "description": "El fruto es una baya de cubierta dura de forma casi esférica de 6-7,8cm de diámetro, que en la mayoría de los casos presenta puntos blanquecinos. Los frutos están unidos a un pedúnculo largo de 3 a 4 cm aproximadamente. El peso promedio puede variar entre 110 y 140g",
-          "curiousFact": "A menudo se confunde con la fruta de la pasión, pero son frutas diferentes",
-          "ftitle": "Ficha Tecnica",
+          "scientificName": "Passiflora ligularis",
+          "phrase": "¡Una fruta que te conquistará con su delicadeza!",
+          "description": "El fruto es una baya de cubierta dura de forma casi esférica de 6-7.8 cm de diámetro, que en la mayoría de los casos presenta puntos blanquecinos. Los frutos están unidos a un pedúnculo largo de 3 a 4 cm aproximadamente. El peso promedio puede variar entre 110 y 140 gramos.",
+          "curiousFact": "A menudo se confunde con la fruta de la pasión, pero son frutas diferentes.",
+          "ftitle": "Ficha Técnica",
           "table": [
             {
               "id": 0,
@@ -367,24 +371,25 @@
           "t1": "ESPECIFICACIONES MICROBIOLÓGICAS",
           "d1": "Recuento total de microorganismos aerobios mesófilos: < 100,000 UFC/g. Coliformes totales: < 1000 UFC/g. Escherichia coli: Ausente en 1 g. Staphylococcus aureus: Ausente en 1 g. Salmonella spp.: Ausente en 25 g. Levaduras y mohos: < 1000 UFC/g.",
           "t2": "ESPECIFICACIONES FISICOQUÍMICAS",
-          "d2": "Porcentaje total de sólidos (°Brix): 13.5 - 15.5 Acidez % (Ácido cítrico): 0.32 - 0.38",
+          "d2": "Porcentaje total de sólidos (°Brix): 13.5 - 15.5, Acidez % (Ácido cítrico): 0.32 - 0.38.",
           "t3": "TIPO DE TRATAMIENTO",
-          "d3": "La Granadilla es sometida a las etapas de Recibo, Almacenamiento, Selección, Limpieza, Ventilación, Empaque y Despacho.",
+          "d3": "La granadilla es sometida a las etapas de Recibo, Almacenamiento, Selección, Limpieza, Ventilación, Empaque y Despacho.",
           "t4": "CONDICIONES DE CONSERVACIÓN",
-          "d4": "Temperatura: Ambiente Humedad relativa: Ambiente. Para evitar su maduración se recomienda ventilarla.",
+          "d4": "Temperatura: Ambiente, Humedad relativa: Ambiente. Para evitar su maduración se recomienda ventilarla.",
           "t5": "CONSUMO",
           "d5": "Generalmente la granadilla se consume cruda, para esto, simplemente se rompe la cáscara con los dedos y la pulpa se come con una cuchara. También se puede obtener una rica bebida, colando la pulpa y añadiendo agua. El extracto de granadilla puede utilizarse para preparar helados, soufflés, salsas y yogurt.",
-          "t6": "VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN 20 DIAS"
-        },
+          "t6": "Vida útil bajo condiciones de conservación: 20 días."
+        }
+        ,
         {
           "id": 5,
-          "title": "Gulupa",
+          "title": "Gulupa (passion fruit)",
           "botton": "ver más",
-          "scientificName": "No definido",
-          "phrase": "¡una fruta que te cuida!",
-          "description": "La fruta es casi redonda, con un peso entre 50 y 60g y un diámetro promedio de 5,7 cm. Tiene una corteza resistente, lisa y gruesa.",
-          "curiousFact": "Es conocida por su efecto sedante que incluso se dice que ayuda a regular los sueños",
-          "ftitle": "Ficha Tecnica",
+          "scientificName": "Passiflora edulis",
+          "phrase": "¡Una fruta que te cuida!",
+          "description": "La fruta es casi redonda, con un peso entre 50 y 60 gramos y un diámetro promedio de 5.7 cm. Tiene una corteza resistente, lisa y gruesa.",
+          "curiousFact": "Es conocida por su efecto sedante que incluso se dice que ayuda a regular los sueños.",
+          "ftitle": "Ficha Técnica",
           "table": [
             {
               "id": 0,
@@ -420,22 +425,23 @@
           "image": "/img/gulupa2.png",
           "fichaTecnica": "ficha-tecnica-maracuya.pdf",
           "t1": "ESPECIFICACIONES MICROBIOLÓGICAS",
-          "d1": "Recuento de mesófilos: 1000 UFC/g Máximo Recuento de hongos: 10 UFC/g Máximo Recuento de levaduras: 100 UFC/g Máximo Coliformes totales N.M.P 200 UFC/g Máximo Coliformes fecales N.M.P.0.",
+          "d1": "Recuento de mesófilos: 1000 UFC/g Máximo, Recuento de hongos: 10 UFC/g Máximo, Recuento de levaduras: 100 UFC/g Máximo, Coliformes totales N.M.P 200 UFC/g Máximo, Coliformes fecales N.M.P. 0.",
           "t2": "ESPECIFICACIONES FISICOQUÍMICAS",
-          "d2": "Porcentaje total de sólidos (°Brix): 49.5 - 50.5 Relación Brix / Acidez: 3.24 - 4.18 PH (20°C):2.3 - 2.7 Acidez % (Ácido cítrico): 12.4 - 16.5.",
+          "d2": "Porcentaje total de sólidos (°Brix): 49.5 - 50.5, Relación Brix / Acidez: 3.24 - 4.18, pH (20°C): 2.3 - 2.7, Acidez % (Ácido cítrico): 12.4 - 16.5.",
           "t3": "TIPO DE TRATAMIENTO",
-          "d3": "La Gulupa es sometida a las etapas de Recibo, Almacenamiento, Selección, Limpieza y desinfección, Empaque y Despacho.",
+          "d3": "La gulupa es sometida a las etapas de Recibo, Almacenamiento, Selección, Limpieza y desinfección, Empaque y Despacho.",
           "t4": "CONDICIONES DE CONSERVACIÓN",
-          "d4": "Temperatura: Entre 8 -10º C Humedad relativa: Entre 65 - 70%.",
+          "d4": "Temperatura: Entre 8 -10º C, Humedad relativa: Entre 65 - 70%.",
           "t5": "CONSUMO",
-          "d5": "La Gulupa se puede comer cruda, cortándola por la mitad y comiéndose la pulpa con una cuchara, se puede comer sola o añadiéndole crema y azúcar. También es deliciosa en ensaladas o en jugo, presionando la pulpa sobre un colador y añadiendo agua. La pulpa cernida, pueda utilizarse también para hacer gelatinas, mermeladas, salsas, cócteles y helados.",
-          "t6": "VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN 1 MES"
-        },
+          "d5": "La gulupa se puede comer cruda, cortándola por la mitad y comiéndose la pulpa con una cuchara. Se puede comer sola o añadiéndole crema y azúcar. También es deliciosa en ensaladas o en jugo, presionando la pulpa sobre un colador y añadiendo agua. La pulpa cernida puede utilizarse también para hacer gelatinas, mermeladas, salsas, cócteles y helados.",
+          "t6": "Vida útil bajo condiciones de conservación: 1 mes."
+        }
+        ,
         {
           "id": 6,
           "title": "Tomate de arbol",
           "botton": "ver más",
-          "scientificName": "No definido",
+          "scientificName": "Solanum betaceum",
           "phrase": "¡una fruta que te cuida por dentro y por fuera!",
           "description": "El fruto es una baya de forma ovoide – apiculada. Tiene una longitud promedio de 7.3 cm, midiendo en su parte más ancha entre 5 y 6cm. El peso promedio puede variar entre 100 y 150g.",
           "curiousFact": "A pesar de su nombre, no es un tomate sino una fruta con un sabor único que combina en muchas elaboraciones",
@@ -490,7 +496,7 @@
           "id": 7,
           "title": "Kumquat",
           "botton": "ver más",
-          "scientificName": "No definido",
+          "scientificName": "Fortunella margarita",
           "phrase": "¡una fruta cítrica con un sabor intenso y refrescante!",
           "description": " El kumquat, también conocido como naranja enana o quinoto, es un cítrico pequeño y ovalado de color naranja intenso. Su piel es fina y comestible, con un sabor ligeramente dulce y ácido. La pulpa es de color amarillo pálido, con un sabor ácido y jugoso.",
           "curiousFact": "En China, los kumquats se confitan con frecuencia y se utilizan para decoración navideña en algunas partes de Estados Unidos",
@@ -545,7 +551,7 @@
           "id": 8,
           "title": "Aguacate Hass",
           "botton": "ver más",
-          "scientificName": "No definido",
+          "scientificName": "Persea americana 'Hass'",
           "phrase": "¡Un alimento esencial para una vida saludable y deliciosa!",
           "description": "El aguacate Hass es una variedad de aguacate de piel rugosa y color verde oscuro. La pulpa es de color crema verdoso, con un sabor rico y cremoso.",
           "curiousFact": "Más del 80% de los aguacates en Estados Unidos son de la variedad Hass, y es el aguacate más cultivado en Nueva Zelanda",
@@ -600,7 +606,7 @@
           "id": 9,
           "title": "Mangostino",
           "botton": "ver más",
-          "scientificName": "No definido",
+          "scientificName": "Garcinia mangostana",
           "phrase": "¡una fruta que te transportará a un paraíso tropical!",
           "description": "El mangostino es una fruta tropical de color púrpura oscuro con una cáscara gruesa y rugosa. La pulpa blanca y jugosa tiene un sabor dulce y ligeramente ácido.",
           "curiousFact": "Más del 80% de los aguacates en Estados Unidos son de la variedad Hass, y es el aguacate más cultivado en Nueva Zelanda",
@@ -654,50 +660,50 @@
       ]
     },
     "contactenos": {
-      "title": "Contáctenos",
-      "description": "Póngase en contacto con nosotros",
-      "address": "Combita, Boyacá - parque industrial Km 1 vía Tunja - Paipa",
-      "phone": "(+57)315 3871168",
-      "email": "jlaverde@andesexport.com"
-    },
-    "certificaciones":{
-        "title": "Certificaciones",
-        "description": "En Andes fruits nos enorgullecemos de ofrecer productos de la más alta calidad, comprometidos con la seguridad, la sostenibilidad y las buenas prácticas agrícolas.",
-        "certifications":[
-          {
-            "id":0,
-            "title":"BASC",
-            "subtittle":"Seguridad y confianza en cada paso del proceso.",
-            "description":"La Norma BASC (Business Alliance for Secure Commerce o Alianza Empresarial para un Comercio Seguro) es un programa de cooperación público-privada cuyo objetivo principal es fortalecer la seguridad de la cadena de suministro y prevenir el contrabando, la falsificación y el terrorismo en el comercio internacional.",
-            "image":"/img/basc.svg",
-            "pdf":"/pdf/certbasc.png"
-          },
-          {
-            "id":1,
-            "title":"CoC (Global GAP)",
-            "subtittle":"Calidad y trazabilidad desde el origen hasta tu hogar.",
-            "description":"El estándar de Cadena de Custodia (CoC) GLOBALG.AP garantiza que cualquier producto vendido con un reclamo GLOBALG.AP o que lleve el logotipo de una etiqueta GGN proviene verdaderamente de un proceso de producción certificado GLOBALG.AP.",
-            "image":"/img/globalgap.png",
-            "pdf":"/pdf/certglobal.png"
-          },
-          {
-            "id":2,
-            "title":"SMETA",
-            "subtittle":"Ética y responsabilidad social en cada fruta que exportamos.",
-            "description":"SMETA es la auditoría más utilizada en el mundo. Las empresas utilizan SMETA para comprender y mejorar las condiciones de trabajo y el desempeño ambiental en su negocio y cadena de suministro.",
-            "image":"/img/smeta.png",
-            "pdf":"/"
-          },
-          {
-            "id":3,
-            "title":"Primus",
-            "subtittle":"Excelencia y seguridad alimentaria certificada.",
-            "description":"Es un programa de auditoría voluntario que evalúa las prácticas de producción y procesamiento de alimentos frescos para garantizar la seguridad alimentaria. Es reconocido por la Iniciativa Mundial de Seguridad Alimentaria (GFSI), lo que significa que cumple con los estándares internacionales más estrictos para la inocuidad alimentaria.",
-            "image":"/img/primuslabs.png",
-            "pdf":"/"
-          }
-      ]
-    }
+    "title": "Contáctenos",
+    "description": "Póngase en contacto con nosotros",
+    "address": "Cómbita, Boyacá - Parque Industrial Km 1 vía Tunja - Paipa",
+    "phone": "(+57) 315 3871168",
+    "email": "jlaverde@andesexport.com"
+  },
+    "certificaciones": {
+    "title": "Certificaciones",
+    "description": "En Andes Fruits nos enorgullecemos de ofrecer productos de la más alta calidad, comprometidos con la seguridad, la sostenibilidad y las buenas prácticas agrícolas.",
+    "certifications": [
+      {
+        "id": 0,
+        "title": "BASC",
+        "subtitle": "Seguridad y confianza en cada paso del proceso.",
+        "description": "La Norma BASC (Business Alliance for Secure Commerce o Alianza Empresarial para un Comercio Seguro) es un programa de cooperación público-privada cuyo objetivo principal es fortalecer la seguridad de la cadena de suministro y prevenir el contrabando, la falsificación y el terrorismo en el comercio internacional.",
+        "image": "/img/basc.svg",
+        "pdf": "/pdf/certbasc.png"
+      },
+      {
+        "id": 1,
+        "title": "CoC (Global GAP)",
+        "subtitle": "Calidad y trazabilidad desde el origen hasta tu hogar.",
+        "description": "El estándar de Cadena de Custodia (CoC) GLOBALG.AP garantiza que cualquier producto vendido con un reclamo GLOBALG.AP o que lleve el logotipo de una etiqueta GGN proviene verdaderamente de un proceso de producción certificado GLOBALG.AP.",
+        "image": "/img/globalgap.png",
+        "pdf": "/pdf/certglobal.png"
+      },
+      {
+        "id": 2,
+        "title": "SMETA",
+        "subtitle": "Ética y responsabilidad social en cada fruta que exportamos.",
+        "description": "SMETA es la auditoría más utilizada en el mundo. Las empresas utilizan SMETA para comprender y mejorar las condiciones de trabajo y el desempeño ambiental en su negocio y cadena de suministro.",
+        "image": "/img/smeta.png",
+        "pdf": ""
+      },
+      {
+        "id": 3,
+        "title": "Primus",
+        "subtitle": "Excelencia y seguridad alimentaria certificada.",
+        "description": "Es un programa de auditoría voluntario que evalúa las prácticas de producción y procesamiento de alimentos frescos para garantizar la seguridad alimentaria. Es reconocido por la Iniciativa Mundial de Seguridad Alimentaria (GFSI), lo que significa que cumple con los estándares internacionales más estrictos para la inocuidad alimentaria.",
+        "image": "/img/primuslabs.png",
+        "pdf": "/pdf/certPrimus.pdf"
+      }
+    ]
+  }
   },
   "en": {
     "home": {
@@ -783,573 +789,579 @@
           "botton": "see more",
           "scientificName": "Physalis peruviana",
           "phrase": "A tropical explosion of flavor that dances on your tongue",
-          "description": "El fruto es una baya en forma ovoide con un diámetro entre 1,5 y 0,87 pesa de 4 a 6 gramos. Su piel es suave y brillante. El fruto esta recubierto de una membrana o vaina fibrosa (cáliz), fina no comestible, que puede ser de color amarilla o verde",
-          "curiousFact": "También conocida como aguaymanto, uvilla o Cape gooseberry. Fue introducida en Inglaterra en el siglo XVIII y en Sudáfrica en el siglo XIX",
+          "description": "The fruit is an ovoid-shaped berry with a diameter between 0.6 and 0.3 inches and weighs 0.14 to 0.21 ounces. Its skin is smooth and shiny. The fruit is covered by a thin, inedible fibrous membrane or sheath (calyx) that can be yellow or green.",
+          "curiousFact": "Also known as aguaymanto, uvilla, or Cape gooseberry. It was introduced to England in the 18th century and to South Africa in the 19th century.",
           "ftitle": "Data Sheet",
           "table": [
-            {
-              "id": 1,
-              "title": "Calorías",
-              "value": 53,
-              "unit": "Kcal"
-            },
-            {
-              "id": 2,
-              "title": "Proteínas",
-              "value": 1.9,
-              "unit": "g"
-            },
-            {
-              "id": 3,
-              "title": "Grasas",
-              "value": 0.7,
-              "unit": "g"
-            },
-            {
-              "id": 4,
-              "title": "Carbohidratos",
-              "value": 11.2,
-              "unit": "g"
-            },
-            {
-              "id": 5,
-              "title": "Fibra",
-              "value": 4.9,
-              "unit": "g"
-            },
-            {
-              "id": 6,
-              "title": "Vitamina C",
-              "value": 20,
-              "unit": "mg"
-            }
-          ],
+    {
+      "id": 1,
+      "title": "Calories",
+      "value": 53,
+      "unit": "Kcal"
+    },
+    {
+      "id": 2,
+      "title": "Proteins",
+      "value": 1.9,
+      "unit": "g"
+    },
+    {
+      "id": 3,
+      "title": "Fats",
+      "value": 0.7,
+      "unit": "g"
+    },
+    {
+      "id": 4,
+      "title": "Carbohydrates",
+      "value": 11.2,
+      "unit": "g"
+    },
+    {
+      "id": 5,
+      "title": "Fiber",
+      "value": 4.9,
+      "unit": "g"
+    },
+    {
+      "id": 6,
+      "title": "Vitamin C",
+      "value": 20,
+      "unit": "mg"
+    }
+  ],
           "image": "/img/uchuva.png",
           "fichaTecnica": "ficha-tecnica-uchuva.pdf",
-          "t1": "ESPECIFICACIONES MICROBIOLÓGICAS",
-          "d1": "Recuento de mesofilos 3000 UFC/g Máximo Levaduras y hongos 100 UFC/g Máximo Total Coliformes N.M.P 200 UFC/g Máximo Coliformes fecales N.M.P. 0",
-          "t2": "ESPECIFICACIONES FISICOQUÍMICAS",
-          "d2": "Medidas a 20°C de JUGO NATURAL Porcentaje total de sólidos (°Brix) 8.0 - 10.5 PH (20°C) 3.1 - 3.4 Relación Brix / Acidez 3.5 - 10.0",
-          "t3": "TIPO DE TRATAMIENTO",
-          "d3": "La uchuva es sometida a las etapas de Recibo, Almacenamiento, Selección, Encestado, Secado, Empaque y Despacho",
-          "t4": "CONDICIONES DE CONSERVACIÓN",
-          "d4": "Temperatura: Entre 8 -10º C Humedad relativa: Entre 65 - 70%",
-          "t5": "CONSUMO",
-          "d5": "Esta fruta se consume cruda como una uva, sola o con otras frutas en ensaladas o con chocolate fundido como postre, y como decoración de platos. También se pueden preparar mermeladas, salsas o rellenos para deliciosas tortas, y para decoración",
-          "t6": "VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN 27 DIAS"
+          "t1": "MICRONIOLOGICAL SPACIFICATIONS",
+          "d1": "Mesophilic Aerobic Count: ≤ 3000 CFU/g. Yeast and Molds: ≤ 100 CFU/g. Total Coliforms: ≤ 200 CFU/g. Fecal Coliforms: Not detectable (N.D.)",
+          "t2": "PHYSICOCHEMICAL SPACIFICATIONS",
+          "d2": "Measurements at 20°C of Natural Juice. Total solids percentage (°Brix) 8.0 - 10.5. pH (20°C) 3.1 - 3.4. Brix / Acidity Ratio 3.5 - 10.0",
+          "t3": "TYPE OF TREATMENT",
+          "d3": "Cape gooseberries undergo the following stages: Receiving, Storage, Selection, Basket Packing, Drying, Packaging, and Dispatch",
+          "t4": "STOREGE CONDITIONS",
+          "d4": "Temperature: Between 8 - 10°C (46 - 50°F) Relative Humidity: Between 65 - 70%",
+          "t5": "CONSUMPTION",
+          "d5": "This fruit is eaten raw like a grape, alone or with other fruits in salads or with melted chocolate as a dessert, and as a garnish for dishes. It can also be used to make jams, sauces, or fillings for delicious cakes, and for decoration.",
+          "t6": "Shelf Life Under Storage Conditions: 27 Days"
         },
         {
           "id": 1,
           "title": "Bananito",
           "botton": "see more",
-          "scientificName": "No definido",
+          "scientificName": "Musa acuminata × Musa balbisiana (Híbrido)",
           "phrase": "¡The perfect snack to recharge your batteries!",
-          "description": "El Bananito o Bananito bocadillo, pertenece a la familia de La Musaceas. Su peso oscila entre los 60 y 80 gramos y su tamaño entre los 10 y 12 cms. de longitud. La cáscara es delgada, lisa y de color amarillo, su pulpa es suave y deliciosa, nuestro bananito tiene un aroma a vainilla que incrementa su maravilloso sabor.",
-          "curiousFact": "En Colombia, el bananito es conocido por su alto contenido de fosforo, potasio, hierro y vitaminas A y B",
+          "description": "The Bananito, also known as the Bananito bocadillo, belongs to the Musaceae family. It weighs between 60 and 80 grams and measures between 10 and 12 centimeters in length. The skin is thin, smooth, and yellow, the flesh is soft and delicious, and our little banana has a vanilla aroma that enhances its wonderful flavor.",
+          "curiousFact": "In Colombia, the Bananito is known for its high content of phosphorus, potassium, iron, and vitamins A and B.",
           "ftitle": "Data Sheet",
-          "table": [
-            {
-              "id": 1,
-              "title": "Calorías",
-              "value": 110,
-              "unit": "Kcal"
-            },
-            {
-              "id": 2,
-              "title": "Proteínas",
-              "value": 1.2,
-              "unit": "g"
-            },
-            {
-              "id": 3,
-              "title": "Carbohidratos",
-              "value": 26.2,
-              "unit": "g"
-            },
-            {
-              "id": 4,
-              "title": "Fibra",
-              "value": 2.3,
-              "unit": "g"
-            },
-            {
-              "id": 5,
-              "title": "Potasio",
-              "value": 387.8,
-              "unit": "mg"
-            },
-            {
-              "id": 6,
-              "title": "Calcio",
-              "value": 18.2,
-              "unit": "mg"
-            }
-          ],
+          
+            "table": [
+              {
+                "id": 1,
+                "title": "Calories",
+                "value": 110,
+                "unit": "Kcal"
+              },
+              {
+                "id": 2,
+                "title": "Proteins",
+                "value": 1.2,
+                "unit": "g"
+              },
+              {
+                "id": 3,
+                "title": "Carbohydrates",
+                "value": 26.2,
+                "unit": "g"
+              },
+              {
+                "id": 4,
+                "title": "Fiber",
+                "value": 2.3,
+                "unit": "g"
+              },
+              {
+                "id": 5,
+                "title": "Potassium",
+                "value": 387.8,
+                "unit": "mg"
+              },
+              {
+                "id": 6,
+                "title": "Calcium",
+                "value": 18.2,
+                "unit": "mg"
+              }
+            ]
+          
+          ,
           "image": "/img/bananito2.png",
           "fichaTecnica": "ficha-tecnica-bananito.pdf",
-          "t1": "ESPECIFICACIONES MICROBIOLÓGICAS",
-          "d1": "Recuento Total de Aeróbicos (SPC) max. 5000 CFU/g. Recuento de hongos filamentosos: <500 CFU/gram Recuento de hongos levaduriformes: <500 CFU/gram Recuento total de coliformes: <3 CFU/gram.",
-          "t2": "ESPECIFICACIONES FISICOQUÍMICAS",
-          "d2": "Brix Max. 12 NTU pH 4.0 - 4.3 Acidez 0.95 - 1.45 Sabor dulce Color ámbar, transparente.",
-          "t3": "TIPO DE TRATAMIENTO",
-          "d3": "El bananito es sometida a las etapas de Recibo, Almacenamiento, Selección, Clasificación, Empaque y Despacho.",
-          "t4": "CONDICIONES DE CONSERVACIÓN",
-          "d4": "Temperatura: Ambiente Humedad relativa: Ambiente. Para evitar su maduración se recomienda ventilarlo.",
-          "t5": "CONSUMO",
-          "d5": "Esta fruta se puede disfrutar cruda, se retira la corteza y se consume la pulpa. También se puede obtener una deliciosa bebida, mezclando la pulpa con leche y azúcar.",
-          "t6": "VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN 12 A 15 DIAS"
+          "t1": "MICRONIOLOGICAL SPACIFICATIONS",
+          "d1": "Total Aerobic Count (SPC): Max. 5000 CFU/g. Filamentous Fungi Count: <500 CFU/gram. Yeast Fungi Count: <500 CFU/gram. Total Coliform Count: <3 CFU/gram",
+          "t2": "PHYSICOCHEMICAL SPACIFICATIONS",
+          "d2": "Brix: Max. 12 NTU. pH: 4.0 - 4.3. Acidity: 0.95 - 1.45. Flavor: Sweet. Color: Amber, transparent",
+          "t3": "TYPE OF TREATMENT",
+          "d3": "The Bananito undergoes the following stages: Receiving, Storage, Selection, Classification, Packaging, and Dispatch.",
+          "t4": "STOREGE CONDITIONS",
+          "d4": "Temperature: Ambient. Relative Humidity: Ambient. Ventilation is recommended to prevent ripening.",
+          "t5": "CONSUMPTION",
+          "d5": "This fruit can be enjoyed raw. The peel is removed and the flesh is consumed. A delicious drink can also be obtained by blending the pulp with milk and sugar.",
+          "t6": "Shelf Life Under Storage Conditions: 12 TO 15 DAYS"
         },
         {
           "id": 2,
-          "title": "Pitaya amarilla",
+          "title": "Yellow Pitaya",
           "botton": "see more",
-          "scientificName": "No definido",
+          "scientificName": "Selenicereus megalanthus",
           "phrase": "¡A fruit worth discovering!",
-          "description": "Fue descubierta por primera vez en forma silvestre por los conquistadores españoles en México, Colombia, Centroamérica y las Antillas, quienes le dieron el nombre de pitaya que significa fruta escamosa.",
-          "curiousFact": "La pitahaya amarilla es cultivada principalmente en zonas tropicales y es conocida por su cáscara espinosa y amarilla",
-          "ftitle": "Ficha Tecnica",
-          "table": [
-            {
-              "id": 1,
-              "title": "Calorías",
-              "value": 102,
-              "unit": "Kcal"
-            },
-            {
-              "id": 2,
-              "title": "Proteínas",
-              "value": 2,
-              "unit": "g"
-            },
-            {
-              "id": 3,
-              "title": "Carbohidratos",
-              "value": 22,
-              "unit": "g"
-            },
-            {
-              "id": 4,
-              "title": "Fibra",
-              "value": 5,
-              "unit": "g"
-            },
-            {
-              "id": 5,
-              "title": "Hierro",
-              "value": 1.26,
-              "unit": "mg"
-            },
-            {
-              "id": 6,
-              "title": "Vitamina C",
-              "value": 4.25,
-              "unit": "mg"
-            }
-          ],
+          "description": "It was first discovered in the wild by the Spanish conquerors in Mexico, Colombia, Central America and the Antilles, who gave it the name pitaya, which means scaly fruit.",
+          "curiousFact": "The yellow pitaya is grown mainly in tropical areas and is known for its spiny yellow skin.",
+          "ftitle": "Data Sheet",
+          
+            "table": [
+              {
+                "id": 1,
+                "title": "Calories",
+                "value": 102,
+                "unit": "Kcal"
+              },
+              {
+                "id": 2,
+                "title": "Proteins",
+                "value": 2,
+                "unit": "g"
+              },
+              {
+                "id": 3,
+                "title": "Carbohydrates",
+                "value": 22,
+                "unit": "g"
+              },
+              {
+                "id": 4,
+                "title": "Fiber",
+                "value": 5,
+                "unit": "g"
+              },
+              {
+                "id": 5,
+                "title": "Iron",
+                "value": 1.26,
+                "unit": "mg"
+              },
+              {
+                "id": 6,
+                "title": "Vitamin C",
+                "value": 4.25,
+                "unit": "mg"
+              }
+            ]
+          
+          ,
           "image": "/img/pitaya2.png",
           "fichaTecnica": "ficha-tecnica-pitaya-amarilla.pdf",
-          "t1": "ESPECIFICACIONES MICROBIOLÓGICAS",
-          "d1": "Recuento total de microorganismos aerobios mesófilos: < 100,000 UFC/g. Coliformes totales: < 1000 UFC/g. Escherichia coli: Ausente en 1 g. Staphylococcus aureus: Ausente en 1 g. Salmonella spp.: Ausente en 25 g. Levaduras y mohos: < 1000 UFC/g.",
-          "t2": "ESPECIFICACIONES FISICOQUÍMICAS",
-          "d2": "pH: 5.5 - 6.5. Acidez titulable: 0.3 - 0.6 g/L ácido cítrico. Sólidos solubles: 12 - 18 °Brix. Vitamina C: 20 - 30 mg/100 g. Color: Amarillo intenso.",
-          "t3": "TIPO DE TRATAMIENTO",
-          "d3": "La Pitaya es sometida a las etapas de Recibo, Almacenamiento, Selección, Clasificación, Empaque y Despacho.",
-          "t4": "CONDICIONES DE CONSERVACIÓN",
-          "d4": "Temperatura de almacenamiento: 8 - 10 °C (46 - 50 °F). Temperatura de transporte: 10 - 12 °C (50 - 54 °F). Humedad relativa: 90 - 95%",
-          "t5": "CONSUMO",
-          "d5": "Esta fruta se puede disfrutar cruda, se retira la corteza y se consume la pulpa. También se puede obtener una deliciosa bebida, mezclando la pulpa con leche y azúcar.",
-          "t6": "Vida útil en almacenamiento: 14 a 21 días"
+          "t1": "MICROBIOLOGICAL SPECIFICATIONS",
+          "d1": "Total count of mesophilic aerobic microorganisms: < 100,000 CFU/g. Total coliforms: < 1000 CFU/g. Escherichia coli: Absent in 1 g. Staphylococcus aureus: Absent in 1 g. Salmonella spp.: Absent in 25 g. Yeasts and molds: < 1000 CFU/g.",
+          "t2": "PHYSICOCHEMICAL SPECIFICATIONS",
+          "d2": "pH: 5.5 - 6.5. Titratable acidity: 0.3 - 0.6 g/L citric acid. Soluble solids: 12 - 18 °Brix. Vitamin C: 20 - 30 mg/100 g. Color: Intense yellow.",
+          "t3": "TYPE OF TREATMENT",
+          "d3": "The Pitaya is subjected to the stages of Reception, Storage, Selection, Classification, Packaging and Dispatch.",
+          "t4": "STORAGE CONDITIONS",
+          "d4": "Storage temperature: 8 - 10 °C (46 - 50 °F). Transport temperature: 10 - 12 °C (50 - 54 °F). Relative humidity: 90 - 95%.",
+          "t5": "CONSUMPTION",
+          "d5": "This fruit can be enjoyed raw, the rind is removed and the pulp is consumed. You can also get a delicious drink by mixing the pulp with milk and sugar.",
+          "t6": "Storage shelf life: 14 to 21 days"
         },
         {
           "id": 3,
           "title": "Maracuya",
           "botton": "see more",
-          "scientificName": "No definido",
+          "scientificName": "Passiflora edulis f. flavicarpa",
           "phrase": "¡An explosion of flavor that will leave you wanting more!",
-          "description": "El Maracuyá pertenece a las frutas de la pasión. La fruta de forma circular a ovalada pesa entre 110 y 125gr y tiene aproximadamente 6 o 7.5cms de diámetro. Cuando la fruta madura, cambia de un color verde intenso a un amarillo brillante, su corteza es gruesa y lisa, aunque con el tiempo tiende a arrugarse debido al proceso natural de maduración. Su interior contiene numerosas y pequeñas semillas comestibles de color negro.",
-          "curiousFact": "El nombre maracuyá proviene del Tupi “mara kuya”, que significa “fruta que se sirve a sí misma” o “comida en una cuia”",
-          "ftitle": "Ficha Tecnica",
+          "description": "Maracuyá belongs to the passion fruit family. The fruit, which is circular to oval in shape, weighs between 110 and 125 grams and has a diameter of approximately 6 or 7.5 cm. As the fruit ripens, it changes from a deep green to a bright yellow color. Its rind is thick and smooth, although it tends to wrinkle over time due to the natural ripening process. Its interior contains numerous small, edible black seeds.",
+          "curiousFact": "The name maracuyá comes from the Tupi 'mara kuya', which means 'fruit that serves itself 'or 'food in a cuia'.",
+          "ftitle": "Data Sheet",
           "table": [
-            {
-              "id": 1,
-              "title": "Calorías",
-              "value": 97,
-              "unit": "Kcal"
-            },
-            {
-              "id": 2,
-              "title": "Proteínas",
-              "value": 2.2,
-              "unit": "g"
-            },
-            {
-              "id": 3,
-              "title": "Carbohidratos",
-              "value": 23.4,
-              "unit": "g"
-            },
-            {
-              "id": 4,
-              "title": "Fibra",
-              "value": 10.4,
-              "unit": "g"
-            },
-            {
-              "id": 5,
-              "title": "Vitamina A",
-              "value": 64,
-              "unit": "µg"
-            },
-            {
-              "id": 6,
-              "title": "Vitamina C",
-              "value": 30,
-              "unit": "mg"
-            }
-          ],
+    {
+      "id": 1,
+      "title": "Calories",
+      "value": 97,
+      "unit": "Kcal"
+    },
+    {
+      "id": 2,
+      "title": "Proteins",
+      "value": 2.2,
+      "unit": "g"
+    },
+    {
+      "id": 3,
+      "title": "Carbohydrates",
+      "value": 23.4,
+      "unit": "g"
+    },
+    {
+      "id": 4,
+      "title": "Fiber",
+      "value": 10.4,
+      "unit": "g"
+    },
+    {
+      "id": 5,
+      "title": "Vitamin A",
+      "value": 64,
+      "unit": "µg"
+    },
+    {
+      "id": 6,
+      "title": "Vitamin C",
+      "value": 30,
+      "unit": "mg"
+    }
+  ],
           "image": "/img/maracuya2.png",
           "fichaTecnica": "ficha-tecnica-maracuya.pdf",
-          "t1": "ESPECIFICACIONES MICROBIOLÓGICAS",
-          "d1": "Recuento de mesófilos: 1000 UFC/g Máximo Recuento de hongos: 10 UFC/g Máximo Recuento de levaduras: 100 UFC/g Máximo Coliformes totales N.M.P 200 UFC/g Máximo Coliformes fecales N.M.P.0.",
-          "t2": "ESPECIFICACIONES FISICOQUÍMICAS",
-          "d2": "Porcentaje total de sólidos (°Brix): 49.5 - 50.5 Relación Brix / Acidez: 3.24 - 4.18 PH (20°C): 2.3 - 2.7 Acidez % (Ácido cítrico): 12.4 - 16.5.",
-          "t3": "TIPO DE TRATAMIENTO",
-          "d3": "El Maracuyá es sometido a las etapas de Recibo, Almacenamiento, Selección, Limpieza, Ventilación, Empaque y Despacho.",
-          "t4": "CONDICIONES DE CONSERVACIÓN",
-          "d4": "Temperatura: Ambiente Humedad relativa: Ambiente. Para evitar su maduración se recomienda ventilarlo.",
-          "t5": "CONSUMO",
-          "d5": "Esta fruta se puede consumir cruda, cortándola por la mitad, agregándole un poco de azúcar a la pulpa y consumiéndola con una cuchara. Además se pueden preparar jugos, néctares, yogurt, mermeladas, licores, helados y pudines.",
-          "t6": "Vida útil en almacenamiento: 12 a 15 días"
+          "t1": "MICROBIOLOGICAL SPECIFICATIONS",
+          "d1": "Mesophile count: 1000 CFU/g Maximum. Fungus count: 10 CFU/g Maximum. Yeast count: 100 CFU/g Maximum. Total coliforms N.M.P 200 UFC/g Maximum. Fecal coliforms N.M.P.0.",
+          "t2": "PHYSICOCHEMICAL SPECIFICATIONS",
+          "d2": "Total solids percentage (°Brix): 49.5 - 50.5. Brix/Acidity ratio: 3.24 - 4.18. PH (20°C): 2.3 - 2.7. Acidity % (Citric acid): 12.4 - 16.5.",
+          "t3": "TYPE OF TREATMENT",
+          "d3": "Passion fruit is subjected to the stages of Reception, Storage, Selection, Cleaning, Ventilation, Packaging and Dispatch.",
+          "t4": "STORAGE CONDITIONS",
+          "d4": "Temperature: Room temperature. Relative humidity: Room temperature. Ventilation is recommended to prevent ripening.",
+          "t5": "CONSUMPTION",
+          "d5": "This fruit can be consumed raw by cutting it in half, adding a little sugar to the pulp and consuming it with a spoon. In addition, juices, nectars, yogurt, jams, liqueurs, ice cream and puddings can be prepared.",
+          "t6": "Storage shelf life: 12 to 15 days"
         },
         {
           "id": 4,
           "title": "Granadilla",
-          "botton": "see more",
-          "scientificName": "No definido",
-          "phrase": "¡A fruit that will win you over with its delicacy!",
-          "description": "El fruto es una baya de cubierta dura de forma casi esférica de 6-7,8cm de diámetro, que en la mayoría de los casos presenta puntos blanquecinos. Los frutos están unidos a un pedúnculo largo de 3 a 4 cm aproximadamente. El peso promedio puede variar entre 110 y 140g",
-          "curiousFact": "A menudo se confunde con la fruta de la pasión, pero son frutas diferentes",
-          "ftitle": "Ficha Tecnica",
+          "botton": "See more",
+          "scientificName": "Passiflora ligularis",
+          "phrase": "A fruit that will win you over with its delicacy!",
+          "description": "The fruit is a hard-shelled berry of almost spherical shape, 6-7.8 cm in diameter, which in most cases has whitish dots. The fruits are attached to a long peduncle of approximately 3 to 4 cm. The average weight can vary between 110 and 140g",
+          "curiousFact": "It is often confused with passion fruit, but they are different fruits",
+          "ftitle": "Data Sheet",
           "table": [
             {
               "id": 0,
-              "title": "Proteínas",
+              "title": "Protein",
               "value": "0.340-0.47",
               "unit": "g"
             },
             {
               "id": 1,
-              "title": "Grasas",
+              "title": "Fat",
               "value": "1.5-3.18",
               "unit": "g"
             },
             {
               "id": 2,
-              "title": "Fibra",
+              "title": "Fiber",
               "value": "5.6-13.7",
               "unit": "g"
             },
             {
               "id": 3,
-              "title": "Calcio",
+              "title": "Calcium",
               "value": "5.6-13.7",
               "unit": "mg"
             },
             {
               "id": 4,
-              "title": "Hierro",
+              "title": "Iron",
               "value": "0.58-1.56",
               "unit": "mg"
             }
           ],
           "image": "/img/granadilla2.png",
           "fichaTecnica": "ficha-tecnica-maracuya.pdf",
-          "t1": "ESPECIFICACIONES MICROBIOLÓGICAS",
-          "d1": "Recuento total de microorganismos aerobios mesófilos: < 100,000 UFC/g. Coliformes totales: < 1000 UFC/g. Escherichia coli: Ausente en 1 g. Staphylococcus aureus: Ausente en 1 g. Salmonella spp.: Ausente en 25 g. Levaduras y mohos: < 1000 UFC/g.",
-          "t2": "ESPECIFICACIONES FISICOQUÍMICAS",
-          "d2": "Porcentaje total de sólidos (°Brix): 13.5 - 15.5 Acidez % (Ácido cítrico): 0.32 - 0.38",
-          "t3": "TIPO DE TRATAMIENTO",
-          "d3": "La Granadilla es sometida a las etapas de Recibo, Almacenamiento, Selección, Limpieza, Ventilación, Empaque y Despacho.",
-          "t4": "CONDICIONES DE CONSERVACIÓN",
-          "d4": "Temperatura: Ambiente Humedad relativa: Ambiente. Para evitar su maduración se recomienda ventilarla.",
-          "t5": "CONSUMO",
-          "d5": "Generalmente la granadilla se consume cruda, para esto, simplemente se rompe la cáscara con los dedos y la pulpa se come con una cuchara. También se puede obtener una rica bebida, colando la pulpa y añadiendo agua. El extracto de granadilla puede utilizarse para preparar helados, soufflés, salsas y yogurt.",
-          "t6": "VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN 20 DIAS"
+          "t1": "MICROBIOLOGICAL SPECIFICATIONS",
+          "d1": "Total count of mesophilic aerobic microorganisms: < 100,000 CFU/g. Total coliforms: < 1000 CFU/g. Escherichia coli: Absent in 1 g. Staphylococcus aureus: Absent in 1 g. Salmonella spp.: Absent in 25 g. Yeast and molds: < 1000 CFU/g.",
+          "t2": "PHYSICOCHEMICAL SPECIFICATIONS",
+          "d2": "Total solids percentage (°Brix): 13.5 - 15.5 Acidity % (Citric acid): 0.32 - 0.38",
+          "t3": "TYPE OF TREATMENT",
+          "d3": "The Granadilla is subjected to the stages of Reception, Storage, Selection, Cleaning, Ventilation, Packing and Dispatch.",
+          "t4": "STORAGE CONDITIONS",
+          "d4": "Temperature: Room Humidity: Room. To prevent ripening, it is recommended to ventilate it.",
+          "t5": "CONSUMPTION",
+          "d5": "Generally, the granadilla is consumed raw. To do this, simply break the shell with your fingers and eat the pulp with a spoon. You can also obtain a rich drink by straining the pulp and adding water. Granadilla extract can be used to prepare ice cream, soufflés, sauces and yogurt.",
+          "t6": "SHELF LIFE UNDER STORAGE CONDITIONS 20 DAYS"
         },
         {
           "id": 5,
-          "title": "Gulupa",
-          "botton": "see more",
-          "scientificName": "No definido",
-          "phrase": "¡A fruit that takes care of you!",
-          "description": "La fruta es casi redonda, con un peso entre 50 y 60g y un diámetro promedio de 5,7 cm. Tiene una corteza resistente, lisa y gruesa.",
-          "curiousFact": "Es conocida por su efecto sedante que incluso se dice que ayuda a regular los sueños",
-          "ftitle": "Ficha Tecnica",
+          "title": "Gulupa (passion fruit)",
+          "botton": "See more",
+          "scientificName": "Passiflora edulis",
+          "phrase": "A fruit that takes care of you!",
+          "description": "The fruit is almost round, with a weight between 50 and 60g and an average diameter of 5.7 cm. It has a tough, smooth and thick rind.",
+          "curiousFact": "It is known for its sedative effect that is even said to help regulate dreams",
+          "ftitle": "Data Sheet",
           "table": [
             {
               "id": 0,
-              "title": "Calorías",
+              "title": "Calories",
               "value": 17,
               "unit": "Kcal"
             },
             {
               "id": 1,
-              "title": "Fibra",
+              "title": "Fiber",
               "value": 2,
               "unit": "g"
             },
             {
               "id": 2,
-              "title": "Vitamina C",
+              "title": "Vitamin C",
               "value": "9%",
-              "unit": "del Valor Diario (VD)"
+              "unit": "of the Daily Value (DV)"
             },
             {
               "id": 3,
-              "title": "Vitamina A",
+              "title": "Vitamin A",
               "value": "8%",
-              "unit": "del VD"
+              "unit": "of the DV"
             },
             {
               "id": 4,
-              "title": "Hierro",
+              "title": "Iron",
               "value": "2%",
-              "unit": "del VD"
+              "unit": "of the DV"
             }
           ],
           "image": "/img/gulupa2.png",
           "fichaTecnica": "ficha-tecnica-maracuya.pdf",
-          "t1": "ESPECIFICACIONES MICROBIOLÓGICAS",
-          "d1": "Recuento de mesófilos: 1000 UFC/g Máximo Recuento de hongos: 10 UFC/g Máximo Recuento de levaduras: 100 UFC/g Máximo Coliformes totales N.M.P 200 UFC/g Máximo Coliformes fecales N.M.P.0.",
-          "t2": "ESPECIFICACIONES FISICOQUÍMICAS",
-          "d2": "Porcentaje total de sólidos (°Brix): 49.5 - 50.5 Relación Brix / Acidez: 3.24 - 4.18 PH (20°C):2.3 - 2.7 Acidez % (Ácido cítrico): 12.4 - 16.5.",
-          "t3": "TIPO DE TRATAMIENTO",
-          "d3": "La Gulupa es sometida a las etapas de Recibo, Almacenamiento, Selección, Limpieza y desinfección, Empaque y Despacho.",
-          "t4": "CONDICIONES DE CONSERVACIÓN",
-          "d4": "Temperatura: Entre 8 -10º C Humedad relativa: Entre 65 - 70%.",
-          "t5": "CONSUMO",
-          "d5": "La Gulupa se puede comer cruda, cortándola por la mitad y comiéndose la pulpa con una cuchara, se puede comer sola o añadiéndole crema y azúcar. También es deliciosa en ensaladas o en jugo, presionando la pulpa sobre un colador y añadiendo agua. La pulpa cernida, pueda utilizarse también para hacer gelatinas, mermeladas, salsas, cócteles y helados.",
-          "t6": "VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN 1 MES"
+          "t1": "MICROBIOLOGICAL SPECIFICATIONS",
+          "d1": "Mesophilic count: 1000 CFU/g Maximum Fungus count: 10 CFU/g Maximum Yeast count: 100 CFU/g Maximum Total coliforms N.M.P 200 CFU/g Maximum Fecal coliforms N.M.P.0.",
+          "t2": "PHYSICOCHEMICAL SPECIFICATIONS",
+          "d2": "Total solids percentage (°Brix): 49.5 - 50.5 Brix / Acidity ratio: 3.24 - 4.18 PH (20°C):2.3 - 2.7 Acidity % (Citric acid): 12.4 - 16.5.",
+          "t3": "TYPE OF TREATMENT",
+          "d3": "The Gulupa is subjected to the stages of Reception, Storage, Selection, Cleaning and disinfection, Packing and Dispatch.",
+          "t4": "STORAGE CONDITIONS",
+          "d4": "Temperature: Between 8 -10º C Relative humidity: Between 65 - 70%.",
+          "t5": "CONSUMPTION",
+          "d5": "The Gulupa can be eaten raw, cut in half and the pulp eaten with a spoon, it can be eaten alone or with cream and sugar added. It is also delicious in salads or in juice, by pressing the pulp through a strainer and adding water. The strained pulp can also be used to make gelatins, jams, sauces, cocktails and ice cream.",
+          "t6": "SHELF LIFE UNDER STORAGE CONDITIONS 1 MONTH"
         },
         {
           "id": 6,
-          "title": "Tomate de arbol",
-          "botton": "see more",
-          "scientificName": "No definido",
-          "phrase": "¡A fruit that takes care of you inside and out!",
-          "description": "El fruto es una baya de forma ovoide – apiculada. Tiene una longitud promedio de 7.3 cm, midiendo en su parte más ancha entre 5 y 6cm. El peso promedio puede variar entre 100 y 150g.",
-          "curiousFact": "A pesar de su nombre, no es un tomate sino una fruta con un sabor único que combina en muchas elaboraciones",
-          "ftitle": "Ficha Tecnica",
+          "title": "Tree Tomato",
+          "botton": "See more",
+          "scientificName": "Solanum betaceum",
+          "phrase": "A fruit that takes care of you inside and out!",
+          "description": "The fruit is an ovoid-apiculate berry. It has an average length of 7.3 cm, measuring between 5 and 6 cm at its widest part. The average weight can vary between 100 and 150g.",
+          "curiousFact": "Despite its name, it is not a tomato but a fruit with a unique flavor that combines in many preparations",
+          "ftitle": "Data Sheet",
           "table": [
             {
               "id": 0,
-              "title": "Calorías",
+              "title": "Calories",
               "value": 40,
               "unit": "Kcal"
             },
             {
               "id": 1,
-              "title": "Proteínas",
+              "title": "Protein",
               "value": 1.7,
               "unit": "g"
             },
             {
               "id": 2,
-              "title": "Carbohidratos",
+              "title": "Carbohydrates",
               "value": 9.7,
               "unit": "g"
             },
             {
               "id": 3,
-              "title": "Grasas",
+              "title": "Fat",
               "value": 0.4,
               "unit": "g"
             },
             {
               "id": 4,
-              "title": "Fibra",
+              "title": "Fiber",
               "value": 6,
               "unit": "g"
             }
           ],
           "image": "/img/tomate_de_arbol2.png",
           "fichaTecnica": "ficha-tecnica-maracuya.pdf",
-          "t1": "ESPECIFICACIONES MICROBIOLÓGICAS",
-          "d1": "Recuento de mesofilos 100 UFC/g Máximo Levaduras y hongos 30 UFC/g Máximo Total Coliformes N.M.P. <3 Coliformes fecales N.M.P. 0.",
-          "t2": "ESPECIFICACIONES FISICOQUÍMICAS",
-          "d2": "Porcentaje total de sólidos (°Brix) 11,0 - 12,0 Acidez % (Ácido cítrico): 1,7 - 2,0 PH: 3,5 - 3,8 Relación Brix / Acidez: 5,5 - 7,0.",
-          "t3": "TIPO DE TRATAMIENTO",
-          "d3": "El Tamarillo es sometido a las etapas de Recibo, Almacenamiento, Selección, Limpieza, Clasificación Empaque y Despacho.",
-          "t4": "CONDICIONES DE CONSERVACIÓN",
-          "d4": "Temperatura: Ambiente Humedad relativa: Ambiente",
-          "t5": "CONSUMO",
-          "d5": "El Tamarillo se puede consumir crudo, pelándolo y cortándolo en rodajas o cortándolo por la mitad y consumiendo la pulpa con una cuchara, se puede cubrir con azúcar o sal dependiendo del gusto. Su uso mas común es en jugo.",
-          "t6": "VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN 14 DÍAS"
+          "t1": "MICROBIOLOGICAL SPECIFICATIONS",
+          "d1": "Mesophilic count 100 CFU/g Maximum Yeast and molds 30 CFU/g Maximum Total Coliforms N.M.P. <3 Fecal coliforms N.M.P. 0.",
+          "t2": "PHYSICOCHEMICAL SPECIFICATIONS",
+          "d2": "Total solids percentage (°Brix) 11.0 - 12.0 Acidity % (Citric acid): 1.7 - 2.0 PH: 3.5 - 3.8 Brix / Acidity ratio: 5.5 - 7.0.",
+          "t3": "TYPE OF TREATMENT",
+          "d3": "The Tamarillo is subjected to the stages of Reception, Storage, Selection, Cleaning, Classification Packing and Dispatch.",
+          "t4": "STORAGE CONDITIONS",
+          "d4": "Temperature: Room Humidity: Room",
+          "t5": "CONSUMPTION",
+          "d5": "The Tamarillo can be consumed raw, peeled and sliced or cut in half and consumed the pulp with a spoon, it can be covered with sugar or salt depending on taste. Its most common use is in juice.",
+          "t6": "SHELF LIFE UNDER STORAGE CONDITIONS 14 DAYS"
         },
         {
           "id": 7,
           "title": "Kumquat",
-          "botton": "see more",
-          "scientificName": "No definido",
-          "phrase": "¡A citrus fruit with an intense and refreshing flavor!",
-          "description": " El kumquat, también conocido como naranja enana o quinoto, es un cítrico pequeño y ovalado de color naranja intenso. Su piel es fina y comestible, con un sabor ligeramente dulce y ácido. La pulpa es de color amarillo pálido, con un sabor ácido y jugoso.",
-          "curiousFact": "En China, los kumquats se confitan con frecuencia y se utilizan para decoración navideña en algunas partes de Estados Unidos",
-          "ftitle": "Ficha Tecnica",
+          "botton": "See more",
+          "scientificName": "Fortunella margarita",
+          "phrase": "A citrus fruit with an intense and refreshing flavor!",
+          "description": "The kumquat, also known as the dwarf orange or quinoto, is a small, oval citrus fruit with a deep orange color. Its skin is thin and edible, with a slightly sweet and tart flavor. The flesh is pale yellow in color, with a tart and juicy flavor.",
+          "curiousFact": "In China, kumquats are often candied and used for Christmas decorations in some parts of the United States",
+          "ftitle": "Data Sheet",
           "table": [
             {
               "id": 0,
-              "title": "Calorías",
+              "title": "Calories",
               "value": 71,
               "unit": "Kcal"
             },
             {
               "id": 1,
-              "title": "Proteínas",
+              "title": "Protein",
               "value": 1.9,
               "unit": "g"
             },
             {
               "id": 2,
-              "title": "Carbohidratos",
+              "title": "Carbohydrates",
               "value": 15.9,
               "unit": "g"
             },
             {
               "id": 3,
-              "title": "Fibra",
+              "title": "Fiber",
               "value": 6.5,
               "unit": "g"
             },
             {
               "id": 4,
-              "title": "Vitamina C",
+              "title": "Vitamin C",
               "value": 44,
               "unit": "mg"
             }
           ],
           "image": "/img/Kumquat.png",
           "fichaTecnica": "ficha-tecnica-maracuya.pdf",
-          "t1": "ESPECIFICACIONES MICROBIOLÓGICAS",
-          "d1": "Debe estar libre de patógenos como Salmonella, E. coli y Listeria monocytogenes. El nivel de levaduras y mohos debe ser inferior a 1000 UFC/g. ",
-          "t2": "ESPECIFICACIONES FISICOQUÍMICAS",
-          "d2": "Acidez titulable: 5-7 g/100 ml de ácido cítrico. pH: 2.5-3.5. Brix (contenido de azúcar): 8-12%. Relación sólidos solubles/acidez: 10-15:1.",
-          "t3": "TIPO DE TRATAMIENTO",
-          "d3": "El Kumquat es sometido a las etapas de Recibo, Almacenamiento, Selección, Limpieza, Clasificación Empaque y Despacho.",
-          "t4": "CONDICIONES DE CONSERVACIÓN",
-          "d4": "Temperatura: Ambiente Humedad relativa: Ambiente",
-          "t5": "CONSUMO",
-          "d5": "Se puede comer fresco, como snack o en ensaladas. Se puede utilizar para hacer mermeladas, jaleas y licores. Se puede confitar o secar.",
-          "t6": "VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN 14  A 21 DÍAS EN REFRIGERACIÓN"
+          "t1": "MICROBIOLOGICAL SPECIFICATIONS",
+          "d1": "Must be free of pathogens such as Salmonella, E. coli and Listeria monocytogenes. The level of yeast and molds must be less than 1000 CFU/g.",
+          "t2": "PHYSICOCHEMICAL SPECIFICATIONS",
+          "d2": "Titratable acidity: 5-7 g/100 ml of citric acid. pH: 2.5-3.5. Brix (sugar content): 8-12%. Soluble solids/acidity ratio: 10-15:1.",
+          "t3": "TYPE OF TREATMENT",
+          "d3": "The Kumquat is subjected to the stages of Reception, Storage, Selection, Cleaning, Classification Packing and Dispatch.",
+          "t4": "STORAGE CONDITIONS",
+          "d4": "Temperature: Room Humidity: Room",
+          "t5": "CONSUMPTION",
+          "d5": "Can be eaten fresh, as a snack or in salads. Can be used to make jams, jellies and liqueurs. Can be candied or dried.",
+          "t6": "SHELF LIFE UNDER STORAGE CONDITIONS 14 TO 21 DAYS IN REFRIGERATION"
         },
         {
           "id": 8,
-          "title": "Aguacate Hass",
-          "botton": "see more",
-          "scientificName": "No definido",
-          "phrase": "¡An essential food for a healthy and delicious life!",
-          "description": "El aguacate Hass es una variedad de aguacate de piel rugosa y color verde oscuro. La pulpa es de color crema verdoso, con un sabor rico y cremoso.",
-          "curiousFact": "Más del 80% de los aguacates en Estados Unidos son de la variedad Hass, y es el aguacate más cultivado en Nueva Zelanda",
-          "ftitle": "Ficha Tecnica",
+          "title": "Hass Avocado",
+          "botton": "See more",
+          "scientificName": "Persea americana 'Hass'",
+          "phrase": "An essential food for a healthy and delicious life!",
+          "description": "The Hass avocado is a variety of avocado with rough, dark green skin. The flesh is creamy green in color, with a rich and creamy flavor.",
+          "curiousFact": "Over 80% of the avocados in the United States are of the Hass variety, and it is the most cultivated avocado in New Zealand",
+          "ftitle": "Data Sheet",
           "table": [
             {
               "id": 0,
-              "title": "Calorías",
+              "title": "Calories",
               "value": 227,
               "unit": "Kcal"
             },
             {
               "id": 1,
-              "title": "Proteínas",
+              "title": "Protein",
               "value": 2.7,
               "unit": "g"
             },
             {
               "id": 2,
-              "title": "Carbohidratos",
+              "title": "Carbohydrates",
               "value": 12,
               "unit": "g"
             },
             {
               "id": 3,
-              "title": "Fibra",
+              "title": "Fiber",
               "value": 9.2,
               "unit": "g"
             },
             {
               "id": 4,
-              "title": "Grasas",
+              "title": "Fat",
               "value": 21,
               "unit": "mg"
             }
           ],
           "image": "/img/aguacate_hass.png",
           "fichaTecnica": "ficha-tecnica-maracuya.pdf",
-          "t1": "ESPECIFICACIONES MICROBIOLÓGICAS",
-          "d1": "Debe estar libre de patógenos como Salmonella, E. coli y Listeria monocytogenes. Debe estar libre de patógenos como Salmonella, E. coli y Listeria monocytogenes.",
-          "t2": "ESPECIFICACIONES FISICOQUÍMICAS",
-          "d2": "Grasa: 15-20%. Proteína: 2-3%. Carbohidratos: 7-10%.  Fibra: 5-7%.  Vitaminas: A, C, E y K. Minerales: potasio, magnesio, calcio y hierro",
-          "t3": "TIPO DE TRATAMIENTO",
-          "d3": "El Aguacate Hass es sometido a las etapas de Recibo, Almacenamiento, Selección, Limpieza, Clasificación Empaque y Despacho.",
-          "t4": "CONDICIONES DE CONSERVACIÓN",
-          "d4": "Temperatura: Ambiente Humedad relativa: Ambiente",
-          "t5": "CONSUMO",
-          "d5": "Se puede comer fresco, como guacamole o en ensaladas. Se puede utilizar para hacer salsas, aderezos y mayonesa. Se puede agregar a batidos y smoothies.",
-          "t6": "VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN 3 A 5 DÍAS EN REFRIGERACIÓN DESPUÉS DE MADURAR"
+          "t1": "MICROBIOLOGICAL SPECIFICATIONS",
+          "d1": "Must be free of pathogens such as Salmonella, E. coli and Listeria monocytogenes",
+          "t2": "PHYSICOCHEMICAL SPECIFICATIONS",
+          "d2": "Fat: 15-20%. Protein: 2-3%. Carbohydrates: 7-10%. Fiber: 5-7%. Vitamins: A, C, E and K. Minerals: potassium, magnesium, calcium and iron",
+          "t3": "TYPE OF TREATMENT",
+          "d3": "The Hass Avocado is subjected to the stages of Reception, Storage, Selection, Cleaning, Classification Packing and Dispatch.",
+          "t4": "STORAGE CONDITIONS",
+          "d4": "Temperature: Room Humidity: Room",
+          "t5": "CONSUMPTION",
+          "d5": "Can be eaten fresh, as guacamole or in salads. Can be used to make sauces, dressings and mayonnaise. Can be added to smoothies and smoothies.",
+          "t6": "SHELF LIFE UNDER STORAGE CONDITIONS 3 TO 5 DAYS IN REFRIGERATION AFTER RIPENING"
         },
         {
           "id": 9,
-          "title": "Mangostino",
-          "botton": "see more",
-          "scientificName": "No definido",
-          "phrase": "¡ A fruit that will transport you to a tropical paradise!",
-          "description": "El mangostino es una fruta tropical de color púrpura oscuro con una cáscara gruesa y rugosa. La pulpa blanca y jugosa tiene un sabor dulce y ligeramente ácido.",
-          "curiousFact": "Más del 80% de los aguacates en Estados Unidos son de la variedad Hass, y es el aguacate más cultivado en Nueva Zelanda",
-          "ftitle": "Ficha Tecnica",
+          "title": "Mangosteen",
+          "botton": "See more",
+          "scientificName": "Garcinia mangostana",
+          "phrase": "A fruit that will transport you to a tropical paradise!",
+          "description": "The mangosteen is a deep purple tropical fruit with a thick, rough rind. The white, juicy flesh has a sweet and slightly acidic flavor.",
+          "curiousFact": "Over 80% of the avocados in the United States are of the Hass variety, and it is the most cultivated avocado in New Zealand",
+          "ftitle": "Data Sheet",
           "table": [
             {
               "id": 0,
-              "title": "Calorías",
+              "title": "Calories",
               "value": 227,
               "unit": "Kcal"
             },
             {
               "id": 1,
-              "title": "Proteínas",
+              "title": "Protein",
               "value": 2.7,
               "unit": "g"
             },
             {
               "id": 2,
-              "title": "Carbohidratos",
+              "title": "Carbohydrates",
               "value": 12,
               "unit": "g"
             },
             {
               "id": 3,
-              "title": "Fibra",
+              "title": "Fiber",
               "value": 9.2,
               "unit": "g"
             },
             {
               "id": 4,
-              "title": "Grasas",
+              "title": "Fat",
               "value": 21,
               "unit": "mg"
             }
           ],
           "image": "/img/mangostino.png",
           "fichaTecnica": "ficha-tecnica-maracuya.pdf",
-          "t1": "ESPECIFICACIONES MICROBIOLÓGICAS",
-          "d1": "Debe estar libre de patógenos como Salmonella, E. coli y Listeria monocytogenes. El nivel de levaduras y mohos debe ser inferior a 1000 UFC/g.",
-          "t2": "ESPECIFICACIONES FISICOQUÍMICAS",
-          "d2": "Azúcares: 15-20%. Proteína: 0.5-1%. Grasa: 0.1-0.2%. Fibra: 1-2%. Vitaminas: C y B6. Minerales: potasio, magnesio y calcio",
-          "t3": "TIPO DE TRATAMIENTO",
-          "d3": "El Mangostino es sometido a las etapas de Recibo, Almacenamiento, Selección, Limpieza, Clasificación Empaque y Despacho.",
-          "t4": "CONDICIONES DE CONSERVACIÓN",
-          "d4": "Temperatura: Ambiente Humedad relativa: Ambiente",
-          "t5": "CONSUMO",
-          "d5": "Se puede comer fresco, como snack o en ensaladas. Se puede utilizar para hacer postres, helados y jugos. Se puede secar o confitar.",
-          "t6": "VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN 2 A 3 DÍAS EN TEMPERATURA AMBIENTE Y DE 5 A 7 DÍAS EN REFRIGERACIÓN"
+          "t1": "MICROBIOLOGICAL SPECIFICATIONS",
+          "d1": "Must be free of pathogens such as Salmonella, E. coli and Listeria monocytogenes. The level of yeast and molds must be less than 1000 CFU/g.",
+          "t2": "PHYSICOCHEMICAL SPECIFICATIONS",
+          "d2": "Sugars: 15-20%. Protein: 0.5-1%. Fat: 0.1-0.2%. Fiber: 1-2%. Vitamins: C and B6. Minerals: potassium, magnesium and calcium",
+          "t3": "TYPE OF TREATMENT",
+          "d3": "The Mangosteen is subjected to the stages of Reception, Storage, Selection, Cleaning, Classification Packing and Dispatch.",
+          "t4": "STORAGE CONDITIONS",
+          "d4": "Temperature: Room Humidity: Room",
+          "t5": "CONSUMPTION",
+          "d5": "Can be eaten fresh, as a snack or in salads. Can be used to make desserts, ice cream and juices. Can be dried or candied.",
+          "t6": "SHELF LIFE UNDER STORAGE CONDITIONS 2 TO 3 DAYS AT ROOM TEMPERATURE AND 5 TO 7 DAYS UNDER REFRIGERATION"
         }
       ]
     },
@@ -1357,7 +1369,7 @@
       "title": "Contact Us",
       "description": "Póngase en contacto con nosotros",
       "address": "Combita, Boyacá - parque industrial Km 1 vía Tunja - Paipa",
-      "phone": "(+57)315 3871168",
+      "phone": "3153871168",
       "email": "jlaverde@andesexport.com"
     },
     "certificaciones":{
@@ -1386,7 +1398,7 @@
               "subtittle":"Ethics and Social Responsibility in Every Fruit We Export",
               "description":"SMETA is the most used audit in the world. Companies use SMETA to understand and improve working conditions and environmental performance in their business and supply chain.",
               "image":"/img/smeta.png",
-              "pdf":"/"
+              "pdf": ""
             },
             {
               "id":3,
