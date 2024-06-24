@@ -9,9 +9,11 @@ const Certificaciones = (certificaciones) => {
 
   return (
     <div className='certificaciones'>
+      
       <section className='header'>
         <h1>{certs.title}</h1>
         <p>{certs.description}</p>
+        <div className='img'></div>
       </section>
       {
         certs.certifications.map((certification, i )=>(
