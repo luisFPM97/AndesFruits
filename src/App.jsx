@@ -53,7 +53,7 @@ function App() {
         />
         <Route path="/instalaciones" element={<Instalaciones />} />
         <Route path="/certificaciones" element={<Certificaciones certificaciones={content.certificaciones}/>} />
-        <Route path="/contactenos" element={<Contact />} />
+        <Route path="/contactenos" element={<Contact  contact = {content.contactenos}/>} />
         <Route path="/productos" element={<Productos setProductid ={setProductid}  productos = {content.productos}/>} />
         <Route path="/FichaTecnica" element={<FichaTecnica productid={productid} productos = {content.productos}/>}/>
         <Route path="/ProductCard" element={<ProductCard  />}/>
@@ -63,11 +63,11 @@ function App() {
           <hr />
           <div className="firstf">
             <span className="titlef">{content.home.titleE}</span>
-            <span className="titlef">
+            <a target="blank" className="titlef" href={`https://wa.me/+57${content.contactenos.phone}`}>
               <a target="blank" href={`https://wa.me/+57${content.contactenos.phone}`}>
               <i className='bx bxl-whatsapp' ></i>
               </a>{content.contactenos.phone}
-            </span>
+            </a>
             
           </div>
           <hr />

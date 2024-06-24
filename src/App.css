@@ -885,6 +885,115 @@ footer{
         flex-direction: row-reverse;
     }
 }
+.contactenos{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#2E3C1D;
+    .contenedorInfo{
+        width: 80%;
+        min-width: 350px;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        .headerCont{
+            width: 100%;
+            height: 25%;
+            padding-top: 20px;
+            padding-left: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            color: white;
+        }
+        .contForm{
+            width: 100%;
+            height: 75%;
+            background-color: #263119;
+            display: flex;
+            form{
+                width: 60%;
+                height: 100%;
+                background-color: #83A841;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 5px;
+                justify-content: center;
+                padding-top: 30px;
+                padding-bottom: 90px;
+                position: relative;
+                .firstName, .lastName, .phone, .email{
+                    width: 40%;
+                    height: 50px;
+                    background-color: transparent;
+                    border: none;
+                    border-bottom: 1px solid grey;
+                    border-radius: 5px;
+                    color: white;
+                }
+                .company{
+                    width: 80%;
+                    height: 50px;
+                    background-color: transparent;
+                    border: none;
+                    border-bottom: 1px solid grey;
+                    border-radius: 5px;
+                    color: white;
+                }
+                .mensaje{
+                    width: 80%;
+                    min-height: 100px;
+                    background-color: transparent;
+                    border: none;
+                    border-bottom: 1px solid grey;
+                    border-radius: 5px;
+                    color: white;
+                }
+                .btnForm{
+                    width: 120px;
+                    height: 50px;
+                    border-radius: 25px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 20px;
+                    border: none;
+                    position: absolute;
+                    bottom: 20px;
+                    right: 10%;
+                    transition: all 0.3s ease-in-out;
+                    font-weight: bold;
+                    i{
+                        rotate: 0deg;
+                        transition: all 0.2s ease-in-out;
+                    }
+                }
+                .btnForm:hover{
+                    background-color: #2E3C1D;
+                    color: white;
+                    i{
+                        rotate: -45deg;
+                    }
+                }
+            }
+            .infoContact{
+                width: 40%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: start;
+                padding-right: 30px;
+                padding-left: 30px;
+                color: white;
+            }
+        }
+    }
+}
 
 @keyframes slide {
     0%{
@@ -1188,4 +1297,8 @@ footer{
 }
 .lcode:hover{
     color: blue;
+}
+a{
+    cursor:pointer;
+    text-decoration: none;
 }
