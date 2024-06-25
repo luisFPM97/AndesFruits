@@ -35,6 +35,7 @@ function App() {
       <Navbar 
         setLanguage={setLanguage}
         language={language}
+        content={content}
       />
       <Routes>
         <Route 

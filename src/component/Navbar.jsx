@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-const Navbar = ({ setLanguage, language }) => {
+const Navbar = ({ setLanguage, language, content }) => {
   function changeLanguage() {
     setLanguage(language === "en" ? "es" : "en");
   }
@@ -14,6 +14,11 @@ const Navbar = ({ setLanguage, language }) => {
     idioma = "Es";
     idiomaSec = "En";
   }
+  const home = content.home.title
+  const aboutUs = content.quienesSomos.title
+  const productos = content.productos.title
+  const contacto = content.contactenos.title
+  const certificaciones = content.certificaciones.title
 
   const [showNav, setShowNav] = useState(false);
   return (
@@ -57,7 +62,7 @@ const Navbar = ({ setLanguage, language }) => {
             to="/quienes-somos"
           >
             <span><i className='bx bx-buildings'></i></span>
-            Nosotros
+            {aboutUs}
             
           </Link>
           <Link
@@ -66,7 +71,7 @@ const Navbar = ({ setLanguage, language }) => {
             to="/productos"
           >
             <span><i className='bx bx-lemon'></i></span>
-            Productos
+            {productos}
           </Link>
           <Link
             className="pagesMenu"
@@ -74,7 +79,7 @@ const Navbar = ({ setLanguage, language }) => {
             to="/certificaciones"
           >
             <span><i className='bx bx-medal'></i></span>
-            Certificaciones
+            {certificaciones}
           </Link>
           <Link
             className="pagesMenu"
@@ -82,7 +87,7 @@ const Navbar = ({ setLanguage, language }) => {
             to="/contactenos"
           >
             <span><i className='bx bx-user'></i></span>
-            Contactos
+            {contacto}
           </Link>
         </ul>
       </div>
