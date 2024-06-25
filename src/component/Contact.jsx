@@ -28,8 +28,6 @@ const Contact = ({ contact }) => {
     }
   };
   
-
-  
   return (
     <>
       <div className="contactenos">
