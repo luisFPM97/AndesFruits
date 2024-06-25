@@ -650,7 +650,64 @@
           "t5": "CONSUMO",
           "d5": "Se puede comer fresco, como snack o en ensaladas. Se puede utilizar para hacer postres, helados y jugos. Se puede secar o confitar.",
           "t6": "VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN 2 A 3 DÍAS EN TEMPERATURA AMBIENTE Y DE 5 A 7 DÍAS EN REFRIGERACIÓN"
+        },
+        {
+          "id": 10,
+          "title": "Limón Tahití",
+          "botton": "ver más",
+          "scientificName": "Citrus × latifolia",
+          "phrase": "¡una fruta que te refrescará con su sabor cítrico!",
+          "description": "El Limón Tahití es una fruta de color verde intenso que se vuelve amarillo pálido al madurar. Tiene una cáscara delgada y suave, y su pulpa es jugosa y ácida.",
+          "curiousFact": "El Limón Tahití es conocido por ser sin semillas y por su resistencia a enfermedades, lo que lo hace muy popular en la agricultura.",
+          "ftitle": "Ficha Tecnica",
+          "table": [
+            {
+              "id": 0,
+              "title": "Calorías",
+              "value": 30,
+              "unit": "Kcal"
+            },
+            {
+              "id": 1,
+              "title": "Proteínas",
+              "value": 0.7,
+              "unit": "g"
+            },
+            {
+              "id": 2,
+              "title": "Carbohidratos",
+              "value": 10.5,
+              "unit": "g"
+            },
+            {
+              "id": 3,
+              "title": "Fibra",
+              "value": 2.8,
+              "unit": "g"
+            },
+            {
+              "id": 4,
+              "title": "Grasas",
+              "value": 0.2,
+              "unit": "g"
+            }
+          ],
+          "image": "/img/limon_taiti.png",
+          "fichaTecnica": "ficha-tecnica-limon-taiti.pdf",
+          "t1": "ESPECIFICACIONES MICROBIOLÓGICAS",
+          "d1": "Debe estar libre de patógenos como Salmonella, E. coli y Listeria monocytogenes. El nivel de levaduras y mohos debe ser inferior a 1000 UFC/g.",
+          "t2": "ESPECIFICACIONES FISICOQUÍMICAS",
+          "d2": "Azúcares: 1-2%. Proteína: 0.5-1%. Grasa: 0.1-0.2%. Fibra: 1-2%. Vitaminas: C y B6. Minerales: potasio, magnesio y calcio.",
+          "t3": "TIPO DE TRATAMIENTO",
+          "d3": "El Limón Tahití es sometido a las etapas de Recibo, Almacenamiento, Selección, Limpieza, Clasificación, Empaque y Despacho.",
+          "t4": "CONDICIONES DE CONSERVACIÓN",
+          "d4": "Temperatura: Ambiente Humedad relativa: Ambiente",
+          "t5": "CONSUMO",
+          "d5": "Se puede usar en bebidas, como aderezo para ensaladas, en postres, y como ingrediente en diversas recetas culinarias.",
+          "t6": "VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN",
+          "d6": "2 a 3 días en temperatura ambiente y de 5 a 7 días en refrigeración."
         }
+        
       ]
     },
     "contactenos": {
@@ -1361,7 +1418,64 @@
           "t5": "CONSUMPTION",
           "d5": "Can be eaten fresh, as a snack or in salads. Can be used to make desserts, ice cream and juices. Can be dried or candied.",
           "t6": "SHELF LIFE UNDER STORAGE CONDITIONS 2 TO 3 DAYS AT ROOM TEMPERATURE AND 5 TO 7 DAYS UNDER REFRIGERATION"
+        },
+        {
+          "id": 10,
+          "title": "Tahiti Lime",
+          "botton": "see more",
+          "scientificName": "Citrus × latifolia",
+          "phrase": "A fruit that will refresh you with its citrus flavor!",
+          "description": "The Tahiti Lime is a fruit with an intense green color that turns pale yellow when ripe. It has a thin, smooth peel, and its pulp is juicy and acidic.",
+          "curiousFact": "The Tahiti Lime is known for being seedless and resistant to diseases, making it very popular in agriculture.",
+          "ftitle": "Technical Sheet",
+          "table": [
+            {
+              "id": 0,
+              "title": "Calories",
+              "value": 30,
+              "unit": "Kcal"
+            },
+            {
+              "id": 1,
+              "title": "Proteins",
+              "value": 0.7,
+              "unit": "g"
+            },
+            {
+              "id": 2,
+              "title": "Carbohydrates",
+              "value": 10.5,
+              "unit": "g"
+            },
+            {
+              "id": 3,
+              "title": "Fiber",
+              "value": 2.8,
+              "unit": "g"
+            },
+            {
+              "id": 4,
+              "title": "Fats",
+              "value": 0.2,
+              "unit": "g"
+            }
+          ],
+          "image": "/img/limon_taiti.png",
+          "fichaTecnica": "technical-sheet-tahiti-lime.pdf",
+          "t1": "MICROBIOLOGICAL SPECIFICATIONS",
+          "d1": "Must be free of pathogens such as Salmonella, E. coli, and Listeria monocytogenes. The level of yeasts and molds must be below 1000 CFU/g.",
+          "t2": "PHYSICOCHEMICAL SPECIFICATIONS",
+          "d2": "Sugars: 1-2%. Protein: 0.5-1%. Fat: 0.1-0.2%. Fiber: 1-2%. Vitamins: C and B6. Minerals: potassium, magnesium, and calcium.",
+          "t3": "TYPE OF TREATMENT",
+          "d3": "The Tahiti Lime undergoes the stages of Receiving, Storage, Selection, Cleaning, Classification, Packaging, and Dispatch.",
+          "t4": "STORAGE CONDITIONS",
+          "d4": "Temperature: Ambient Relative Humidity: Ambient",
+          "t5": "CONSUMPTION",
+          "d5": "It can be used in beverages, as a salad dressing, in desserts, and as an ingredient in various culinary recipes.",
+          "t6": "SHELF LIFE UNDER STORAGE CONDITIONS",
+          "d6": "2 to 3 days at room temperature and 5 to 7 days in refrigeration."
         }
+        
       ]
     },
     "contactenos": {
