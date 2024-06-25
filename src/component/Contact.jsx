@@ -62,7 +62,7 @@ const Contact = ({ contact }) => {
             <h2>
               {contact.description}, {contact.title2}
             </h2>
-          </>
+          </div>
 
           <div className="contForm">
             <form action="" onSubmit={handleSubmit}>
