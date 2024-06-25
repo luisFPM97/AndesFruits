@@ -1255,7 +1255,7 @@ footer{
                 .hpProductItem{
                     position: relative;
                     min-width: 350px;
-                    height: 350px;
+                    height: 435px;
                     position: sticky ;
                     object-fit: cover;
                     scroll-snap-align:center;
