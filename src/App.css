@@ -3,7 +3,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;    
+    justify-content: space-around;
+    position: relative;   
 }
 *:focus{
     outline:none!important
@@ -117,12 +118,11 @@ footer{
     opacity: 0;
 }
 .mainM{
-    
     width: 764.8px;
     height: 100vh;
     position: fixed;
     z-index: 999;
-    top: 0;
+    bottom: 0;
     right: -200%;
     background-color: #2E3C1D;
     transition: all 0.3s ease-in-out;
@@ -192,8 +192,8 @@ footer{
     }
 }
 .responsive{
-    
     right: 0;
+    top: 0;
 }
 
 
@@ -1106,20 +1106,47 @@ footer{
 }
 
 @media screen and (max-width:980px) {
+    
     .btnMr{
         right: -150px;
     }
     .mainM{
         width: 100%;
-        height: 100vh;
+        height: 60px;
+        display: flex;
+        position: fixed;
+        bottom: 0 !important;
+        border: 1px solid black;
+        right: 0;
+        padding: 0;
+        background-color: #587239;
+        .logoA{
+            padding: 0;
+            top: 0px;
+            left: 20px;
+            height: 60px;
+            width: 60px;
+            position: absolute;
+            background-color:#587239;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            filter: drop-shadow(0 0 0 rgba(255, 255, 255, 0));
+            img{
+                transform: scale(0.6);
+            }
+        }
+        .bntMenu{
+            display: none;
+        }
         .navbar{
             max-width: 100%;
             height: 100%;
             ul{
                 left: 25%;
                 top: 15px;
-                height: auto;
-                overflow: scroll;
+                flex-direction: row;
             }
         }
     }

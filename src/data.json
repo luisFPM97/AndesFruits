@@ -666,7 +666,10 @@
     "title3":"Información de contacto",
     "ta":"Dirección",
     "address": "Cómbita, Boyacá - Parque Industrial Km 1 vía Tunja - Paipa",
+    "tp":"Teléfono",
     "phone": "3153871168",
+    "phone2":"(+57)315-387-1168",
+    "te":"Correo Electrónico",
     "email": "jlaverde@andesexport.com",
     "button":"ENVIAR"
   },
@@ -1376,7 +1379,10 @@
       "title3":"contact information",
       "ta":"address",
       "address": "Combita, Boyacá - parque industrial Km 1 vía Tunja - Paipa",
+      "tp":"Phone",
       "phone": "3153871168",
+      "phone2":"(+57)315-387-1168",
+      "te":"E-mail",
       "email": "jlaverde@andesexport.com",
     "button":"SEND"
     },

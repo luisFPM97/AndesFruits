@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react'
 
 const Contact = ({contact}) => {
   console.log(contact)
+  
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -94,8 +95,8 @@ const Contact = ({contact}) => {
           </form>
           <div className='infoContact'>
               <span className='title'>{contact.title3}</span>
-              <span><b>Phone:</b> {contact.phone}</span>
-              <span><b>Email:</b> {contact.email}</span>
+              <span><b>{contact.tp}:</b> {contact.phone2}</span>
+              <span><b>{contact.te}:</b> {contact.email}</span>
               <span><b>{contact.ta}:</b> {contact.address}</span>
               <div class="mapouter">
                 <div class="gmap_canvas">
