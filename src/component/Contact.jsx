@@ -1,57 +1,35 @@
 import React, { useEffect, useState } from "react";
 
 const Contact = ({ contact }) => {
-  const [formData, setFormData] = useState({
-    firstName: "",
-    lastName: "",
-    phone: "",
-    email: "",
-    company: "",
-    message: "",
-  });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submissionStatus, setSubmissionStatus] = useState(null);
-  const handleChange = (event) => {
-    setFormData({ ...formData, [event.target.name]: event.target.value });
-  };
-  const handleSubmit = async (event) => {
+  const [result, setResult] = useState("");
+  const [visible, setVisible] = useState(false);
+  const onSubmit = async (event) => {
     event.preventDefault();
-    setIsSubmitting(true);
-    try {
-      const transporter = nodemailer.createTransport({
-        service: "gmail", // Replace with your preferred email service
-        auth: {
-          user: process.env.EMAIL, // Use environment variable for security
-          pass: process.env.PASSWORD, // Use environment variable for security
-        },
-        tls: {
-          rejectUnauthorized: false, // Consider security implications!
-        },
-      });
-      const mailOptions = {
-        from: process.EMAIL,
-        to: "luis.pinzon.m.m@gmail.com", // Replace with recipient's email
-        subject: "Contact Form Submission",
-        html: `
-          <div>
-            <h1>New Contact Form Submission</h1>
-            <p>Name: ${formData.firstName} ${formData.lastName}</p>
-            <p>Phone: ${formData.phone}</p>
-            <p>Email: ${formData.email}</p>
-            <p>Company: ${formData.company}</p>
-            <p>Message: ${formData.message}</p>
-          </div>
-        `,
-      };
-      const info = await transporter.sendMail(mailOptions);
-      setSubmissionStatus("success");
-    } catch (error) {
-      console.error("Error sending email:", error);
-      setSubmissionStatus("error");
-    } finally {
-      setIsSubmitting(false);
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "cf29c7be-710b-448b-a92a-3c8716b092f9");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("¡Muchas gracias por contactarnos en Andes Export! Hemos recibido tu mensaje y lo revisaremos a la brevedad.");
+      event.target.reset();
+      setVisible(true);
+      setTimeout(() => setVisible(false), 2000); // 2 segundos
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
     }
   };
+  
+
+  
   return (
     <>
       <div className="contactenos">
@@ -65,40 +43,41 @@ const Contact = ({ contact }) => {
           </div>
 
           <div className="contForm">
-            <form action="" onSubmit={handleSubmit}>
+            <form action="" onSubmit={onSubmit}>
               <input
                 className="firstName"
                 type="text"
                 placeholder="First Name"
+                name="name"
+                required
               />
-              <input className="lastName" type="text" placeholder="Last Name" />
-              <input className="phone" type="text" placeholder="Phone" />
-              <input className="email" type="text" placeholder="Email" />
-              <input className="company" type="text" placeholder="Company" />
+              <input
+                className="lastName"
+                type="text"
+                placeholder="Last Name"
+                name="last_name"
+                required
+              />
+              <input className="phone" type="text" placeholder="Phone" name="phone" required/>
+              <input className="email" type="email" placeholder="Email" name="email" required/>
+              <input className="company" type="text" placeholder="Company" name="company" required />
               <textarea
                 className="mensaje"
-                name=""
+                name="message"
                 id=""
                 placeholder="Message"
+                 required
               ></textarea>
-              <button type="submit" className="btnForm" disabled={isSubmitting}>
-                {isSubmitting ? (
-                  "Sending..."
-                ) : (
-                  <>
-                    <i className="bx bxs-send"></i>
-                    {contact.button}
-                  </>
-                )}
+              <button type="submit" className="btnForm">
+                <i className="bx bxs-send"></i>
+                {contact.button}
               </button>
-              {submissionStatus === "success" && (
-                <p className="success-message">Email sent successfully!</p>
-              )}
-              {submissionStatus === "error" && (
-                <p className="error-message">
-                  Error sending email. Please try again.
-                </p>
-              )}
+              
+                  <div className={visible?"alerta":"alerta hdd" }>
+                    <img src="/img/LOGO VERTICAL.png" alt="" />
+                    <p>{result}</p>
+                  </div>
+              
             </form>
             <div className="infoContact">
               <span className="title">{contact.title3}</span>

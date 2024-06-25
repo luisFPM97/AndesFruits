@@ -1492,3 +1492,25 @@ a {
   cursor: pointer;
   text-decoration: none;
 }
+.alerta{
+    position: fixed;
+    width: 350px;
+    height: 170px;
+    background-color:#cc7c44;
+    border-radius: 20px;
+    bottom: 70px;
+    right: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 0.8s ease-in-out;
+    img{
+        height: 50px;
+    }
+}
+.hdd{
+    right: -800px;
+}
