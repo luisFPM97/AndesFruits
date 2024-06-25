@@ -14,11 +14,11 @@ const Navbar = ({ setLanguage, language, content }) => {
     idioma = "Es";
     idiomaSec = "En";
   }
-  const home = content.home.title
-  const aboutUs = content.quienesSomos.title
-  const productos = content.productos.title
-  const contacto = content.contactenos.title
-  const certificaciones = content.certificaciones.title
+  const home = content.home.title;
+  const aboutUs = content.quienesSomos.title;
+  const productos = content.productos.title;
+  const contacto = content.contactenos.title;
+  const certificaciones = content.certificaciones.title;
 
   const [showNav, setShowNav] = useState(false);
   return (
@@ -42,14 +42,13 @@ const Navbar = ({ setLanguage, language, content }) => {
         />
       </Link>
       <a className="icon" onClick={() => setShowNav(!showNav)}>
-        {showNav ? <i className='bx bx-x'></i> : ""}
+        {showNav ? <i className="bx bx-x"></i> : ""}
       </a>
       <div className="language" onClick={changeLanguage}>
         <i className="fa-solid fa-globe"></i>
         <span onClick={() => setShowNav(false)} className="idioma">
           {idioma}|
-        </span>
-        {" "}
+        </span>{" "}
         <span onClick={() => setShowNav(false)} className="idiomaSec">
           {idiomaSec}
         </span>
@@ -61,16 +60,19 @@ const Navbar = ({ setLanguage, language, content }) => {
             onClick={() => setShowNav(!showNav)}
             to="/quienes-somos"
           >
-            <span><i className='bx bx-buildings'></i></span>
+            <span>
+              <i className="bx bx-buildings"></i>
+            </span>
             {aboutUs}
-            
           </Link>
           <Link
             className="pagesMenu"
             onClick={() => setShowNav(!showNav)}
             to="/productos"
           >
-            <span><i className='bx bx-lemon'></i></span>
+            <span>
+              <i className="bx bx-lemon"></i>
+            </span>
             {productos}
           </Link>
           <Link
@@ -78,7 +80,9 @@ const Navbar = ({ setLanguage, language, content }) => {
             onClick={() => setShowNav(!showNav)}
             to="/certificaciones"
           >
-            <span><i className='bx bx-medal'></i></span>
+            <span>
+              <i className="bx bx-medal"></i>
+            </span>
             {certificaciones}
           </Link>
           <Link
@@ -86,7 +90,9 @@ const Navbar = ({ setLanguage, language, content }) => {
             onClick={() => setShowNav(!showNav)}
             to="/contactenos"
           >
-            <span><i className='bx bx-user'></i></span>
+            <span>
+              <i className="bx bx-user"></i>
+            </span>
             {contacto}
           </Link>
         </ul>

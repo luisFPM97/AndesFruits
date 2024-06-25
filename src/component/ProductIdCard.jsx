@@ -1,13 +1,12 @@
-import React from 'react'
+import React from "react";
 
-const ProductIdCard = ({setProductid,product}) => {
-    console.log(product)
+const ProductIdCard = ({ setProductid, product }) => {
+  console.log(product);
   return (
-    <div className='pProduct'>
-        <h3>{product.title}</h3>
-        
+    <div className="pProduct">
+      <h3>{product.title}</h3>
     </div>
-  )
-}
+  );
+};
 
-export default ProductIdCard
+export default ProductIdCard;
