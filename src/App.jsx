@@ -18,7 +18,6 @@ function App() {
   const [content, setContent] = useState(data[language]);
 
   useEffect(() => {
-    /* window.scrollTo(0, 0);*/
     if (data) {
       setContent(data[language]);
     }
