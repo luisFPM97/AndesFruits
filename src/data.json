@@ -762,6 +762,20 @@
           "pdf": "/pdf/certPrimus.pdf"
         }
       ]
+    },
+    "datat":{
+      "title": "Política tratamiento de datos",
+      "d1": "ANDES EXPORT COMPANY S.A.S. se encuentra comprometida con el desarrollo seguro y legal de todas sus operaciones, por lo cual se permite dar cumplimiento al decreto 1377 de 2013 que reglamenta parcialmente la Ley estatutaria 1581 de 2012 y que establece el Régimen General de Protección de Datos.",
+      "d2":"Por lo anterior, ANDES EXPORT COMPANY S.A.S se responsabiliza por el tratamiento, recolección, almacenamiento, uso, circulación o supresión de los datos personales, comerciales y de aquellos datos sensibles incluidos en las bases de datos de la compañía. ",
+      "d3":"Los titulares de los datos (empleados, contratistas, proveedores de fruta e insumos) tienen derecho a:",
+      "d4":"- Conocer, actualizar, rectificar o suprimir la información recolectada en las bases de datos de ANDES EXPORT COMPANY S.A.S. ",
+      "d5":"- Conocer los usos que se han hecho de la información suministrada, cuando así lo solicite el titular.",
+      "d6":"- Revocar la autorización y/o solicitar la supresión de los datos suministrados, cuando en el tratamiento de los datos no respete los principios, derechos y garantías constitucionales y legales a favor del titular.",
+      "d7":"- Acceder de forma gratuita a sus datos personales que hayan sido objeto de tratamiento.",
+      "d8":"Para propósitos de entendimiento de esta política, se aclara que según la Ley 1581 de 2012, “los datos sensibles aquellos que afectan la intimidad del Titular o cuyo uso indebido puede generar su discriminación, tales como aquellos que revelen el origen racial o étnico, la orientación política, las convicciones religiosas o filosóficas, la pertenencia a sindicatos, organizaciones sociales, de derechos humanos o que promueva intereses de cualquier partido político o que garanticen los derechos y garantías de partidos políticos de oposición así como los datos relativos a la salud, a la vida sexual y los datos biométricos”.",
+      "d9":"Atentamente,",
+      "d10":"Juan Camilo Laverde",
+      "d11":"Gerente General"
     }
   },
   "en": {
@@ -1531,6 +1545,20 @@
           "pdf": "/pdf/certPrimus.pdf"
         }
       ]
-    }
+    },
+    "datat": {
+    "title": "Data Treatment Policy",
+    "d1": "ANDES EXPORT COMPANY S.A.S. is committed to the safe and legal development of all its operations, therefore, it complies with Decree 1377 of 2013, which partially regulates Statutory Law 1581 of 2012 and establishes the General Data Protection Regime.",
+    "d2": "Therefore, ANDES EXPORT COMPANY S.A.S. is responsible for the processing, collection, storage, use, circulation, or deletion of personal, commercial, and sensitive data included in the company's databases.",
+    "d3": "Data subjects (employees, contractors, fruit and input suppliers) have the right to:",
+    "d4": "- Know, update, rectify, or delete the information collected in the ANDES EXPORT COMPANY S.A.S. databases.",
+    "d5": "- Know the uses that have been made of the information provided, when requested by the data subject.",
+    "d6": "- Revoke the authorization and/or request the deletion of the data provided, when the data processing does not respect the constitutional and legal principles, rights, and guarantees in favor of the data subject.",
+    "d7": "- Access their personal data that has been processed free of charge.",
+    "d8": "For purposes of understanding this policy, it is clarified that according to Law 1581 of 2012, “sensitive data” is that which affects the privacy of the Data Subject or whose improper use may generate discrimination, such as that which reveals racial or ethnic origin, political orientation,    religious or philosophical    beliefs, membership in unions, social organizations, human rights organizations, or that promotes the interests of any political party or that guarantees the rights and guarantees of opposition    political parties, as well as data relating to health, sex life, and biometric data.",
+    "d9": "Sincerely,",
+    "d10": "Juan Camilo Laverde",
+    "d11": "General Manager"
+}
   }
 }

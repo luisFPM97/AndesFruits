@@ -71,7 +71,7 @@ function App() {
           }
         />
         <Route path="/ProductCard" element={<ProductCard />} />
-        <Route path="/data" element={<Datatreat/>}/>
+        <Route path="/data" element={<Datatreat content={content.datat}/>}/>
       </Routes>
       <footer>
         <div className="fc">
