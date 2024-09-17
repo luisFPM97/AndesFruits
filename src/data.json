@@ -722,7 +722,8 @@
       "phone2": "(+57)315-387-1168",
       "te": "Correo Electrónico",
       "email": "jlaverde@andesexport.com",
-      "button": "ENVIAR"
+      "button": "ENVIAR",
+      "td":"Tratamiento de datos"
     },
     "certificaciones": {
       "title": "Certificaciones",
@@ -1490,7 +1491,8 @@
       "phone2": "(+57)315-387-1168",
       "te": "E-mail",
       "email": "jlaverde@andesexport.com",
-      "button": "SEND"
+      "button": "SEND",
+      "td":"Data processing"
     },
     "certificaciones": {
       "title": "Certifications",

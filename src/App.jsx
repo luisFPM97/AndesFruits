@@ -7,10 +7,11 @@ import Navbar from "./component/Navbar";
 import QuienesSomos from "./component/QuienesSomos";
 import Instalaciones from "./component/Instalaciones";
 import Productos from "./component/Productos";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import data from "./data.json";
 import FichaTecnica from "./component/FichaTecnica";
 import ProductCard from "./component/ProductCard";
+import Datatreat from "./component/Datatreat";
 
 function App() {
   const [language, setLanguage] = useState("en");
@@ -70,6 +71,7 @@ function App() {
           }
         />
         <Route path="/ProductCard" element={<ProductCard />} />
+        <Route path="/data" element={<Datatreat/>}/>
       </Routes>
       <footer>
         <div className="fc">
@@ -97,7 +99,7 @@ function App() {
           </div>
           <hr />
           <div className="ff">
-            <span>© Andes Fruits 2024</span>
+            <span className="cc">© Andes Fruits 2024 || <Link to="/data">{content.contactenos.td}</Link></span>
             <span>
               {" "}
               <a
