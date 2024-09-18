@@ -735,7 +735,9 @@
           "subtitle": "Seguridad y confianza en cada paso del proceso.",
           "description": "La Norma BASC (Business Alliance for Secure Commerce o Alianza Empresarial para un Comercio Seguro) es un programa de cooperación público-privada cuyo objetivo principal es fortalecer la seguridad de la cadena de suministro y prevenir el contrabando, la falsificación y el terrorismo en el comercio internacional.",
           "image": "/img/basc.svg",
-          "pdf": "/pdf/certbasc.png"
+          "pdf": "/pdf/certbasc.png",
+          "number": " ",
+          "concept":" "
         },
         {
           "id": 1,
@@ -743,7 +745,9 @@
           "subtitle": "Calidad y trazabilidad desde el origen hasta tu hogar.",
           "description": "El estándar de Cadena de Custodia (CoC) GLOBALG.AP garantiza que cualquier producto vendido con un reclamo GLOBALG.AP o que lleve el logotipo de una etiqueta GGN proviene verdaderamente de un proceso de producción certificado GLOBALG.AP.",
           "image": "/img/globalgap.png",
-          "pdf": "/pdf/certglobal.png"
+          "pdf": "/pdf/certglobal.png",
+          "number":4063651252484,
+          "concept":"GGN:"
         },
         {
           "id": 2,
@@ -751,7 +755,9 @@
           "subtitle": "Ética y responsabilidad social en cada fruta que exportamos.",
           "description": "SMETA es la auditoría más utilizada en el mundo. Las empresas utilizan SMETA para comprender y mejorar las condiciones de trabajo y el desempeño ambiental en su negocio y cadena de suministro.",
           "image": "/img/smeta.png",
-          "pdf": ""
+          "pdf": "",
+          "number":" ",
+          "concept":""
         },
         {
           "id": 3,
@@ -759,7 +765,9 @@
           "subtitle": "Excelencia y seguridad alimentaria certificada.",
           "description": "Es un programa de auditoría voluntario que evalúa las prácticas de producción y procesamiento de alimentos frescos para garantizar la seguridad alimentaria. Es reconocido por la Iniciativa Mundial de Seguridad Alimentaria (GFSI), lo que significa que cumple con los estándares internacionales más estrictos para la inocuidad alimentaria.",
           "image": "/img/primuslabs.png",
-          "pdf": "/pdf/certPrimus.pdf"
+          "pdf": "/pdf/certPrimus.pdf",
+          "number":" ",
+          "concept":" "
         }
       ]
     },
@@ -1518,7 +1526,9 @@
           "subtittle": "Safety and Trust in Every Step of the Process",
           "description": "The BASC Standard (Business Alliance for Secure Commerce) is a public-private cooperation program whose main objective is to strengthen the security of the supply chain and prevent smuggling, counterfeiting, and terrorism in international trade.",
           "image": "/img/basc.svg",
-          "pdf": "/pdf/certbasc.png"
+          "pdf": "/pdf/certbasc.png",
+          "number":" ",
+          "concept":" "
         },
         {
           "id": 1,
@@ -1526,7 +1536,9 @@
           "subtittle": "Quality and Traceability from Farm to Table",
           "description": "The GLOBALG.A.P. Chain of Custody (CoC) standard ensures that any product sold with a GLOBALG.A.P. claim or bearing a GGN label logo is truly sourced from a GLOBALG.A.P. certified production process.",
           "image": "/img/globalgap.png",
-          "pdf": "/pdf/certglobal.png"
+          "pdf": "/pdf/certglobal.png",
+          "number":4063651252484,
+          "concept":"GGN:"
         },
         {
           "id": 2,
@@ -1534,7 +1546,9 @@
           "subtittle": "Ethics and Social Responsibility in Every Fruit We Export",
           "description": "SMETA is the most used audit in the world. Companies use SMETA to understand and improve working conditions and environmental performance in their business and supply chain.",
           "image": "/img/smeta.png",
-          "pdf": ""
+          "pdf": "",
+          "number":" ",
+          "concept":" "
         },
         {
           "id": 3,
@@ -1542,7 +1556,9 @@
           "subtittle": "Certified Food Excellence and Safety",
           "description": "It is a voluntary audit program that evaluates the production and processing practices of fresh food to ensure food safety. It is recognized by the Global Food Safety Initiative (GFSI), which means that it meets the most stringent international standards for food safety.",
           "image": "/img/primuslabs.png",
-          "pdf": "/pdf/certPrimus.pdf"
+          "pdf": "/pdf/certPrimus.pdf",
+          "number":" ",
+          "concept":" "
         }
       ]
     },

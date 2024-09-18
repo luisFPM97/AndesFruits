@@ -267,12 +267,12 @@ footer {
       z-index: 0;
       width: 100%;
       height: 100%;
-      background-color: rgba(0, 0, 0, 0.35);
+      background-color: rgba(0, 0, 0);
       background-image: url(/img/2.jpg);
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
-      opacity: 0.47;
+      opacity: 0.67;
     }
   }
   .homeProduct {
@@ -313,13 +313,13 @@ footer {
       }
     }
     .hpProduct::-webkit-scrollbar {
-      width: 400px;
+      width: 100%;
       height: 10px;
     }
     .hpProduct::-webkit-scrollbar-track {
-      width: 200px;
+      width: 500px;
       height: 10px;
-      margin: 550px;
+      margin: 200px;
       background-color: #58723948;
       border-radius: 10px;
     }
@@ -334,11 +334,15 @@ footer {
       height: 75%;
       display: flex;
       justify-content: center;
-      flex-wrap: wrap;
-      gap: 10px;
+      flex-wrap: nowrap;
+      gap: 0px;
       position: relative;
       padding-left: 10px;
       padding-right: 10px;
+      overflow: scroll;
+      scroll-snap-type: x mandatory;
+      overflow-x: auto;
+      justify-content: start;
       .hpProductItem {
         position: relative;
         display: flex;
@@ -346,12 +350,15 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: calc(100% / 11);
-        height: 30vh;
+        min-width: 350px;
+        height: 435px;
+        position: sticky;
+        object-fit: cover;
+        scroll-snap-align: center;
         transition: all 0.4s ease-in-out;
         opacity: 0.6;
         img {
-          width: 85%;
+          width: 70%;
           transition: all 0.2s ease-in-out;
         }
         h3 {
@@ -1143,85 +1150,33 @@ footer {
   }
   .icon {
     top: 0 !important;
-    right: 10px !important;
-    z-index: 999;
-    position: absolute !important;
+    
+    
     color: #2e3c1d !important;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
   }
 
   .mainM {
     width: 100%;
-    height: 60px;
-    display: flex;
-    position: fixed;
-    bottom: 0 !important;
-    padding: 0;
-    background-color: #d5e998c5;
-    .language {
-      position: absolute;
+    z-index: 998;
+    .navbar{
+      width: 100%;
+      ul{
+        left: 0;
+      }
+    }
+    .icon{
+      position: fixed;
       z-index: 999;
-      left: 70%;
-      top: 25%;
-      .fa-globe {
-        color: #2e3c1d;
-      }
-      .idioma,
-      .idiomaSec {
-        display: none !important;
-      }
-    }
-    .icon {
-      top: 89%;
-      font-size: 45px;
-    }
-    .logoA {
-      padding: 0;
-      top: -20px;
-      left: 10px;
-      height: 80px;
-      width: 80px;
-      position: absolute;
-      z-index: 999;
-      background-color: radial-gradient(
-        circle at center,
-        #d5e998 0%,
-        transparent 100%
-      );
-      border-radius: 50%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      filter: drop-shadow(0 0 0 rgba(255, 255, 255, 0));
-      img {
-        transform: scale(0.6);
-        filter: drop-shadow(0 0 50px #5c6e2e);
-      }
-    }
-    .navbar {
-      width: 80%;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: start;
-      ul {
-        padding-left: 100px;
-        width: 90%;
-        left: 10px;
-        top: 15px;
-        justify-content: space-around;
-        align-items: start;
-        flex-direction: row;
-        .pagesMenu {
-          visibility: hidden;
-          display: flex;
-          width: 40px;
-          color: #2e3c1d;
-          span {
-            visibility: visible;
-            width: auto;
-            position: absolute;
-          }
-        }
+      .bx-x{
+        position: fixed;
+        z-index: 999;
+        right: -10px;
+        bottom: 9px;
+        
+        color: white;
+        transition: all 0.5s ease-in-out;
       }
     }
   }

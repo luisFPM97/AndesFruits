@@ -8,6 +8,7 @@ const CertificacionesId = (certification) => {
       <div className="certCard">
         <img src={cert.image} alt="" />
         <h2>{cert.title}</h2>
+        <span><span>{cert.concept} </span><span>{cert.number}</span></span>
         <span>{cert.subtittle}</span>
         <p>{cert.description}</p>
         {cert.pdf === "" ? (
