@@ -1,0 +1,138 @@
+<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="www.andesexport.com" resolutions="1x" timestamp="1447436933758">
+  <folder name="css">
+    <file name="site_global.css" crc="128601485"/>
+    <file name="master_a-p_gina-maestra.css" crc="511442409" ref="about:certifications:index:facilities:dried-fruit:products:contact"/>
+    <file name="about.css" crc="51381766" ref="about"/>
+    <file name="certifications.css" crc="103932945" ref="certifications"/>
+    <file name="index.css" crc="226043808" ref="index"/>
+    <file name="facilities.css" crc="4040187277" ref="facilities"/>
+    <file name="dried-fruit.css" crc="3939405428" ref="dried-fruit"/>
+    <file name="products.css" crc="403486490" ref="products"/>
+    <file name="contact.css" crc="3813949743" ref="contact"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="196614522" ref="index:contact:facilities:products:about:certifications:dried-fruit"/>
+    <file name="museutils.js" crc="275725342" ref="index:contact:facilities:products:about:certifications:dried-fruit"/>
+    <file name="pie.js" crc="3827607177" ref="index:contact:facilities:products:about:certifications:dried-fruit"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="185257658" ref="index"/>
+    <file name="webpro.js" crc="3883484123" ref="index:contact:facilities:products:about:certifications:dried-fruit"/>
+    <file name="musewpslideshow.js" crc="360574455" ref="index:contact:facilities:products:about:certifications:dried-fruit"/>
+    <file name="jquery.museoverlay.js" crc="342093292" ref="index:contact:facilities:products:about:certifications:dried-fruit"/>
+    <file name="touchswipe.js" crc="4218319045" ref="index:contact:facilities:products:about:certifications:dried-fruit"/>
+    <file name="jquery.musemenu.js" crc="4042164668" ref="index:contact:facilities:products:about:certifications:dried-fruit"/>
+    <file name="jquery.watch.js" crc="3999102769" ref="index:contact:facilities:products:about:certifications:dried-fruit"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:contact:facilities:products:about:certifications:dried-fruit"/>
+  </folder>
+  <folder name="images">
+    <file name="bg.gif" crc="3760468910" ref="index:contact:facilities:products:about:certifications:dried-fruit"/>
+    <file name="logo web-01-u5206.png" crc="4141745999" ref="index:contact:facilities:products:about:certifications:dried-fruit"/>
+    <file name="espanol.png" crc="3940199346" seo="true" ref="index:contact:facilities:products:about:certifications:dried-fruit"/>
+    <file name="ingles.png" crc="531292611" seo="true" ref="index:contact:facilities:products:about:certifications:dried-fruit"/>
+    <file name="share.png" crc="492632478" ref="index"/>
+    <file name="acc-yellow.png" crc="24571853" ref="index"/>
+    <file name="twitter.png" crc="276468566" seo="true" ref="index:contact:facilities:products:about:certifications:dried-fruit"/>
+    <file name="facebook.png" crc="523486289" seo="true" ref="index:contact:facilities:products:about:certifications:dried-fruit"/>
+    <file name="top_nav.png" crc="4269376008" seo="true" ref="index:contact:facilities:products:about:certifications:dried-fruit"/>
+    <file name="uchuva_slider.jpg" crc="3886343475" seo="true" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:facilities"/>
+    <file name="tomate_slider.jpg" crc="3932510756" seo="true" ref="index"/>
+    <file name="maracuya_slider.jpg" crc="458489185" seo="true" ref="index"/>
+    <file name="pitaya_slider.jpg" crc="4218885380" seo="true" ref="index"/>
+    <file name="gulupa_slider.jpg" crc="359559143" seo="true" ref="index"/>
+    <file name="granadilla_slider.jpg" crc="4042408406" seo="true" ref="index"/>
+    <file name="feijoa_slider.jpg" crc="6501792" seo="true" ref="index"/>
+    <file name="curuba_slider.jpg" crc="516237178" seo="true" ref="index"/>
+    <file name="bananito_slider.jpg" crc="520775172" seo="true" ref="index"/>
+    <file name="loading.gif" crc="3815509949" ref="index:facilities"/>
+    <file name="cloud-1.png" crc="4044825168" seo="true" ref="index"/>
+    <file name="cloud-2.png" crc="4035804219" seo="true" ref="index"/>
+    <file name="footer-fruits.png" crc="65952674" ref="index"/>
+    <file name="contac.png" crc="4002803520" seo="true" ref="contact"/>
+    <file name="geolocalizador.png" crc="3912644309" seo="true" ref="contact"/>
+    <file name="facilities.png" crc="3767379767" seo="true" ref="facilities"/>
+    <file name="dsc_0353.jpg" crc="4294770849" seo="true" ref="facilities"/>
+    <file name="dsc_0354-crop-u4578.jpg" crc="4198763301" ref="facilities"/>
+    <file name="dsc_0355.jpg" crc="160602345" seo="true" ref="facilities"/>
+    <file name="dsc_0356.jpg" crc="3835289540" seo="true" ref="facilities"/>
+    <file name="dsc_0357.jpg" crc="3778223785" seo="true" ref="facilities"/>
+    <file name="dsc_0358.jpg" crc="4068532353" seo="true" ref="facilities"/>
+    <file name="dsc_0360.jpg" crc="4171990323" seo="true" ref="facilities"/>
+    <file name="dsc_0361.jpg" crc="430714603" seo="true" ref="facilities"/>
+    <file name="dsc_0362.jpg" crc="458223955" seo="true" ref="facilities"/>
+    <file name="dsc_0363.jpg" crc="128433884" seo="true" ref="facilities"/>
+    <file name="dsc_0364.jpg" crc="3934994723" seo="true" ref="facilities"/>
+    <file name="dsc_0365.jpg" crc="3882838728" seo="true" ref="facilities"/>
+    <file name="dsc_0366.jpg" crc="4057535609" seo="true" ref="facilities"/>
+    <file name="dsc_0367.jpg" crc="4145612363" seo="true" ref="facilities"/>
+    <file name="dsc_0369.jpg" crc="488529495" seo="true" ref="facilities"/>
+    <file name="dsc_0370.jpg" crc="3912909958" seo="true" ref="facilities"/>
+    <file name="dsc_0371.jpg" crc="325631608" seo="true" ref="facilities"/>
+    <file name="dsc_0372.jpg" crc="273894582" seo="true" ref="facilities"/>
+    <file name="dsc_0353-crop-u4572.jpg" crc="4231873542" ref="facilities"/>
+    <file name="dsc_0354-crop-u4581.jpg" crc="45191553" ref="facilities"/>
+    <file name="dsc_0355-crop-u4590.jpg" crc="519407277" ref="facilities"/>
+    <file name="dsc_0356-crop-u4599.jpg" crc="260479096" ref="facilities"/>
+    <file name="dsc_0357-crop-u4608.jpg" crc="165374008" ref="facilities"/>
+    <file name="dsc_0358-crop-u4617.jpg" crc="3939103535" ref="facilities"/>
+    <file name="dsc_0360-crop-u4635.jpg" crc="515621376" ref="facilities"/>
+    <file name="dsc_0361-crop-u4644.jpg" crc="512771943" ref="facilities"/>
+    <file name="dsc_0362-crop-u4653.jpg" crc="349708976" ref="facilities"/>
+    <file name="dsc_0363-crop-u4662.jpg" crc="487572129" ref="facilities"/>
+    <file name="dsc_0364-crop-u4671.jpg" crc="3970469147" ref="facilities"/>
+    <file name="dsc_0365-crop-u4680.jpg" crc="4244420060" ref="facilities"/>
+    <file name="dsc_0366-crop-u4689.jpg" crc="4250992890" ref="facilities"/>
+    <file name="dsc_0367-crop-u4698.jpg" crc="3822452478" ref="facilities"/>
+    <file name="dsc_0369-crop-u4716.jpg" crc="4040774292" ref="facilities"/>
+    <file name="dsc_0370-crop-u4725.jpg" crc="4288596931" ref="facilities"/>
+    <file name="dsc_0371-crop-u4734.jpg" crc="195106764" ref="facilities"/>
+    <file name="dsc_0372-crop-u4743.jpg" crc="3878983450" ref="facilities"/>
+    <file name="productos.png" crc="3771148638" seo="true" ref="products"/>
+    <file name="golden_berry_physalis.png" crc="4261960508" seo="true" ref="products:dried-fruit"/>
+    <file name="uchuva.png" crc="4104900812" seo="true" ref="products"/>
+    <file name="uchuva2.png" crc="410495760" seo="true" ref="products"/>
+    <file name="frutas en-01.png" crc="295529734" seo="true" ref="products"/>
+    <file name="bananito.png" crc="390906427" seo="true" ref="products"/>
+    <file name="banana.png" crc="3950249596" seo="true" ref="products"/>
+    <file name="feijoa_name.png" crc="3818719510" seo="true" ref="products"/>
+    <file name="feijoa.jpg" crc="3937362717" seo="true" ref="products"/>
+    <file name="granadilla.png" crc="4272655522" seo="true" ref="products"/>
+    <file name="granadilla2.png" crc="312761781" seo="true" ref="products"/>
+    <file name="granadilla3.png" crc="298421165" seo="true" ref="products"/>
+    <file name="frutas en-05.png" crc="4263468384" seo="true" ref="products"/>
+    <file name="gulupa.png" crc="158933254" seo="true" ref="products"/>
+    <file name="gulupa2.png" crc="110414073" seo="true" ref="products"/>
+    <file name="maracuya.png" crc="450391235" seo="true" ref="products"/>
+    <file name="maracuya2.png" crc="222108923" seo="true" ref="products"/>
+    <file name="maracuya3.png" crc="4253506684" seo="true" ref="products"/>
+    <file name="frutas en-07.png" crc="64595251" seo="true" ref="products:dried-fruit"/>
+    <file name="pitaya.png" crc="4083794854" seo="true" ref="products"/>
+    <file name="pitaya2.png" crc="4081894070" seo="true" ref="products"/>
+    <file name="frutas en-08.png" crc="4193697234" seo="true" ref="products"/>
+    <file name="tomate_de_arbol.png" crc="413641701" seo="true" ref="products"/>
+    <file name="tomate.png" crc="3899196295" seo="true" ref="products"/>
+    <file name="about.png" crc="4161695386" seo="true" ref="about"/>
+    <file name="quienes-01.png" crc="227038225" seo="true" ref="about"/>
+    <file name="quienes-08-u1024.png" crc="80314862" ref="about"/>
+    <file name="quienes-09-u1019.png" crc="229282576" ref="about"/>
+    <file name="certificatios.png" crc="4216316143" seo="true" ref="certifications"/>
+    <file name="andesexportglobalgap.png" crc="73409622" seo="true" ref="certifications"/>
+    <file name="biglinea-06.png" crc="231387372" seo="true" ref="certifications"/>
+    <file name="andesexportbasc.png" crc="3923069824" seo="true" ref="certifications"/>
+    <file name="andesexportprimuslabs.png" crc="3829197008" seo="true" ref="certifications"/>
+    <file name="andesexportfairtrade.png" crc="3966137392" seo="true" ref="certifications"/>
+    <file name="andesexportceres.png" crc="3762983856" seo="true" ref="certifications"/>
+    <file name="andesexportkosher.png" crc="107110532" seo="true" ref="certifications"/>
+    <file name="dried_fruit.png" crc="501069805" seo="true" ref="dried-fruit"/>
+    <file name="pitaya3.png" crc="4083794854" seo="true" ref="dried-fruit"/>
+    <file name="pitaya_des.png" crc="301306472" seo="true" ref="dried-fruit"/>
+    <file name="uchuva3.png" crc="4104900812" seo="true" ref="dried-fruit"/>
+    <file name="uchuva_des.png" crc="168594826" seo="true" ref="dried-fruit"/>
+  </folder>
+  <file name="index.html" crc="498538574" seo="true" mt="1447436911611" redirect="true"/>
+  <file name="contact.html" crc="4162455620" seo="true" mt="1447436911611" redirect="true"/>
+  <file name="facilities.html" crc="387773740" seo="true" mt="1447436911611" redirect="true"/>
+  <file name="products.html" crc="4221190815" seo="true" mt="1447436911611" redirect="true"/>
+  <file name="about.html" crc="395119741" seo="true" mt="1447436911611" redirect="true"/>
+  <file name="certifications.html" crc="3807203182" seo="true" mt="1447436911611" redirect="true"/>
+  <file name="dried-fruit.html" crc="4014034647" seo="true" mt="1447436911611" redirect="true"/>
+</manifest>

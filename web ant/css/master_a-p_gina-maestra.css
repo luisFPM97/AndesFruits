@@ -1,0 +1,39 @@
+#u5046-3
+{
+	background: -webkit-gradient(linear, center top, center bottom, from(rgba(255,255,255,0.2)),color-stop(100%, #FFFFFF));
+	background: -webkit-linear-gradient(top,rgba(255,255,255,0.2) ,#FFFFFF 100%);
+	background: linear-gradient(to bottom,rgba(255,255,255,0.2) ,#FFFFFF 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#33FFFFFF, endColorstr=#FFFFFFFF, GradientType=0);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#33FFFFFF', endColorstr='#FFFFFFFF', GradientType=0)";
+	border-color: #000000;
+	text-align: center;
+}
+
+#u3212-3
+{
+	border-color: #000000;
+	background-color: #2A4B14;
+}
+
+#u3281-4
+{
+	background-color: transparent;
+	color: #D9E021;
+	text-align: center;
+	font-size: 12px;
+	position: relative;
+}
+
+#u77
+{
+	border-style: none;
+	border-color: transparent;
+	background: transparent url("../images/footer-fruits.png") repeat-x left center;
+}
+
+#u5101
+{
+	background-color: transparent;
+	position: relative;
+}
+
