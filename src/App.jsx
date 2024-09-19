@@ -72,6 +72,38 @@ function App() {
         />
         <Route path="/ProductCard" element={<ProductCard />} />
         <Route path="/data" element={<Datatreat content={content.datat}/>}/>
+        <Route path="/es" element={<Home
+              home={content.home}
+              productos={content.productos}
+              setProductid={setProductid}
+              productid={productid}
+            />}/>
+        <Route path="es/quienes-somos.html" element={<QuienesSomos QuienesSomos={content.quienesSomos} />}/>
+        <Route
+          path="/es/contactenos.html"
+          element={<Contact contact={content.contactenos} />}
+        />
+        <Route path="/es/instalaciones.html" element={<Home
+              home={content.home}
+              productos={content.productos}
+              setProductid={setProductid}
+              productid={productid}
+            />}/>
+        <Route
+          path="/es/certificaciones.html"
+          element={
+            <Certificaciones certificaciones={content.certificaciones} />
+          }
+        />
+        <Route
+          path="/es/productos.html"
+          element={
+            <Productos
+              setProductid={setProductid}
+              productos={content.productos}
+            />
+          }
+        />
       </Routes>
       <footer>
         <div className="fc">
