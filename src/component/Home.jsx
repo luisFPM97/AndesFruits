@@ -30,7 +30,7 @@ const Home = ({ home, productos, setProductid, productid }) => {
       </section>
       <section className="homeProduct">
         <div className="hpTitle">
-          <span>{home.sections[1].description}</span>
+          <span>{home.sections[1].description}</span> 
         </div>
         <div className="hpProduct">
           {products.map((product, i) => (

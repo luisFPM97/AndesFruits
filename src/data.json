@@ -13,14 +13,14 @@
           "description": "Historia y tradición. Conoce más sobre nuestra trayectoria y filosofía.",
           "link": "/quienes-somos",
           "btn": "Ver más",
-          "image": "/img/sec1.jpg"
+          "image": "/img/sec1.webp"
         },
         {
           "title": "Productos",
           "description": "Variedad que encanta, calidad que impresiona. Explora nuestra selección de frutas exóticas.",
           "link": "/productos",
           "btn": "Ver más",
-          "image": "/img/sec2.jpg"
+          "image": "/img/sec2.webp"
         },
         {
           "title": "Certificaciones",
@@ -527,7 +527,7 @@
               "unit": "mg"
             }
           ],
-          "image": "/img/Kumquat.png",
+          "image": "/img/Kumquat.webp",
           "fichaTecnica": "ficha-tecnica-maracuya.pdf",
           "t1": "ESPECIFICACIONES MICROBIOLÓGICAS",
           "d1": "Debe estar libre de patógenos como Salmonella, E. coli y Listeria monocytogenes. El nivel de levaduras y mohos debe ser inferior a 1000 UFC/g. ",
