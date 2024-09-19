@@ -800,14 +800,14 @@
           "description": "History and Tradition. Learn more about our history and philosophy.",
           "link": "/quienes-somos",
           "btn": "see more",
-          "image": "/img/sec1.jpg"
+          "image": "/img/sec1.webp"
         },
         {
           "title": "Productos",
           "description": "A variety that enchants, a quality that impresses. Explore our selection of exotic fruits",
           "link": "/productos",
           "btn": "see more",
-          "image": "/img/sec2.jpg"
+          "image": "/img/sec2.webp"
         },
         {
           "title": "Certificaciones",
