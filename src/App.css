@@ -565,7 +565,7 @@ footer {
   .pHeader {
     width: 100%;
     height: 80vh;
-    background-image: url(/img/manos.jpg);
+    background-image: url("https://cdn.pixabay.com/photo/2024/09/18/17/30/physalis-9056666_960_720.jpg");
     background-size: cover;
     background-position: center;
     .infoC {
