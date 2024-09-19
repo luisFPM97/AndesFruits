@@ -13,6 +13,7 @@ const Home = ({ home, productos, setProductid, productid }) => {
     "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihYsqsM3iMtyZrrIHtDuzE0sRAPlgst3EPcnblxCK_ihPCUO1VD2aE1v0E-8pf64J8ipxpDMRTVjtNqNoHyzOVlFtzXc5VNOdSw=w1600-h777";
 
   const products = productos.products;
+  console.log(home)
 
   return (
     <div className="home">
