@@ -7,7 +7,16 @@ const CertificacionesId = (certification) => {
     <div className={cert.id % 2 == 0 ? "cCard" : "cCard rev"}>
       <div className="certCard">
         <img src={cert.image} alt="" />
-        <h2>{cert.title}</h2>
+        <a className="tit" href={cert.url} target="blank">
+          {cert.title}
+          {cert.pdf === "" ? (
+          <div></div>
+          ) : (
+            
+            <i className="bx bx-link-external"></i>
+            
+          )}
+        </a>
         <span><span>{cert.concept} </span><span>{cert.number}</span></span>
         <span>{cert.subtittle}</span>
         <p>{cert.description}</p>
@@ -15,7 +24,7 @@ const CertificacionesId = (certification) => {
           <div></div>
         ) : (
           <a className="cimage" href={cert.pdf} target="blank">
-            <i className="bx bx-link-external"></i>
+            <i className="bx bxs-file-doc"></i>
           </a>
         )}
       </div>

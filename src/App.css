@@ -880,12 +880,21 @@ footer {
       justify-content: space-around;
       align-items: center;
       text-align: center;
-
       gap: 10px;
       padding-left: 40px;
       padding-right: 40px;
+      .tit{
+        font-size: 35px;
+        color: black;
+        font-weight:500;
+        i{
+          color: gray;
+        font-size: 25px;
+        }
+      }
       img {
         width: 50%;
+        cursor: pointer;
       }
       .cimage {
         text-decoration: none;

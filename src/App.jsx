@@ -12,6 +12,7 @@ import data from "./data.json";
 import FichaTecnica from "./component/FichaTecnica";
 import ProductCard from "./component/ProductCard";
 import Datatreat from "./component/Datatreat";
+import WorkWithUs from "./component/WorkWithUs";
 
 function App() {
   const [language, setLanguage] = useState("en");
@@ -45,6 +46,8 @@ function App() {
         <Route path="es/instalaciones.html" element={<Home  home={content.home}  productos={content.productos}   setProductid={setProductid}productid={productid}  />}/>
         <Route path="es/certificaciones.html"element={ <Certificaciones certificaciones={content.certificaciones} /> } />
         <Route path="es/productos.html" element={<Productos setProductid={setProductid} productos={content.productos} /> } />
+        <Route path="/empleo" element={<WorkWithUs work={content.workWithUs}/>} />
+
       </Routes>
       <footer>
         <div className="fc">
