@@ -12,7 +12,7 @@ const ProductCard = ({ product, setProductid, productid }) => {
       <h3>{product.title}</h3>
       <p>{product.phrase}</p>
       <button onClick={() => defId(product.id)}>
-        <Link className="linkP" to="/FichaTecnica">
+        <Link className="linkP" to='/FichaTecnica'>
           {product.botton}
         </Link>
       </button>

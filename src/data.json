@@ -741,12 +741,12 @@
         },
         {
           "id": 1,
-          "title": "CoC (Global GAP)",
+          "title": "CoC (Global.G.A.P.)",
           "subtitle": "Calidad y trazabilidad desde el origen hasta tu hogar.",
           "description": "El estándar de Cadena de Custodia (CoC) GLOBALG.AP garantiza que cualquier producto vendido con un reclamo GLOBALG.AP o que lleve el logotipo de una etiqueta GGN proviene verdaderamente de un proceso de producción certificado GLOBALG.AP.",
           "image": "/img/globalgap.png",
           "pdf": "/pdf/certglobal.png",
-          "number": 4063651252484,
+          "number": 7709997326430,
           "concept": "GGN:",
           "url":"https://database.globalgap.org/globalgap/search/SearchMain.faces"
         },
@@ -1536,12 +1536,12 @@
         },
         {
           "id": 1,
-          "title": "CoC (Global GAP)",
+          "title": "CoC (Global.G.A.P.)",
           "subtittle": "Quality and Traceability from Farm to Table",
           "description": "The GLOBALG.A.P. Chain of Custody (CoC) standard ensures that any product sold with a GLOBALG.A.P. claim or bearing a GGN label logo is truly sourced from a GLOBALG.A.P. certified production process.",
           "image": "/img/globalgap.png",
           "pdf": "/pdf/certglobal.png",
-          "number": 4063651252484,
+          "number": 7709997326430,
           "concept": "GGN:",
           "url":"https://database.globalgap.org/globalgap/search/SearchMain.faces"
         },
