@@ -1,11 +1,15 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
+import data from "../data.json";
 
 const FichaTecnica = ({ productos, productid }) => {
   const [product, setproduct] = useState(productos.products[productid])
   //let product = productos.products[productid];
   const [productVerified, setProductVerified] = useState(null);
   const { id } = useParams()
+
+  const [language, setLanguage] = useState("en");
+  const [content, setContent] = useState(data[language]);
   
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -15,9 +19,8 @@ const FichaTecnica = ({ productos, productid }) => {
     if (foundProduct) {
       setProductVerified(foundProduct);
       setproduct(foundProduct)
-      
     } else {
-      
+      console.log(content)
     }
   }, [id, productos.products]);
   
