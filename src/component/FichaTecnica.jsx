@@ -1,12 +1,26 @@
-import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { Link, useParams } from "react-router-dom";
 
 const FichaTecnica = ({ productos, productid }) => {
-  const product = productos.products[productid];
+  const [product, setproduct] = useState(productos.products[productid])
+  //let product = productos.products[productid];
+  const [productVerified, setProductVerified] = useState(null);
+  const { id } = useParams()
+  
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, []);
-
+    
+    const foundProduct = productos.products.find(product => product.title === id);
+    
+    if (foundProduct) {
+      setProductVerified(foundProduct);
+      setproduct(foundProduct)
+      console.log("Producto verificado:", product);
+    } else {
+      console.log("Producto no encontrado");
+    }
+  }, [id, productos.products]);
+  
   return (
     <div className="fichaTecnica">
       <div className="rute">
@@ -71,20 +85,6 @@ const FichaTecnica = ({ productos, productid }) => {
         <br />
         <span>{product.t6}</span>
         <br />
-      </div>
-
-      <div className="carrousel-example">
-        <div className="imgC">
-          <div>
-            <img src="/img/uchuva.png" class=" " alt="..." />
-          </div>
-          <div>
-            <img src="/img/tomate_de_arbol2.png" class="  h-100" alt="..." />
-          </div>
-          <div>
-            <img src="/img/Kumquat.png" class=" " alt="..." />
-          </div>
-        </div>
       </div>
     </div>
   );
