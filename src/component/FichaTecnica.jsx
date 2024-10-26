@@ -15,9 +15,9 @@ const FichaTecnica = ({ productos, productid }) => {
     if (foundProduct) {
       setProductVerified(foundProduct);
       setproduct(foundProduct)
-      console.log("Producto verificado:", product);
+      
     } else {
-      console.log("Producto no encontrado");
+      
     }
   }, [id, productos.products]);
   
