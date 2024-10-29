@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import data from "../data.json";
+import Loading from "./Loading";
 
 const FichaTecnica = ({ productos, productid }) => {
   const [product, setproduct] = useState(productos.products[productid])
@@ -10,6 +11,7 @@ const FichaTecnica = ({ productos, productid }) => {
 
   const [language, setLanguage] = useState("en");
   const [content, setContent] = useState(data[language]);
+  const [loading, setLoading] = useState(true);
   
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -22,10 +24,21 @@ const FichaTecnica = ({ productos, productid }) => {
     } else {
       console.log(content)
     }
+    // Temporizador para cambiar el estado de carga después de 3 segundos
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 4000); // Espera 3 segundos
+    return () => clearTimeout(timer); // Limpia el temporizador si el componente se desmonta
   }, [id, productos.products]);
   
   return (
     <div className="fichaTecnica">
+      {
+        loading ? (
+          <Loading/>
+        ):(
+          <>
+          
       <div className="rute">
         <Link className="linkP" to="/productos">
           Productos
@@ -88,7 +101,9 @@ const FichaTecnica = ({ productos, productid }) => {
         <br />
         <span>{product.t6}</span>
         <br />
-      </div>
+      </div></>
+        )
+      }
     </div>
   );
 };

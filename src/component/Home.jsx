@@ -1,22 +1,23 @@
 import React, { useEffect } from "react";
-
 import { Link } from "react-router-dom";
-import FichaTecnica from "./FichaTecnica";
 import ProductCard from "./ProductCard";
+
 
 const Home = ({ home, productos, setProductid, productid }) => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
-  const imgurl =
-    "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihYsqsM3iMtyZrrIHtDuzE0sRAPlgst3EPcnblxCK_ihPCUO1VD2aE1v0E-8pf64J8ipxpDMRTVjtNqNoHyzOVlFtzXc5VNOdSw=w1600-h777";
+  useEffect(() => {
+    const cortina = document.querySelector('.cortina');
+    cortina.classList.add('animate');
+  }, []);
 
   const products = productos.products;
-  console.log(home)
 
   return (
     <div className="home">
+      <div className="cortina"></div> 
       <section className="homeHeader">
         <div>
           <h1>{home.titleE}</h1>

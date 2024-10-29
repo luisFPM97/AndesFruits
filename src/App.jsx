@@ -13,6 +13,7 @@ import FichaTecnica from "./component/FichaTecnica";
 import ProductCard from "./component/ProductCard";
 import Datatreat from "./component/Datatreat";
 import WorkWithUs from "./component/WorkWithUs";
+import Articles from "./component/Articles";
 
 function App() {
   const [language, setLanguage] = useState("en");
@@ -41,6 +42,8 @@ function App() {
         <Route path="/ProductCard" element={<ProductCard />} />
         <Route path="/data" element={<Datatreat content={content.datat}/>}/>
         <Route path="/empleo" element={<WorkWithUs work={content.workWithUs}/>} />
+        <Route path="/articulos" element={<Articles language ={language}/>
+        }/>
       </Routes>
       <footer>
         <div className="fc">

@@ -704,14 +704,17 @@ footer {
 /*ficha tecnica*/
 .fichaTecnica {
   width: 100%;
-  height: auto;
-  background-color: #587239;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #587239;
+
+
   text-align: center;
   flex-direction: column;
-  padding: 50px;
   gap: 50px;
   .rute {
     width: 100%;
@@ -803,38 +806,7 @@ footer {
     font-size: 20px;
     font-weight: bold;
   }
-  .carrousel-example {
-    overflow: hidden;
-    height: 500px;
-    width: 600px;
-    max-width: 100%;
 
-    display: flex;
-    align-items: center;
-    align-items: center;
-    scroll-snap-type: x mandatory;
-    position: relative;
-    .imgC {
-      width: 1800px;
-      height: 100%;
-      display: flex;
-      position: absolute;
-      animation: slide 6s infinite ease-in-out;
-      opacity: 0;
-      div {
-        width: 600px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        img {
-          max-width: 100%;
-          object-fit: contain;
-          max-height: 100%;
-        }
-      }
-    }
-  }
 }
 /*certificaciones*/
 .certificaciones {
@@ -846,7 +818,9 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: transparent;
+  background-color:rgb(87, 108, 124);
+  color: white;
+  transition: all 0.3s ease-in-out;
   .header {
     display: flex;
     flex-direction: column;
@@ -863,18 +837,23 @@ footer {
       width: 100%;
       height: 80vh;
       position: absolute;
-      z-index: -1;
+      z-index: 1;
       filter: blur(2px);
     }
 
     h1 {
       font-size: 65px;
+      position: absolute;
+      top: 60px;
+      z-index: 2;
     }
     p {
       font-size: 45px;
       font-weight: bold;
       filter: drop-shadow(0 0 5px black);
       color: white;
+      position: absolute;
+      z-index: 2;
     }
   }
   .cCard {
@@ -897,21 +876,23 @@ footer {
         color: black;
         font-weight:500;
         i{
-          color: gray;
+          color: white;
         font-size: 25px;
         }
       }
       img {
         width: 50%;
         cursor: pointer;
+        filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.534));
       }
       .cimage {
         text-decoration: none;
-        color: gray;
+        color: rgb(0, 0, 0);
         font-size: 25px;
+        transition: all 0.3s ease-in-out;
       }
       .cimage:hover {
-        transform: scale(1.1);
+        transform: scale(1.5);
       }
     }
   }
@@ -1097,7 +1078,138 @@ footer {
     }
   }
 }
+.articles{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #c2bd82;
+}
+.cortina {
+  position: fixed; 
+  top: 0;
+  right: -10px;
+  width: 250vw; 
+  height: 150vh; 
+  background-color:#5c6e2e; 
+  z-index: 990;
+  transform: translateX(0);
+  transition: transform 2s ease-in-out;
+}
 
+.cortina.animate {
+  transform: translateX(140vh) rotate(-90deg) translateY(100vw);
+}
+.loading{
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  backdrop-filter: blur(5px);
+  .elements{
+    display: flex;
+    position: relative;
+    width: 600px;
+    height:600px;
+    .fondospn{
+      position: absolute;
+      left: 150px;
+      top: 150px;
+      width: 300px;
+      height: 300px;
+      z-index: 1;
+      background-color: #2125295b;
+      border-radius: 50%;
+      animation: scaleFondospn 1.5s infinite;
+      filter: drop-shadow(0 0 20px #212529);
+    }
+    .fondospn1{
+      position: absolute;
+      left: 225px;
+      top: 225px;
+      width: 150px;
+      height: 150px;
+      z-index: 2;
+      background-color: #8e959c;
+      border-radius: 50%;
+      animation: scaleFondospn1 1.5s infinite;
+      filter: drop-shadow(0 0 5px #8e959c);
+    }
+    .logospn{
+      position: absolute;
+      width: 300px;
+      top: 190px;
+      left: 150px;
+      z-index: 3;
+      /*filter: drop-shadow(0 0 2px rgba(0, 0, 0));*/
+      animation: scalelogospn 4s infinite;
+    }
+  }
+  
+/* Animación para fondospn */
+
+}
+
+@keyframes scaleFondospn {
+  0%{
+    opacity: 0;
+  }
+  20%{
+    opacity: 1;
+  }
+  0%, 100% {
+      transform: scale(1); /* Escala inicial y final */
+  }
+  
+  50% {
+      transform: scale(0.5); /* Escala al 50% */
+  }
+  80%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+/* Animación para fondospn1 */
+@keyframes scaleFondospn1 {
+  0%{
+    opacity: 0;
+  }
+  20%{
+    opacity: 1;
+  }
+  0%, 100% {
+      transform: scale(1); /* Escala inicial y final */
+  }
+  50% {
+      transform: scale(2); /* Escala al 50% */
+  }
+  80%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+@keyframes scalelogospn{
+  
+  0%, 100% {
+    transform: scale(1); /* Escala inicial y final */
+  }
+  50% {
+      transform: scale(1.1); /* Escala al 50% */
+  }
+
+}
 @keyframes slide {
   0% {
     left: 0%;
@@ -1359,7 +1471,6 @@ footer {
   .fichaTecnica {
     width: 100%;
     overflow: hidden;
-
     padding-left: 0;
     padding-right: 0;
     .content {
@@ -1415,7 +1526,7 @@ footer {
       .certCard {
         overflow: hidden;
         img {
-          filter: drop-shadow(0 0 60px white);
+          filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.534));
         }
       }
     }

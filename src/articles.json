@@ -1,0 +1,48 @@
+{
+    "es":{
+        "title":"Artículos",
+        "articles":[
+            {
+                "title":"primer articulo",
+                "resume":"resume resume resume resume resume resume resume resume ashdfHBHV ADBV A VRTAB VTHBA SDJBGJHFB GBDLHA BVTHBA SVD",
+                "p1":"kajtalt ta tgwah a cstragc stgcskdhgtsds ctsa gc",
+                "p2":"kajtalt ta tgwah a cstragc stgcskdhgtsds ctsa gc",
+                "p3":"kajtalt ta tgwah a cstragc stgcskdhgtsds ctsa gc",
+                "images":[
+                    {
+                        "url":"https://cdn.pixabay.com/photo/2023/11/05/00/05/terrace-8366036_1280.jpg"
+                    },
+                    {
+                        "url":"https://cdn.pixabay.com/photo/2022/02/23/14/50/houses-7030773_1280.jpg"
+                    },
+                    {
+                        "url":"https://cdn.pixabay.com/photo/2020/10/02/16/42/tram-5621647_1280.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    "en":{
+        "title":"Articles",
+        "articles":[
+            {
+                "title":"First article",
+                "resume":"resume resume resume resume resume resume resume resume ashdfHBHV ADBV A VRTAB VTHBA SDJBGJHFB GBDLHA BVTHBA SVD",
+                "p1":"kajtalt ta tgwah a cstragc stgcskdhgtsds ctsa gc",
+                "p2":"kajtalt ta tgwah a cstragc stgcskdhgtsds ctsa gc",
+                "p3":"kajtalt ta tgwah a cstragc stgcskdhgtsds ctsa gc",
+                "images":[
+                    {
+                        "url":"https://cdn.pixabay.com/photo/2023/11/05/00/05/terrace-8366036_1280.jpg"
+                    },
+                    {
+                        "url":"https://cdn.pixabay.com/photo/2022/02/23/14/50/houses-7030773_1280.jpg"
+                    },
+                    {
+                        "url":"https://cdn.pixabay.com/photo/2020/10/02/16/42/tram-5621647_1280.jpg"
+                    }
+                ]
+            }
+        ]
+    }
+}
