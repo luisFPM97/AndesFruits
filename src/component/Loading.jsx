@@ -6,7 +6,7 @@ const Loading = () => {
         <div className='elements'>
             <div className='fondospn'></div>
             <div className='fondospn1'></div>
-            <img className='logospn' src="/public/img/lv.png" alt="" />
+            <img className='logospn' src="/img/lv.png" alt="" />
         </div>
     </div>
   )
