@@ -63,18 +63,20 @@ const FichaTecnica = ({ productos, productid }) => {
 
         <div className="table">
           <table>
-            <tr>
+            <thead>
               <th>Element</th>
               <th>Unit</th>
               <th>Total</th>
-            </tr>
-            {product.table.map((data, i) => (
-              <tr key={i}>
-                <td className="aleft">{data.title} </td>
-                <td className="aright">{data.unit} </td>
-                <td className="aright">{data.value} </td>
-              </tr>
-            ))}
+            </thead>
+            <tbody>
+              {product.table.map((data, i) => (
+                <tr key={i}>
+                  <td className="aleft">{data.title} </td>
+                  <td className="aright">{data.unit} </td>
+                  <td className="aright">{data.value} </td>
+                </tr>
+              ))}
+            </tbody>
           </table>
         </div>
       </div>
