@@ -1117,7 +1117,7 @@ footer {
     display: flex;
     position: relative;
     width: 600px;
-    height:600px;
+   aspect-ratio: 1;
     .fondospn{
       position: absolute;
       left: 150px;
@@ -1568,6 +1568,34 @@ footer {
         font-size: 20px;
       }
     }
+  }
+  .loading{
+    width: 100%;
+    height: 100vh;
+    .elements{
+      width: 100%;
+      aspect-ratio: 1;
+      .fondospn{
+        left: 25%;
+        top: 25%;
+        width: 50%;
+        height: 50%;
+      }
+      .fondospn1{
+        left: 37.5%;
+        top: 37.5%;
+        width: 25%;
+        height: 25%;
+      }
+      .logospn{
+        width: 50%;
+        top: 31.6%;
+        left: 25%;
+      }
+    }
+    
+  /* Animación para fondospn */
+  
   }
 }
 @media print {
