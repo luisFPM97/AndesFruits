@@ -1657,6 +1657,21 @@ footer {
   /* Animación para fondospn */
   
   }
+  .articleInfo{
+    .contain{
+      .image{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .img{
+          width: 100%;
+        }
+      }
+    }
+  }
 }
 @media print {
   .mainM {

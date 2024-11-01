@@ -6,7 +6,7 @@ const ArticleId = ({article,setArticleId,key}) => {
 
     function gotoart (name){
         setArticleId(article.id)
-        navigate(`/articulo/${name}`)
+        navigate(`/articulos/${name}`)
     }
   return (
     <div className='articleCard' onClick={()=> gotoart(article.title)}>

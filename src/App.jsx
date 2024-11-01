@@ -47,7 +47,7 @@ function App() {
         <Route path="/data" element={<Datatreat content={content.datat}/>}/>
         <Route path="/empleo" element={<WorkWithUs work={content.workWithUs}/>} />
         <Route path="/articulos" element={<Articles language ={language} setArticleId={setArticleId}/>}/>
-        <Route path="/articulo/:name" element={<ArticleInfo ArticleId={ArticleId} articlesInfo={articlesInfo} language={language}/>}/>
+        <Route path="/articulos/:name" element={<ArticleInfo ArticleId={ArticleId} articlesInfo={articlesInfo} language={language}/>}/>
       </Routes>
       <footer>
         <div className="fc">
