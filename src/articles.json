@@ -1,13 +1,17 @@
 {
     "es":{
+        
         "title":"Artículos",
+        
         "articles":[
             {
+                "id":0,
                 "title":"primer articulo",
                 "resume":"resume resume resume resume resume resume resume resume ashdfHBHV ADBV A VRTAB VTHBA SDJBGJHFB GBDLHA BVTHBA SVD",
                 "p1":"kajtalt ta tgwah a cstragc stgcskdhgtsds ctsa gc",
                 "p2":"kajtalt ta tgwah a cstragc stgcskdhgtsds ctsa gc",
                 "p3":"kajtalt ta tgwah a cstragc stgcskdhgtsds ctsa gc",
+                "image":"https://cdn.pixabay.com/photo/2023/11/05/00/05/terrace-8366036_1280.jpg",
                 "images":[
                     {
                         "url":"https://cdn.pixabay.com/photo/2023/11/05/00/05/terrace-8366036_1280.jpg"
@@ -23,14 +27,18 @@
         ]
     },
     "en":{
+        
         "title":"Articles",
+        
         "articles":[
             {
+                "id":0,
                 "title":"First article",
                 "resume":"resume resume resume resume resume resume resume resume ashdfHBHV ADBV A VRTAB VTHBA SDJBGJHFB GBDLHA BVTHBA SVD",
                 "p1":"kajtalt ta tgwah a cstragc stgcskdhgtsds ctsa gc",
                 "p2":"kajtalt ta tgwah a cstragc stgcskdhgtsds ctsa gc",
                 "p3":"kajtalt ta tgwah a cstragc stgcskdhgtsds ctsa gc",
+                "image":"https://cdn.pixabay.com/photo/2023/11/05/00/05/terrace-8366036_1280.jpg",
                 "images":[
                     {
                         "url":"https://cdn.pixabay.com/photo/2023/11/05/00/05/terrace-8366036_1280.jpg"

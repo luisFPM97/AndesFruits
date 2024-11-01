@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import articles from "../articles.json"
 import Loading from './Loading';
+import ArticleId from './ArticleId';
 
-const Articles = ({language}) => {
+const Articles = ({language, setArticleId}) => {
 const [articulos, setArticulos] = useState()
 const [loading, setLoading] = useState(true);
 
@@ -25,9 +26,19 @@ useEffect(() => {
                 <Loading/>
             ) : (
                 articulos ? ( 
-                    // Si no estamos en carga, muestra el título del artículo
+                    
                     <>  
+                    <div>
                         <h1>{articulos.title}</h1>
+                        <div className='contenedorArt'>
+                            {
+                                articulos.articles.map((article, i)=>(
+                                    <ArticleId  key={i} article={article} setArticleId={setArticleId}/>
+
+                                ))
+                            }
+                        </div>
+                    </div>
                     </>
                 ) : (
                     <>

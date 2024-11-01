@@ -14,11 +14,15 @@ import ProductCard from "./component/ProductCard";
 import Datatreat from "./component/Datatreat";
 import WorkWithUs from "./component/WorkWithUs";
 import Articles from "./component/Articles";
+import ArticleInfo from "./component/ArticleInfo";
+import articles from './articles.json'
 
 function App() {
   const [language, setLanguage] = useState("en");
   const [productid, setProductid] = useState(0);
   const [content, setContent] = useState(data[language]);
+  const [ArticleId, setArticleId] = useState(0)
+  const [articlesInfo, setArticlesInfo] = useState(articles)
 
   useEffect(() => {
     if (data) {
@@ -42,8 +46,8 @@ function App() {
         <Route path="/ProductCard" element={<ProductCard />} />
         <Route path="/data" element={<Datatreat content={content.datat}/>}/>
         <Route path="/empleo" element={<WorkWithUs work={content.workWithUs}/>} />
-        <Route path="/articulos" element={<Articles language ={language}/>
-        }/>
+        <Route path="/articulos" element={<Articles language ={language} setArticleId={setArticleId}/>}/>
+        <Route path="/articulo/:name" element={<ArticleInfo ArticleId={ArticleId} articlesInfo={articlesInfo} language={language}/>}/>
       </Routes>
       <footer>
         <div className="fc">
