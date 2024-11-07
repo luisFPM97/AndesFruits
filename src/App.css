@@ -1148,6 +1148,22 @@ footer {
     }
   }
 }
+.eticcode{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  h1, h2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  h2{
+    font-size: 30px;
+  }
+  p{
+    font-size: 20px;
+  }
+}
 .cortina {
   position: fixed; 
   top: 0;

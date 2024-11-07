@@ -737,7 +737,7 @@
           "pdf": "/pdf/certbasc.png",
           "number": " ",
           "concept": " ",
-          "url":"https://www.wbasco.org/es"
+          "url": "https://www.wbasco.org/es"
         },
         {
           "id": 1,
@@ -748,7 +748,7 @@
           "pdf": "/pdf/certglobal.png",
           "number": 7709997326430,
           "concept": "GGN:",
-          "url":"https://database.globalgap.org/globalgap/search/SearchMain.faces"
+          "url": "https://database.globalgap.org/globalgap/search/SearchMain.faces"
         },
         {
           "id": 2,
@@ -759,7 +759,7 @@
           "pdf": "",
           "number": " ",
           "concept": "",
-          "url":"https://www.sedex.com/es/soluciones/smeta-auditoria/"
+          "url": "https://www.sedex.com/es/soluciones/smeta-auditoria/"
         },
         {
           "id": 3,
@@ -770,7 +770,7 @@
           "pdf": "/pdf/certPrimus.pdf",
           "number": " ",
           "concept": " ",
-          "url":"https://www.primuslabs.com/"
+          "url": "https://www.primuslabs.com/"
         }
       ]
     },
@@ -788,10 +788,115 @@
       "d10": "Juan Camilo Laverde",
       "d11": "Gerente General"
     },
-    "workWithUs":{
+    "workWithUs": {
       "title": "Trabaja con nosotros",
       "description": "Si estás interesado en trabajar con nosotros, por favor envía tu <a href=\"mailto:nomina@andesexport.com\">correo electrónico</a> con tu <a href=\"https://www.linkedin.com/feed/\">perfil de LinkedIn</a> o <a href=\"https://www.facebook.com/andesexportcompany/\">nuestra página de Facebook</a>",
       "image": "/img/trabaja-con-nosotros.png"
+    },
+    "etic": {
+      "empresa": "Andes Export Company SAS",
+      "fechaCreacion": "DD/MM/AAAA",
+      "visionGeneral": "En Andes Export Company SAS, promovemos un comportamiento ético que guía las acciones de nuestros trabajadores y colaboradores, orientado a cumplir con los valores corporativos y los principios establecidos en nuestro código de ética. Este documento establece los lineamientos para la sana convivencia, promoviendo relaciones éticas con clientes, proveedores y trabajadores.",
+
+      "valores": {
+        "titulo":"Valores",
+        "valores":[
+          {
+            "nombre": "Responsabilidad",
+            "descripcion": "Asumimos nuestras obligaciones y las consecuencias de nuestros actos, siendo confiables y comprometidos con nuestros objetivos."
+          },
+          {
+            "nombre": "Integridad",
+            "descripcion": "Fomentar la honestidad y la lealtad, rechazando toda forma de fraude, soborno y corrupción."
+          },
+          {
+            "nombre": "Respeto",
+            "descripcion": "Garantizar la dignidad humana, promoviendo la igualdad sin discriminación y respetando los derechos fundamentales."
+          },
+          {
+            "nombre": "Transparencia",
+            "descripcion": "Reflejar nuestros valores mediante procesos claros y abiertos para todos los grupos de interés."
+          },
+          {
+            "nombre": "Calidad",
+            "descripcion": "Buscando la mejora continua, satisfaciendo las expectativas de los clientes bajo estándares de calidad internacionales."
+          }
+        ]
+      },
+
+      "principios": {
+        "titulo": "Principios",
+        "principios":[
+          {
+            "nombre": "Derechos Humanos",
+            "descripcion": "Respetamos y promovemos los derechos humanos universales en todas nuestras interacciones."
+          },
+          {
+            "nombre": "No al Trabajo Infantil",
+            "descripcion": "Protección de los derechos infantiles conforme a la normativa de la Organización Internacional del Trabajo (OIT), asegurando que no haya explotación económica ni riesgos para la salud o desarrollo de los niños."
+          },
+          {
+            "nombre": "Prevención del Acoso Laboral",
+            "descripcion": "Mantener un ambiente de respeto a la dignidad humana, evitando cualquier forma de acoso y promoviendo un Comité de Convivencia Laboral."
+          },
+          {
+            "nombre": "Empleo Libre y Justo",
+            "descripcion": "Establecer procesos transparentes de contratación que respetan las leyes laborales y aseguren condiciones laborales dignas."
+          }
+        ]
+      },
+
+      "gruposInteres": {
+        "titulo": "Grupos de Interés",
+        "gruposInteres":[
+          {
+            "grupo": "Clientes",
+            "compromisos":  "Ofrecer productos y servicios de alta calidad. Establecer relaciones de confianza a largo plazo."
+          },
+          {
+            "grupo": "Proveedores",
+            "compromisos":  "Fomentar relaciones de colaboración para lograr la excelencia en calidad del producto."
+          },
+          {
+            "grupo": "Trabajadores",
+            "compromisos":  "Asegurar un entorno laboral saludable, respetando las normas de seguridad y salud, y buscando el bienestar continuo de todos."
+          },
+          {
+            "grupo": "Comunidad",
+            "compromisos":  "Contribuir al desarrollo sostenible de las comunidades donde operamos, a través de acciones sociales y ambientales."
+          }
+        ]
+      },
+
+      "conductasEsperadas":{
+        "titulo": "Conductas Esperadas",
+        "conductasEsperadas": [
+        {
+          "conducta": "Cumplimiento Legal",
+          "descripcion": "Cumplimos con todas las leyes y regulaciones aplicables a nuestras operaciones."
+        },
+        {
+          "conducta": "Prevención de Conflictos de Interés",
+          "descripcion": "Evitar situaciones que puedan generar conflictos entre los intereses personales y los de la empresa."
+        },
+        {
+          "conducta": "Cuidado de los Activos",
+          "descripcion": "Proteger los activos de la empresa y utilizarlos de manera eficiente."
+        },
+        {
+          "conducta": "Confidencialidad",
+          "descripcion": "Mantener la confidencialidad de la información de la empresa y de los clientes."
+        }
+      ]
+      },
+
+      "denuncias": {
+        "titulo": "Denuncias",
+        "denuncias": {
+          "canal": "Línea ética confidencial: info@andesexport.com",
+          "garantia": "Todas las denuncias serán tratadas de manera confidencial y sin represalias."
+        }
+      }
     }
   },
   "en": {
@@ -1532,7 +1637,7 @@
           "pdf": "/pdf/certbasc.png",
           "number": " ",
           "concept": " ",
-          "url":"https://www.wbasco.org/es"
+          "url": "https://www.wbasco.org/es"
         },
         {
           "id": 1,
@@ -1543,7 +1648,7 @@
           "pdf": "/pdf/certglobal.png",
           "number": 7709997326430,
           "concept": "GGN:",
-          "url":"https://database.globalgap.org/globalgap/search/SearchMain.faces"
+          "url": "https://database.globalgap.org/globalgap/search/SearchMain.faces"
         },
         {
           "id": 2,
@@ -1554,7 +1659,7 @@
           "pdf": "",
           "number": " ",
           "concept": " ",
-          "url":"https://www.sedex.com/es/soluciones/smeta-auditoria/"
+          "url": "https://www.sedex.com/es/soluciones/smeta-auditoria/"
         },
         {
           "id": 3,
@@ -1565,7 +1670,7 @@
           "pdf": "/pdf/certPrimus.pdf",
           "number": " ",
           "concept": " ",
-          "url":"https://www.primuslabs.com/"
+          "url": "https://www.primuslabs.com/"
         }
       ]
     },
@@ -1583,10 +1688,115 @@
       "d10": "Juan Camilo Laverde",
       "d11": "General Manager"
     },
-    "workWithUs":{
+    "workWithUs": {
       "title": "Trabaja con nosotros",
       "description": "Si estás interesado en trabajar con nosotros, por favor envía tu <a href=\"mailto:nomina@andesexport.com\">correo electrónico</a> con tu <a href=\"https://www.linkedin.com/feed/\">perfil de LinkedIn</a> o <a href=\"https://www.facebook.com/andesexportcompany/\">nuestra página de Facebook</a>",
       "image": "/img/trabaja-con-nosotros.png"
+    },
+    "etic": {
+      "empresa": "Andes Export Company SAS",
+      "fechaCreacion": "DD/MM/AAAA",
+      "visionGeneral": "In Andes Export Company SAS, we promote ethical behavior that guides the actions of our workers and collaborators, aimed at fulfilling corporate values and the principles established in our code of ethics. This document sets out the guidelines for healthy coexistence, promoting ethical relationships with clients, suppliers, and employees.",
+
+      "valores": {
+        "titulo":"Values",
+        "valores":[
+          {
+            "nombre": "Responsability",
+            "descripcion": "We take on our obligations and the consequences of our actions, being reliable and committed to our goals."
+          },
+          {
+            "nombre": "Integrity",
+            "descripcion": "Promote honesty and loyalty, rejecting all forms of fraud, bribery, and corruption."
+          },
+          {
+            "nombre": "Respect",
+            "descripcion": "Ensuring human dignity, promoting equality without discrimination, and respecting fundamental rights."
+          },
+          {
+            "nombre": "Transparency",
+            "descripcion": "Reflect our values through clear and open processes for all stakeholders."
+          },
+          {
+            "nombre": "Quality",
+            "descripcion": "Seeking continuous improvement, satisfying customer expectations under international quality standards."
+          }
+        ]
+      },
+
+      "principios": {
+        "titulo": "Principles",
+        "principios":[
+          {
+            "nombre": "Human Rights",
+            "descripcion": "We respect and promote universal human rights in all our interactions."
+          },
+          {
+            "nombre": "No Child Labor",
+            "descripcion": "Protection of children's rights in accordance with the International Labour Organization (ILO) standards, ensuring no economic exploitation or risks to children's health or development."
+          },
+          {
+            "nombre": "Prevention of Workplace Harassment",
+            "descripcion": "Maintain an environment that respects human dignity, avoiding any form of harassment and promoting a Workplace Coexistence Committee."
+          },
+          {
+            "nombre": "Free and Fair Employment",
+            "descripcion": "Establish transparent hiring processes that respect labor laws and ensure decent working conditions."
+          }
+        ]
+      },
+
+      "gruposInteres": {
+        "titulo": "Interest Groups",
+        "gruposInteres": [
+            {
+                "grupo": "Clients",
+                "compromisos": "Offer high-quality products and services. Establish long-term trustful relationships."
+            },
+            {
+                "grupo": "Suppliers",
+                "compromisos": "Foster collaborative relationships to achieve excellence in product quality."
+            },
+            {
+                "grupo": "Workers",
+                "compromisos": "Ensure a healthy work environment, respecting safety and health regulations, and seeking the continuous well-being of all."
+            },
+            {
+                "grupo": "Community",
+                "compromisos": "Contribute to the sustainable development of the communities where we operate, through social and environmental actions."
+            }
+        ]
+    },
+
+      "conductasEsperadas":{
+        "titulo": "Expected Behaviors",
+        "conductasEsperadas": [
+            {
+                "conducta": "Legal Compliance",
+                "descripcion": "We comply with all applicable laws and regulations in our operations."
+            },
+            {
+                "conducta": "Prevention of Conflicts of Interest",
+                "descripcion": "Avoid situations that may create conflicts between personal interests and those of the company."
+            },
+            {
+                "conducta": "Care of Assets",
+                "descripcion": "Protect the company's assets and use them efficiently."
+            },
+            {
+                "conducta": "Confidentiality",
+                "descripcion": "Maintain the confidentiality of the company's and clients' information."
+            }
+        ]
+    },
+
+      "denuncias": {
+        "titulo": "Reports",
+        "denuncias": {
+            "canal": "Confidential ethics line: info@andesexport.com",
+            "garantia": "All reports will be treated confidentially and without retaliation."
+        }
+    }
     }
   }
 }

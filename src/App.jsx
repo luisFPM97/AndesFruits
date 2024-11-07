@@ -16,6 +16,7 @@ import WorkWithUs from "./component/WorkWithUs";
 import Articles from "./component/Articles";
 import ArticleInfo from "./component/ArticleInfo";
 import articles from './articles.json'
+import EticCode from "./component/EticCode";
 
 function App() {
   const [language, setLanguage] = useState("en");
@@ -23,10 +24,12 @@ function App() {
   const [content, setContent] = useState(data[language]);
   const [ArticleId, setArticleId] = useState(0)
   const [articlesInfo, setArticlesInfo] = useState(articles)
-
+  
   useEffect(() => {
+    
     if (data) {
       setContent(data[language]);
+      
     }
   }, [language, data]);
 
@@ -48,6 +51,7 @@ function App() {
         <Route path="/empleo" element={<WorkWithUs work={content.workWithUs}/>} />
         <Route path="/articulos" element={<Articles language ={language} setArticleId={setArticleId}/>}/>
         <Route path="/articulos/:name" element={<ArticleInfo ArticleId={ArticleId} articlesInfo={articlesInfo} language={language}/>}/>
+        <Route path="/codigoEtica" element={<EticCode code={content.etic}/>}/>
       </Routes>
       <footer>
         <div className="fc">
