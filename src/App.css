@@ -1151,14 +1151,20 @@ footer {
 .eticcode{
   display: flex;
   flex-direction: column;
+  margin:20px;
   padding: 20px;
+  background-color: #82a841c7;
+  border-radius: 20px;
+  filter: drop-shadow(0 0 5px rgb(0, 0, 0));
+  font-weight: bold;
   h1, h2{
     display: flex;
     width: 100%;
     justify-content: center;
   }
   h2{
-    font-size: 30px;
+    font-size: 35px;
+    margin-bottom: 10px;
   }
   p{
     font-size: 20px;
