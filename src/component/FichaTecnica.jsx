@@ -68,7 +68,7 @@ const FichaTecnica = ({ productos, productid }) => {
               <th>Unit</th>
               <th>Total</th>
             </thead>
-            <tbody>
+            <tbody className="tb">
               {product.table.map((data, i) => (
                 <tr key={i}>
                   <td className="aleft">{data.title} </td>

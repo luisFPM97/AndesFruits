@@ -130,7 +130,8 @@ footer {
   z-index: 999;
   bottom: 0;
   right: -200%;
-  background-color: #2e3c1d;
+  background-color: #2e3c1dab;
+  
   transition: all 0.3s ease-in-out;
   .logoA {
     position: relative;
@@ -203,6 +204,7 @@ footer {
 }
 .responsive {
   right: 0;
+  backdrop-filter: blur(10px);
 }
 
 /*home*/
@@ -710,7 +712,7 @@ footer {
   align-items: center;
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #587239;
+  background-color:#bed98f;
 
 
   text-align: center;
@@ -769,26 +771,32 @@ footer {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-
+      color: black;
       table {
         border-collapse: collapse;
         border-radius: 20px;
-        th,
-        td {
+        tbody{
+          tr{
+            background-color: transparent;
+            color: black;
+          }
+        }
+        th, td {
           background-color: #b6bc9825;
           padding: 5px;
           border-collapse: collapse;
           border-radius: 5px;
+          color: black;
         }
         .aright {
           text-align: right;
           width: 100px;
-          color: white;
+          color:#587239;
           font-weight: bold;
         }
         .aleft {
           text-align: left;
-          color: #b6bc98;
+          color:#2e3c1d;
           font-weight: bold;
           font-size: 20px;
         }
@@ -818,7 +826,7 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color:rgb(87, 108, 124);
+  background-color:rgb(127, 149, 167);
   color: white;
   transition: all 0.3s ease-in-out;
   .header {
@@ -883,7 +891,7 @@ footer {
       img {
         width: 50%;
         cursor: pointer;
-        filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.534));
+        filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.534));
       }
       .cimage {
         text-decoration: none;
@@ -1346,6 +1354,64 @@ footer {
     opacity: 0;
   }
 }
+.err404{
+  width: 100%;
+  min-height: 100vh;
+  background-color: #bed98f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 10px;
+  .content{
+    .titulo{
+      font-size: 60px;
+      font-weight: bold;
+    }
+    .msj1, .msj2{
+      font-size: 30px;
+    }
+  }
+  .btn{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color:#83a841;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    img{
+      height: 110px;
+      animation: scalelogospn 2s infinite;
+      
+    }
+    .spbtn{
+      width: 0;
+      opacity: 0;
+      
+      transition: all 0.4s ease-in-out;
+      
+      overflow: hidden;
+    }
+  }
+  .btn:hover{
+    background-color:#a4ac67;
+    transform: scale(1.05);
+    border-radius: 30px;
+    width: 350px;
+    .spbtn{
+      width: 100px;
+      opacity: 1;
+      font-weight: bold;
+      
+    }
+  }
+}
 
 @media screen and (max-width: 980px) {
   .btnMr {
@@ -1604,11 +1670,11 @@ footer {
     .cCard {
       flex-direction: column;
       width: 100%;
-      background-color: #587239;
+      background-color:rgb(127, 149, 167);
       .certCard {
         overflow: hidden;
         img {
-          filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.534));
+          filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.8));
         }
       }
     }

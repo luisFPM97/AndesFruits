@@ -897,6 +897,12 @@
           "garantia": "Todas las denuncias serán tratadas de manera confidencial y sin represalias."
         }
       }
+    },
+    "err":{
+      "titulo": "Error",
+      "mensaje1": "Parece que te has desviado del camino.",
+      "mensaje2": "Vuelve a la página de inicio y sigue adelante.",
+      "boton": "Inicio"
     }
   },
   "en": {
@@ -1797,6 +1803,12 @@
             "garantia": "All reports will be treated confidentially and without retaliation."
         }
     }
+    },
+    "err":{
+      "titulo": "Error",
+      "mensaje1": "It seems you have strayed from the path.",
+      "mensaje2": "Return to the homepage and move forward.",
+      "boton": "Homepage"
     }
   }
 }
