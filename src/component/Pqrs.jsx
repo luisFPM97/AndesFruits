@@ -1,14 +1,18 @@
 import React, { useEffect, useState } from "react";
 
-const Contact = ({ contact }) => {
+const Pqrs = ({ contact }) => {
   const [result, setResult] = useState("");
   const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const onSubmit = async (event) => {
     event.preventDefault();
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "cf29c7be-710b-448b-a92a-3c8716b092f9");
+    formData.append("access_key", "f6d19b9b-5e15-4857-9b97-dd5ac5107fdc");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -30,7 +34,7 @@ const Contact = ({ contact }) => {
   
   return (
     <>
-      <div className="contactenos">
+      <div className="pqrs">
         <div className="imgcont"></div>
         <div className="contenedorInfo">
           <div className="headerCont">
@@ -42,12 +46,9 @@ const Contact = ({ contact }) => {
 
           <div className="contForm">
             <form action="" onSubmit={onSubmit}>
-              <input type="hidden" name="subject" value="SOLICITUD CONTACTO"/>
-              <input className="firstName" type="text" placeholder="First Name" name="name" required />
-              <input className="lastName"  type="text"  placeholder="Last Name"   name="last_name"  required/>
-              <input className="phone" type="text" placeholder="Phone" name="phone" required/>
+              <input type="hidden" name="subject" value="RADICADO PQRS"/>
+              <input type="hidden" name="replyto" value="ingsistemas@andesexport.com"></input>
               <input className="email" type="email" placeholder="Email" name="email" required/>
-              <input className="company" type="text" placeholder="Company" name="company" required />
               <textarea className="mensaje" name="message" id="" placeholder="Message" required ></textarea>
               <button type="submit" className="btnForm">
                 <i className="bx bxs-send"></i>
@@ -57,14 +58,12 @@ const Contact = ({ contact }) => {
                     <img src="/img/LOGO VERTICAL.png" alt="" />
                     <p>{result}</p>
                   </div>
+                  <div class="h-captcha" data-captcha="true"></div>
             </form>
             <div className="infoContact">
               <span className="title">{contact.title3}</span>
               <span>
-                <b>{contact.tp}:</b> {contact.phone2}
-              </span>
-              <span>
-                <b>{contact.te}:</b> {contact.email}
+                <b>{contact.te}:</b> info@andesexpor.com
               </span>
               <span>
                 <b>{contact.ta}:</b> {contact.address}
@@ -89,4 +88,4 @@ const Contact = ({ contact }) => {
   );
 };
 
-export default Contact;
+export default Pqrs;

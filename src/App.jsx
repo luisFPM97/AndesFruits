@@ -18,6 +18,7 @@ import ArticleInfo from "./component/ArticleInfo";
 import articles from './articles.json'
 import EticCode from "./component/EticCode";
 import Err404 from "./component/Err404";
+import Pqrs from "./component/Pqrs";
 
 function App() {
   const [language, setLanguage] = useState("en");
@@ -53,6 +54,7 @@ function App() {
         <Route path="/articulos" element={<Articles language ={language} setArticleId={setArticleId}/>}/>
         <Route path="/articulos/:name" element={<ArticleInfo ArticleId={ArticleId} articlesInfo={articlesInfo} language={language}/>}/>
         <Route path="/codigoEtica" element={<EticCode code={content.etic}/>}/>
+        <Route path="/eticalLine" element={<Pqrs contact={content.contactenos} />} />
         {/*Ruta de error*/}
         <Route path="*" element={<Err404 err={content.err}/>}/>
       </Routes>
@@ -82,7 +84,7 @@ function App() {
           </div>
           <hr />
           <div className="ff">
-            <span className="cc">© Andes Fruits 2024 || <Link to="/data">{content.contactenos.td}</Link></span>
+            <span className="cc">© Andes Fruits 2024 || <Link to="/data">{content.contactenos.td}</Link> || <Link to="/eticalLine">PQRS</Link></span>
             <span>
               {" "}
               <a

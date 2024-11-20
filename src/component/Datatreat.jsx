@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 const Datatreat = ({content}) => {
     console.log(content)
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
   return (
     <div className='dataTreatment'> 
         <h1><img src="/img/Recurso.png" alt="logo" />{content.title}</h1>
