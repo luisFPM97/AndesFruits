@@ -756,7 +756,7 @@ footer {
       align-items: center;
       position: relative;
       img {
-        width: 130%;
+        width: 100%;
         position: absolute;
         transition: all 0.1s ease-in-out;
       }
