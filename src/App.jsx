@@ -19,6 +19,7 @@ import articles from './articles.json'
 import EticCode from "./component/EticCode";
 import Err404 from "./component/Err404";
 import Pqrs from "./component/Pqrs";
+import Comprobantes from "./component/comprobantes/Comprobantes";
 
 function App() {
   const [language, setLanguage] = useState("en");
@@ -55,6 +56,7 @@ function App() {
         <Route path="/articulos/:name" element={<ArticleInfo ArticleId={ArticleId} articlesInfo={articlesInfo} language={language}/>}/>
         <Route path="/codigoEtica" element={<EticCode code={content.etic}/>}/>
         <Route path="/eticalLine" element={<Pqrs contact={content.contactenos} />} />
+        <Route path="/comprobantes" element={<Comprobantes />} />
         {/*Ruta de error*/}
         <Route path="*" element={<Err404 err={content.err}/>}/>
       </Routes>
