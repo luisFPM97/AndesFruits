@@ -71,7 +71,7 @@ const Confirmacion = () => {
           </div>
           <div className="form-group">
             <label htmlFor="email">Periodo:</label>
-            <select name="subject" id="" >
+            <select name="subject" id="" required>
             <option value="" disabled selected required>
             Selecciona una opción
             </option>
