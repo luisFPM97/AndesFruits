@@ -75,7 +75,7 @@ const Confirmacion = () => {
             <option value="" disabled selected required>
             Selecciona una opción
             </option>
-            {["Enero", "Febrero", "Marzo"].map((opcion, index) => (
+            {["Enero", "Febrero"].map((opcion, index) => (
             <option key={index} value={opcion}>
                 {opcion}
             </option>
