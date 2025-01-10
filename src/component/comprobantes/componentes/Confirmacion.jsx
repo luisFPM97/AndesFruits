@@ -19,7 +19,7 @@ const Confirmacion = () => {
     e.preventDefault();
 
     const formData = new FormData(e.target);
-    formData.append('subject', 'Solicitud de desprendible de pago');
+    
     formData.append('access_key', 'f7dc8472-34bf-44ca-b03b-cf62bc68aef7');
 
     const cedulaInput = formData.get('name'); // Obtén la cédula del formulario
@@ -69,6 +69,19 @@ const Confirmacion = () => {
             <label htmlFor="email">Correo Electrónico:</label>
             <input type="email" id="email" name="email" required />
           </div>
+          <div className="form-group">
+            <label htmlFor="email">Periodo:</label>
+            <select name="subject" id="" >
+            <option value="" disabled selected required>
+            Selecciona una opción
+            </option>
+            {["Enero", "Febrero", "Marzo"].map((opcion, index) => (
+            <option key={index} value={opcion}>
+                {opcion}
+            </option>
+            ))}
+            </select>
+          </div>
 
           <div className="form-group" hidden>
             <label htmlFor="message">Mensaje</label>
@@ -82,7 +95,7 @@ const Confirmacion = () => {
             ></textarea>
           </div>
 
-          <button type="submit">Confirmar datos</button>
+          <button className="btnLink" type="submit">Confirmar datos</button>
         </form>
       </div>
 
@@ -90,23 +103,23 @@ const Confirmacion = () => {
         {empleadoEncontrado ? (
           <>
             <div>
-              <span>Cédula: </span>
+              <span><b>Cédula: </b></span>
               <span>{empleadoEncontrado.cedula}</span>
             </div>
             <div>
-              <span>Año: </span>
+              <span><b>Año: </b></span>
               <span>2025</span>
             </div>
             <div>
-              <span>Nombre: </span>
+              <span><b>Nombre: </b></span>
               <span>{empleadoEncontrado.nombre}</span>
             </div>
             <div>
             {empleadoEncontrado.comprobantes.map((comprobante) => (
                 <div key={comprobante.enlace || comprobante.mes}>
-                <span>{comprobante.mes}: </span>
+                <span><b>{comprobante.mes}:  </b></span>
                 {comprobante.enlace === "" ? (
-                    <span>No disponible</span>
+                    <span>...No disponible</span>
                 ) : (
                     <a href={comprobante.enlace} target="_blank" rel="noreferrer">
                     Descargar

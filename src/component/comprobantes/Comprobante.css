@@ -1,3 +1,7 @@
+.contact-page{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
 .comprobantes{
     width: 100%;
     min-height: 100vh;
@@ -6,4 +10,57 @@
     justify-content: center;
     align-items: center;
     background-color: antiquewhite;
+}
+.contact-container{
+    display: flex;
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+        .form-group{
+            width: 100%;
+            gap: 5px;
+            display: flex;
+            justify-content: space-between;
+            label{
+                font-weight: bold;
+            }
+        }
+    }
+}
+.btnLink{
+    padding: 15px;
+    width: auto;
+    height: auto;
+    border-radius: 50px;
+    border: none;
+    background-color: #2e3c1d;
+    font-weight: bold;
+    font-size: 25px;
+    transition: all 0.3s ease-in-out;
+}
+.btnLink:hover{
+    background-color: #587239;
+}
+.hidden{
+    display: none;
+    visibility: hidden;
+}
+.visible{
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    border-radius: 10px;
+    border: none;
+    padding-left: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+select{
+    border: none;
 }
