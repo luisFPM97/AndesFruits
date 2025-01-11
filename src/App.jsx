@@ -20,6 +20,7 @@ import EticCode from "./component/EticCode";
 import Err404 from "./component/Err404";
 import Pqrs from "./component/Pqrs";
 import Comprobantes from "./component/comprobantes/Comprobantes";
+import PortalEmpleados from "./component/portal empleados/PortalEmpleados";
 
 function App() {
   const [language, setLanguage] = useState("en");
@@ -57,6 +58,7 @@ function App() {
         <Route path="/codigoEtica" element={<EticCode code={content.etic}/>}/>
         <Route path="/eticalLine" element={<Pqrs contact={content.contactenos} />} />
         <Route path="/comprobantes" element={<Comprobantes />} />
+        <Route path="/PortalEmpleados" element={<PortalEmpleados />} />
         {/*Ruta de error*/}
         <Route path="*" element={<Err404 err={content.err}/>}/>
       </Routes>

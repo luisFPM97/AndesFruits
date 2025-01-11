@@ -1,34 +1,50 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Empleados from '/src/utils/empleados.json'; // Asegúrate de que es un arreglo
 
-const Confirmacion = () => {
+const Confirmacion = ({ cedulav }) => {
   const [isSuccess, setIsSuccess] = useState(false);
   const [visible, setVisible] = useState(false);
   const [empleadoEncontrado, setEmpleadoEncontrado] = useState(null);
+  const [comprobanteEncontrado, setComprobanteEncontrado] = useState(null); // Estado para el comprobante encontrado
+const [empleadoVerificado, setEmpleadoVerificado] = useState(Empleados.find((empleado) => empleado.cedula === cedulav))
 
   const buscarEmpleadoPorCedula = (cedula) => {
     if (Array.isArray(Empleados)) {
+        console.log(Empleados)
       const empleado = Empleados.find((empleado) => empleado.cedula === cedula);
       setEmpleadoEncontrado(empleado);
+      console.log(empleado)
       return empleado; // Retorna el empleado encontrado
     }
     return null; // En caso de que Empleados no sea un arreglo
   };
-//enviar formulario
+  useEffect(() => {
+   console.log(empleadoVerificado)
+  }, [])
+  
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     const formData = new FormData(e.target);
-    
+
     formData.append('access_key', 'f7dc8472-34bf-44ca-b03b-cf62bc68aef7');
-
+    
     const cedulaInput = formData.get('name'); // Obtén la cédula del formulario
+    const selectedMes = formData.get('subject'); // Obtén el mes seleccionado del formulario
     const empleado = buscarEmpleadoPorCedula(cedulaInput); // Busca al empleado
-
-    if (empleado) {
+    console.log(empleado)
+    if (empleadoVerificado) {
       setVisible(true); // Muestra los datos del empleado si se encuentra
+
+      // Buscar el comprobante correspondiente al mes seleccionado
+      const comprobante = empleadoVerificado.comprobantes.find(
+        (comp) => comp.mes === selectedMes
+      );
+
+      setComprobanteEncontrado(comprobante || null); // Guarda el comprobante encontrado o null si no existe
     } else {
       setVisible(false); // Oculta los datos si no se encuentra
+      setComprobanteEncontrado(null); // Reinicia comprobante encontrado
     }
 
     const response = await fetch('https://api.web3forms.com/submit', {
@@ -39,7 +55,9 @@ const Confirmacion = () => {
     const data = await response.json();
 
     if (data.success) {
-      alert('Hemos recibido tu mensaje, en breve nos pondremos en contacto contigo.');
+      alert(
+        'Haz ingresado tus datos correctamente, tendrás tus comprobantes disponibles. En caso de no ser así, por favor comunícate con el área de recursos humanos.'
+      );
       e.target.reset();
     } else {
       alert(
@@ -62,7 +80,7 @@ const Confirmacion = () => {
 
           <div className="form-group">
             <label htmlFor="name">Número de documento: </label>
-            <input type="text" id="name" name="name" required />
+            <input type="text" id="name" name="name" disabled value={cedulav} required />
           </div>
 
           <div className="form-group">
@@ -70,16 +88,16 @@ const Confirmacion = () => {
             <input type="email" id="email" name="email" required />
           </div>
           <div className="form-group">
-            <label htmlFor="email">Periodo:</label>
-            <select name="subject" id="" required>
-            <option value="" disabled selected required>
-            Selecciona una opción
-            </option>
-            {["Enero", "Febrero"].map((opcion, index) => (
-            <option key={index} value={opcion}>
-                {opcion}
-            </option>
-            ))}
+            <label htmlFor="subject">Periodo:</label>
+            <select name="subject" id="subject" required>
+              <option value="" disabled selected>
+                Selecciona una opción
+              </option>
+              {['Enero','Febrero'].map((opcion, index) => (
+                <option key={index} value={opcion}>
+                  {opcion}
+                </option>
+              ))}
             </select>
           </div>
 
@@ -95,39 +113,53 @@ const Confirmacion = () => {
             ></textarea>
           </div>
 
-          <button className="btnLink" type="submit">Confirmar datos</button>
+          <button className="btnLink" type="submit">
+            Confirmar datos
+          </button>
         </form>
       </div>
 
       <div className={visible ? 'datos visible' : 'datos hidden'}>
-        {empleadoEncontrado ? (
+        {empleadoVerificado ? (
           <>
             <div>
-              <span><b>Cédula: </b></span>
-              <span>{empleadoEncontrado.cedula}</span>
+              <span>
+                <b>Cédula: </b>
+              </span>
+              <span>{empleadoVerificado.cedula}</span>
             </div>
             <div>
-              <span><b>Año: </b></span>
+              <span>
+                <b>Año: </b>
+              </span>
               <span>2025</span>
             </div>
             <div>
-              <span><b>Nombre: </b></span>
-              <span>{empleadoEncontrado.nombre}</span>
+              <span>
+                <b>Nombre: </b>
+              </span>
+              <span>{empleadoVerificado.nombre}</span>
             </div>
-            <div>
-            {empleadoEncontrado.comprobantes.map((comprobante) => (
-                <div key={comprobante.enlace || comprobante.mes}>
-                <span><b>{comprobante.mes}:  </b></span>
-                {comprobante.enlace === "" ? (
-                    <span>...No disponible</span>
+            {comprobanteEncontrado ? (
+              <div>
+                <span>
+                  <b>Comprobante para {comprobanteEncontrado.mes}: </b>
+                </span>
+                {comprobanteEncontrado.enlace === '' ? (
+                  <span>...No disponible</span>
                 ) : (
-                    <a href={comprobante.enlace} target="_blank" rel="noreferrer">
+                  <a
+                    href={comprobanteEncontrado.enlace}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Descargar
-                    </a>
+                  </a>
                 )}
-                </div>
-            ))}
-            </div>
+              </div>
+            ) : (
+              <p>No se encontró el comprobante para el mes seleccionado.</p>
+            )}
           </>
         ) : (
           <p>No se encontró ningún empleado con la cédula ingresada.</p>
