@@ -95,6 +95,7 @@ const Navbar = ({ setLanguage, language, content }) => {
             </span>
             {contacto}
           </Link>
+          
         </ul>
       </div>
     </div>

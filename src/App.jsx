@@ -88,7 +88,7 @@ function App() {
           </div>
           <hr />
           <div className="ff">
-            <span className="cc">© Andes Fruits 2024 || <Link to="/data">{content.contactenos.td}</Link> || <Link to="/eticalLine">PQRS</Link></span>
+            <span className="cc">© Andes Fruits 2024 || <Link to="/data">{content.contactenos.td}</Link> || <Link to="/eticalLine">PQRS</Link> || <Link to="/PortalEmpleados">Portal Empleados</Link></span>
             <span>
               {" "}
               <a

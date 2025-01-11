@@ -1588,6 +1588,7 @@ footer {
   .mainM {
     width: 100%;
     z-index: 998;
+    
     .navbar{
       width: 100%;
       ul{
@@ -1609,8 +1610,9 @@ footer {
     }
   }
   .responsive {
+    
     position: fixed;
-    bottom: 0 !important;
+    top: 0 !important;
   }
   .home {
     .homeHeader {
