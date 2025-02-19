@@ -79,9 +79,9 @@ footer {
 .lA {
   position: fixed;
   top: 20px;
-  right: 10px;
-  width: 122.4px;
-  height: 84.5px;
+  left: 20px;
+  width: 212px;
+  filter: drop-shadow(0 0 8px #ffffff);
   transition: all 0.3s ease-in-out;
   img {
     width: 100%;
