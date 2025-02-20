@@ -49,7 +49,7 @@ function App() {
       <Navbar selectedLink={selectedLink} setSelectedLink={setSelectedLink} setLanguage={setLanguage} language={language} content={content} links={links} />
       
       <Routes>
-        <Route path="/" element={ <Home home={content.home} productos={content.productos} setProductid={setProductid}productid={productid} contacto={content.contactenos}/> } />
+        <Route path="/" element={ <Home home={content.home} setSelectedLink={selectedLink} productos={content.productos} setProductid={setProductid}productid={productid} links={links}  contacto={content.contactenos}/> } />
         <Route path="/quienes-somos" element={<QuienesSomos QuienesSomos={content.quienesSomos} />} />
         <Route path="/instalaciones" element={<Instalaciones />} />
         <Route path="/certificaciones" element={ <Certificaciones certificaciones={content.certificaciones} /> } />

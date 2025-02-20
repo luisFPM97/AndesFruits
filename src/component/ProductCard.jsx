@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
-const ProductCard = ({ product, setProductid, productid }) => {
+const ProductCard = ({ product, setProductid, productid, links, setSelectedLink }) => {
   function defId(id) {
     setProductid(id);
     navigate(`/FichaTecnica/${product.title}`)
@@ -14,7 +14,7 @@ const ProductCard = ({ product, setProductid, productid }) => {
       <h3>{product.title}</h3>
       <p>{product.phrase}</p>
       <button onClick={() => defId(product.id) } >
-        <Link className="linkP" >
+        <Link className="linkP" onClick={()=>(setSelectedLink(links[2]))} >
           {product.botton}
         </Link>
       </button>

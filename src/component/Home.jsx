@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import ProductCard from "./ProductCard";
 
 
-const Home = ({ home, productos, setProductid, productid, contacto }) => {
+const Home = ({ home, productos, setProductid, productid, contacto, setSelectedLink, links }) => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -35,7 +35,7 @@ const Home = ({ home, productos, setProductid, productid, contacto }) => {
               <span className="cont">{contacto.phone2}</span>
             </div>
           </div>
-          <div className="barItem Center">
+          <div className="barItem Center" onClick={()=>(setSelectedLink(links[3]))}>
             <Link to="/contactenos" className="linkContact">
             {contacto.title}
             </Link>
@@ -60,6 +60,8 @@ const Home = ({ home, productos, setProductid, productid, contacto }) => {
               product={product}
               setProductid={setProductid}
               productid={productid}
+              links={links}
+              setSelectedLink={setSelectedLink}
             />
           ))}
         </div>
@@ -72,8 +74,8 @@ const Home = ({ home, productos, setProductid, productid, contacto }) => {
             <img src={section.image} alt={section.description} />
             <div className="contenido">
               <span>{section.description}</span>
-              <button>
-                <Link className="linkBtn" to={section.link}>
+              <button >
+                <Link className="linkBtn" to={section.link} onClick={()=>(setSelectedLink(links[i]))}>
                   {section.btn}
                 </Link>
               </button>
