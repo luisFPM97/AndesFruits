@@ -36,7 +36,10 @@ const Home = ({ home, productos, setProductid, productid, contacto }) => {
             </div>
           </div>
           <div className="barItem Center">
-            <button className="linkContact">{contacto.title}</button>
+            <Link to="/contactenos" className="linkContact">
+            {contacto.title}
+            </Link>
+            
           </div>
           <div className="barItem Right">
             <img className="icon" src="img/mail.png" alt="" />
