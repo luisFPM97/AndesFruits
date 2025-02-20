@@ -28,7 +28,7 @@ const Home = ({ home, productos, setProductid, productid, contacto }) => {
       </section>
       <section className="homeContact">
         <div className="bar">
-          <div className="barItem Left">
+          <div className="barItem left">
             <img className="icon" src="img/phone.png" alt="" />
             <div className="barItemText">
               <span className="subT">{contacto.ltext}</span>
@@ -39,7 +39,6 @@ const Home = ({ home, productos, setProductid, productid, contacto }) => {
             <Link to="/contactenos" className="linkContact">
             {contacto.title}
             </Link>
-            
           </div>
           <div className="barItem Right">
             <img className="icon" src="img/mail.png" alt="" />

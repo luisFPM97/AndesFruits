@@ -184,6 +184,7 @@ footer {
       overflow: hidden;
       background-color: rgb(212, 248, 189);
       overflow: hidden;
+      cursor: pointer;
       .circle {
         box-shadow: 0 0 15px black;
         height: 33px;
@@ -317,15 +318,16 @@ footer {
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 20px;
+      gap: 0px;
       border-radius: 20px 20px 116px 116px;
       font-size: 20px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
       .barItem{
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 10px;
-        
+        width: calc(100% / 3.2);
         .icon{
           width: 40px;
           height: 40px;
@@ -350,7 +352,15 @@ footer {
           color: white;
           border: none;
         }
+        
       }
+      .left{
+        justify-content: right;
+      }
+      .Right{
+        justify-content: left;
+      }
+      
     }
   }
   .homeProduct {
