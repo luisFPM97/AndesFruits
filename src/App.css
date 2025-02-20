@@ -143,6 +143,12 @@ footer {
       filter: drop-shadow(0 0 1px black);
     }
   }
+  .respLink{
+    display: none;
+  }
+  .bx{
+    display: none;
+  }
   .navbar{
     ul{
       display: flex;
@@ -365,7 +371,7 @@ footer {
   }
   .homeProduct {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1658,6 +1664,51 @@ footer {
 }
 
 @media screen and (max-width: 980px) {
+  .App{
+    width: 100%;
+    overflow: hidden;
+  }
+  .mainM{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    .respLink{
+      display: flex;
+      text-decoration: none;
+      color: white;
+      filter: drop-shadow(0 0 1px black);
+      color: black;
+    }
+    .navbar{
+      display: none;
+    }
+    .bx{
+      display: flex;
+    }
+    .responNav{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 100%;
+      background-color: white;
+      width: calc(100% - 20px);
+      ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        .pagesMenu{
+          color: black;
+        }
+      }
+    }
+  }
   .btnMr {
     right: -150px;
   }
@@ -1679,49 +1730,52 @@ footer {
     transition: all 0.5s ease-in-out;
   }
 
-  .mainM {
-    width: 100%;
-    z-index: 998;
-    
-    .navbar{
-      width: 100%;
-      ul{
-        left: 0;
-      }
-    }
-    .icon{
-      position: fixed;
-      z-index: 999;
-      .bx-x{
-        position: fixed;
-        z-index: 999;
-        right: -10px;
-        bottom: 9px;
-        
-        color: white;
-        transition: all 0.5s ease-in-out;
-      }
-    }
-  }
+  
   .responsive {
     
     position: fixed;
     top: 0 !important;
   }
   .home {
+    width: 100%;
     .homeHeader {
+      
       div {
-        h1 {
-          font-size: 85px;
+        padding: 8px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        .hw{
+          font-size: 25px;
+          
         }
-        span {
-          width: 95%;
-          font-size: 40px;
+        .ht{
+          font-size: 50px;
+        }
+      }
+    }
+    .homeContact{
+      .bar{
+        border-radius: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        flex-direction: column;
+        gap: 20px;
+        .barItem{
+          justify-content: left;
+          width: 80%;
+          font-size: 15px;
+        }
+        .Center{
+          justify-content: center;
         }
       }
     }
     .homeProduct {
-      min-height: 800px;
+      min-height: 125vh;
       .hpTitle {
         width: 90%;
         height: 20%;
@@ -1735,43 +1789,27 @@ footer {
       }
       .hpProduct {
         position: relative;
-        overflow: scroll;
-        padding-left: 0px;
-        padding-right: 0px;
         width: 100%;
         height: 80%;
-        flex-wrap: nowrap;
-        scroll-snap-type: x mandatory;
-        overflow-x: auto;
         gap: 0px;
         padding-right: 30px;
         padding-left: 30px;
-        justify-content: start;
         .hpProductItem {
           position: relative;
-          min-width: 350px;
-          height: 435px;
+          min-width: 100%;
+          height: 100%;
           position: sticky;
           object-fit: cover;
           scroll-snap-align: center;
           h3 {
             opacity: 1;
-            position: absolute;
             bottom: 20px;
           }
           img {
-            width: 70%;
+            width: 100%;
           }
         }
-        .hpProductItem:hover {
-          h3 {
-            position: absolute;
-            bottom: 80px;
-          }
-          img {
-            transform: scale(1.1);
-          }
-        }
+        
       }
 
       .hpProduct::-webkit-scrollbar {
@@ -1790,25 +1828,14 @@ footer {
       }
     }
     .shortPage {
-      flex-direction: column;
+      min-height: 100vh;
       height: auto;
-
-      min-height: 1800px;
-      .shortPageItem {
-        width: 100%;
-        height: 90vh;
-        min-height: 600px;
-        overflow: hidden;
-        position: relative;
-        .filter {
-          height: calc(100% * 3);
-          position: absolute;
-        }
-        img {
-          object-fit: fill;
-          height: auto;
-          height: 100vh;
-          min-width: 100%;
+      .spcont{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        .shortPageItem{
+          width: 350px;
         }
       }
     }

@@ -28,7 +28,13 @@ function App() {
   const [content, setContent] = useState(data[language]);
   const [ArticleId, setArticleId] = useState(0)
   const [articlesInfo, setArticlesInfo] = useState(articles)
-  
+  const [selectedLink, setSelectedLink] = useState({ path: "/", label: content.home.title, icon: "bx bx-buildings" })
+  const links = [
+      { path: "/", label: content.home.title, icon: "bx bx-buildings" },
+      { path: "/quienes-somos", label: content.quienesSomos.title, icon: "bx bx-lemon" },
+      { path: "/productos", label: content.productos.title, icon: "bx bx-medal" },
+      { path: "/contactenos", label: content.contactenos.title, icon: "bx bx-user" },
+    ];
   useEffect(() => {
     
     if (data) {
@@ -40,7 +46,7 @@ function App() {
   return (
     <div className="App">
       <header></header>
-      <Navbar setLanguage={setLanguage} language={language} content={content} />
+      <Navbar selectedLink={selectedLink} setSelectedLink={setSelectedLink} setLanguage={setLanguage} language={language} content={content} links={links} />
       
       <Routes>
         <Route path="/" element={ <Home home={content.home} productos={content.productos} setProductid={setProductid}productid={productid} contacto={content.contactenos}/> } />
