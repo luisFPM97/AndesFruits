@@ -7,6 +7,7 @@
   justify-content: space-around;
   position: relative;
   user-select: none;
+  background-color: #DAE0AA;
 }
 *:focus {
   outline: none !important;
@@ -137,24 +138,80 @@ footer {
   padding: 10px 50px;
   font-size: 24px;
   .logoA{
-    width: 150px;
+    width: 100px;
     .logo{
       width: 100%;
-      filter: drop-shadow(0 0 5px #ffffff);
+      
     }
   }
   .navbar{
     ul{
       display: flex;
+      justify-content: center;
+      align-items: center;
       gap: 20px;
       color: white;
-      font-size: 24px;
-      a{
+      font-size: 20px;
+      .pagesMenu{
+        position: relative;
+        text-decoration: none;
         color: white;
-        span{
-          visibility: hidden;
-        }
+        padding: 3px 0;
+        transition: all 1s ease-in-out;
       }
+      .pagesMenu.active::after {
+        content: "";
+        position: absolute;
+        bottom: 0px; /* Espaciado de la línea con el texto */
+        left: 50%;
+        width: 80%;
+        height: 2px;
+        background-color: white;
+        transform: translateX(-50%); /* Centrar la línea */
+        transition: width 0.3s ease-in-out;
+      }
+    }
+    .lang {
+      width: 72px;
+      height: 44px;
+      border-radius: 26px;
+      border: 2px solid white;
+      display: flex;
+      position: relative;
+      justify-content: space-between;
+      padding: 4px 4px;
+      overflow: hidden;
+      background-color: rgb(212, 248, 189);
+      overflow: hidden;
+      .circle {
+        box-shadow: 0 0 15px black;
+        height: 33px;
+        aspect-ratio: 1;
+        border-radius: 50%;
+        background-color: white;
+        color: #658E1C;
+        font-weight: bolder;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 4px; /* Posición inicial */
+        transition: transform 0.3s ease-in-out; /* Transición suave */
+      }
+      span{
+        position: absolute;
+        font-weight: bold;
+        color: rgb(80, 79, 79);
+        right: 4px;
+        transition: transform 0.3s ease-in-out;
+      }
+    }
+    .es .circle {
+      transform: translateX(30px); /* Se desplaza hacia la derecha */
+    }
+    
+    .es span{
+      transform: translateX(-34px);
     }
   }
 
@@ -172,35 +229,43 @@ footer {
   height: 100%;
   .homeHeader {
     background-image: url(/img/2.webp);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
-    background-color: #2e3c1d;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     div {
+      padding: 250px;
       position: absolute;
       z-index: 2;
-      text-align: center;
+      text-align:left;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center;
-      gap: 15px;
-      h1 {
-        font-weight: 600;
-        font-size: 93px;
-        color: #83a841;
-        text-shadow: 0 0 20px black;
+      align-items: start;
+      font-weight:bolder;
+      color: white;
+      text-align: left;
+      
+      .hw{
+        font-size: 48px;
+        padding: 0;
+        margin: 0;
       }
-      span {
-        font-weight: bold;
-        color: #f0efd9;
-        font-size: 50px;
+      .ht {
+        
+        font-size: 78px;
+        padding: 0;
+        margin: 0;
+      }
+      .hh {
+        font-size: 24px;
+        padding: 0;
+        margin: 0;
       }
       button {
         width: 304.9px;
@@ -234,10 +299,55 @@ footer {
       opacity: 0.5;
     }
   }
+  .homeContact{
+    display: flex;
+    width: 100%;
+    height: 232px;
+    position: relative;
+    justify-content:center;
+    .bar{
+      width: 80%;
+      height: 232px;
+      background-color: white;
+      position: absolute;
+      top: -50%;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      border-radius: 20px 20px 116px 116px;
+      font-size: 20px;
+      .barItem{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        .icon{
+          width: 40px;
+          height: 40px;
+        }
+        .barItemText{
+          display: flex;
+          flex-direction: column;
+          .subT{
+            font-weight: bolder;
+          }
+        }
+        .linkContact{
+          text-decoration: none;
+          width: 220px;
+          height: 52px;
+          background-color: #83a841;
+          color: white;
+          border: none;
+        }
+      }
+    }
+  }
   .homeProduct {
     width: 100%;
     min-height: 100vh;
-    background-color: #ccd683;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -407,7 +517,6 @@ footer {
       overflow: hidden;
       transition: all 0.3s ease-in-out;
       position: relative;
-
       .filter {
         position: absolute;
         width: calc(100% * 3);
@@ -476,7 +585,6 @@ footer {
 .aboutUs { 
   width: 100%;
   height: auto;
-  background-color: #2e3c1d;
   .aboutUsSec {
     width: 100%;
     height: 100vh;

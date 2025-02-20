@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import ProductCard from "./ProductCard";
 
 
-const Home = ({ home, productos, setProductid, productid }) => {
+const Home = ({ home, productos, setProductid, productid, contacto }) => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -20,15 +20,32 @@ const Home = ({ home, productos, setProductid, productid }) => {
       <div className="cortina"></div> 
       <section className="homeHeader">
         <div>
-          <h1>{home.titleE}</h1>
-          <span>{home.header}</span>
-          <button>
-            <Link className="btnLink" to={home.link}>
-              {home.button}
-            </Link>
-          </button>
+          <span className="hw">{home.welcome}</span>
+          <h1 className="ht">{home.titleE}</h1>
+          <span className="hh">{home.header}</span>
         </div>
         <div className="filter"></div>
+      </section>
+      <section className="homeContact">
+        <div className="bar">
+          <div className="barItem Left">
+            <img className="icon" src="img/phone.png" alt="" />
+            <div className="barItemText">
+              <span className="subT">{contacto.ltext}</span>
+              <span className="cont">{contacto.phone2}</span>
+            </div>
+          </div>
+          <div className="barItem Center">
+            <button className="linkContact">{contacto.title}</button>
+          </div>
+          <div className="barItem Right">
+            <img className="icon" src="img/mail.png" alt="" />
+            <div className="barItemText">
+              <span className="subT">{contacto.lemail}</span>
+              <span className="cont">{contacto.email}</span>
+            </div>
+          </div>
+        </div>
       </section>
       <section className="homeProduct">
         <div className="hpTitle">

@@ -4,12 +4,13 @@
       "title": "Inicio",
       "titleE": "ANDES FRUITS",
       "link": "/quienes-somos",
+      "welcome":"Bienvenido a",
       "header": "Sabores Exóticos del Corazón de la Tierra",
       "button": "Sobre nosotros",
       "description": "Descubre la frescura y el sabor auténtico de nuestras frutas, cultivadas con pasión y entregadas a tu mesa.",
       "sections": [
         {
-          "title": "Quiénes Somos",
+          "title": "Nosotros",
           "description": "Historia y tradición. Conoce más sobre nuestra trayectoria y filosofía.",
           "link": "/quienes-somos",
           "btn": "Ver más",
@@ -32,7 +33,7 @@
       ]
     },
     "quienesSomos": {
-      "title": "Quienes Somos",
+      "title": "Nosotros",
       "history": [
         {
           "id": 0,
@@ -710,16 +711,18 @@
       ]
     },
     "contactenos": {
-      "title": "Contáctenos",
+      "title": "Contáctanos",
       "description": "Póngase en contacto con nosotros",
       "title2": "Envíanos un mensaje",
       "title3": "Información de contacto",
       "ta": "Dirección",
       "address": "Cómbita, Boyacá - Parque Industrial Km 1 vía Tunja - Paipa",
       "tp": "Teléfono",
+      "ltext":"Lamanos",
       "phone": "3153871168",
-      "phone2": "(+57)315-387-1168",
+      "phone2": "(+57)315 387 1168",
       "te": "Correo Electrónico",
+      "lemail":"Envíanos un mensaje",
       "email": "jlaverde@andesexport.com",
       "button": "ENVIAR",
       "td": "Tratamiento de datos"
@@ -910,6 +913,7 @@
       "title": "Home",
       "titleE": "ANDES FRUITS",
       "link": "/quienes-somos",
+      "welcome":"Welcome to",
       "header": "Exotic Flavors of the Earth's Heart",
       "button": "About Us",
       "description": "Discover the freshness and authentic flavor of our fruits, grown with passion and delivered to your table.",
@@ -1623,8 +1627,10 @@
       "ta": "address",
       "address": "Combita, Boyacá - parque industrial Km 1 vía Tunja - Paipa",
       "tp": "Phone",
+      "ltext":"Call Us",
       "phone": "3153871168",
       "phone2": "(+57)315-387-1168",
+      "lemail":"Sen Us a message",
       "te": "E-mail",
       "email": "jlaverde@andesexport.com",
       "button": "SEND",

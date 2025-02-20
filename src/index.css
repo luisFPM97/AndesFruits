@@ -1,26 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 body {
   margin: 0;
   width: 100%;
 }
-@font-face {
-  font-family: "AristaPro";
-  src: url(/fonts/Zetafonts\ -\ AristaProAlternate-Hairline.otf);
-  font-weight: lighter;
-  font-style: normal;
-}
-@font-face {
-  font-family: "AristaPro";
-  src: url(/fonts/Zetafonts\ -\ AristaPro-Fat.otf);
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: "AristaPro";
-  src: url(/fonts/Zetafonts\ -\ AristaProIcons-SemiBold.otf);
-  font-weight: 100;
-  font-style: normal;
-}
-
 * {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
