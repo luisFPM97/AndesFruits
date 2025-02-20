@@ -179,7 +179,8 @@ footer {
       display: flex;
       position: relative;
       justify-content: space-between;
-      padding: 4px 4px;
+      padding: 0 4px;
+      align-items: center;
       overflow: hidden;
       background-color: rgb(212, 248, 189);
       overflow: hidden;
