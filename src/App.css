@@ -209,7 +209,7 @@ footer {
       }
     }
     .es .circle {
-      transform: translateX(30px); /* Se desplaza hacia la derecha */
+      transform: translateX(28px); /* Se desplaza hacia la derecha */
     }
     
     .es span{
