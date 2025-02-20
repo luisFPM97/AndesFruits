@@ -23,10 +23,9 @@ const Navbar = ({ setLanguage, language, content }) => {
   const [showNav, setShowNav] = useState(false);
   return (
     <div className={showNav ? "mainM responsive" : "mainM"}>
-      <Link to="/" className={showNav ? "lA lAr" : "lA"}>
-        <img src="/img/Recurso.png" alt="logo" />
-      </Link>
+      
       <button
+      hidden
         className={showNav ? "bntMenu btnMr" : "bntMenu"}
         onClick={() => setShowNav(true)}
       >
@@ -44,15 +43,7 @@ const Navbar = ({ setLanguage, language, content }) => {
       <a className="icon" onClick={() => setShowNav(!showNav)}>
         {showNav ? <i className="bx bx-x"></i> : ""}
       </a>
-      <div className="language" onClick={changeLanguage}>
-        <i className="fa-solid fa-globe"></i>
-        <span onClick={() => setShowNav(false)} className="idioma">
-          {idioma}|
-        </span>{" "}
-        <span onClick={() => setShowNav(false)} className="idiomaSec">
-          {idiomaSec}
-        </span>
-      </div>
+      
       <div className="navbar" id="myNavbar">
         <ul>
           <Link
@@ -95,9 +86,19 @@ const Navbar = ({ setLanguage, language, content }) => {
             </span>
             {contacto}
           </Link>
+          <div className="language" onClick={changeLanguage}>
+        <i className="fa-solid fa-globe"></i>
+        <span onClick={() => setShowNav(false)} className="idioma">
+          {idioma}|
+        </span>{" "}
+        <span onClick={() => setShowNav(false)} className="idiomaSec">
+          {idiomaSec}
+        </span>
+      </div>
           
         </ul>
       </div>
+      
     </div>
   );
 };
