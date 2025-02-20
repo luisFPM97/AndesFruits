@@ -14,21 +14,21 @@
           "description": "Historia y tradición. Conoce más sobre nuestra trayectoria y filosofía.",
           "link": "/quienes-somos",
           "btn": "Ver más",
-          "image": "/img/sec1.webp"
+          "image": "img/sec1.png"
         },
         {
           "title": "Productos",
           "description": "Variedad que encanta, calidad que impresiona. Explora nuestra selección de frutas exóticas.",
           "link": "/productos",
           "btn": "Ver más",
-          "image": "/img/sec2.webp"
+          "image": "img/sec2.png"
         },
         {
           "title": "Certificaciones",
           "description": "Comprometidos con la excelencia. Conoce las certificaciones que garantizan nuestra calidad y confiabilidad.",
           "link": "/certificaciones",
           "btn": "Ver más",
-          "image": "/img/sec3.jpg"
+          "image": "img/sec3.png"
         }
       ]
     },
@@ -923,21 +923,21 @@
           "description": "History and Tradition. Learn more about our history and philosophy.",
           "link": "/quienes-somos",
           "btn": "see more",
-          "image": "/img/sec1.webp"
+          "image": "/img/sec1.png"
         },
         {
           "title": "Productos",
           "description": "A variety that enchants, a quality that impresses. Explore our selection of exotic fruits",
           "link": "/productos",
           "btn": "see more",
-          "image": "/img/sec2.webp"
+          "image": "/img/sec2.png"
         },
         {
           "title": "Certificaciones",
           "description": "Committed to Excellence: Certifications that Guarantee Our Quality and Reliability",
           "link": "/certificaciones",
           "btn": "see more",
-          "image": "/img/sec3.jpg"
+          "image": "/img/sec3.png"
         }
       ]
     },

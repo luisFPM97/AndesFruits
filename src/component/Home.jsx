@@ -65,18 +65,23 @@ const Home = ({ home, productos, setProductid, productid, contacto }) => {
         </div>
       </section>
       <section className="shortPage">
+        <h1>{home.description}</h1>
+        <div className="spcont">
         {home.sections.map((section, i) => (
           <div className="shortPageItem" key={i}>
             <img src={section.image} alt={section.description} />
-            <h3>{section.description}</h3>
-            <button>
-              <Link className="linkBtn" to={section.link}>
-                {section.btn}
-              </Link>
-            </button>
+            <div className="contenido">
+              <span>{section.description}</span>
+              <button>
+                <Link className="linkBtn" to={section.link}>
+                  {section.btn}
+                </Link>
+              </button>
+            </div>
             <div className="filter"></div>
           </div>
         ))}
+        </div>
       </section>
     </div>
   );
