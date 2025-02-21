@@ -12,7 +12,7 @@ const Home = ({ home, productos, setProductid, productid, contacto, setSelectedL
       const scrollAmount = 600; // Cantidad de píxeles a mover
       const start = scrollContainer.current.scrollLeft;
       const target = direction === "left" ? start - scrollAmount : start + scrollAmount;
-      const duration = 500; // Duración de la animación en milisegundos
+      const duration = 100; // Duración de la animación en milisegundos
       const startTime = performance.now();
   
       const animateScroll = (currentTime) => {
