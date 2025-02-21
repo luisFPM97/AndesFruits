@@ -8,7 +8,7 @@ const Productos = ({ setProductid, productos }) => {
     window.scrollTo(0, 0);
   }, []);
 
-  console.log(productos);
+  
   return (
     <div className="productos">
       <section className="pHeader">

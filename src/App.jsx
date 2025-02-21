@@ -7,7 +7,7 @@ import Navbar from "./component/Navbar";
 import QuienesSomos from "./component/QuienesSomos";
 import Instalaciones from "./component/Instalaciones";
 import Productos from "./component/Productos";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Link, useLocation } from "react-router-dom";
 import data from "./data.json";
 import FichaTecnica from "./component/FichaTecnica";
 import ProductCard from "./component/ProductCard";
@@ -28,13 +28,32 @@ function App() {
   const [content, setContent] = useState(data[language]);
   const [ArticleId, setArticleId] = useState(0)
   const [articlesInfo, setArticlesInfo] = useState(articles)
-  const [selectedLink, setSelectedLink] = useState({ path: "/", label: content.home.title, icon: "bx bx-buildings" })
   const links = [
-      { path: "/", label: content.home.title, icon: "bx bx-buildings" },
-      { path: "/quienes-somos", label: content.quienesSomos.title, icon: "bx bx-lemon" },
-      { path: "/productos", label: content.productos.title, icon: "bx bx-medal" },
-      { path: "/contactenos", label: content.contactenos.title, icon: "bx bx-user" },
-    ];
+    { path: "/", label: content.home.title, icon: "bx bx-buildings" },
+    { path: "/quienes-somos", label: content.quienesSomos.title, icon: "bx bx-lemon" },
+    { path: "/productos", label: content.productos.title, icon: "bx bx-medal" },
+    { path: "/contactenos", label: content.contactenos.title, icon: "bx bx-user" },
+    { path: "/certificaciones", label: content.certificaciones.title, icon: "bx bx-certificate" },
+  ];
+  const [selectedLink, setSelectedLink] = useState(links[0]);
+
+  const location = useLocation(); // Obtiene la ruta actual
+
+  useEffect(() => {
+    // Extraer la ruta base sin el nombre del producto
+    const pathSegments = location.pathname.split("/"); // Divide la URL en partes
+    const isFichaTecnica = pathSegments[1] === "FichaTecnica"; // Verifica si es la ruta esperada
+
+    if (isFichaTecnica) {
+      setSelectedLink(links[2]); // Asigna el link correspondiente
+      console.log("📌 Ruta detectada: /FichaTecnica/ - Link actualizado:", links[2]);
+    } else {
+      const currentLink = links.find(link => link.path === location.pathname);
+      if (currentLink) {
+        setSelectedLink(currentLink);
+      }
+    }
+  }, [location.pathname]); // Se ejecuta cuando la ruta cambia // Se actualiza cada vez que cambia la ruta
   useEffect(() => {
     
     if (data) {

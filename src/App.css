@@ -380,18 +380,28 @@ footer {
     padding-bottom: 50px;
     .arrowSlider {
       position: absolute;
+      z-index: 997;
       top: 50%;
-      width: 60px;
-      height: auto;
+      width: 50px;
+      height: 50px;
       cursor: pointer;
-      filter: drop-shadow(0 0 2px);
+      background-color: #658E1C;
+      color: white;
+      font-size: 24px;
+      border: none;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
     }
+    
     .aleft {
-      left: 20px;
-      rotate: 180deg;
+      left: 10px;
     }
+    
     .aright {
-      right: 20px;
+      right: 10px;
     }
     .hpTitle {
       height: 20vh;
@@ -417,10 +427,12 @@ footer {
       background-color: #58723948;
       border-radius: 10px;
     }
+    
     .hpProduct::-webkit-scrollbar-thumb {
       height: 10px;
       border-radius: 10px;
       background-color: #83a841;
+      transition: all 2s ease-in-out;
     }
     .hpProduct {
       font-weight: bold;
@@ -437,6 +449,7 @@ footer {
       overflow-y: hidden;
       justify-content: start;
       margin: 0;
+      scroll-behavior: smooth;
       .hpProductItem {
         display: flex;
         text-align: center;
@@ -452,7 +465,7 @@ footer {
         opacity: 1;
         gap: 0;
         margin: 0;
-        
+        scroll-behavior: smooth;
         img {
           width: 70%;
           transition: all 0.2s ease-in-out;

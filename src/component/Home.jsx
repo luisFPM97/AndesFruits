@@ -1,9 +1,40 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import ProductCard from "./ProductCard";
 
 
 const Home = ({ home, productos, setProductid, productid, contacto, setSelectedLink, links }) => {
+  const scrollContainer = useRef(null);
+
+  // Función para mover el scrollbar a la izquierda o derecha
+  const scroll = (direction) => {
+    if (scrollContainer.current) {
+      const scrollAmount = 300; // Cantidad de píxeles a mover
+      const start = scrollContainer.current.scrollLeft;
+      const target = direction === "left" ? start - scrollAmount : start + scrollAmount;
+      const duration = 500; // Duración de la animación en milisegundos
+      const startTime = performance.now();
+  
+      const animateScroll = (currentTime) => {
+        const elapsedTime = currentTime - startTime;
+        const progress = Math.min(elapsedTime / duration, 1); // Asegura que no pase del 100%
+  
+        scrollContainer.current.scrollLeft = start + (target - start) * easeInOutQuad(progress);
+  
+        if (progress < 1) {
+          requestAnimationFrame(animateScroll);
+        }
+      };
+  
+      requestAnimationFrame(animateScroll);
+    }
+  };
+
+  // Función de easing para una animación más suave
+const easeInOutQuad = (t) => t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2;
+  
+  
+  
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -35,8 +66,8 @@ const Home = ({ home, productos, setProductid, productid, contacto, setSelectedL
               <span className="cont">{contacto.phone2}</span>
             </div>
           </div>
-          <div className="barItem Center" onClick={()=>(setSelectedLink(links[3]))}>
-            <Link to="/contactenos" className="linkContact">
+          <div className="barItem Center" >
+            <Link to="/contactenos" className="linkContact" onClick={()=>(setSelectedLink({ path: "/contactenos", label: contacto.title, icon: "bx bx-user" }))}>
             {contacto.title}
             </Link>
           </div>
@@ -53,10 +84,14 @@ const Home = ({ home, productos, setProductid, productid, contacto, setSelectedL
         <div className="hpTitle">
           <span>{home.sections[1].description}</span> 
         </div>
-        <div className="hpProduct">
+        <button className="arrowSlider aleft" onClick={() => scroll("left")}>
+          <img src="img/arrow-slider.png" alt="" />
+        </button>
+        <div className="hpProduct" ref={scrollContainer}>
           {products.map((product, i) => (
             <ProductCard
               key={i}
+              productos={productos}
               product={product}
               setProductid={setProductid}
               productid={productid}
@@ -65,6 +100,10 @@ const Home = ({ home, productos, setProductid, productid, contacto, setSelectedL
             />
           ))}
         </div>
+        {/* Flecha derecha */}
+        <button className="arrowSlider aright" onClick={() => scroll("right")}>
+        <img src="img/arrow-end.png" alt="" />
+        </button>
       </section>
       <section className="shortPage">
         <h1>{home.description}</h1>

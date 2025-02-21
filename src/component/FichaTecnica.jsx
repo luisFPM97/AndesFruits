@@ -29,7 +29,7 @@ const FichaTecnica = ({ productos, productid }) => {
       setLoading(false);
     }, 4000); // Espera 3 segundos
     return () => clearTimeout(timer); // Limpia el temporizador si el componente se desmonta
-  }, [id, productos.products]);
+  }, [id]);
   
   return (
     <div className="fichaTecnica">
