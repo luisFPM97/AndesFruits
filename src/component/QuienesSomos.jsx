@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import ScrollIndicador from "./ScrollIndicador";
 
 const QuienesSomos = ({ QuienesSomos }) => {
   const scrollContainer = useRef(null);
@@ -42,6 +43,7 @@ const QuienesSomos = ({ QuienesSomos }) => {
 
   return (
     <div className="aboutCont">
+      <ScrollIndicador/>
       <button className="arrowSlider aleft" onClick={() => scroll("left")}>
         <img src="img/arrow-slider.png" alt="left arrow" />
       </button>
