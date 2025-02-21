@@ -9,7 +9,7 @@ const Home = ({ home, productos, setProductid, productid, contacto, setSelectedL
   // Función para mover el scrollbar a la izquierda o derecha
   const scroll = (direction) => {
     if (scrollContainer.current) {
-      const scrollAmount = 300; // Cantidad de píxeles a mover
+      const scrollAmount = 600; // Cantidad de píxeles a mover
       const start = scrollContainer.current.scrollLeft;
       const target = direction === "left" ? start - scrollAmount : start + scrollAmount;
       const duration = 500; // Duración de la animación en milisegundos

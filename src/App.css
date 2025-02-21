@@ -9,6 +9,12 @@
   user-select: none;
   background-color: #DAE0AA;
 }
+a{
+  text-decoration: none !important;
+  color: inherit ;
+  transition: all 0.1s ease-in-out !important;
+}
+
 *:focus {
   outline: none !important;
 }
@@ -23,58 +29,69 @@
 footer {
   height: auto;
   width: 100%;
-  background-color: #5c6e2e;
-  .fc {
+  background-color: #343828;
+  color: rgb(149, 255, 145);
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  .contFooter{
     display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
-    justify-content: center;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  .firstf {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-  }
-  .fd {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-    margin-bottom: 20px;
-    font-size: 20px;
-    font-weight: 500;
-  }
-  .ff {
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
-    .cc{
-      a{
-        color: #212529;
+    padding-top: 20px;
+    
+    .contF{
+      width: calc(100% / 3);
+      display: flex;
+      flex-direction: column;
+      
+      padding-bottom: 20px;
+      ul{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        .pagesMenu:hover{
+          color:black;
+        }
+        .pagesMenu{
+          display: flex;
+          justify-content: left;
+          
+          width: auto;
+          position: relative;
+          
+        }
+        .active{
+          color: black !important;
+        }
+        a.active::after {
+          content: "";
+          position: absolute;
+          bottom: 0px; /* Espaciado de la línea con el texto */
+          color: black;
+          width: 30%;
+          height: 3px;
+          background-color: black;
+           /* Centrar la línea */
+          transition: width 0.3s ease-in-out;
+        }
+        
       }
+      
+      a:hover{
+        color:black;
+      }
+      
     }
+    
   }
-  .titlef {
-    font-size: 30px;
-    font-weight: 600;
-    color: white;
-    max-width: 100%;
+  
+  .contFooter2{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    .bxl-whatsapp {
-      font-size: 30px;
-      cursor: pointer;
-    }
-    a {
-      text-decoration: none;
-      color: white;
-    }
+    padding-bottom: 20px;
+    justify-content: space-between;
   }
 }
+
 
 /*Navbar*/
 .lA {

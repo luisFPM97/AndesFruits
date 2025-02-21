@@ -88,7 +88,7 @@ function App() {
         {/*Ruta de error*/}
         <Route path="*" element={<Err404 err={content.err}/>}/>
       </Routes>
-      <Footer content={content}/>
+      <Footer content={content} links={links} language={language}/>
     </div>
   );
 }
