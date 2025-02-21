@@ -37,6 +37,7 @@ footer {
   padding-right: 30px;
   display: flex;
   flex-direction: column;
+  font-weight:200;
   .contFooter{
     display: flex;
 
@@ -64,16 +65,17 @@ footer {
           
         }
         .active{
-          color: black !important;
+          color: white !important;
+          opacity: 1;
         }
         a.active::after {
           content: "";
           position: absolute;
           bottom: 0px; /* Espaciado de la línea con el texto */
-          color: black;
+          color: white;
           width: 30%;
           height: 3px;
-          background-color: black;
+          background-color: white;
            /* Centrar la línea */
           transition: width 0.3s ease-in-out;
         }
@@ -92,6 +94,11 @@ footer {
     display: flex;
     padding-bottom: 20px;
     justify-content: space-between;
+    span{
+      .lcode{
+        color: white !important;
+      }
+    }
   }
 }
 
@@ -377,6 +384,7 @@ footer {
           background-color: #83a841;
           color: white;
           border: none;
+          border-radius: 10px;
         }
         
       }
@@ -613,7 +621,7 @@ footer {
           height: 100%;
           position: absolute;
           z-index: 996;
-          background-color: rgba(0, 0, 0, 0.6);
+          background-color: rgba(0, 0, 0, 0.4);
         }
         .contenido{
           position: absolute;
@@ -628,6 +636,7 @@ footer {
           justify-content: end;
           font-size: 15px;
           gap: 5px;
+          filter: drop-shadow(0 0 1px black);
           button{
             border: none;
             background-color: #83A841;
@@ -724,8 +733,8 @@ footer {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      background-color: rgba(255, 255, 255, 0.4);
-      backdrop-filter: blur(5px);
+      background-color: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(2px);
       border-radius: 5px;
       padding: 10px;
       h3 {
