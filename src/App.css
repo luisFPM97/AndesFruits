@@ -433,6 +433,7 @@ footer {
       border-radius: 10px;
       background-color: #83a841;
       transition: all 2s ease-in-out;
+      cursor: pointer;
     }
     .hpProduct {
       font-weight: bold;
