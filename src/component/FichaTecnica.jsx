@@ -17,7 +17,7 @@ const FichaTecnica = ({ productos, productid }) => {
     window.scrollTo(0, 0);
     
     const foundProduct = productos.products.find(product => product.title === id);
-    
+
     if (foundProduct) {
       setProductVerified(foundProduct);
       setproduct(foundProduct)
@@ -29,7 +29,7 @@ const FichaTecnica = ({ productos, productid }) => {
       setLoading(false);
     }, 4000); // Espera 3 segundos
     return () => clearTimeout(timer); // Limpia el temporizador si el componente se desmonta
-  }, [id]);
+  }, [id, productos]);
   
   return (
     <div className="fichaTecnica">

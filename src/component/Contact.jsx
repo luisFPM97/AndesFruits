@@ -21,7 +21,7 @@ const Contact = ({ contact }) => {
       setResult("¡Muchas gracias por contactarnos en Andes Export! Hemos recibido tu mensaje y lo revisaremos a la brevedad.");
       event.target.reset();
       setVisible(true);
-      setTimeout(() => setVisible(false), 2000); // 2 segundos
+      setTimeout(() => setVisible(false), 5000); // 2 segundos
     } else {
       console.log("Error", data);
       setResult(data.message);
@@ -53,7 +53,7 @@ const Contact = ({ contact }) => {
                 <i className="bx bxs-send"></i>
                 {contact.button}
               </button>
-                  <div className={visible?"alerta":"alerta hdd" }>
+                  <div className={visible?"alerta":"alerta" }>
                     <img src="/img/LOGO VERTICAL.png" alt="" />
                     <p>{result}</p>
                   </div>

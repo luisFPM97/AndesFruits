@@ -734,7 +734,7 @@
         {
           "id": 0,
           "title": "BASC",
-          "subtitle": "Seguridad y confianza en cada paso del proceso.",
+          "subtittle": "Seguridad y confianza en cada paso del proceso.",
           "description": "La Norma BASC (Business Alliance for Secure Commerce o Alianza Empresarial para un Comercio Seguro) es un programa de cooperación público-privada cuyo objetivo principal es fortalecer la seguridad de la cadena de suministro y prevenir el contrabando, la falsificación y el terrorismo en el comercio internacional.",
           "image": "/img/basc.svg",
           "pdf": "/pdf/certbasc.png",
@@ -745,7 +745,7 @@
         {
           "id": 1,
           "title": "CoC (Global.G.A.P.)",
-          "subtitle": "Calidad y trazabilidad desde el origen hasta tu hogar.",
+          "subtittle": "Calidad y trazabilidad desde el origen hasta tu hogar.",
           "description": "El estándar de Cadena de Custodia (CoC) GLOBALG.AP garantiza que cualquier producto vendido con un reclamo GLOBALG.AP o que lleve el logotipo de una etiqueta GGN proviene verdaderamente de un proceso de producción certificado GLOBALG.AP.",
           "image": "/img/globalgap.png",
           "pdf": "/pdf/certglobal.png",
@@ -756,7 +756,7 @@
         {
           "id": 2,
           "title": "SMETA",
-          "subtitle": "Ética y responsabilidad social en cada fruta que exportamos.",
+          "subtittle": "Ética y responsabilidad social en cada fruta que exportamos.",
           "description": "SMETA es la auditoría más utilizada en el mundo. Las empresas utilizan SMETA para comprender y mejorar las condiciones de trabajo y el desempeño ambiental en su negocio y cadena de suministro.",
           "image": "/img/smeta.png",
           "pdf": "",
@@ -767,7 +767,7 @@
         {
           "id": 3,
           "title": "Primus",
-          "subtitle": "Excelencia y seguridad alimentaria certificada.",
+          "subtittle": "Excelencia y seguridad alimentaria certificada.",
           "description": "Es un programa de auditoría voluntario que evalúa las prácticas de producción y procesamiento de alimentos frescos para garantizar la seguridad alimentaria. Es reconocido por la Iniciativa Mundial de Seguridad Alimentaria (GFSI), lo que significa que cumple con los estándares internacionales más estrictos para la inocuidad alimentaria.",
           "image": "/img/primuslabs.png",
           "pdf": "/pdf/certPrimus.pdf",

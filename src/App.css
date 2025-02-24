@@ -449,9 +449,9 @@ footer {
       height: 10px;
     }
     .hpProduct::-webkit-scrollbar-track {
-      width: 500px;
+      width: 10px !important;
       height: 10px;
-      margin: 200px;
+      margin: 150px;
       background-color: #58723948;
       border-radius: 10px;
     }
@@ -470,8 +470,8 @@ footer {
       display: flex;
       justify-content: center;
       flex-wrap: nowrap;
-      padding-left: 10px;
-      padding-right: 10px;
+      padding-left:50px;
+      padding-right: 50px;
       overflow: scroll;
       scroll-snap-type: x mandatory;
       overflow-x: auto;
@@ -480,12 +480,13 @@ footer {
       margin: 0;
       scroll-behavior: smooth;
       .hpProductItem {
+        padding-left: 20px;
+        
         display: flex;
         text-align: center;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        min-width: calc(100vw / 3);
+        min-width: calc((100vw - 120px) / 3);
         height: 100%;
         position: sticky;
         object-fit: cover;
@@ -786,22 +787,36 @@ footer {
   }
 }
 /*Productos*/
+.filterBack{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  
+  background-color: rgba(0, 0, 0, 0.05);
+}
 .productos {
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
   .pHeader {
+    position: relative;
     width: 100%;
-    height: 80vh;
-    background-image: url("https://cdn.pixabay.com/photo/2024/09/18/17/30/physalis-9056666_960_720.jpg");
+    height: 100vh;
+    background-image: url("img/productsHeader.jpg");
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     .infoC {
-      width: 100%;
-      height: 100%;
-      background-color: rgba(255, 255, 255, 0.1);
-      backdrop-filter: blur(1px);
+      width: 80%;
+      height:65%;
+      padding: 10px;
+      border-radius: 10px;
+      background-color: rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(2px);
       color: black;
       display: flex;
       flex-direction: column;
@@ -813,14 +828,14 @@ footer {
       h3 {
         width: 80%;
         font-weight: bold;
-        filter: drop-shadow(0 0 20px white);
+        filter: drop-shadow(0 0 1px white);
       }
       h2 {
-        font-size: 55px;
+        font-size: 45px;
         color: #2e3c1d;
       }
       h3 {
-        font-size: 35px;
+        font-size: 30px;
       }
     }
   }
@@ -830,7 +845,7 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    background-color: #d5e998;
+    
     padding-bottom: 10vh;
     span {
       font-size: 50px;
@@ -843,73 +858,99 @@ footer {
       justify-content: center;
       align-items: center;
       flex-wrap: wrap;
-      gap: 10px;
+      gap: 30px;
       width: 90%;
       .hpProductItem {
+        padding-bottom: 25px;
         position: relative;
         display: flex;
+        gap: 0px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         max-width: 350px;
         min-width: 350px;
-        height: 450px;
+        height: 470px;
         transition: all 0.3s ease-in-out;
         overflow: hidden;
-        opacity: 0.6;
-        border-radius: 30px;
+        background-color: #82a84117;
+        border-radius: 15px;
         text-align: center;
+        interpolate-size:allow-keywords;
+        box-shadow: 0 0 5px #2e3c1d52;
         img {
           max-width: 90%;
           transition: all 0.2s ease-in-out;
         }
         h3 {
-          font-size: 35px;
+          width: 70%;
+          font-size: 27px;
           font-weight: bold;
           color: #2e3c1d;
           transition: all 0.5s ease-in-out;
+          
         }
         p {
-          width: 90%;
-          text-align: center;
-          font-size: 25px;
-          position: absolute;
+          width: 70%;
+          text-align:start;
+          font-size: 18px;
           bottom: 10px;
           visibility: hidden;
           opacity: 0;
+          height: 0;
           transition: opacity 0.6s ease-in-out;
           color: #5c6e2e;
+          position: absolute;
         }
         button {
+          margin: 0;
           font-weight: bold;
           font-size: 23px;
-          width: 162.6px;
-          height: 54.1px;
+          width: 70%;
+          display: flex;
+          align-items: center;
+          justify-content: left;
           color: #83a841;
-          background-color: #2e3c1d;
+          background-color: transparent !important;
           border: none;
-          border-radius: 35px;
-          position: absolute;
+          padding: 0;
           opacity: 0;
           transition: all 0.3s ease-in-out;
+          
           .linkP {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 149px;
+            height: 56px;
             text-decoration: none;
-            color: #83a841;
+            color: white;
+            border-radius: 10px;
+            background-color: #658E1C;
+            font-size: 20px;
+            font-weight: 500;
           }
         }
       }
       .hpProductItem:hover {
+        height: auto;
         opacity: 1;
         transform: scale(1.05);
-        box-shadow: 0 0 50px #2e3c1d;
+        box-shadow: 0 0 15px #2e3c1d;
         img {
-          transform: scale(1.02);
-          filter: drop-shadow(0 0 13px #2e3c1d);
+          transform: scale(0.8);
+          filter: drop-shadow(0 0 5px black);
         }
-        p {
+        /*p {
           position: relative;
           visibility: visible;
           opacity: 1;
+        }*/
+        p{
+          visibility: visible;
+          opacity: 1;
+          height: auto;
+          position: relative;
         }
         button {
           opacity: 1;
@@ -1044,15 +1085,15 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color:rgb(127, 149, 167);
-  color: white;
+  
+  color: black;
   transition: all 0.3s ease-in-out;
   .header {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 100vh;
     width: 100% !important;
     padding-left: 30px;
     padding-right: 30px;
@@ -1061,26 +1102,30 @@ footer {
       background-size: cover;
       background-position: center;
       width: 100%;
-      height: 80vh;
+      height: 100vh;
       position: absolute;
-      z-index: 1;
-      filter: blur(2px);
+      filter: blur(9px);
     }
 
     h1 {
-      font-size: 65px;
-      position: absolute;
-      top: 60px;
+      
+      font-size: 45px;
+      filter: drop-shadow(0 0 1px white);
       z-index: 2;
     }
     p {
-      font-size: 45px;
+      font-size: 30px;
       font-weight: bold;
-      filter: drop-shadow(0 0 5px black);
-      color: white;
-      position: absolute;
-      z-index: 2;
+      filter: drop-shadow(0 0 1px rgb(255, 255, 255));
+      
+      
     }
+  }
+  .secCert{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   .cCard {
     width: 49.8%;
@@ -1109,7 +1154,7 @@ footer {
       img {
         width: 50%;
         cursor: pointer;
-        filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.534));
+        filter: drop-shadow(0 0 1px rgba(0, 0, 0));
       }
       .cimage {
         text-decoration: none;
@@ -1142,7 +1187,9 @@ footer {
     position: absolute;
     z-index: 0;
     background-image: url(/img/3.jpg);
-    filter: blur(5px);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   .contenedorInfo {
     position: absolute;
@@ -1153,10 +1200,12 @@ footer {
     height: 80%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     .headerCont {
       width: 100%;
-      height: 25%;
-      padding-top: 20px;
+      height: 15%;
+      
       padding-left: 20px;
       display: flex;
       flex-direction: column;
@@ -1164,13 +1213,25 @@ footer {
       align-items: start;
       color: white;
       filter: drop-shadow(0 0 2px black);
-      background-color: #2e3c1d1c;
+      background-color: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(5px);
+      border-radius: 15px 15px 0 0 ;
+      gap: 0;
+      h1{
+        margin: 0;
+        font-size: 30px;
+      }
+      h2{
+        margin: 0;
+        font-size: 20px;
+      }
     }
     .contForm {
       width: 100%;
-      height: 75%;
+      height: 73%;
       background-color: #587239;
       display: flex;
+      border-radius: 0 0 15px 15px;
       form {
         width: 60%;
         height: 100%;
@@ -2076,10 +2137,10 @@ footer {
     .pHeader {
       .infoC {
         h2 {
-          font-size: 30px;
+          font-size: 23px;
         }
         h3 {
-          font-size: 25px;
+          font-size: 18px;
         }
       }
     }
@@ -2284,8 +2345,9 @@ a {
     height: 170px;
     background-color:#cc7c44;
     border-radius: 20px;
-    bottom: 70px;
+    bottom: 20px;
     right: 15px;
+    padding: 30px;
     color: white;
     display: flex;
     flex-direction: column;

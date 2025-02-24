@@ -6,13 +6,15 @@ const Certificaciones = (certificaciones) => {
   return (
     <div className="certificaciones">
       <section className="header">
+        <div className="img"></div>
         <h1>{certs.title}</h1>
         <p>{certs.description}</p>
-        <div className="img"></div>
-      </section>
+      </section >
+      <section className="secCert">
       {certs.certifications.map((certification, i) => (
         <CertificacionesId key={i} certification={certification} />
       ))}
+      </section>
     </div>
   );
 };

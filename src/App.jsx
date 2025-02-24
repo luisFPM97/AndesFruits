@@ -83,8 +83,8 @@ function App() {
         <Route path="/articulos/:name" element={<ArticleInfo ArticleId={ArticleId} articlesInfo={articlesInfo} language={language}/>}/>
         <Route path="/codigoEtica" element={<EticCode code={content.etic}/>}/>
         <Route path="/eticalLine" element={<Pqrs contact={content.contactenos} />} />
-        <Route path="/comprobantes" element={<Comprobantes />} />
-        <Route path="/PortalEmpleados" element={<PortalEmpleados />} />
+        {/*<Route path="/comprobantes" element={<Comprobantes />} />*/}
+        {/*<Route path="/PortalEmpleados" element={<PortalEmpleados />} />*/}
         {/*Ruta de error*/}
         <Route path="*" element={<Err404 err={content.err}/>}/>
       </Routes>

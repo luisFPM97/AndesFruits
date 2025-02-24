@@ -12,10 +12,12 @@ const Productos = ({ setProductid, productos }) => {
   return (
     <div className="productos">
       <section className="pHeader">
+      <div className="filterBack"></div>
         <div className="infoC">
           <h2>{productos.phrase}</h2>
           <h3>{productos.intro}</h3>
         </div>
+        
       </section>
       <section className="pProducts">
         <span>{productos.title}</span>
