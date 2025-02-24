@@ -2216,6 +2216,7 @@ footer {
     }
   }
   .contactenos, .pqrs {
+    padding-top: 100px;
     .imgcont {
       height: 100%;
     }
