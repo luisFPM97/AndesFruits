@@ -14,7 +14,7 @@ const ScrollIndicador = () => {
     return (
       visible && (
         <div className="scroll-indicator">
-          <span>Scroll</span>
+          <span>Slide</span>
           <div className="dot"></div>
         </div>
       )
