@@ -53,7 +53,7 @@ const Contact = ({ contact }) => {
                 <i className="bx bxs-send"></i>
                 {contact.button}
               </button>
-                  <div className={visible?"alerta":"alerta" }>
+                  <div className={visible?"alerta":"alerta hdd" }>
                     <img src="/img/LOGO VERTICAL.png" alt="" />
                     <p>{result}</p>
                   </div>
