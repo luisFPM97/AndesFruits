@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import data from "../data.json";
 import Loading from "./Loading";
+import Grafica from "./Grafica";
 
 const FichaTecnica = ({ productos, productid }) => {
   const [product, setproduct] = useState(productos.products[productid])
@@ -106,6 +107,7 @@ const FichaTecnica = ({ productos, productid }) => {
       </div></>
         )
       }
+      <Grafica/>
     </div>
   );
 };
