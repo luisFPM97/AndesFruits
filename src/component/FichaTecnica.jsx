@@ -107,7 +107,7 @@ const FichaTecnica = ({ productos, productid }) => {
       </div></>
         )
       }
-      <Grafica/>
+      {/*<Grafica/>*/}
     </div>
   );
 };
