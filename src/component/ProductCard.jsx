@@ -20,7 +20,7 @@ const ProductCard = ({ product, setProductid, productos, productid, links, setSe
       <h3>{product.title}</h3>
       <p>{product.phrase}</p>
       <button  >
-        <Link className="linkP" to={`/FichaTecnica/${product.title}`} onClick={()=>( setSelectedLink({ path: "/productos", label: productos.title, icon: "bx bx-medal" }), console.log(links[2]))} >
+        <Link className="linkP" to={`/FichaTecnica/${product.id}`} onClick={()=>( setSelectedLink({ path: "/productos", label: productos.title, icon: "bx bx-medal" }), console.log(links[2]))} >
           {product.botton}
         </Link>
       </button>

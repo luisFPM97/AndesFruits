@@ -2307,7 +2307,7 @@ footer {
     .cCard {
       flex-direction: column;
       width: 100%;
-      background-color:rgb(127, 149, 167);
+      
       .certCard {
         overflow: hidden;
         img {

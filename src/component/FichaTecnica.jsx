@@ -4,26 +4,25 @@ import data from "../data.json";
 import Loading from "./Loading";
 import Grafica from "./Grafica";
 
-const FichaTecnica = ({ productos, productid }) => {
+const FichaTecnica = ({ productos, productid, language }) => {
   const [product, setproduct] = useState(productos.products[productid])
-  //let product = productos.products[productid];
-  const [productVerified, setProductVerified] = useState(null);
   const { id } = useParams()
 
-  const [language, setLanguage] = useState("en");
+
+  
   const [content, setContent] = useState(data[language]);
   const [loading, setLoading] = useState(true);
   
   useEffect(() => {
     window.scrollTo(0, 0);
     
-    const foundProduct = productos.products.find(product => product.title === id);
+    const foundProduct = productos.products[id];
 
     if (foundProduct) {
-      setProductVerified(foundProduct);
       setproduct(foundProduct)
     } else {
-      console.log(content)
+      alert("Producto no encontrado")
+      setproduct(productos.products[id%10])
     }
     // Temporizador para cambiar el estado de carga después de 3 segundos
     const timer = setTimeout(() => {
@@ -46,6 +45,7 @@ const FichaTecnica = ({ productos, productid }) => {
         </Link>{" "}
         <span>/</span>
         <span>{product.title}</span>
+        <span>{language}</span>
       </div>
       
       <div className="fichaTecnicaPrueba">
