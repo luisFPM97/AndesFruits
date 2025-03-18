@@ -47,64 +47,74 @@ const FichaTecnica = ({ productos, productid }) => {
         <span>/</span>
         <span>{product.title}</span>
       </div>
-      <h1>{product.ftitle}</h1>
-      <div className="ftTitle">
-        <h2>{product.title}</h2>
-        <h3>{product.scientificName}</h3>
+      
+      <div className="fichaTecnicaPrueba">
+        <section className="sectionInfo">
+          <div className="first">
+              <img src={product.image} alt="" />
+              <h1>{product.title}</h1>
+              <h2>{product.scientificName}</h2>
+          </div>
+          <div className="second">
+              <p>
+                {product.phrase}
+              </p>
+              <p>
+                {product.curiousFact}
+              </p>
+              <p>
+                {product.description}
+              </p>
+          </div>
+        </section>
+        <section className="sectionInfo">
+          <div className="second">
+            <div className="table">
+              <table >
+                <thead>
+                  <th>Element</th>
+                  <th>Unit</th>
+                  <th>Total</th>
+                </thead>
+                <tbody className="tb">
+                  {product.table.map((data, i) => (
+                    <tr key={i}>
+                      <td className="aleft">{data.title} </td>
+                      <td className="aright">{data.unit} </td>
+                      <td className="aright">{data.value} </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div className="first"></div>
+        </section>
+        <section className="sectionInfo">
+          <div className="first"></div>
+          <div className="second">
+            <span>*{product.t1}</span>
+            <p>{product.d1}</p>
+            <span>*{product.t2}</span>
+            <p>{product.d2}</p>
+            <span>*{product.t3}</span>
+            <p>{product.d3}</p>
+          </div>
+        </section>
+        <section className="sectionInfo">
+          <div className="second">
+            <span>*{product.t4}</span>
+            <p>{product.d4}</p>
+            <span>*{product.t5}</span>
+            <p>{product.d5}</p>
+            <span>*{product.t6}</span>
+          </div>
+          <div className="first">
+          </div>
+        </section>
       </div>
-      <div className="content">
-        <div className="info">
-          <span>{product.phrase}</span>
-          <span>{product.curiousFact}</span>
-        </div>
-
-        <div className="img">
-          <img src={product.image} alt="" />
-        </div>
-
-        <div className="table">
-          <table>
-            <thead>
-              <th>Element</th>
-              <th>Unit</th>
-              <th>Total</th>
-            </thead>
-            <tbody className="tb">
-              {product.table.map((data, i) => (
-                <tr key={i}>
-                  <td className="aleft">{data.title} </td>
-                  <td className="aright">{data.unit} </td>
-                  <td className="aright">{data.value} </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      </div>
-      <div className="description">
-        <span>{product.description}</span>
-        <br />
-        <br />
-        <br />
-        <br />
-        <span>{product.t1}</span>
-        <span>{product.d1}</span>
-        <br />
-        <span>{product.t2}</span>
-        <span>{product.d2}</span>
-        <br />
-        <span>{product.t3}</span>
-        <span>{product.d3}</span>
-        <br />
-        <span>{product.t4}</span>
-        <span>{product.d4}</span>
-        <br />
-        <span>{product.t5}</span>
-        <span>{product.d5}</span>
-        <br />
-        <span>{product.t6}</span>
-        <br />
-      </div></>
+      </>
+      
         )
       }
       {/*<Grafica/>*/}
