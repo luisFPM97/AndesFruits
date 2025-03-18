@@ -45,7 +45,7 @@ const FichaTecnica = ({ productos, productid, language }) => {
         </Link>{" "}
         <span>/</span>
         <span>{product.title}</span>
-        <span>{language}</span>
+        
       </div>
       
       <div className="fichaTecnicaPrueba">
