@@ -2269,6 +2269,31 @@ footer {
         }
       }
     }
+    .fichaTecnicaPrueba{
+      .sectionInfo{
+        flex-direction: column;
+        height: auto;
+        .first, .second{
+          width: 100%;
+          
+        }
+        .second{
+          border-top: 1px solid white;
+        }
+        .vis{
+          min-height: 100vh !important;
+          height: auto;
+          padding-left: 5% !important;
+          padding-right: 5% !important;
+          padding-top: 120px !important;
+          padding-bottom: 120px !important;
+        }
+        .first{
+          height: 0px;
+          padding: 0;
+        }
+      }
+    }
   }
   .certificaciones {
     .header {

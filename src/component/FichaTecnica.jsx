@@ -50,7 +50,7 @@ const FichaTecnica = ({ productos, productid }) => {
       
       <div className="fichaTecnicaPrueba">
         <section className="sectionInfo">
-          <div className="first">
+          <div className="first vis">
               <img src={product.image} alt="" />
               <h1>{product.title}</h1>
               <h2>{product.scientificName}</h2>
