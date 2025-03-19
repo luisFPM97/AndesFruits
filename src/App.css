@@ -101,8 +101,6 @@ footer {
     }
   }
 }
-
-
 /*Navbar*/
 .lA {
   position: fixed;
@@ -143,7 +141,6 @@ footer {
 .bntMenu:hover {
   width: 132.4px;
 }
-
 .btnMr {
   right: -100px;
 }
@@ -255,7 +252,6 @@ footer {
   right: 0;
   backdrop-filter: blur(10px);
 }
-
 /*home*/
 .home {
   margin: 0;
@@ -679,11 +675,9 @@ footer {
   text-align: center;
   transition: all 0.3s ease-in-out;
 }
-
 .aleft {
   left: 10px;
 }
-
 .aright {
   right: 10px;
 }
@@ -1698,7 +1692,6 @@ footer {
   transform: translateX(0);
   transition: transform 2s ease-in-out;
 }
-
 .cortina.animate {
   transform: translateX(140vh) rotate(-90deg) translateY(100vw);
 }
@@ -1755,7 +1748,6 @@ footer {
 /* Animación para fondospn */
 
 }
-
 @keyframes scaleFondospn {
   0%{
     opacity: 0;
