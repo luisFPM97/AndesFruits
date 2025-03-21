@@ -87,6 +87,10 @@
           "description": "El fruto es una baya en forma ovoide con un diámetro entre 1,5 y 0,87 cm, y pesa de 4 a 6 gramos. Su piel es suave y brillante. El fruto está recubierto de una membrana o vaina fibrosa (cáliz), fina y no comestible, que puede ser de color amarillo o verde.",
           "curiousFact": "También conocida como aguaymanto, uvilla o Cape gooseberry. Fue introducida en Inglaterra en el siglo XVIII y en Sudáfrica en el siglo XIX.",
           "ftitle": "Ficha Técnica",
+          "ttitle":"Información Nutricional",
+          "img1":"/img/0/1.jpg",
+          "img2":"/img/0/2.jpg",
+          "img3":"/img/0/3.jpg",
           "table": [
             {
               "id": 1,
@@ -125,7 +129,7 @@
               "unit": "mg"
             }
           ],
-          "image": "/img/uchuva.png",
+          "image": "/img/0/uchuva.png",
           "fichaTecnica": "ficha-tecnica-uchuva.pdf",
           "t1": "ESPECIFICACIONES MICROBIOLÓGICAS",
           "d1": "Recuento de mesófilos 3000 UFC/g Máximo, Levaduras y hongos 100 UFC/g Máximo, Total Coliformes N.M.P 200 UFC/g Máximo, Coliformes fecales N.M.P. 0",
@@ -996,6 +1000,10 @@
           "description": "The fruit is an ovoid-shaped berry with a diameter between 0.6 and 0.3 inches and weighs 0.14 to 0.21 ounces. Its skin is smooth and shiny. The fruit is covered by a thin, inedible fibrous membrane or sheath (calyx) that can be yellow or green.",
           "curiousFact": "Also known as aguaymanto, uvilla, or Cape gooseberry. It was introduced to England in the 18th century and to South Africa in the 19th century.",
           "ftitle": "Data Sheet",
+          "ttitle":"Nutritional information",
+          "img1":"/img/0/1.jpg",
+          "img2":"/img/0/2.jpg",
+          "img3":"/img/0/3.jpg",
           "table": [
             {
               "id": 1,
@@ -1034,7 +1042,7 @@
               "unit": "mg"
             }
           ],
-          "image": "/img/uchuva.png",
+          "image": "/img/0/uchuva.png",
           "fichaTecnica": "ficha-tecnica-uchuva.pdf",
           "t1": "MICRONIOLOGICAL SPACIFICATIONS",
           "d1": "Mesophilic Aerobic Count: ≤ 3000 CFU/g. Yeast and Molds: ≤ 100 CFU/g. Total Coliforms: ≤ 200 CFU/g. Fecal Coliforms: Not detectable (N.D.)",

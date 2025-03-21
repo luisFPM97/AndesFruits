@@ -49,7 +49,7 @@ const FichaTecnica = ({ productos, productid, language }) => {
             </div>
 
             <div className="fichaTecnicaPrueba">
-              <section className="sectionInfo">
+              <section className="sectionInfo cero">
                 <div className="first vis">
                   <img src={product.image} alt="" />
                   <h1>{product.title}</h1>
@@ -67,8 +67,9 @@ const FichaTecnica = ({ productos, productid, language }) => {
                   </p>
                 </div>
               </section>
-              <section className="sectionInfo">
+              <section className="sectionInfo one" style={{ backgroundImage: `url(${product.img1})` }}>
                 <div className="second">
+                  <h2>{product.ttitle}</h2>
                   <div className="table">
                     <table >
                       <thead>
@@ -90,7 +91,7 @@ const FichaTecnica = ({ productos, productid, language }) => {
                 </div>
                 <div className="first"></div>
               </section>
-              <section className="sectionInfo">
+              <section className="sectionInfo two" style={{ backgroundImage: `url(${product.img2})` }}>
                 <div className="first"></div>
                 <div className="second">
                   <span>*{product.t1}</span>
@@ -101,7 +102,7 @@ const FichaTecnica = ({ productos, productid, language }) => {
                   <p>{product.d3}</p>
                 </div>
               </section>
-              <section className="sectionInfo">
+              <section className="sectionInfo tree" style={{ backgroundImage: `url(${product.img3})` }}>
                 <div className="second">
                   <span>*{product.t4}</span>
                   <p>{product.d4}</p>

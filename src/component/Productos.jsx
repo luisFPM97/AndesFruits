@@ -21,6 +21,7 @@ const Productos = ({ setProductid, productos }) => {
       </section>
       <section className="pProducts">
         <span>{productos.title}</span>
+        
         <div className="list">
           {productos.products.map((product, i) => (
             <ProductCard

@@ -1069,10 +1069,26 @@ footer {
   .fichaTecnicaPrueba{
     width: 100%;
     height: auto;
+    .one, .tree{
+      .second{
+        background-image: linear-gradient(to right, #82a841d7, #00000017)!important;
+      }
+    }
+    .cero, .two{
+      .second{
+        background-image: linear-gradient(to left, #82a841d7, #00000017)!important;
+      }
+    }
+
     .sectionInfo{
+      position: relative;
       display: flex;
       width: 100%;
       height: 100vh;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      
       .first, .second{
         width: 50%;
         display: flex;
@@ -1104,8 +1120,8 @@ footer {
           display: flex;
           justify-content: center;
           align-items: center;
-          padding: 20px;
-          background-color: white;
+          padding: 0;
+          background-color: rgb(0, 0, 0)!important;
           border-radius: 10px;
           table{
             width: 100%;
@@ -1114,6 +1130,7 @@ footer {
             border-collapse: collapse;
             thead{
               border: none;
+              background-color: black ;
             }
             tr{
               background-color: #83A841;
@@ -1129,14 +1146,25 @@ footer {
               color: black;
             }
             tr:nth-child(odd){
-              background-color: #83A841;
+              background-color: #000000;
               color: white;
             }
           }
         }
       }
+      .imgbg{
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        object-fit: cover;
+        position: absolute;
+      }
       .second{
-        background-color: #83A841;
+        h2{
+          color: white;
+          font-weight: 500;
+        }
+        backdrop-filter: blur(3px);
         color: white;
         font-weight:400;
         text-align: left;
