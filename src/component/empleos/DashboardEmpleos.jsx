@@ -43,6 +43,7 @@ const DashboardEmpleos = () => {
                                 <span className='title'>{empleo.titulo} ({empleo.estado})</span>
                                 <span className='area'>{empleo.area}</span>
                                 <span className='modalidad'>{empleo.modalidad}</span>
+
                             </div>
                             {
                                 empleoSelected == empleo?
@@ -58,7 +59,7 @@ const DashboardEmpleos = () => {
                         {!empleoSelected == {} ?
                             <div><span>seleccione empleo</span></div>
                         :
-                            <div className='bodyEmpleoInfo'>
+                        <div className='bodyEmpleoInfo'>
                             <i className='bx bx-arrow-back' onClick={()=>setShowEmpleos(!showEmpleos)}></i>
                             <h1 className='titulo'>{empleoSelected.titulo} <span className='direccion'>{empleoSelected.estado}</span></h1>
                             <span className='area'>{empleoSelected.area}</span>

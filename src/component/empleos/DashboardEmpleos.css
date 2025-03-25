@@ -116,10 +116,12 @@
                 width: 100%;
                 min-height: 100%;
                 padding: 20px !important;
-                
                 display: flex;
                 flex-direction: column;
                 gap: 10px;
+                .bx-arrow-back{
+                    display: none;
+                }
                 .titulo{
                     font-size: 30px;
                     font-weight:600;
@@ -196,7 +198,7 @@
     display: inline-block;
     margin-top: 15px;
 }
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1160px) {
     .contenedor{
         position: relative;
     }
@@ -212,5 +214,8 @@
     }
     .hiddenE{
         z-index: -1;
+    }
+    .bx-arrow-back{
+        display:initial!important;
     }
 }

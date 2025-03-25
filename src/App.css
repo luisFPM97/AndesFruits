@@ -1137,7 +1137,7 @@ footer {
       }
       .second{
         
-        backdrop-filter: blur(3px);
+        backdrop-filter: blur(6px);
         color: white;
         font-weight:400;
         text-align: left;
