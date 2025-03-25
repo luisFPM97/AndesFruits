@@ -1379,6 +1379,7 @@ footer {
         .mensaje {
           width: 80%;
           min-height: 100px;
+          padding-left: 15px;
           background-color: transparent;
           border: none;
           border-bottom: 1px solid white;

@@ -32,7 +32,7 @@ const Footer = ({content, links, language}) => {
             </div>
             <div className='contF'>
                 
-                <Link to="/PortalEmpleados">Portal Empleados</Link>
+               
                 <Link to="/eticalLine">PQRS</Link>
                 <Link to="/data">{content.contactenos.td}</Link>
                 
