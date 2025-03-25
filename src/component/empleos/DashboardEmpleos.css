@@ -196,3 +196,21 @@
     display: inline-block;
     margin-top: 15px;
 }
+@media screen and (max-width: 980px) {
+    .contenedor{
+        position: relative;
+    }
+    .headerEmpleo{
+        position: absolute;
+        z-index: 999;
+        width: 100%!important;
+    }
+    .bodyEmpleo{
+        position: absolute;
+        z-index: 998;
+        width: 100%!important;
+    }
+    .hiddenE{
+        z-index: -1;
+    }
+}

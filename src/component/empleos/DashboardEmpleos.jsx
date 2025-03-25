@@ -5,6 +5,7 @@ import empleos from '../../utils/empleos.js';
 const DashboardEmpleos = () => {
     const [selectedArea, setSelectedArea] = useState('Todos');
     const [empleoSelected, setEmpleoSelected] = useState(empleos[0]);
+    const [showEmpleos, setShowEmpleos] = useState(false);
     
     // Get unique areas for filter
     const areas = ['Todos', ...new Set(empleos.map(empleo => empleo.area))];
@@ -34,9 +35,9 @@ const DashboardEmpleos = () => {
             
                 <div className='contenedor' >
                     
-                    <div className='headerEmpleo' >
+                    <div className={showEmpleos ? 'headerEmpleo visible' : 'headerEmpleo hiddenE'  }>
                     {filteredEmpleos.map((empleo, index) => (
-                        <div className={`headerEmpleiId ${empleo.estado === "Inactivo" ? "disabled" : ""}`} key={index} onClick={()=>setEmpleoSelected(empleo)} >
+                        <div className={`headerEmpleiId ${empleo.estado === "Inactivo" ? "disabled" : ""}`} key={index} onClick={()=>(setEmpleoSelected(empleo),setShowEmpleos(!showEmpleos))} >
                             <img src="/img/lv.png" alt="" />
                             <div className='empleoInfo'>
                                 <span className='title'>{empleo.titulo}</span>
@@ -58,6 +59,7 @@ const DashboardEmpleos = () => {
                             <div><span>seleccione empleo</span></div>
                         :
                             <div className='bodyEmpleoInfo'>
+                            <i className='bx bx-arrow-back' onClick={()=>setShowEmpleos(!showEmpleos)}></i>
                             <h1 className='titulo'>{empleoSelected.titulo} <span className='direccion'>{empleoSelected.estado}</span></h1>
                             <span className='area'>{empleoSelected.area}</span>
                             <span className='modalidad'>{empleoSelected.modalidad}</span>
