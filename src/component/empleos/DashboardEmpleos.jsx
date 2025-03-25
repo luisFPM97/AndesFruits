@@ -5,7 +5,7 @@ import empleos from '../../utils/empleos.js';
 const DashboardEmpleos = () => {
     const [selectedArea, setSelectedArea] = useState('Todos');
     const [empleoSelected, setEmpleoSelected] = useState(empleos[0]);
-    const [showEmpleos, setShowEmpleos] = useState(false);
+    const [showEmpleos, setShowEmpleos] = useState(true);
     
     // Get unique areas for filter
     const areas = ['Todos', ...new Set(empleos.map(empleo => empleo.area))];
