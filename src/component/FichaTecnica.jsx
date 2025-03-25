@@ -50,12 +50,12 @@ const FichaTecnica = ({ productos, productid, language }) => {
 
             <div className="fichaTecnicaPrueba">
               <section className="sectionInfo cero">
-                <div className="first vis">
+                <div className="content first vis">
                   <img src={product.image} alt="" />
                   <h1>{product.title}</h1>
                   <h2>{product.scientificName}</h2>
                 </div>
-                <div className="second">
+                <div className="content second">
                   <p>
                     {product.phrase}
                   </p>
@@ -68,32 +68,36 @@ const FichaTecnica = ({ productos, productid, language }) => {
                 </div>
               </section>
               <section className="sectionInfo one" style={{ backgroundImage: `url(${product.img1})` }}>
-                <div className="second">
-                  <h2>{product.ttitle}</h2>
-                  <div className="table">
-                    <table >
-                      <thead>
-                        <th>Element</th>
-                        <th>Unit</th>
-                        <th>Total</th>
-                      </thead>
-                      <tbody className="tb">
-                        {product.table.map((data, i) => (
-                          <tr key={i}>
-                            <td className="aleft">{data.title} </td>
-                            <td className="aright">{data.unit} </td>
-                            <td className="aright">{data.value} </td>
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
+                <div className="content second">
+                  <div className="tabla">
+                    <h2>{product.ttitle}</h2>
+                    <span className="separator"></span>
+                    <span className="separator"></span>
+                    <div className="table">
+                      <table >
+                        <thead>
+                          <th>Element</th>
+                          <th className="aright">Total</th>
+                          <th className="aright">Unit</th>
+                        </thead>
+                        <tbody className="tb">
+                          {product.table.map((data, i) => (
+                            <tr key={i}>
+                              <td className="aleft">{data.title} </td>
+                              <td className="aright">{data.value} </td>
+                              <td className="aright">{data.unit} </td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
                   </div>
                 </div>
-                <div className="first"></div>
+                <div className="content first"></div>
               </section>
               <section className="sectionInfo two" style={{ backgroundImage: `url(${product.img2})` }}>
-                <div className="first"></div>
-                <div className="second">
+                <div className="content first"></div>
+                <div className="content second">
                   <span>*{product.t1}</span>
                   <p>{product.d1}</p>
                   <span>*{product.t2}</span>
@@ -103,14 +107,14 @@ const FichaTecnica = ({ productos, productid, language }) => {
                 </div>
               </section>
               <section className="sectionInfo tree" style={{ backgroundImage: `url(${product.img3})` }}>
-                <div className="second">
+                <div className="content second">
                   <span>*{product.t4}</span>
                   <p>{product.d4}</p>
                   <span>*{product.t5}</span>
                   <p>{product.d5}</p>
                   <span>*{product.t6}</span>
                 </div>
-                <div className="first">
+                <div className="content first">
                 </div>
               </section>
             </div>

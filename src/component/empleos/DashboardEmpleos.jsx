@@ -40,7 +40,7 @@ const DashboardEmpleos = () => {
                         <div className={`headerEmpleiId ${empleo.estado === "Inactivo" ? "disabled" : ""}`} key={index} onClick={()=>(setEmpleoSelected(empleo),setShowEmpleos(!showEmpleos))} >
                             <img src="/img/lv.png" alt="" />
                             <div className='empleoInfo'>
-                                <span className='title'>{empleo.titulo}</span>
+                                <span className='title'>{empleo.titulo} ({empleo.estado})</span>
                                 <span className='area'>{empleo.area}</span>
                                 <span className='modalidad'>{empleo.modalidad}</span>
                             </div>

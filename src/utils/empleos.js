@@ -15,7 +15,7 @@ const empleos = [
     },
     {
       titulo: "Analista de Calidad",
-      estado: "Activo",
+      estado: "Inactivo",
       area: "Calidad",
       modalidad: "Presencial",
       direccion: "Colombia - Combita - Km1 vía Tunja - Paipa (Planta principal)",
@@ -29,7 +29,7 @@ const empleos = [
     },
     {
       titulo: "Asistente Administrativo",
-      estado: "Activo",
+      estado: "Inactivo",
       area: "Administración",
       modalidad: "Presencial",
       direccion: "Colombia - Combita - Km1 vía Tunja - Paipa (Planta principal)",
