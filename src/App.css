@@ -1089,7 +1089,6 @@ footer {
             color: black;
           }
           .table{
-          
             width: 100%;
             display: flex;
             justify-content: center;
@@ -1115,15 +1114,12 @@ footer {
               }
               tr{
                 color: black;
-                
               }
               th,td{
   
                 padding: 10px;
                 
               }
-              
-              
             }
           }
         }
@@ -1136,7 +1132,6 @@ footer {
         position: absolute;
       }
       .second{
-        
         backdrop-filter: blur(6px);
         color: white;
         font-weight:400;
