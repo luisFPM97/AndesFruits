@@ -40,14 +40,11 @@ footer {
   font-weight:200;
   .contFooter{
     display: flex;
-
     padding-top: 20px;
-    
     .contF{
       width: calc(100% / 3);
       display: flex;
       flex-direction: column;
-      
       padding-bottom: 20px;
       ul{
         display: flex;
@@ -59,10 +56,8 @@ footer {
         .pagesMenu{
           display: flex;
           justify-content: left;
-          
           width: auto;
           position: relative;
-          
         }
         .active{
           color: white !important;
@@ -79,17 +74,12 @@ footer {
            /* Centrar la línea */
           transition: width 0.3s ease-in-out;
         }
-        
       }
-      
       a:hover{
         color:black;
       }
-      
     }
-    
   }
-  
   .contFooter2{
     display: flex;
     padding-bottom: 20px;
@@ -241,12 +231,10 @@ footer {
     .es .circle {
       transform: translateX(28px); /* Se desplaza hacia la derecha */
     }
-    
     .es span{
       transform: translateX(-34px);
     }
   }
-
 }
 .responsive {
   right: 0;
@@ -281,14 +269,12 @@ footer {
       font-weight:bolder;
       color: white;
       text-align: left;
-      
       .hw{
         font-size: 48px;
         padding: 0;
         margin: 0;
       }
       .ht {
-        
         font-size: 78px;
         padding: 0;
         margin: 0;
@@ -304,7 +290,6 @@ footer {
         border-radius: 50px;
         border: none;
         background-color: #2e3c1d;
-
         font-weight: bold;
         font-size: 35px;
         transition: all 0.3s ease-in-out;
@@ -382,7 +367,6 @@ footer {
           border: none;
           border-radius: 10px;
         }
-        
       }
       .left{
         justify-content: right;
@@ -390,7 +374,6 @@ footer {
       .Right{
         justify-content: left;
       }
-      
     }
   }
   .homeProduct {
@@ -419,11 +402,9 @@ footer {
       justify-content: center;
       text-align: center;
     }
-    
     .aleft {
       left: 10px;
     }
-    
     .aright {
       right: 10px;
     }
@@ -451,7 +432,6 @@ footer {
       background-color: #58723948;
       border-radius: 10px;
     }
-    
     .hpProduct::-webkit-scrollbar-thumb {
       height: 10px;
       border-radius: 10px;
@@ -477,7 +457,6 @@ footer {
       scroll-behavior: smooth;
       .hpProductItem {
         padding-left: 20px;
-        
         display: flex;
         text-align: center;
         flex-direction: column;
@@ -536,7 +515,6 @@ footer {
           padding: 0;
           opacity: 0;
           transition: all 0.3s ease-in-out;
-          
           .linkP {
             display: flex;
             justify-content: center;
@@ -552,7 +530,6 @@ footer {
           }
         }
       }
-
       .hpProductItem:hover {
         opacity: 1;
         padding-bottom: 40px;
@@ -574,7 +551,6 @@ footer {
         button {
           opacity: 1;
         }
-        
       }
     }
   }
@@ -744,7 +720,6 @@ footer {
         font-size: 25px;
         font-weight: bold;
         color: black;
-        
       }
     }
   }
@@ -753,23 +728,19 @@ footer {
     transform: translateX(100%); /* Comienza desde la derecha */
     transition: transform 0.8s ease-in-out, opacity 0.5s ease-in-out;
   }
-  
   .aboutUsSec .animate-in {
     opacity: 1;
     transform: translateX(0); /* Se mueve hacia el centro */
   }
-  
   .aboutUsSec .animate-out {
     opacity: 0;
     transform: translateX(-100%); /* Se mueve hacia la izquierda */
   }
-  
   .Inpar {
     align-items: start;
     .content{
       text-align: start;
       margin-left: 20px;
-      
     }
   }
   .Par {
@@ -786,7 +757,6 @@ footer {
   width: 100%;
   height: 100%;
   top: 0;
-  
   background-color: rgba(0, 0, 0, 0.05);
 }
 .productos {
@@ -964,17 +934,14 @@ footer {
   justify-content: center;
   align-items: center;
   padding-top: 60px;
-
   background-color:#bed98f;
   text-align: center;
   flex-direction: column;
-  
   .rute {
     width: 100%;
     display: flex;
     cursor: pointer;
     font-size: 20px;
-    
     height: 80px;
     padding-left: 30px;
     align-items: end;
@@ -1017,7 +984,6 @@ footer {
         filter: drop-shadow(0 0 20px black);
       }
     }
-    
   }
   .description {
     width: 80%;
@@ -1039,7 +1005,6 @@ footer {
         background-image: linear-gradient(to left, #82a841d7, #00000017)!important;
       }
     }
-
     .sectionInfo{
       position: relative;
       display: flex;
@@ -1048,7 +1013,6 @@ footer {
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-      
       .first, .second{
         width: 50%;
         display: flex;
@@ -1116,9 +1080,7 @@ footer {
                 color: black;
               }
               th,td{
-  
                 padding: 10px;
-                
               }
             }
           }
@@ -1175,7 +1137,6 @@ footer {
       position: absolute;
       filter: blur(5px);
     }
-
     h1 {
       
       font-size: 45px;
@@ -1200,7 +1161,6 @@ footer {
   .cCard {
     width: 49.8%;
     display: flex;
-
     .certCard {
       width: 100%;
       height: 100vh;
@@ -1275,7 +1235,6 @@ footer {
     .headerCont {
       width: 100%;
       height: 15%;
-      
       padding-left: 20px;
       display: flex;
       flex-direction: column;
@@ -1494,7 +1453,6 @@ footer {
           color: white;
           font-weight: bold;
         }
-        
         .mensaje {
           width: 80%;
           min-height: 100px;
@@ -1595,7 +1553,6 @@ footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #c2bd82;
-  
 }
 .articleCard{
   overflow: hidden;
@@ -1741,9 +1698,7 @@ footer {
       animation: scalelogospn 4s infinite;
     }
   }
-  
 /* Animación para fondospn */
-
 }
 @keyframes scaleFondospn {
   0%{
@@ -1766,7 +1721,6 @@ footer {
     opacity: 0;
   }
 }
-
 /* Animación para fondospn1 */
 @keyframes scaleFondospn1 {
   0%{
@@ -1796,7 +1750,6 @@ footer {
   50% {
       transform: scale(1.1); /* Escala al 50% */
   }
-
 }
 @keyframes slide {
   0% {
@@ -1886,14 +1839,11 @@ footer {
     img{
       height: 110px;
       animation: scalelogospn 2s infinite;
-      
     }
     .spbtn{
       width: 0;
       opacity: 0;
-      
       transition: all 0.4s ease-in-out;
-      
       overflow: hidden;
     }
   }
@@ -1906,7 +1856,6 @@ footer {
       width: 100px;
       opacity: 1;
       font-weight: bold;
-      
     }
   }
 }
@@ -1930,7 +1879,6 @@ footer {
   border-radius: 20px;
   animation: fade-out 0.5s ease-in-out 4.5s forwards;
 }
-
 .dot {
   width: 20px;
   aspect-ratio: 1;
@@ -1938,7 +1886,6 @@ footer {
   border-radius: 50%;
   animation: move-dot 2.5s infinite alternate ease-in-out;
 }
-
 @keyframes move-dot {
   from {
     transform: translateX(-120px);
@@ -1947,15 +1894,12 @@ footer {
     transform: translateX(120px);
   }
 }
-
 @keyframes fade-out {
   to {
     opacity: 0;
     visibility: hidden;
   }
 }
-
-
 @media screen and (max-width: 980px) {
   .App{
     width: 100%;
@@ -2016,23 +1960,17 @@ footer {
   }
   .icon {
     top: 0 !important;
-    
-    
     color: #2e3c1d !important;
     opacity: 1;
     transition: all 0.5s ease-in-out;
   }
-
-  
   .responsive {
-    
     position: fixed;
     top: 0 !important;
   }
   .home {
     width: 100%;
     .homeHeader {
-      
       div {
         padding: 8px;
         justify-content: center;
@@ -2040,7 +1978,6 @@ footer {
         text-align: center;
         .hw{
           font-size: 25px;
-          
         }
         .ht{
           font-size: 50px;
@@ -2102,9 +2039,7 @@ footer {
             width: 100%;
           }
         }
-        
       }
-
       .hpProduct::-webkit-scrollbar {
         width: 100%;
       }
@@ -2182,12 +2117,10 @@ footer {
       border-radius: 10px;
       background-color: #83a841;
     }
-    .Par,
-    .Inpar {
+    .Par,.Inpar {
       align-items: center;
       text-align: center;
       text-align: center;
-      
       .content{
         background-color: rgba(255, 255, 255, 0.637);
         padding: 5px;
@@ -2268,7 +2201,6 @@ footer {
         height: auto;
         .first, .second{
           width: 100%;
-          
         }
         .second{
           border-top: 1px solid white;
@@ -2300,7 +2232,6 @@ footer {
     .cCard {
       flex-direction: column;
       width: 100%;
-      
       .certCard {
         overflow: hidden;
         img {
@@ -2325,7 +2256,6 @@ footer {
       padding-bottom: 30px;
       .contForm {
         flex-direction: column;
-
         form {
           width: 100%;
         }
@@ -2385,9 +2315,7 @@ footer {
         left: 25%;
       }
     }
-    
   /* Animación para fondospn */
-  
   }
   .articleInfo{
     .contain{
