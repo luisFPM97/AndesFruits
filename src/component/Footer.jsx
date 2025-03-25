@@ -31,8 +31,7 @@ const Footer = ({content, links, language}) => {
                 </ul>
             </div>
             <div className='contF'>
-                
-               
+                <Link to="/empleo">Trabaja con nosotros</Link>
                 <Link to="/eticalLine">PQRS</Link>
                 <Link to="/data">{content.contactenos.td}</Link>
                 
