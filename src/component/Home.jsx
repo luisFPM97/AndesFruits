@@ -40,9 +40,7 @@ const easeInOutQuad = (t) => t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) /
     cortina.classList.add('animate');
   }, []);
 
-  function linkNavigate(link) {
-    navigate(link)
-  }
+  
 
   const products = productos.products;
 
@@ -114,16 +112,14 @@ const easeInOutQuad = (t) => t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) /
             <div className="contenido">
             
               <span>{section.description}</span>
-              {/*
-              <button >
-                <Link className="linkBtn" to={section.link} onClick={()=>(setSelectedLink(links[i]))}>
+              
+              
+                <Link className="linkBtn linkP" to={section.link} onClick={()=>(setSelectedLink(links[i]))}>
                   {section.btn}
                 </Link>
-              </button>*/
-              }
-              <button onClick={linkNavigate(section.link)}>
-                <span className="linkBtn">{section.btn}</span>
-              </button>
+              
+              
+              
               
             </div>
             <div className="filter"></div>
