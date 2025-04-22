@@ -39,12 +39,10 @@ function App() {
   ];
   const [selectedLink, setSelectedLink] = useState(links[0]);
   const location = useLocation(); // Obtiene la ruta actual
-
   useEffect(() => {
     // Extraer la ruta base sin el nombre del producto
     const pathSegments = location.pathname.split("/"); // Divide la URL en partes
     const isFichaTecnica = pathSegments[1] === "FichaTecnica"; // Verifica si es la ruta esperada
-
     if (isFichaTecnica) {
       setSelectedLink(links[2]); // Asigna el link correspondiente
       console.log("📌 Ruta detectada: /FichaTecnica/ - Link actualizado:", links[2]);
@@ -52,22 +50,18 @@ function App() {
       const currentLink = links.find(link => link.path === location.pathname);
       if (currentLink) {
         setSelectedLink(currentLink);
+        console.log("📌 Ruta detectada: /FichaTecnica/ - Link actualizado:", selectedLink);
       }
     }
   }, [location.pathname]); // Se ejecuta cuando la ruta cambia // Se actualiza cada vez que cambia la ruta
   useEffect(() => {
-    
     if (data) {
       setContent(data[language]);
-      
     }
   }, [language, data]);
-
   return (
     <div className="App">
-      <header></header>
       <Navbar selectedLink={selectedLink} setSelectedLink={setSelectedLink} setLanguage={setLanguage} language={language} content={content} links={links} />
-      
       <Routes>
         <Route path="/" element={ <Home home={content.home} setSelectedLink={selectedLink} productos={content.productos} setProductid={setProductid}productid={productid} links={links}  contacto={content.contactenos}/> } />
         <Route path="/quienes-somos" element={<QuienesSomos QuienesSomos={content.quienesSomos} />} />

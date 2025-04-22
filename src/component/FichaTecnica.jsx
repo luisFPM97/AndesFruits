@@ -7,28 +7,23 @@ import Grafica from "./Grafica";
 const FichaTecnica = ({ productos, productid, language }) => {
   const [product, setproduct] = useState(productos.products[productid])
   const { id } = useParams()
-
-
-
   const [content, setContent] = useState(data[language]);
   const [loading, setLoading] = useState(true);
-
   useEffect(() => {
     window.scrollTo(0, 0);
-
     const foundProduct = productos.products[id];
-
     if (foundProduct) {
       setproduct(foundProduct)
     } else {
       alert("Producto no encontrado")
       setproduct(productos.products[id % 10])
     }
-    // Temporizador para cambiar el estado de carga después de 3 segundos
+    // Temporizador para cambiar el estado de carga después de 4 segundos
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 4000); // Espera 3 segundos
+    }, 4000); // Espera 4 segundos
     return () => clearTimeout(timer); // Limpia el temporizador si el componente se desmonta
+    
   }, [id, productos]);
 
   return (
