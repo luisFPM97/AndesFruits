@@ -1,11 +1,11 @@
 import React, { useEffect, useRef } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import ProductCard from "./ProductCard";
 
 
 const Home = ({ home, productos, setProductid, productid, contacto, setSelectedLink, links }) => {
   const scrollContainer = useRef(null);
-
+  const navigate = useNavigate()
   // Función para mover el scrollbar a la izquierda o derecha
   const scroll = (direction) => {
     if (scrollContainer.current) {
@@ -14,18 +14,14 @@ const Home = ({ home, productos, setProductid, productid, contacto, setSelectedL
       const target = direction === "left" ? start - scrollAmount : start + scrollAmount;
       const duration = 100; // Duración de la animación en milisegundos
       const startTime = performance.now();
-  
       const animateScroll = (currentTime) => {
         const elapsedTime = currentTime - startTime;
         const progress = Math.min(elapsedTime / duration, 1); // Asegura que no pase del 100%
-  
         scrollContainer.current.scrollLeft = start + (target - start) * easeInOutQuad(progress);
-  
         if (progress < 1) {
           requestAnimationFrame(animateScroll);
         }
       };
-  
       requestAnimationFrame(animateScroll);
     }
   };
@@ -43,6 +39,10 @@ const easeInOutQuad = (t) => t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) /
     const cortina = document.querySelector('.cortina');
     cortina.classList.add('animate');
   }, []);
+
+  function linkNavigate(link) {
+    navigate(link)
+  }
 
   const products = productos.products;
 
@@ -112,12 +112,19 @@ const easeInOutQuad = (t) => t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) /
           <div className="shortPageItem" key={i}>
             <img src={section.image} alt={section.description} />
             <div className="contenido">
+            
               <span>{section.description}</span>
+              {/*
               <button >
                 <Link className="linkBtn" to={section.link} onClick={()=>(setSelectedLink(links[i]))}>
                   {section.btn}
                 </Link>
+              </button>*/
+              }
+              <button onClick={linkNavigate(section.link)}>
+                <span className="linkBtn">{section.btn}</span>
               </button>
+              
             </div>
             <div className="filter"></div>
           </div>

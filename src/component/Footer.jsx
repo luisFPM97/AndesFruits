@@ -12,7 +12,7 @@ const Footer = ({content, links, language}) => {
                 <span>{content.home.titleE}</span>
                 <a href={`https://wa.me/+57${content.contactenos.phone}`} target='blank'><i className="bx bxl-whatsapp"></i>{content.contactenos.phone2}</a>
                 <span>Andes Fruits - Andes Export Company S.A.S</span>
-                <span>{content.contactenos.address}</span>
+                <a href="https://www.google.com/maps?ll=5.580854,-73.336938&z=13&t=m&hl=es-ES&gl=US&mapclient=embed&cid=17034548024406326657" target='blank'>{content.contactenos.address}</a>
             </div>
             <div className='contF'>
                 <ul>

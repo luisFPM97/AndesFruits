@@ -4,7 +4,7 @@ import empleos from '../../utils/empleos.js';
 
 const DashboardEmpleos = () => {
     const [selectedArea, setSelectedArea] = useState('Todos');
-    const [empleoSelected, setEmpleoSelected] = useState(empleos[0]);
+    const [empleoSelected, setEmpleoSelected] = useState(null);
     const [showEmpleos, setShowEmpleos] = useState(true);
     
     // Get unique areas for filter
@@ -56,7 +56,7 @@ const DashboardEmpleos = () => {
                     </div>
                     
                     <div className='bodyEmpleo'>
-                        {!empleoSelected == {} ?
+                        {empleoSelected == null ?
                             <div><span>seleccione empleo</span></div>
                         :
                         <div className='bodyEmpleoInfo'>
