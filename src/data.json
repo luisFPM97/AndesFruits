@@ -152,6 +152,10 @@
           "description": "El Bananito o Bananito bocadillo, pertenece a la familia de las Musáceas. Su peso oscila entre los 60 y 80 gramos y su tamaño entre los 10 y 12 cm de longitud. La cáscara es delgada, lisa y de color amarillo. Su pulpa es suave y deliciosa, y nuestro bananito tiene un aroma a vainilla que incrementa su maravilloso sabor.",
           "curiousFact": "En Colombia, el bananito es conocido por su alto contenido de fósforo, potasio, hierro y vitaminas A y B.",
           "ftitle": "Ficha Técnica",
+          "ttitle":"Información Nutricional",
+          "img1":"/img/0/1.jpg",
+          "img2":"/img/0/2.jpg",
+          "img3":"/img/0/3.jpg",
           "table": [
             {
               "id": 1,
@@ -213,6 +217,10 @@
           "description": "Fue descubierta por primera vez en forma silvestre por los conquistadores españoles en México, Colombia, Centroamérica y las Antillas, quienes le dieron el nombre de pitaya, que significa fruta escamosa.",
           "curiousFact": "La pitahaya amarilla es cultivada principalmente en zonas tropicales y es conocida por su cáscara espinosa y amarilla.",
           "ftitle": "Ficha Técnica",
+          "ttitle":"Información Nutricional",
+          "img1":"/img/0/1.jpg",
+          "img2":"/img/0/2.jpg",
+          "img3":"/img/0/3.jpg",
           "table": [
             {
               "id": 1,
@@ -274,6 +282,10 @@
           "description": "El maracuyá pertenece a las frutas de la pasión. La fruta de forma circular a ovalada pesa entre 110 y 125 gramos y tiene aproximadamente 6 o 7.5 cm de diámetro. Cuando la fruta madura, cambia de un color verde intenso a un amarillo brillante. Su corteza es gruesa y lisa, aunque con el tiempo tiende a arrugarse debido al proceso natural de maduración. Su interior contiene numerosas y pequeñas semillas comestibles de color negro.",
           "curiousFact": "El nombre maracuyá proviene del Tupi “mara kuya”, que significa “fruta que se sirve a sí misma” o “comida en una cuia”.",
           "ftitle": "Ficha Técnica",
+          "ttitle":"Información Nutricional",
+          "img1":"/img/0/1.jpg",
+          "img2":"/img/0/2.jpg",
+          "img3":"/img/0/3.jpg",
           "table": [
             {
               "id": 1,
@@ -335,6 +347,10 @@
           "description": "El fruto es una baya de cubierta dura de forma casi esférica de 6-7.8 cm de diámetro, que en la mayoría de los casos presenta puntos blanquecinos. Los frutos están unidos a un pedúnculo largo de 3 a 4 cm aproximadamente. El peso promedio puede variar entre 110 y 140 gramos.",
           "curiousFact": "A menudo se confunde con la fruta de la pasión, pero son frutas diferentes.",
           "ftitle": "Ficha Técnica",
+          "ttitle":"Información Nutricional",
+          "img1":"/img/0/1.jpg",
+          "img2":"/img/0/2.jpg",
+          "img3":"/img/0/3.jpg",
           "table": [
             {
               "id": 0,
@@ -390,6 +406,10 @@
           "description": "La fruta es casi redonda, con un peso entre 50 y 60 gramos y un diámetro promedio de 5.7 cm. Tiene una corteza resistente, lisa y gruesa.",
           "curiousFact": "Es conocida por su efecto sedante que incluso se dice que ayuda a regular los sueños.",
           "ftitle": "Ficha Técnica",
+          "ttitle":"Información Nutricional",
+          "img1":"/img/0/1.jpg",
+          "img2":"/img/0/2.jpg",
+          "img3":"/img/0/3.jpg",
           "table": [
             {
               "id": 0,
@@ -445,6 +465,10 @@
           "description": "El fruto es una baya de forma ovoide – apiculada. Tiene una longitud promedio de 7.3 cm, midiendo en su parte más ancha entre 5 y 6cm. El peso promedio puede variar entre 100 y 150g.",
           "curiousFact": "A pesar de su nombre, no es un tomate sino una fruta con un sabor único que combina en muchas elaboraciones",
           "ftitle": "Ficha Tecnica",
+          "ttitle":"Información Nutricional",
+          "img1":"/img/0/1.jpg",
+          "img2":"/img/0/2.jpg",
+          "img3":"/img/0/3.jpg",
           "table": [
             {
               "id": 0,
@@ -500,6 +524,10 @@
           "description": " El kumquat, también conocido como naranja enana o quinoto, es un cítrico pequeño y ovalado de color naranja intenso. Su piel es fina y comestible, con un sabor ligeramente dulce y ácido. La pulpa es de color amarillo pálido, con un sabor ácido y jugoso.",
           "curiousFact": "En China, los kumquats se confitan con frecuencia y se utilizan para decoración navideña en algunas partes de Estados Unidos",
           "ftitle": "Ficha Tecnica",
+          "ttitle":"Información Nutricional",
+          "img1":"/img/0/1.jpg",
+          "img2":"/img/0/2.jpg",
+          "img3":"/img/0/3.jpg",
           "table": [
             {
               "id": 0,
@@ -555,6 +583,10 @@
           "description": "El aguacate Hass es una variedad de aguacate de piel rugosa y color verde oscuro. La pulpa es de color crema verdoso, con un sabor rico y cremoso.",
           "curiousFact": "Más del 80% de los aguacates en Estados Unidos son de la variedad Hass, y es el aguacate más cultivado en Nueva Zelanda",
           "ftitle": "Ficha Tecnica",
+          "ttitle":"Información Nutricional",
+          "img1":"/img/0/1.jpg",
+          "img2":"/img/0/2.jpg",
+          "img3":"/img/0/3.jpg",
           "table": [
             {
               "id": 0,
@@ -610,6 +642,10 @@
           "description": "El mangostino es una fruta tropical de color púrpura oscuro con una cáscara gruesa y rugosa. La pulpa blanca y jugosa tiene un sabor dulce y ligeramente ácido.",
           "curiousFact": "Más del 80% de los aguacates en Estados Unidos son de la variedad Hass, y es el aguacate más cultivado en Nueva Zelanda",
           "ftitle": "Ficha Tecnica",
+          "ttitle":"Información Nutricional",
+          "img1":"/img/0/1.jpg",
+          "img2":"/img/0/2.jpg",
+          "img3":"/img/0/3.jpg",
           "table": [
             {
               "id": 0,
@@ -665,6 +701,10 @@
           "description": "El Limón Tahití es una fruta de color verde intenso que se vuelve amarillo pálido al madurar. Tiene una cáscara delgada y suave, y su pulpa es jugosa y ácida.",
           "curiousFact": "El Limón Tahití es conocido por ser sin semillas y por su resistencia a enfermedades, lo que lo hace muy popular en la agricultura.",
           "ftitle": "Ficha Tecnica",
+          "ttitle":"Información Nutricional",
+          "img1":"/img/0/1.jpg",
+          "img2":"/img/0/2.jpg",
+          "img3":"/img/0/3.jpg",
           "table": [
             {
               "id": 0,
@@ -1065,6 +1105,10 @@
           "description": "The Bananito, also known as the Bananito bocadillo, belongs to the Musaceae family. It weighs between 60 and 80 grams and measures between 10 and 12 centimeters in length. The skin is thin, smooth, and yellow, the flesh is soft and delicious, and our little banana has a vanilla aroma that enhances its wonderful flavor.",
           "curiousFact": "In Colombia, the Bananito is known for its high content of phosphorus, potassium, iron, and vitamins A and B.",
           "ftitle": "Data Sheet",
+          "ttitle":"Nutritional information",
+          "img1":"/img/0/1.jpg",
+          "img2":"/img/0/2.jpg",
+          "img3":"/img/0/3.jpg",
           "table": [
             {
               "id": 1,
@@ -1126,6 +1170,10 @@
           "description": "It was first discovered in the wild by the Spanish conquerors in Mexico, Colombia, Central America and the Antilles, who gave it the name pitaya, which means scaly fruit.",
           "curiousFact": "The yellow pitaya is grown mainly in tropical areas and is known for its spiny yellow skin.",
           "ftitle": "Data Sheet",
+          "ttitle":"Nutritional information",
+          "img1":"/img/0/1.jpg",
+          "img2":"/img/0/2.jpg",
+          "img3":"/img/0/3.jpg",
           "table": [
             {
               "id": 1,
@@ -1187,6 +1235,10 @@
           "description": "Maracuyá belongs to the passion fruit family. The fruit, which is circular to oval in shape, weighs between 110 and 125 grams and has a diameter of approximately 6 or 7.5 cm. As the fruit ripens, it changes from a deep green to a bright yellow color. Its rind is thick and smooth, although it tends to wrinkle over time due to the natural ripening process. Its interior contains numerous small, edible black seeds.",
           "curiousFact": "The name maracuyá comes from the Tupi 'mara kuya', which means 'fruit that serves itself 'or 'food in a cuia'.",
           "ftitle": "Data Sheet",
+          "ttitle":"Nutritional information",
+          "img1":"/img/0/1.jpg",
+          "img2":"/img/0/2.jpg",
+          "img3":"/img/0/3.jpg",
           "table": [
             {
               "id": 1,
@@ -1248,6 +1300,10 @@
           "description": "The fruit is a hard-shelled berry of almost spherical shape, 6-7.8 cm in diameter, which in most cases has whitish dots. The fruits are attached to a long peduncle of approximately 3 to 4 cm. The average weight can vary between 110 and 140g",
           "curiousFact": "It is often confused with passion fruit, but they are different fruits",
           "ftitle": "Data Sheet",
+          "ttitle":"Nutritional information",
+          "img1":"/img/0/1.jpg",
+          "img2":"/img/0/2.jpg",
+          "img3":"/img/0/3.jpg",
           "table": [
             {
               "id": 0,
@@ -1303,6 +1359,10 @@
           "description": "The fruit is almost round, with a weight between 50 and 60g and an average diameter of 5.7 cm. It has a tough, smooth and thick rind.",
           "curiousFact": "It is known for its sedative effect that is even said to help regulate dreams",
           "ftitle": "Data Sheet",
+          "ttitle":"Nutritional information",
+          "img1":"/img/0/1.jpg",
+          "img2":"/img/0/2.jpg",
+          "img3":"/img/0/3.jpg",
           "table": [
             {
               "id": 0,
@@ -1358,6 +1418,10 @@
           "description": "The fruit is an ovoid-apiculate berry. It has an average length of 7.3 cm, measuring between 5 and 6 cm at its widest part. The average weight can vary between 100 and 150g.",
           "curiousFact": "Despite its name, it is not a tomato but a fruit with a unique flavor that combines in many preparations",
           "ftitle": "Data Sheet",
+          "ttitle":"Nutritional information",
+          "img1":"/img/0/1.jpg",
+          "img2":"/img/0/2.jpg",
+          "img3":"/img/0/3.jpg",
           "table": [
             {
               "id": 0,
@@ -1413,6 +1477,10 @@
           "description": "The kumquat, also known as the dwarf orange or quinoto, is a small, oval citrus fruit with a deep orange color. Its skin is thin and edible, with a slightly sweet and tart flavor. The flesh is pale yellow in color, with a tart and juicy flavor.",
           "curiousFact": "In China, kumquats are often candied and used for Christmas decorations in some parts of the United States",
           "ftitle": "Data Sheet",
+          "ttitle":"Nutritional information",
+          "img1":"/img/0/1.jpg",
+          "img2":"/img/0/2.jpg",
+          "img3":"/img/0/3.jpg",
           "table": [
             {
               "id": 0,
@@ -1468,6 +1536,10 @@
           "description": "The Hass avocado is a variety of avocado with rough, dark green skin. The flesh is creamy green in color, with a rich and creamy flavor.",
           "curiousFact": "Over 80% of the avocados in the United States are of the Hass variety, and it is the most cultivated avocado in New Zealand",
           "ftitle": "Data Sheet",
+          "ttitle":"Nutritional information",
+          "img1":"/img/0/1.jpg",
+          "img2":"/img/0/2.jpg",
+          "img3":"/img/0/3.jpg",
           "table": [
             {
               "id": 0,
@@ -1523,6 +1595,10 @@
           "description": "The mangosteen is a deep purple tropical fruit with a thick, rough rind. The white, juicy flesh has a sweet and slightly acidic flavor.",
           "curiousFact": "Over 80% of the avocados in the United States are of the Hass variety, and it is the most cultivated avocado in New Zealand",
           "ftitle": "Data Sheet",
+          "ttitle":"Nutritional information",
+          "img1":"/img/0/1.jpg",
+          "img2":"/img/0/2.jpg",
+          "img3":"/img/0/3.jpg",
           "table": [
             {
               "id": 0,
@@ -1578,6 +1654,10 @@
           "description": "The Tahiti Lime is a fruit with an intense green color that turns pale yellow when ripe. It has a thin, smooth peel, and its pulp is juicy and acidic.",
           "curiousFact": "The Tahiti Lime is known for being seedless and resistant to diseases, making it very popular in agriculture.",
           "ftitle": "Technical Sheet",
+          "ttitle":"Nutritional information",
+          "img1":"/img/0/1.jpg",
+          "img2":"/img/0/2.jpg",
+          "img3":"/img/0/3.jpg",
           "table": [
             {
               "id": 0,

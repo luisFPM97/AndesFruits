@@ -43,5 +43,5 @@ const empleos = [
     }
   ];
   
-  console.log(empleos);
+ 
   export default empleos;

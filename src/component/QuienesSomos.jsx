@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import ScrollIndicador from "./ScrollIndicador";
+import Nosotros from "./sobre nosotros/Nosotros";
 
 const QuienesSomos = ({ QuienesSomos }) => {
   const scrollContainer = useRef(null);
@@ -42,6 +43,7 @@ const QuienesSomos = ({ QuienesSomos }) => {
   }, []);
 
   return (
+    <>
     <div className="aboutCont">
       <ScrollIndicador/>
       <button className="arrowSlider aleft" onClick={() => scroll("left")}>
@@ -69,6 +71,8 @@ const QuienesSomos = ({ QuienesSomos }) => {
         <img src="img/arrow-end.png" alt="right arrow" />
       </button>
     </div>
+    <Nosotros/>
+    </>
   );
 };
 

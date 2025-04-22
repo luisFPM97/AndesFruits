@@ -1,0 +1,374 @@
+.nosotros-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Arial", sans-serif;
+    color: #333;
+  }
+  
+  /* Secciones */
+  .section {
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #f8f9fa50;
+  }
+  .history, .quality{
+    background-color: white;
+  }
+  .history{
+    padding-bottom: 20px;
+  }
+  .section h2 {
+    font-size: 2rem;
+    color: #176b87;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .section p {
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 1.6;
+    color: #555;
+  }
+  .who-we-are{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    video{
+        max-height: 100vh;
+        max-width: 100%;
+        margin: 0;
+    }
+  }
+  
+  /* Tarjetas de Filosofía */
+  .philosophy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .philosophy-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background: rgba(255, 255, 255, 0.488);
+    padding: 20px;
+    border-radius: 0px;
+    text-align: center;
+    min-width: 320px;
+    width: 50%;
+    border: 1px solid rgba(128, 128, 128, 0.164);
+    transition: all 0.3s;
+  }
+  
+  .card:hover {
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  .card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #176b87;
+  }
+ 
+  .quality {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .cert-card {
+    background: #eef7ff6c;
+    padding: 20px;
+    text-align: center;
+    min-width: 320px;
+    width: 50%;
+    border: 1px solid rgba(128, 128, 128, 0.164);
+    transition: all 0.25s;
+  }
+  
+  .cert-card:hover {
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  .cert-card img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+    filter: drop-shadow(0 0 0.5px rgba(0, 0, 0, 0.5));
+  }
+  
+  .cert-card h3 {
+    font-size: 1.5rem;
+    color: #176b87;
+  }
+  
+  .cert-card p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .cert-card a {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #176b87;
+    color: white;
+    
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .cert-card a:hover {
+    background-color: #134e62;
+  }
+  .export {
+    
+    padding: 40px 20px;
+    
+    text-align: center;
+  }
+  
+  .export h2 {
+    color: #176b87;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .fruits, .markets {
+    margin-top: 20px;
+  }
+  
+  .fruits h3, .markets h3 {
+    font-size: 1.5rem;
+    color: #176b87;
+    margin-bottom: 15px;
+  }
+  
+  .fruits ul, .markets ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .fruits ul li, .markets ul li {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  .team {
+    background-color: white;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  
+  .team h2 {
+    color: #176b87;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .team p {
+    font-size: 1.1rem;
+    color: #444;
+    max-width: 800px;
+    margin: 0 auto 20px;
+  }
+  .team-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .team-category {
+    background: #eef7ff60;
+    padding: 20px;
+    min-width: 320px;
+    width: 50%;;
+    transition: all 0.25s;
+    border: 1px solid rgba(128, 128, 128, 0.273);
+  }
+  .team-category:hover{
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .team-category h3 {
+    font-size: 1.4rem;
+    color: #176b87;
+    margin-bottom: 10px;
+  }
+  
+  .team-category p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .team-footer {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #176b87;
+    margin-top: 30px;
+  }
+  .environment {
+    text-align: center;
+  }
+  
+  .environment h2 {
+    color: #176b87;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .environment p {
+    font-size: 1.1rem;
+    color: #444;
+    max-width: 800px;
+    margin: 0 auto 20px;
+  }
+  .environment-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .environment-category {
+    background: rgba(255, 255, 255, 0.466);
+    padding: 20px;
+    min-width: 320px;
+    width: 50%;
+    border: 1px solid rgba(128, 128, 128, 0.273);
+    transition: all 0.25s;
+    text-align: left;
+  }
+  .environment-category:hover{
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .environment-category h3 {
+    font-size: 1.4rem;
+    color: #176b87;
+    margin-bottom: 10px;
+  }
+  
+  .environment-category ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .environment-category ul li {
+    font-size: 1rem;
+    color: #555;
+    padding: 5px 0;
+  }
+  
+  .environment-footer {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #176b87;
+    margin-top: 30px;
+  }
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .environment h2 {
+        font-size: 1.8rem;
+      }
+    
+      .environment p {
+        font-size: 1rem;
+      }
+    
+      .environment-category {
+        padding: 15px;
+      }
+    
+      .environment-category h3 {
+        font-size: 1.2rem;
+      }
+    
+      .environment-category ul li {
+        font-size: 0.95rem;
+      }
+    .team h2 {
+        font-size: 1.8rem;
+      }
+    
+      .team p {
+        font-size: 1rem;
+      }
+    
+      .team-category {
+        padding: 15px;
+      }
+    
+      .team-category h3 {
+        font-size: 1.2rem;
+      }
+    
+      .team-category p {
+        font-size: 0.95rem;
+      }
+      .export {
+        padding: 30px 10px;
+      }
+      
+      .export h2 {
+        font-size: 1.8rem;
+      }
+      
+      .fruits h3, .markets h3 {
+        font-size: 1.3rem;
+      }
+      
+      .fruits ul li, .markets ul li {
+        font-size: 1rem;
+      }
+    .certifications {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .cert-card {
+      width: 90%;
+      background: #eef7ff60;
+    }
+  }
+  
+  
+  /* Responsividad */
+  @media (max-width: 768px) {
+    .nosotros-container {
+      padding: 20px;
+    }
+  
+    .section {
+      padding: 30px;
+    }
+  
+    .philosophy-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      width: 90%;
+    }
+  }
+  

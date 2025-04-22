@@ -38,7 +38,6 @@ function App() {
     { path: "/certificaciones", label: content.certificaciones.title, icon: "bx bx-certificate" },
   ];
   const [selectedLink, setSelectedLink] = useState(links[0]);
-
   const location = useLocation(); // Obtiene la ruta actual
 
   useEffect(() => {
