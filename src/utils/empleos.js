@@ -1,7 +1,7 @@
 const empleos = [
     {
       titulo: "Operaria de Producción",
-      estado: "Activo",
+      estado: "Inactivo",
       area: "Producción",
       modalidad: "Presencial",
       direccion: "Colombia - Combita - Km1 vía Tunja - Paipa (Planta principal)",
