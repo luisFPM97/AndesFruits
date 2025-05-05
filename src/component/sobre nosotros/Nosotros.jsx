@@ -2,8 +2,10 @@ import "./Nosotros.css";
 
 const Nosotros = () => {
   return (
+   
     <div className="nosotros-container">
-      {/* Sección 1: Quiénes Somos */}
+      {/*
+      
       <section className="section who-we-are">
         <h2>Quiénes Somos</h2>
         <p>
@@ -29,7 +31,7 @@ const Nosotros = () => {
         <video src="/vid/capacitacion basc.mp4" autoPlay muted loop></video>
         
       </section>
-      {/* Sección 2: Nuestra Historia */}
+      
       <section className="section history">
         <h2>Nuestra Historia</h2>
         <p>
@@ -54,7 +56,7 @@ const Nosotros = () => {
         por el campo y orgullo por lo nuestro.
         </p>
       </section>
-      {/* Sección 3: Misión, Visión y Valores */}
+      
       <section className="section philosophy">
         <h2>Nuestra Filosofía</h2>
         <div className="philosophy-cards">
@@ -95,7 +97,7 @@ const Nosotros = () => {
         </div>
       </section>
 
-      {/* Sección 4: Garantía de Calidad */}
+      
       <section className="section quality">
         <h2>Garantía de Calidad</h2>
         <p>
@@ -119,7 +121,7 @@ const Nosotros = () => {
                 <a href="https://www.wbasco.org/es" target="_blank" rel="noopener noreferrer">Más información</a>
             </div>
 
-            {/* CoC (Global.G.A.P.) */}
+           
             <div className="cert-card">
                 <img src="/img/globalgap.png" alt="GlobalG.A.P." />
                 <h3>CoC (Global.G.A.P.)</h3>
@@ -130,7 +132,7 @@ const Nosotros = () => {
                 <a href="https://database.globalgap.org/globalgap/search/SearchMain.faces" target="_blank" rel="noopener noreferrer">Ver certificación</a>
             </div>
 
-            {/* SMETA */}
+          
             <div className="cert-card">
                 <img src="/img/smeta.png" alt="SMETA" />
                 <h3>SMETA</h3>
@@ -141,7 +143,7 @@ const Nosotros = () => {
                 <a href="https://www.sedex.com/es/soluciones/smeta-auditoria/" target="_blank" rel="noopener noreferrer">Más información</a>
             </div>
 
-            {/* Primus */}
+           
             <div className="cert-card">
                 <img src="/img/primuslabs.png" alt="Primus" />
                 <h3>Primus</h3>
@@ -154,7 +156,7 @@ const Nosotros = () => {
         </div>
       </section>
 
-      {/* Sección 5: Productos y Mercados */}
+      
       <section className="section export">
         <h2>¿Qué Exportamos y a Dónde?</h2>
         <p>
@@ -193,7 +195,7 @@ const Nosotros = () => {
         </div>
       </section>
 
-      {/* Sección 6: Nuestro Equipo */}
+      
       <section className="section team">
         <h2>El Equipo Detrás de Andes Export</h2>
         <p>
@@ -235,7 +237,7 @@ const Nosotros = () => {
         </p>
       </section>
 
-      {/* Sección 7: Sostenibilidad */}
+      
       <section className="section environment">
         <h2>Compromiso con el Medio Ambiente y la Comunidad</h2>
         <p>
@@ -275,7 +277,9 @@ const Nosotros = () => {
             Nuestra meta es seguir exportando lo mejor de Colombia mientras cuidamos nuestro entorno y fortalecemos a quienes hacen posible este sueño.
         </p>
       </section>
+      */}
     </div>
+ 
   );
 };
 
