@@ -82,7 +82,12 @@ const easeInOutQuad = (t) => t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) /
         <div className="hpTitle">
           <span>{home.sections[1].description}</span> 
         </div>
-        <button className="arrowSlider aleft" onClick={() => scroll("left")}>
+        <button 
+          className="arrowSlider aleft" 
+          onClick={() => scroll("left")}
+          aria-label="Desplazar a la izquierda"
+          title="Desplazar a la izquierda"
+        >
           <img src="img/arrow-slider.png" alt="" />
         </button>
         <div className="hpProduct" ref={scrollContainer}>
@@ -99,7 +104,12 @@ const easeInOutQuad = (t) => t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) /
           ))}
         </div>
         {/* Flecha derecha */}
-        <button className="arrowSlider aright" onClick={() => scroll("right")}>
+        <button 
+          className="arrowSlider aright" 
+          onClick={() => scroll("right")}
+          aria-label="Desplazar a la derecha"
+          title="Desplazar a la derecha"
+        >
         <img src="img/arrow-end.png" alt="" />
         </button>
       </section>
