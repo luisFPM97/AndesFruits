@@ -810,7 +810,6 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    
     padding-bottom: 10vh;
     span {
       font-size: 50px;
@@ -833,8 +832,7 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        max-width: 350px;
-        min-width: 350px;
+        width: 350px;
         height: 470px;
         transition: all 0.3s ease-in-out;
         overflow: hidden;
