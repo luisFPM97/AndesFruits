@@ -3,6 +3,12 @@ import React, { useEffect, useState } from "react";
 const Contact = ({ contact }) => {
   const [result, setResult] = useState("");
   const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+
   const onSubmit = async (event) => {
     event.preventDefault();
     setResult("Sending....");
@@ -17,10 +23,7 @@ const Contact = ({ contact }) => {
 
     const data = await response.json();
 
-    useEffect(() => {
-      window.scrollTo(0, 0);
-    }, []);
-
+    
     if (data.success) {
       setResult("¡Muchas gracias por contactarnos en Andes Export! Hemos recibido tu mensaje y lo revisaremos a la brevedad.");
       event.target.reset();
