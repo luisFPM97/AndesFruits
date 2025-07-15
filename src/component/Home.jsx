@@ -143,7 +143,7 @@ const easeInOutQuad = (t) => t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) /
         <div className="certsCont">
         {
           certificaciones.certifications.map((cert, i) => (
-            <div className="cretcard">
+            <div className="cretcard" key={i}>
               <img src={cert.image} alt={cert.title} />
               <span>{cert.title}</span>
             </div>

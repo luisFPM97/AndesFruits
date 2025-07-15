@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import './ModalContact.css'
 
 const ModalContact = ({showModalCOntact, setShowModalCOntact, contact}) => {
-  console.log(contact)
   const [result, setResult] = useState("");
   const [visible, setVisible] = useState(false);
   const onSubmit = async (event) => {
@@ -77,7 +76,7 @@ const ModalContact = ({showModalCOntact, setShowModalCOntact, contact}) => {
                 {contact.button}
               </button>
                   <div className={visible?"alerta":"alerta hdd" }>
-                    <img src="/img/LOGO VERTICAL.png" alt="" />
+                    <img src="/img/lv.png" alt="" />
                     <p>{result}</p>
                   </div>
             </form>
