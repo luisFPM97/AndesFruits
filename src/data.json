@@ -70,6 +70,18 @@
           "title": "El sabor de Andes Fruits",
           "image": "/img/sabor.jpg",
           "descript": "Cada bocado de nuestras frutas es una invitación a explorar la diversidad y la riqueza de Colombia. Te invitamos a ser parte de esta aventura de sabor y calidad que es Andes Fruits Colombia."
+        },
+        {
+          "id": 6,
+          "title": "Apoyando a los Agricultores",
+          "image": "/img/sabor.jpg",
+          "descript": "En Andes Export Company apoyamos a agricultores pequeños y medianos de Colombia mediante comercio justo, asistencia técnica y acceso a mercados globales. Buscamos mejorar su bienestar y fomentar una agricultura sostenible con alianzas duraderas."
+        },
+        {
+          "id": 7,
+          "title": "Países de Exportación",
+          "image": "/img/sabor.jpg",
+          "descript": "Los productos agrícolas colombianos de alta calidad llegan a regiones estratégicas del mundo como Europa, Estados Unidos, Canadá y varios países de Asia. Estos mercados valoran la frescura, la trazabilidad y el abastecimiento ético, principios que están presentes en cada etapa del proceso de exportación. Gracias a sólidas alianzas logísticas y comerciales, se garantiza que los productos cumplan constantemente con los estándares internacionales y las expectativas del cliente. La creciente demanda en estas regiones refleja el reconocimiento global de la excelencia agrícola colombiana."
         }
       ]
     },
@@ -141,7 +153,21 @@
           "d4": "Temperatura: Entre 8 -10º C, Humedad relativa: Entre 65 - 70%",
           "t5": "CONSUMO",
           "d5": "Esta fruta se consume cruda como una uva, sola o con otras frutas en ensaladas o con chocolate fundido como postre, y como decoración de platos. También se pueden preparar mermeladas, salsas o rellenos para deliciosas tortas, y para decoración.",
-          "t6": "VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN 27 DÍAS"
+          "t6": "VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN 27 DÍAS",
+          "temporadas": {
+            "enero": 1,
+            "febrero": 2,
+            "marzo": 3,
+            "abril": 3,
+            "mayo": 2,
+            "junio": 2,
+            "julio": 3,
+            "agosto": 3,
+            "septiembre": 3,
+            "octubre": 3,
+            "noviembre": 2,
+            "diciembre": 1
+          }
         },
         {
           "id": 1,
@@ -206,7 +232,21 @@
           "d4": "Temperatura: Ambiente, Humedad relativa: Ambiente. Para evitar su maduración se recomienda ventilarlo.",
           "t5": "CONSUMO",
           "d5": "Esta fruta se puede disfrutar cruda, se retira la corteza y se consume la pulpa. También se puede obtener una deliciosa bebida, mezclando la pulpa con leche y azúcar.",
-          "t6": "VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN 12 A 15 DÍAS"
+          "t6": "VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN 12 A 15 DÍAS",
+          "temporadas": {
+            "enero": 1,
+            "febrero": 2,
+            "marzo": 3,
+            "abril": 3,
+            "mayo": 2,
+            "junio": 2,
+            "julio": 3,
+            "agosto": 3,
+            "septiembre": 3,
+            "octubre": 3,
+            "noviembre": 2,
+            "diciembre": 1
+          }
         },
         {
           "id": 2,
@@ -271,7 +311,21 @@
           "d4": "Temperatura de almacenamiento: 8 - 10 °C (46 - 50 °F). Temperatura de transporte: 10 - 12 °C (50 - 54 °F). Humedad relativa: 90 - 95%.",
           "t5": "CONSUMO",
           "d5": "Esta fruta se puede disfrutar cruda, se retira la corteza y se consume la pulpa. También se puede obtener una deliciosa bebida, mezclando la pulpa con leche y azúcar.",
-          "t6": "Vida útil en almacenamiento: 14 a 21 días."
+          "t6": "Vida útil en almacenamiento: 14 a 21 días.",
+          "temporadas": {
+            "enero": 0,
+            "febrero": 0,
+            "marzo": 0,
+            "abril": 0,
+            "mayo": 0,
+            "junio": 0,
+            "julio": 0,
+            "agosto": 0,
+            "septiembre": 0,
+            "octubre": 0,
+            "noviembre": 0,
+            "diciembre": 0
+          }
         },
         {
           "id": 3,
@@ -336,7 +390,21 @@
           "d4": "Temperatura: Ambiente, Humedad relativa: Ambiente. Para evitar su maduración se recomienda ventilarlo.",
           "t5": "CONSUMO",
           "d5": "Esta fruta se puede consumir cruda, cortándola por la mitad, agregándole un poco de azúcar a la pulpa y consumiéndola con una cuchara. Además, se pueden preparar jugos, néctares, yogurt, mermeladas, licores, helados y pudines.",
-          "t6": "Vida útil en almacenamiento: 12 a 15 días."
+          "t6": "Vida útil en almacenamiento: 12 a 15 días.",
+          "temporadas": {
+            "enero": 0,
+            "febrero": 0,
+            "marzo": 0,
+            "abril": 0,
+            "mayo": 0,
+            "junio": 0,
+            "julio": 0,
+            "agosto": 0,
+            "septiembre": 0,
+            "octubre": 0,
+            "noviembre": 0,
+            "diciembre": 0
+          }
         },
         {
           "id": 4,
@@ -395,7 +463,21 @@
           "d4": "Temperatura: Ambiente, Humedad relativa: Ambiente. Para evitar su maduración se recomienda ventilarla.",
           "t5": "CONSUMO",
           "d5": "Generalmente la granadilla se consume cruda, para esto, simplemente se rompe la cáscara con los dedos y la pulpa se come con una cuchara. También se puede obtener una rica bebida, colando la pulpa y añadiendo agua. El extracto de granadilla puede utilizarse para preparar helados, soufflés, salsas y yogurt.",
-          "t6": "Vida útil bajo condiciones de conservación: 20 días."
+          "t6": "Vida útil bajo condiciones de conservación: 20 días.",
+          "temporadas": {
+            "enero": 0,
+            "febrero": 0,
+            "marzo": 0,
+            "abril": 0,
+            "mayo": 0,
+            "junio": 0,
+            "julio": 0,
+            "agosto": 0,
+            "septiembre": 0,
+            "octubre": 0,
+            "noviembre": 0,
+            "diciembre": 0
+          }
         },
         {
           "id": 5,
@@ -454,7 +536,21 @@
           "d4": "Temperatura: Entre 8 -10º C, Humedad relativa: Entre 65 - 70%.",
           "t5": "CONSUMO",
           "d5": "La gulupa se puede comer cruda, cortándola por la mitad y comiéndose la pulpa con una cuchara. Se puede comer sola o añadiéndole crema y azúcar. También es deliciosa en ensaladas o en jugo, presionando la pulpa sobre un colador y añadiendo agua. La pulpa cernida puede utilizarse también para hacer gelatinas, mermeladas, salsas, cócteles y helados.",
-          "t6": "Vida útil bajo condiciones de conservación: 1 mes."
+          "t6": "Vida útil bajo condiciones de conservación: 1 mes.",
+          "temporadas": {
+            "enero": 0,
+            "febrero": 0,
+            "marzo": 0,
+            "abril": 0,
+            "mayo": 0,
+            "junio": 0,
+            "julio": 0,
+            "agosto": 0,
+            "septiembre": 0,
+            "octubre": 0,
+            "noviembre": 0,
+            "diciembre": 0
+          }
         },
         {
           "id": 6,
@@ -513,7 +609,21 @@
           "d4": "Temperatura: Ambiente Humedad relativa: Ambiente",
           "t5": "CONSUMO",
           "d5": "El Tamarillo se puede consumir crudo, pelándolo y cortándolo en rodajas o cortándolo por la mitad y consumiendo la pulpa con una cuchara, se puede cubrir con azúcar o sal dependiendo del gusto. Su uso mas común es en jugo.",
-          "t6": "VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN 14 DÍAS"
+          "t6": "VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN 14 DÍAS",
+          "temporadas": {
+            "enero": 0,
+            "febrero": 0,
+            "marzo": 0,
+            "abril": 0,
+            "mayo": 0,
+            "junio": 0,
+            "julio": 0,
+            "agosto": 0,
+            "septiembre": 0,
+            "octubre": 0,
+            "noviembre": 0,
+            "diciembre": 0
+          }
         },
         {
           "id": 7,
@@ -572,7 +682,21 @@
           "d4": "Temperatura: Ambiente Humedad relativa: Ambiente",
           "t5": "CONSUMO",
           "d5": "Se puede comer fresco, como snack o en ensaladas. Se puede utilizar para hacer mermeladas, jaleas y licores. Se puede confitar o secar.",
-          "t6": "VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN 14  A 21 DÍAS EN REFRIGERACIÓN"
+          "t6": "VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN 14  A 21 DÍAS EN REFRIGERACIÓN",
+          "temporadas": {
+            "enero": 0,
+            "febrero": 0,
+            "marzo": 0,
+            "abril": 0,
+            "mayo": 0,
+            "junio": 0,
+            "julio": 0,
+            "agosto": 0,
+            "septiembre": 0,
+            "octubre": 0,
+            "noviembre": 0,
+            "diciembre": 0
+          }
         },
         {
           "id": 8,
@@ -631,7 +755,21 @@
           "d4": "Temperatura: Ambiente Humedad relativa: Ambiente",
           "t5": "CONSUMO",
           "d5": "Se puede comer fresco, como guacamole o en ensaladas. Se puede utilizar para hacer salsas, aderezos y mayonesa. Se puede agregar a batidos y smoothies.",
-          "t6": "VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN 3 A 5 DÍAS EN REFRIGERACIÓN DESPUÉS DE MADURAR"
+          "t6": "VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN 3 A 5 DÍAS EN REFRIGERACIÓN DESPUÉS DE MADURAR",
+          "temporadas": {
+            "enero": 0,
+            "febrero": 0,
+            "marzo": 0,
+            "abril": 0,
+            "mayo": 0,
+            "junio": 0,
+            "julio": 0,
+            "agosto": 0,
+            "septiembre": 0,
+            "octubre": 0,
+            "noviembre": 0,
+            "diciembre": 0
+          }
         },
         {
           "id": 9,
@@ -690,7 +828,21 @@
           "d4": "Temperatura: Ambiente Humedad relativa: Ambiente",
           "t5": "CONSUMO",
           "d5": "Se puede comer fresco, como snack o en ensaladas. Se puede utilizar para hacer postres, helados y jugos. Se puede secar o confitar.",
-          "t6": "VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN 2 A 3 DÍAS EN TEMPERATURA AMBIENTE Y DE 5 A 7 DÍAS EN REFRIGERACIÓN"
+          "t6": "VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN 2 A 3 DÍAS EN TEMPERATURA AMBIENTE Y DE 5 A 7 DÍAS EN REFRIGERACIÓN",
+          "temporadas": {
+            "enero": 0,
+            "febrero": 0,
+            "marzo": 0,
+            "abril": 0,
+            "mayo": 0,
+            "junio": 0,
+            "julio": 0,
+            "agosto": 0,
+            "septiembre": 0,
+            "octubre": 0,
+            "noviembre": 0,
+            "diciembre": 0
+          }
         },
         {
           "id": 10,
@@ -750,7 +902,21 @@
           "t5": "CONSUMO",
           "d5": "Se puede usar en bebidas, como aderezo para ensaladas, en postres, y como ingrediente en diversas recetas culinarias.",
           "t6": "VIDA ÚTIL BAJO CONDICIONES DE CONSERVACIÓN",
-          "d6": "2 a 3 días en temperatura ambiente y de 5 a 7 días en refrigeración."
+          "d6": "2 a 3 días en temperatura ambiente y de 5 a 7 días en refrigeración.",
+          "temporadas": {
+            "enero": 0,
+            "febrero": 0,
+            "marzo": 0,
+            "abril": 0,
+            "mayo": 0,
+            "junio": 0,
+            "julio": 0,
+            "agosto": 0,
+            "septiembre": 0,
+            "octubre": 0,
+            "noviembre": 0,
+            "diciembre": 0
+          }
         }
       ]
     },
@@ -769,7 +935,8 @@
       "lemail":"Envíanos un mensaje",
       "email": "jlaverde@andesexport.com",
       "button": "ENVIAR",
-      "td": "Tratamiento de datos"
+      "td": "Tratamiento de datos",
+      "lk":"https://www.linkedin.com/company/c-i-andes-export-company-s.a.s./"
     },
     "certificaciones": {
       "title": "Certificaciones",
@@ -1023,6 +1190,18 @@
           "title": "The Taste of  Andes Fruits",
           "image": "/img/sabor.jpg",
           "descript": "Every bite of our fruits is an invitation to explore the diversity and richness of Colombia. We invite you to be part of this adventure of flavor and quality that is Andes Fruits Colombia."
+        },
+        {
+          "id": 6,
+          "title": "Helping Farmers",
+          "image": "/img/sabor.jpg",
+          "descript": "At Andes Export Company, we support small and medium Colombian farmers by promoting fair trade, technical guidance, and global market access. We aim to improve their livelihoods and foster sustainable agriculture through long-term partnerships."
+        },
+        {
+          "id": 7,
+          "title": "Countries of Export",
+          "image": "/img/sabor.jpg",
+          "descript": "High-quality Colombian agricultural products are exported to strategic regions around the world, including Europe, the United States, Canada, and various countries in Asia. These markets value freshness, traceability, and ethical sourcing—principles that define every stage of the export process. By maintaining strong logistics and commercial alliances, we ensure that our products consistently meet international standards and customer expectations. The growing demand in these regions highlights the global recognition of Colombia’s agricultural excellence."
         }
       ]
     },
@@ -1094,7 +1273,21 @@
           "d4": "Temperature: Between 8 - 10°C (46 - 50°F) Relative Humidity: Between 65 - 70%",
           "t5": "CONSUMPTION",
           "d5": "This fruit is eaten raw like a grape, alone or with other fruits in salads or with melted chocolate as a dessert, and as a garnish for dishes. It can also be used to make jams, sauces, or fillings for delicious cakes, and for decoration.",
-          "t6": "Shelf Life Under Storage Conditions: 27 Days"
+          "t6": "Shelf Life Under Storage Conditions: 27 Days",
+          "temporadas": {
+            "enero": 1,
+            "febrero": 2,
+            "marzo": 3,
+            "abril": 3,
+            "mayo": 2,
+            "junio": 2,
+            "julio": 3,
+            "agosto": 3,
+            "septiembre": 3,
+            "octubre": 3,
+            "noviembre": 2,
+            "diciembre": 1
+          }
         },
         {
           "id": 1,
@@ -1159,7 +1352,21 @@
           "d4": "Temperature: Ambient. Relative Humidity: Ambient. Ventilation is recommended to prevent ripening.",
           "t5": "CONSUMPTION",
           "d5": "This fruit can be enjoyed raw. The peel is removed and the flesh is consumed. A delicious drink can also be obtained by blending the pulp with milk and sugar.",
-          "t6": "Shelf Life Under Storage Conditions: 12 TO 15 DAYS"
+          "t6": "Shelf Life Under Storage Conditions: 12 TO 15 DAYS",
+          "temporadas": {
+            "enero": 1,
+            "febrero": 2,
+            "marzo": 3,
+            "abril": 2,
+            "mayo": 1,
+            "junio": 2,
+            "julio": 3,
+            "agosto": 2,
+            "septiembre": 1,
+            "octubre": 2,
+            "noviembre": 3,
+            "diciembre": 2
+          }
         },
         {
           "id": 2,
@@ -1224,7 +1431,21 @@
           "d4": "Storage temperature: 8 - 10 °C (46 - 50 °F). Transport temperature: 10 - 12 °C (50 - 54 °F). Relative humidity: 90 - 95%.",
           "t5": "CONSUMPTION",
           "d5": "This fruit can be enjoyed raw, the rind is removed and the pulp is consumed. You can also get a delicious drink by mixing the pulp with milk and sugar.",
-          "t6": "Storage shelf life: 14 to 21 days"
+          "t6": "Storage shelf life: 14 to 21 days",
+          "temporadas": {
+            "enero": 0,
+            "febrero": 0,
+            "marzo": 0,
+            "abril": 0,
+            "mayo": 0,
+            "junio": 0,
+            "julio": 0,
+            "agosto": 0,
+            "septiembre": 0,
+            "octubre": 0,
+            "noviembre": 0,
+            "diciembre": 0
+          }
         },
         {
           "id": 3,
@@ -1289,7 +1510,21 @@
           "d4": "Temperature: Room temperature. Relative humidity: Room temperature. Ventilation is recommended to prevent ripening.",
           "t5": "CONSUMPTION",
           "d5": "This fruit can be consumed raw by cutting it in half, adding a little sugar to the pulp and consuming it with a spoon. In addition, juices, nectars, yogurt, jams, liqueurs, ice cream and puddings can be prepared.",
-          "t6": "Storage shelf life: 12 to 15 days"
+          "t6": "Storage shelf life: 12 to 15 days",
+          "temporadas": {
+            "enero": 0,
+            "febrero": 0,
+            "marzo": 0,
+            "abril": 0,
+            "mayo": 0,
+            "junio": 0,
+            "julio": 0,
+            "agosto": 0,
+            "septiembre": 0,
+            "octubre": 0,
+            "noviembre": 0,
+            "diciembre": 0
+          }
         },
         {
           "id": 4,
@@ -1348,7 +1583,21 @@
           "d4": "Temperature: Room Humidity: Room. To prevent ripening, it is recommended to ventilate it.",
           "t5": "CONSUMPTION",
           "d5": "Generally, the granadilla is consumed raw. To do this, simply break the shell with your fingers and eat the pulp with a spoon. You can also obtain a rich drink by straining the pulp and adding water. Granadilla extract can be used to prepare ice cream, soufflés, sauces and yogurt.",
-          "t6": "SHELF LIFE UNDER STORAGE CONDITIONS 20 DAYS"
+          "t6": "SHELF LIFE UNDER STORAGE CONDITIONS 20 DAYS",
+          "temporadas": {
+            "enero": 0,
+            "febrero": 0,
+            "marzo": 0,
+            "abril": 0,
+            "mayo": 0,
+            "junio": 0,
+            "julio": 0,
+            "agosto": 0,
+            "septiembre": 0,
+            "octubre": 0,
+            "noviembre": 0,
+            "diciembre": 0
+          }
         },
         {
           "id": 5,
@@ -1407,7 +1656,21 @@
           "d4": "Temperature: Between 8 -10º C Relative humidity: Between 65 - 70%.",
           "t5": "CONSUMPTION",
           "d5": "The Gulupa can be eaten raw, cut in half and the pulp eaten with a spoon, it can be eaten alone or with cream and sugar added. It is also delicious in salads or in juice, by pressing the pulp through a strainer and adding water. The strained pulp can also be used to make gelatins, jams, sauces, cocktails and ice cream.",
-          "t6": "SHELF LIFE UNDER STORAGE CONDITIONS 1 MONTH"
+          "t6": "SHELF LIFE UNDER STORAGE CONDITIONS 1 MONTH",
+          "temporadas": {
+            "enero": 0,
+            "febrero": 0,
+            "marzo": 0,
+            "abril": 0,
+            "mayo": 0,
+            "junio": 0,
+            "julio": 0,
+            "agosto": 0,
+            "septiembre": 0,
+            "octubre": 0,
+            "noviembre": 0,
+            "diciembre": 0
+          }
         },
         {
           "id": 6,
@@ -1466,7 +1729,21 @@
           "d4": "Temperature: Room Humidity: Room",
           "t5": "CONSUMPTION",
           "d5": "The Tamarillo can be consumed raw, peeled and sliced or cut in half and consumed the pulp with a spoon, it can be covered with sugar or salt depending on taste. Its most common use is in juice.",
-          "t6": "SHELF LIFE UNDER STORAGE CONDITIONS 14 DAYS"
+          "t6": "SHELF LIFE UNDER STORAGE CONDITIONS 14 DAYS",
+          "temporadas": {
+            "enero": 0,
+            "febrero": 0,
+            "marzo": 0,
+            "abril": 0,
+            "mayo": 0,
+            "junio": 0,
+            "julio": 0,
+            "agosto": 0,
+            "septiembre": 0,
+            "octubre": 0,
+            "noviembre": 0,
+            "diciembre": 0
+          }
         },
         {
           "id": 7,
@@ -1525,7 +1802,21 @@
           "d4": "Temperature: Room Humidity: Room",
           "t5": "CONSUMPTION",
           "d5": "Can be eaten fresh, as a snack or in salads. Can be used to make jams, jellies and liqueurs. Can be candied or dried.",
-          "t6": "SHELF LIFE UNDER STORAGE CONDITIONS 14 TO 21 DAYS IN REFRIGERATION"
+          "t6": "SHELF LIFE UNDER STORAGE CONDITIONS 14 TO 21 DAYS IN REFRIGERATION",
+          "temporadas": {
+            "enero": 0,
+            "febrero": 0,
+            "marzo": 0,
+            "abril": 0,
+            "mayo": 0,
+            "junio": 0,
+            "julio": 0,
+            "agosto": 0,
+            "septiembre": 0,
+            "octubre": 0,
+            "noviembre": 0,
+            "diciembre": 0
+          }
         },
         {
           "id": 8,
@@ -1584,7 +1875,21 @@
           "d4": "Temperature: Room Humidity: Room",
           "t5": "CONSUMPTION",
           "d5": "Can be eaten fresh, as guacamole or in salads. Can be used to make sauces, dressings and mayonnaise. Can be added to smoothies and smoothies.",
-          "t6": "SHELF LIFE UNDER STORAGE CONDITIONS 3 TO 5 DAYS IN REFRIGERATION AFTER RIPENING"
+          "t6": "SHELF LIFE UNDER STORAGE CONDITIONS 3 TO 5 DAYS IN REFRIGERATION AFTER RIPENING",
+          "temporadas": {
+            "enero": 0,
+            "febrero": 0,
+            "marzo": 0,
+            "abril": 0,
+            "mayo": 0,
+            "junio": 0,
+            "julio": 0,
+            "agosto": 0,
+            "septiembre": 0,
+            "octubre": 0,
+            "noviembre": 0,
+            "diciembre": 0
+          }
         },
         {
           "id": 9,
@@ -1643,7 +1948,21 @@
           "d4": "Temperature: Room Humidity: Room",
           "t5": "CONSUMPTION",
           "d5": "Can be eaten fresh, as a snack or in salads. Can be used to make desserts, ice cream and juices. Can be dried or candied.",
-          "t6": "SHELF LIFE UNDER STORAGE CONDITIONS 2 TO 3 DAYS AT ROOM TEMPERATURE AND 5 TO 7 DAYS UNDER REFRIGERATION"
+          "t6": "SHELF LIFE UNDER STORAGE CONDITIONS 2 TO 3 DAYS AT ROOM TEMPERATURE AND 5 TO 7 DAYS UNDER REFRIGERATION",
+          "temporadas": {
+            "enero": 0,
+            "febrero": 0,
+            "marzo": 0,
+            "abril": 0,
+            "mayo": 0,
+            "junio": 0,
+            "julio": 0,
+            "agosto": 0,
+            "septiembre": 0,
+            "octubre": 0,
+            "noviembre": 0,
+            "diciembre": 0
+          }
         },
         {
           "id": 10,
@@ -1703,7 +2022,21 @@
           "t5": "CONSUMPTION",
           "d5": "It can be used in beverages, as a salad dressing, in desserts, and as an ingredient in various culinary recipes.",
           "t6": "SHELF LIFE UNDER STORAGE CONDITIONS",
-          "d6": "2 to 3 days at room temperature and 5 to 7 days in refrigeration."
+          "d6": "2 to 3 days at room temperature and 5 to 7 days in refrigeration.",
+          "temporadas": {
+            "enero": 0,
+            "febrero": 0,
+            "marzo": 0,
+            "abril": 0,
+            "mayo": 0,
+            "junio": 0,
+            "julio": 0,
+            "agosto": 0,
+            "septiembre": 0,
+            "octubre": 0,
+            "noviembre": 0,
+            "diciembre": 0
+          }
         }
       ]
     },
@@ -1722,7 +2055,8 @@
       "te": "E-mail",
       "email": "jlaverde@andesexport.com",
       "button": "SEND",
-      "td": "Data processing"
+      "td": "Data processing",
+      "lk":"https://www.linkedin.com/company/c-i-andes-export-company-s.a.s./"
     },
     "certificaciones": {
       "title": "Certifications",

@@ -3,6 +3,16 @@ import { Link, useParams } from "react-router-dom";
 import data from "../data.json";
 import Loading from "./Loading";
 import Grafica from "./Grafica";
+import {
+  AreaChart,
+  Area,
+  XAxis,
+  YAxis,
+  Tooltip,
+  ResponsiveContainer,
+  CartesianGrid,
+  Legend
+} from 'recharts';
 
 const FichaTecnica = ({ productos, productid, language }) => {
   const [product, setproduct] = useState(productos.products[productid])
@@ -113,6 +123,40 @@ const FichaTecnica = ({ productos, productid, language }) => {
                 </div>
               </section>
             </div>
+            {/* Nueva sección de temporadas de producción */}
+            {
+              //<div className="temporadas-section">
+              //  <h2>Temporadas de producción</h2>
+              //  <div className="temporadas-grafica">
+              //    {/* Gráfica de área suavizada y sombreada con recharts */}
+              //    <ResponsiveContainer width="100%" height={220}>
+              //      <AreaChart
+              //        data={Object.entries(product.temporadas).map(([mes, valor]) => ({ mes: mes.charAt(0).toUpperCase() + mes.slice(1,3), valor }))}
+              //        margin={{ top: 20, right: 30, left: 0, bottom: 20 }}
+              //      >
+              //        <defs>
+              //          <linearGradient id="colorTemporada" x1="0" y1="0" x2="0" y2="1">
+              //            <stop offset="5%" stopColor="#83a841" stopOpacity={0.6}/>
+              //            <stop offset="95%" stopColor="#83a841" stopOpacity={0.1}/>
+              //          </linearGradient>
+              //        </defs>
+              //        <CartesianGrid strokeDasharray="3 3" />
+              //        <XAxis dataKey="mes" tick={{ fontSize: 13 }} />
+              //        <YAxis domain={[1, 3]} ticks={[1,2,3]} tick={{ fontSize: 13 }}
+              //          tickFormatter={v => v === 1 ? 'Baja' : v === 2 ? 'Media' : 'Alta'}
+              //          allowDecimals={false}
+              //        />
+              //        <Tooltip formatter={(value) => value === 1 ? 'Baja' : value === 2 ? 'Media' : 'Alta'} labelFormatter={label => `Mes: ${label}`}/>
+              //        <Area type="monotone" dataKey="valor" stroke="#83a841" fillOpacity={1} fill="url(#colorTemporada)" dot={{ r: 6, fill: '#ffe066', stroke: '#83a841', strokeWidth: 2 }} />
+              //      </AreaChart>
+              //    </ResponsiveContainer>
+              //  </div>
+              //  <div className="temporadas-leyenda">
+              //    <div className="leyenda-punto"><div style={{ width: 18, height: 18, background: '#ffe066', borderRadius: "50%", border: '1px solid #83a841' }}></div> <span style={{ fontSize: 13 }}>Punto de temporada</span></div>
+              //    <div className="leyenda-linea"><div style={{ width: 30, height: 4, background: '#83a841', borderRadius: 2 }}></div> <span style={{ fontSize: 13 }}>Tendencia</span></div>
+              //  </div>
+              //</div>
+            }
           </>
 
         )

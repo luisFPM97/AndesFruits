@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import ProductCard from "./ProductCard";
 
 
-const Home = ({ home, productos, setProductid, productid, contacto, setSelectedLink, links }) => {
+const Home = ({ home, productos, setProductid, productid, contacto, setSelectedLink, links, certificaciones }) => {
   const scrollContainer = useRef(null);
   const navigate = useNavigate()
   // Función para mover el scrollbar a la izquierda o derecha
@@ -41,7 +41,7 @@ const easeInOutQuad = (t) => t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) /
   }, []);
 
   
-
+  const certs = certificaciones.certifications
   const products = productos.products;
 
   return (
@@ -55,7 +55,7 @@ const easeInOutQuad = (t) => t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) /
         </div>
         <div className="filter"></div>
       </section>
-      <section className="homeContact">
+      {/*<section className="homeContact">
         <div className="bar">
           <div className="barItem left">
             <img className="icon" src="img/phone.png" alt="" />
@@ -77,7 +77,7 @@ const easeInOutQuad = (t) => t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) /
             </div>
           </div>
         </div>
-      </section>
+      </section>*/}
       <section className="homeProduct">
         <div className="hpTitle">
           <span>{home.sections[1].description}</span> 
@@ -135,6 +135,20 @@ const easeInOutQuad = (t) => t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) /
             <div className="filter"></div>
           </div>
         ))}
+        </div>
+      </section>
+      <section className="shortCert">
+
+        <h1>{certificaciones.description}</h1>
+        <div className="certsCont">
+        {
+          certificaciones.certifications.map((cert, i) => (
+            <div className="cretcard">
+              <img src={cert.image} alt={cert.title} />
+              <span>{cert.title}</span>
+            </div>
+          ))
+        }
         </div>
       </section>
     </div>

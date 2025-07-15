@@ -1,6 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from 'react'
+import './ModalContact.css'
 
-const Contact = ({ contact }) => {
+const ModalContact = ({showModalCOntact, setShowModalCOntact, contact}) => {
+  console.log(contact)
   const [result, setResult] = useState("");
   const [visible, setVisible] = useState(false);
   const onSubmit = async (event) => {
@@ -27,20 +29,41 @@ const Contact = ({ contact }) => {
       setResult(data.message);
     }
   };
-  
   return (
-    <>
-      <div className="contactenos">
-        <div className="imgcont"></div>
-        <div className="contenedorInfo">
-          <div className="headerCont">
-            <h1>{contact.title}</h1>
-            <h2>
-              {contact.description}, {contact.title2}
-            </h2>
+    <div className={`modalcontact${showModalCOntact ? ' visible' : ''}`}>
+        
+        <div className='content'>
+          <div className='secp'>
+            <h3>{contact.title3}</h3>
+            <h4>{contact.description}</h4>
+            <hr />
+            <br />
+            <div className='cardc'>
+              <h4>General Manager</h4>
+              <h4>Juan Camilo Laverde</h4>
+              <a href='mailto:jlaverde@andesexport.com'>jlaverde@andesexport.com<i className='bx bx-link-external'></i></a>
+              <a href="https://wa.me/573153871168" target="_blank">(+57) 315-387-1168<i className='bx bx-link-external'></i></a>
+            </div>
+            <div className='cardc'>
+              <h4>Commercial Manager</h4>
+              <h4>Wanja Engbersen</h4>
+              <a href='mailto:wengbersen@andesexport.com'>wengbersen@andesexport.com<i className='bx bx-link-external'></i></a>
+              <a href="https://wa.me/31611813626" target="_blank">(+31)611813626<i className='bx bx-link-external'></i></a>
+            </div>
+            <div className='cards'>
+              <a className='lk' href={contact.lk} target='_blank'>
+              <i className='bxl  bx-linkedin'  ></i>
+              </a>
+            </div>
+            <a href="/empleo">¿Eres productor?<b>Click aquí</b></a>
           </div>
-
+          <br />
+          <div className='secs'>
           <div className="contForm">
+            <div>
+              <h2>{contact.title}</h2>
+              <h3>{contact.title3}</h3>
+            </div>
             <form action="" onSubmit={onSubmit}>
               <input type="hidden" name="subject" value="SOLICITUD CONTACTO"/>
               <input className="firstName" type="text" placeholder="First Name" name="name" required />
@@ -58,38 +81,13 @@ const Contact = ({ contact }) => {
                     <p>{result}</p>
                   </div>
             </form>
-            <div className="infoContact">
-              <span className="title">{contact.title3}</span>
-              <span>
-                <b>{contact.tp}:</b> {contact.phone2}
-              </span>
-              <span>
-                <b>{contact.te}:</b> {contact.email}
-              </span>
-              <span>
-                <b>{contact.ta}:</b> {contact.address}
-              </span>
-              <a className='lk' href={contact.lk} target='_blank'>
-                <i className='bxl  bx-linkedin'  ></i> 
-              </a>
-              <div class="mapouter">
-                <div class="gmap_canvas">
-                  <iframe
-                    id="gmap_canvas"
-                    src="https://maps.google.com/maps?q=andes+export&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                    frameborder="0"
-                    scrolling="no"
-                    marginheight="0"
-                    marginwidth="0"
-                  ></iframe>
-                </div>
-              </div>
-            </div>
+            
           </div>
+          </div>
+          <span className='btnclose' onClick={() => setShowModalCOntact(false)}>X</span>
         </div>
-      </div>
-    </>
-  );
-};
+    </div>
+  )
+}
 
-export default Contact;
+export default ModalContact

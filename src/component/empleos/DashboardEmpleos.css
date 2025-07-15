@@ -9,6 +9,36 @@
     flex-direction: column;
     gap: 10px;
     background-color: rgb(240, 240, 240);
+    .contprov{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        .info{
+            width: 400px;
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            background-color: aquamarine;
+            padding: 15px;
+            border-radius: 10px;
+            transition: all 0.3s ease-in-out;
+            filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.5));
+            a{
+                color:#658E1C;
+                font-weight: bold;
+                transition: all 0.3s ease-in-out;
+            }
+            a:hover{
+                font-size: 18px;
+            }
+        }
+        .info:hover{
+            background-color:rgb(231, 205, 170);
+            color: white;
+        }
+    }
     .filtros{
         background-color: rgb(255, 255, 255);
         border-radius: 10px;

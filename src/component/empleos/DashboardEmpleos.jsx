@@ -18,6 +18,22 @@ const DashboardEmpleos = () => {
         
     return(
         <div className='contEmpleos'>
+            <div className='contprov'>
+                <h1>
+                    Productor
+                </h1>
+                <div className='info'>
+                    <h4>Jefe de proveeduria</h4>
+                    <h4>Nayeli Peñaranda</h4>
+                    <a href='mailto:proveeduriaandes@gmail.com'>wengbersen@andesexport.com<i className='bx bx-link-external'></i></a>
+                    <a href="https://wa.me/573207293894" target="_blank">(+57)320-729-3894<i className='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div>
+                <h2>
+                    Trabaja con nosotros, explora vacantes disponibles
+                </h2>
+            </div>
             <div className='filtros'>
                 <b>Filtros</b>
                 <div className='area'>
