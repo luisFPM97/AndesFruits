@@ -3,6 +3,9 @@ import CertificacionesId from "./CertificacionesId";
 
 const Certificaciones = (certificaciones) => {
   const certs = certificaciones.certificaciones;
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="certificaciones">
       <section className="header">

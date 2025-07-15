@@ -17,6 +17,10 @@ const Contact = ({ contact }) => {
 
     const data = await response.json();
 
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+
     if (data.success) {
       setResult("¡Muchas gracias por contactarnos en Andes Export! Hemos recibido tu mensaje y lo revisaremos a la brevedad.");
       event.target.reset();
