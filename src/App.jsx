@@ -7,6 +7,8 @@ import Navbar from "./component/Navbar";
 import QuienesSomos from "./component/QuienesSomos";
 import Instalaciones from "./component/Instalaciones";
 import Productos from "./component/Productos";
+import Productos1 from "./component/Productos1";
+import Productos2 from "./component/Productos2";
 import { BrowserRouter as Router, Route, Routes, Link, useLocation } from "react-router-dom";
 import data from "./data.json";
 import FichaTecnica from "./component/FichaTecnica";
@@ -77,6 +79,8 @@ function App() {
         <Route path="/certificaciones" element={ <Certificaciones certificaciones={content.certificaciones} /> } />
         <Route path="/contactenos" element={<Contact contact={content.contactenos} />} />
         <Route path="/productos" element={<Productos setProductid={setProductid} productos={content.productos} /> } />
+        <Route path="/productos1" element={<Productos1 productos={content.productos} language={language} /> } />
+        <Route path="/productos2" element={<Productos2 productos={content.productos} /> } />
         <Route path="/FichaTecnica/:id" element={ <FichaTecnica productid={productid} productos={content.productos} language={language} />} />
         <Route path="/ProductCard" element={<ProductCard />} />
         <Route path="/data" element={<Datatreat content={content.datat}/>}/>

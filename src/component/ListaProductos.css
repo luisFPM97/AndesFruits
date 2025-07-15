@@ -1,0 +1,115 @@
+.lista-productos {
+  min-width: 200px;
+  max-height: calc(100vh - 80px);
+  position: sticky;
+  top: 95px;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  scrollbar-width: none;
+  -ms-overflow-style: none; 
+}
+.lista-productos::-webkit-scrollbar {
+  display: none; 
+}
+.lista-productos h2 {
+  margin-bottom: 16px;
+}
+.lista-productos ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex: 1;
+  padding-bottom: 15px;
+}
+.lista-productos li {
+  cursor: pointer;
+  padding: 12px 18px;
+  font-size: 18px;
+  border-left: 4px solid transparent;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.lista-productos li .hover-img {
+  display: inline-block;
+  position: static;
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(131,168,65,0.10);
+  margin-right: 8px;
+  /* Animation styles */
+  opacity: 0;
+  transform: scale(0.8);
+  animation: fadeInScale 1.2s forwards;
+}
+
+@keyframes fadeInScale {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.lista-productos li .inline-img {
+  display: inline-block;
+}
+.lista-productos li .hovered-name {
+  color: #83a841;
+  font-weight: bold;
+  opacity: 1;
+  transform: translateX(0);
+  animation: slideRightThenBack 0.7s;
+}
+
+@keyframes slideRightThenBack {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  40% {
+    opacity: 1;
+    transform: translateX(24px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.lista-productos li.selected .hovered-name {
+  color: #2e3c1d;
+}
+.lista-productos li.selected {
+  background: #f6ffe6;
+  font-weight: bold;
+  border-left: 4px solid #83a841;
+} 
+.lista-productos-select {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  border: 1px solid #c7d7a6;
+  margin-bottom: 10px;
+  background: #f6ffe6;
+  color: #2e3c1d;
+  font-family: inherit;
+  box-shadow: 0 1px 4px rgba(131,168,65,0.07);
+}
+@media (max-width: 700px) {
+  .lista-productos ul {
+    display: none;
+  }
+  .lista-productos h2 {
+    text-align: center;
+    width: 100%;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+} 
