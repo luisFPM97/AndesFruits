@@ -11,8 +11,6 @@ const InfoProducto = ({ producto, language = "es" }) => {
     return <div style={{ color: '#888', padding: 40, textAlign: 'center' }}>Selecciona un producto para ver su ficha técnica</div>;
   }
   const titles = TABLE_TITLES[language] || TABLE_TITLES.es;
-  // Determinar el texto de vida útil
-  const vidaUtil = producto.d6 || producto.t6 || "No especificado";
   return (
     <div className="info-producto">
       <div className="info-main">
