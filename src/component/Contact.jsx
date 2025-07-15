@@ -54,7 +54,7 @@ const Contact = ({ contact }) => {
                 {contact.button}
               </button>
                   <div className={visible?"alerta":"alerta hdd" }>
-                    <img src="/img/LOGO VERTICAL.png" alt="" />
+                    <img src="/img/lv.png" alt="" />
                     <p>{result}</p>
                   </div>
             </form>
