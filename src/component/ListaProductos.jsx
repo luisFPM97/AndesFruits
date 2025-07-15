@@ -12,6 +12,15 @@ const useIsMobile = () => {
   return isMobile;
 };
 
+const scrollTo50vh = () => {
+  const halfViewport = window.innerHeight / 2;
+  window.scrollTo({
+    top: halfViewport,
+    left: 0,
+    behavior: 'smooth' // opcional, para que se desplace suavemente
+  });
+};
+
 const ListaProductos = ({ productos, selectedProductId, onSelect }) => {
   const [hovered, setHovered] = React.useState(null);
   const isMobile = useIsMobile();
@@ -36,7 +45,7 @@ const ListaProductos = ({ productos, selectedProductId, onSelect }) => {
             return (
               <li
                 key={i}
-                onClick={() =>  {onSelect(i); window.scrollTo(0, 0) }}
+                onClick={() =>  {onSelect(i); scrollTo50vh() }}
                 className={selectedProductId === i ? "selected" : ""}
                 onMouseEnter={() => setHovered(i)}
                 onMouseLeave={() => setHovered(null)}
