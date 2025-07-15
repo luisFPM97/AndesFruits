@@ -12,7 +12,7 @@ const InfoProducto = ({ producto, language = "es" }) => {
   }
   const titles = TABLE_TITLES[language] || TABLE_TITLES.es;
   return (
-    <div className="info-producto">
+    <div className="info-producto" id="info-producto">
       <div className="info-main">
         <div className="info-img-title">
           <img src={producto.image} alt={producto.title} style={{ width: 120, height: 120, objectFit: 'contain', borderRadius: 12, marginBottom: 12 }} />
