@@ -3,9 +3,9 @@ import "./ListaProductos.css";
 import React from "react";
 
 const useIsMobile = () => {
-  const [isMobile, setIsMobile] = React.useState(window.innerWidth <= 700);
+  const [isMobile, setIsMobile] = React.useState(window.innerWidth <= 980);
   React.useEffect(() => {
-    const onResize = () => setIsMobile(window.innerWidth <= 700);
+    const onResize = () => setIsMobile(window.innerWidth <= 980);
     window.addEventListener("resize", onResize);
     return () => window.removeEventListener("resize", onResize);
   }, []);
