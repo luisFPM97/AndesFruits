@@ -36,7 +36,7 @@ const ListaProductos = ({ productos, selectedProductId, onSelect }) => {
             return (
               <li
                 key={i}
-                onClick={() => onSelect(i)}
+                onClick={() =>  {onSelect(i); window.scrollTo(0, 0) }}
                 className={selectedProductId === i ? "selected" : ""}
                 onMouseEnter={() => setHovered(i)}
                 onMouseLeave={() => setHovered(null)}

@@ -14,7 +14,7 @@ const InfoProducto = ({ producto, language = "es" }) => {
   // Determinar el texto de vida útil
   const vidaUtil = producto.d6 || producto.t6 || "No especificado";
   return (
-    <div className="info-producto">
+    <div className="info-producto" id="info-producto">
       <div className="info-main">
         <div className="info-img-title">
           <img src={producto.image} alt={producto.title} style={{ width: 120, height: 120, objectFit: 'contain', borderRadius: 12, marginBottom: 12 }} />
