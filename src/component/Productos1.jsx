@@ -5,7 +5,6 @@ import ListaProductos from "./ListaProductos";
 import InfoProducto from "./InfoProducto";
 
 const Productos1 = ({ productos, language = "es" }) => {
-  // Set default to 0 (Uchuva)
   const [selectedProductId, setSelectedProductId] = useState(0);
 
   useEffect(() => {

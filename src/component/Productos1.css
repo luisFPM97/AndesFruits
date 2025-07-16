@@ -27,6 +27,7 @@
   width: 80%;
   height:65%;
   padding: 10px;
+  margin-top: 60px;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(2px);
@@ -93,6 +94,7 @@
     width: 95%;
     height:65%;
     padding: 10px;
+    margin-top: 80px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(2px);
