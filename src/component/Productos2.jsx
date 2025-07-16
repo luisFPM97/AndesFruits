@@ -13,6 +13,7 @@ const Productos2 = ({ productos }) => {
   for (let i = 0; i < 50; i++) {
     infiniteProducts.push(...productsArray);
   }
+  
 
   // Escala y opacidad dinámica en tiempo real
   useEffect(() => {
@@ -20,6 +21,7 @@ const Productos2 = ({ productos }) => {
     function updateScaleFade() {
       if (!slideRef.current) return;
       const slideRect = slideRef.current.getBoundingClientRect();
+      console.log(slideRect.width)
       const centerX = slideRect.left + slideRect.width / 2;
       imgRefs.current.forEach((img) => {
         if (!img) return;
@@ -28,10 +30,11 @@ const Productos2 = ({ productos }) => {
         const dist = Math.abs(centerX - imgCenter);
         const maxDist = slideRect.width / 2;
         // Scale: 1 en el centro, 0.6 en los extremos
-        let scale = 1 - (dist / maxDist) * 0.4;
-        scale = Math.max(0.6, Math.min(1, scale));
+        let scale = (1 - (dist / maxDist)) + 0.4;
+        scale = Math.max(0, Math.min(1.15, scale));
+        console.log(scale)
         // Opacidad: 1 en el centro, 0.2 en los extremos
-        let opacity = 1 - (dist / maxDist);
+        let opacity = (1 - (dist / maxDist)) - 0.1;
         opacity = Math.max(0, Math.min(1, opacity));
         img.style.transform = `scale(${scale})`;
         img.style.opacity = opacity;

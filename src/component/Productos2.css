@@ -66,7 +66,7 @@
 }
 
 .productos2-slide-marquee {
-  width: 90%;
+  width: 85%;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
@@ -82,8 +82,6 @@
   animation: marquee 80s linear infinite;
   align-items: center;
   gap: 24px;
-  mask-image: linear-gradient(to right, transparent 0%, black 20%, black 80%, transparent 100%);
-  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 20%, black 80%, transparent 100%);
 }
 
 @keyframes marquee {
@@ -112,7 +110,7 @@
   border: none;
   background: none;
   cursor: pointer;
-  height: 140px;
+  height: 160px;
   transition: transform 0.25s cubic-bezier(0.4,0.2,0.2,1);
 }
 .slide-item:hover {
