@@ -10,7 +10,7 @@ const Productos2 = ({ productos }) => {
   const imgRefs = useRef([]);
 
   const infiniteProducts = [];
-  for (let i = 0; i < 50; i++) {
+  for (let i = 0; i < 25; i++) {
     infiniteProducts.push(...productsArray);
   }
   

@@ -15,7 +15,7 @@ const InfoProducto = ({ producto, language = "es" }) => {
     <div className="info-producto" id="info-producto">
       <div className="info-main">
         <div className="info-img-title">
-          <img src={producto.image} alt={producto.title} style={{ width: 120, height: 120, objectFit: 'contain', borderRadius: 12, marginBottom: 12 }} />
+          <img src={producto.image} alt={producto.title} style={{ width: 250, height: 200, objectFit: 'contain', borderRadius: 12, marginBottom: 12 }} />
           <h2>{producto.title}</h2>
           {producto.scientificName && <h3 style={{ fontWeight: 400, fontSize: 18, color: '#4a4a4a' }}>{producto.scientificName}</h3>}
         </div>

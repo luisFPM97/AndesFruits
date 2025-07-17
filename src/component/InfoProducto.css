@@ -24,7 +24,15 @@
 }
 .info-img-title img {
   box-shadow: 0 2px 8px rgba(131,168,65,0.08);
-  background: #f6ffe6;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+}
+.info-img-title{
+  img:hover{
+    filter: drop-shadow(0 0 10px white);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+  }
 }
 .info-img-title h2 {
   margin: 0;
