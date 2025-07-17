@@ -78,9 +78,9 @@ function App() {
         <Route path="/instalaciones" element={<Instalaciones />} />
         <Route path="/certificaciones" element={ <Certificaciones certificaciones={content.certificaciones} /> } />
         <Route path="/contactenos" element={<Contact contact={content.contactenos} />} />
-        <Route path="/productos" element={<Productos setProductid={setProductid} productos={content.productos} /> } />
-        <Route path="/productos1" element={<Productos1 productos={content.productos} language={language} /> } />
-        <Route path="/productos2" element={<Productos2 productos={content.productos} /> } />
+        <Route path="/productos" element={<Productos1 setProductid={setProductid} productos={content.productos} /> } />
+        {/*<Route path="/productos1" element={<Productos1 productos={content.productos} language={language} /> } />
+        <Route path="/productos2" element={<Productos2 productos={content.productos} /> } />*/}
         <Route path="/FichaTecnica/:id" element={ <FichaTecnica productid={productid} productos={content.productos} language={language} />} />
         <Route path="/ProductCard" element={<ProductCard />} />
         <Route path="/data" element={<Datatreat content={content.datat}/>}/>
