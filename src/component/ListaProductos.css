@@ -38,20 +38,21 @@
 }
 .lista-productos li {
   cursor: pointer;
-  padding: 12px 18px;
+  padding: 10px 18px;
   font-size: 18px;
   border-left: 4px solid transparent;
   transition: background 0.2s, color 0.2s, border 0.2s;
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: start;
   gap: 10px;
 }
 .lista-productos li .hover-img {
   display: inline-block;
   position: static;
-  width: 28px;
-  height: 28px;
+  width: 27px;
+  height: 27px;
   object-fit: contain;
   border-radius: 6px;
   box-shadow: 0 1px 4px rgba(131,168,65,0.10);
@@ -59,7 +60,7 @@
   /* Animation styles */
   opacity: 0;
   transform: scale(0.8);
-  animation: fadeInScale 1.2s forwards;
+  animation: fadeInScale 0.3s forwards;
 }
 
 @keyframes fadeInScale {
@@ -76,7 +77,7 @@
   font-weight: bold;
   opacity: 1;
   transform: translateX(0);
-  animation: slideRightThenBack 0.7s;
+  animation: slideRightThenBack 0.3s;
 }
 
 @keyframes slideRightThenBack {

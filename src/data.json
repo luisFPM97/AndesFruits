@@ -103,6 +103,7 @@
           "img1":"/img/0/1.jpg",
           "img2":"/img/0/2.jpg",
           "img3":"/img/0/3.jpg",
+          "icon":"/img/iconos/uchuvaicon.png",
           "table": [
             {
               "id": 1,
@@ -183,6 +184,7 @@
           "img1":"/img/0/1.jpg",
           "img2":"/img/0/2.jpg",
           "img3":"/img/0/3.jpg",
+          "icon":"/img/iconos/bananitoicon.png",
           "table": [
             {
               "id": 1,
@@ -263,6 +265,7 @@
           "img1":"/img/0/1.jpg",
           "img2":"/img/0/2.jpg",
           "img3":"/img/0/3.jpg",
+          "icon":"/img/iconos/pitayaicon.png",
           "table": [
             {
               "id": 1,
@@ -343,6 +346,7 @@
           "img1":"/img/0/1.jpg",
           "img2":"/img/0/2.jpg",
           "img3":"/img/0/3.jpg",
+          "icon":"/img/iconos/maracuyaicon.png",
           "table": [
             {
               "id": 1,
@@ -423,6 +427,7 @@
           "img1":"/img/0/1.jpg",
           "img2":"/img/0/2.jpg",
           "img3":"/img/0/3.jpg",
+          "icon":"/img/iconos/maracuyaicon.png",
           "table": [
             {
               "id": 0,
@@ -497,6 +502,7 @@
           "img1":"/img/0/1.jpg",
           "img2":"/img/0/2.jpg",
           "img3":"/img/0/3.jpg",
+          "icon":"/img/iconos/gulupaicon.png",
           "table": [
             {
               "id": 0,
@@ -571,6 +577,7 @@
           "img1":"/img/0/1.jpg",
           "img2":"/img/0/2.jpg",
           "img3":"/img/0/3.jpg",
+          "icon":"/img/iconos/tomatearbolicon.png",
           "table": [
             {
               "id": 0,
@@ -645,6 +652,7 @@
           "img1":"/img/0/1.jpg",
           "img2":"/img/0/2.jpg",
           "img3":"/img/0/3.jpg",
+          "icon":"/img/iconos/kumquaticon.png",
           "table": [
             {
               "id": 0,
@@ -719,6 +727,7 @@
           "img1":"/img/0/1.jpg",
           "img2":"/img/0/2.jpg",
           "img3":"/img/0/3.jpg",
+          "icon":"/img/iconos/aguacatehassicon.png",
           "table": [
             {
               "id": 0,
@@ -793,6 +802,7 @@
           "img1":"/img/0/1.jpg",
           "img2":"/img/0/2.jpg",
           "img3":"/img/0/3.jpg",
+          "icon":"/img/iconos/mangostinoicon.png",
           "table": [
             {
               "id": 0,
@@ -867,6 +877,7 @@
           "img1":"/img/0/1.jpg",
           "img2":"/img/0/2.jpg",
           "img3":"/img/0/3.jpg",
+          "icon":"/img/iconos/limontaitiicon.png",
           "table": [
             {
               "id": 0,
@@ -1233,6 +1244,7 @@
           "img1":"/img/0/1.jpg",
           "img2":"/img/0/2.jpg",
           "img3":"/img/0/3.jpg",
+          "icon":"/img/iconos/uchuvaicon.png",
           "table": [
             {
               "id": 1,
@@ -1313,6 +1325,7 @@
           "img1":"/img/0/1.jpg",
           "img2":"/img/0/2.jpg",
           "img3":"/img/0/3.jpg",
+          "icon":"/img/iconos/bananitoicon.png",
           "table": [
             {
               "id": 1,
@@ -1393,6 +1406,7 @@
           "img1":"/img/0/1.jpg",
           "img2":"/img/0/2.jpg",
           "img3":"/img/0/3.jpg",
+          "icon":"/img/iconos/pitayaicon.png",
           "table": [
             {
               "id": 1,
@@ -1473,6 +1487,7 @@
           "img1":"/img/0/1.jpg",
           "img2":"/img/0/2.jpg",
           "img3":"/img/0/3.jpg",
+          "icon":"/img/iconos/maracuyaicon.png",
           "table": [
             {
               "id": 1,
@@ -1553,6 +1568,7 @@
           "img1":"/img/0/1.jpg",
           "img2":"/img/0/2.jpg",
           "img3":"/img/0/3.jpg",
+          "icon":"/img/iconos/granadillaicon.png",
           "table": [
             {
               "id": 0,
@@ -1627,6 +1643,7 @@
           "img1":"/img/0/1.jpg",
           "img2":"/img/0/2.jpg",
           "img3":"/img/0/3.jpg",
+          "icon":"/img/iconos/gulupaicon.png",
           "table": [
             {
               "id": 0,
@@ -1701,6 +1718,7 @@
           "img1":"/img/0/1.jpg",
           "img2":"/img/0/2.jpg",
           "img3":"/img/0/3.jpg",
+          "icon":"/img/iconos/tomatearbolicon.png",
           "table": [
             {
               "id": 0,
@@ -1775,6 +1793,7 @@
           "img1":"/img/0/1.jpg",
           "img2":"/img/0/2.jpg",
           "img3":"/img/0/3.jpg",
+          "icon":"/img/iconos/kumquaticon.png",
           "table": [
             {
               "id": 0,
@@ -1849,6 +1868,7 @@
           "img1":"/img/0/1.jpg",
           "img2":"/img/0/2.jpg",
           "img3":"/img/0/3.jpg",
+          "icon":"/img/iconos/aguacatehassicon.png",
           "table": [
             {
               "id": 0,
@@ -1923,6 +1943,7 @@
           "img1":"/img/0/1.jpg",
           "img2":"/img/0/2.jpg",
           "img3":"/img/0/3.jpg",
+          "icon":"/img/iconos/mangostinoicon.png",
           "table": [
             {
               "id": 0,
@@ -1997,6 +2018,7 @@
           "img1":"/img/0/1.jpg",
           "img2":"/img/0/2.jpg",
           "img3":"/img/0/3.jpg",
+          "icon":"/img/iconos/limontaitiicon.png",
           "table": [
             {
               "id": 0,

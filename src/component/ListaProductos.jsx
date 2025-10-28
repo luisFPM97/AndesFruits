@@ -52,7 +52,7 @@ const ListaProductos = ({ productos, selectedProductId, onSelect }) => {
               >
                 {showImg && product.image && (
                   <img
-                    src={product.image}
+                    src={product.icon}
                     alt={product.title}
                     className="hover-img inline-img"
                     key={showImg + '-' + i}
