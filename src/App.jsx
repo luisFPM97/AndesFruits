@@ -26,6 +26,7 @@ import PortalEmpleados from "./component/portal empleados/PortalEmpleados";
 import Footer from "./component/Footer";
 import DashboardEmpleos from "./component/empleos/DashboardEmpleos";
 import ModalContact from "./component/modalContact/ModalContact";
+import Team from "./component/portal empleados/Team";
 
 function App() {
   const [language, setLanguage] = useState("en");
@@ -89,6 +90,7 @@ function App() {
         <Route path="/articulos/:name" element={<ArticleInfo ArticleId={ArticleId} articlesInfo={articlesInfo} language={language}/>}/>
         <Route path="/codigoEtica" element={<EticCode code={content.etic}/>}/>
         <Route path="/eticalLine" element={<Pqrs contact={content.contactenos} />} />
+        <Route path="/team" element={<Team team={content.team}/>}/>
         {/*<Route path="/comprobantes" element={<Comprobantes />} />*/}
         {/*<Route path="/PortalEmpleados" element={<PortalEmpleados />} />*/}
         {/*Ruta de error*/}

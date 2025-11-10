@@ -1138,6 +1138,78 @@
       "mensaje1": "Parece que te has desviado del camino.",
       "mensaje2": "Vuelve a la página de inicio y sigue adelante.",
       "boton": "Inicio"
+    },
+    "team":{
+      "title": "Nuestro Equipo",
+      "description": "Conoce a las personas apasionadas y dedicadas que hacen posible Andes Fruits. Nuestro equipo está comprometido con la excelencia, la innovación y la sostenibilidad en cada paso del camino.",
+      "members": [
+        {
+          "name": "Juan Camilo Laverde",
+          "position": "Gerente General",
+          "email": "jlaverde@andesexport.com",
+          "Tel": "(+57)3153871168"
+        },
+        {
+          "name": "Wanja Engbersen",
+          "position": "Gerente Comercial",
+          "email": "wengbersen@andesexport.com",
+          "Tel": "(+31)611813626"
+        },
+        {
+          "name": "Maria Pia Carreño Hernandez",
+          "position": "Administradora y RRHH",
+          "email": "admitunja@andesexport.com",
+          "Tel": "(+57)3108197934"
+        },
+        {
+          "name": "Jefe de Procesos",
+          "position": "Procesos",
+          "email": "jefeprocesos@andesexport.com",
+          "Tel": "(+57)3107589191"
+        },
+        {
+          "name": "Coordinadora de Calidad y SIG",
+          "position": "Calidad y SIG",
+          "email": "quality@andesexport.com",
+          "Tel": "(+57)3148250400"
+        },
+        {
+          "name": "Coordinadora de Proveeduria",
+          "position": "Coordinadora de Proveeduria",
+          "email": "proveeduriaandes@gmail.com",
+          "Tel": "(+57)3207293894"
+        },
+        {
+          "name": "Departamento Contabilidad",
+          "position": "Cntabilidad",
+          "email": "contabilidad@andesexport.com; auxiliarcontable@andesexport.com",
+          "Tel": "(+57)3203453051"
+        },
+        {
+          "name": "Departamento RRHH",
+          "position": "RRHH",
+          "email": "nomina@andesexport.com",
+          "Tel": "(+57)3108197934"
+        },
+        {
+          "name": "Departamento de Compras",
+          "position": "Compras",
+          "email": "auxiliar@andesexport.com",
+          "Tel": "(+57)3229504794"
+        },
+        {
+          "name": "Coordinadora de Salud y Seguridad en el Trabajo",
+          "position": "SST",
+          "email": "sstandesexport@gmail.com",
+          "Tel": "(+57)3235732488"
+        },
+        {
+          "name": "Coordinador de Sistemas y Programación",
+          "position": "Sistemas",
+          "email": "ingsistemas@andesexport.com",
+          "Tel": "(+57)3508981349"
+        }
+      ]
     }
   },
   "en": {
@@ -2279,6 +2351,78 @@
       "mensaje1": "It seems you have strayed from the path.",
       "mensaje2": "Return to the homepage and move forward.",
       "boton": "Homepage"
+    },
+    "team":{
+      "title": "Our Team",
+      "description": "Meet the passionate and dedicated individuals who make Andes Fruits possible. Our team is committed to excellence, innovation, and sustainability every step of the way.",
+      "members": [
+        {
+          "name": "Juan Camilo Laverde",
+          "position": "General Manage",
+          "email": "jlaverde@andesexport.com",
+          "Tel": "(+57)3153871168"
+        },
+        {
+          "name": "Wanja Engbersen",
+          "position": "Commercial Manager",
+          "email": "wengbersen@andesexport.com",
+          "Tel": "(+31)611813626"
+        },
+        {
+          "name": "Maria Pia Carreño Hernandez",
+          "position": "HR Manager",
+          "email": "admitunja@andesexport.com",
+          "Tel": "(+57)3108197934"
+        },
+        {
+          "name": "Process Manager",
+          "position": "Process Department",
+          "email": "jefeprocesos@andesexport.com",
+          "Tel": "(+57)3107589191"
+        },
+        {
+          "name": "Quality and Integrated Management System Coordinator",
+          "position": "Quality",
+          "email": "quality@andesexport.com",
+          "Tel": "(+57)3148250400"
+        },
+        {
+          "name": "Procurement Coordinator",
+          "position": "Raw Materials Procurement Coordinator",
+          "email": "proveeduriaandes@gmail.com",
+          "Tel": "(+57)3207293894"
+        },
+        {
+          "name": "Accounting",
+          "position": "Accounting Department",
+          "email": "contabilidad@andesexport.com; auxiliarcontable@andesexport.com",
+          "Tel": "(+57)3203453051"
+        },
+        {
+          "name": "HR Assistant",
+          "position": "HR Department",
+          "email": "nomina@andesexport.com",
+          "Tel": "(+57)3108197934"
+        },
+        {
+          "name": "Supplies Purchasing Assistant",
+          "position": "Supplies Purchasing Department",
+          "email": "auxiliar@andesexport.com",
+          "Tel": "(+57)3229504794"
+        },
+        {
+          "name": "Health and Safety Coordinator",
+          "position": "Health and Safety Department",
+          "email": "sstandesexport@gmail.com",
+          "Tel": "(+57)3235732488"
+        },
+        {
+          "name": "IT and Software Development Coordinator",
+          "position": "Systems Department",
+          "email": "ingsistemas@andesexport.com",
+          "Tel": "(+57)3508981349"
+        }
+      ]
     }
   }
 }

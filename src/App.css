@@ -264,6 +264,80 @@ footer {
   right: 0;
   backdrop-filter: blur(10px);
 }
+/*TEAM*/
+.page{
+  padding-top: 7rem;
+  padding-bottom: 1rem;
+  background-color: #515f2a;
+  .hero{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    h1{
+      font-size: 3rem;
+    }
+    p{
+      font-size: 1.5rem;
+    }
+  }
+  .team-members{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    .team-member{
+      display: flex;
+      flex-direction: column;
+      height: 12rem;
+      max-width: 35rem;
+      width: calc(100% / 2);
+      min-width: 25rem;
+      position: relative;
+      gap: 0.2rem;
+      padding-top: 1rem;
+      padding-left: 1rem;
+      padding-bottom: 0;
+      color: black;
+      opacity: 0.5;
+      font-weight: 500;
+      hr{
+        margin: 0;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+      }
+      h2{
+        margin: 0;
+        font-size: 1.8rem;
+      }
+      p{
+        margin: 0;
+        font-size: 1.3rem;
+      }
+      img{
+        width: 100px; 
+        filter: brightness(20);
+        position: absolute;
+        bottom: 1rem;
+        right: 1rem;
+      }
+    }
+    .team-member:hover{
+      opacity: 1;
+      color: white;
+      transition: all 0.25s ease-in;
+      h2{
+        font-weight: 700;
+      }
+    }
+  }
+}
 /*home*/
 .home {
   margin: 0;

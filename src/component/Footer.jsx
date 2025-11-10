@@ -34,7 +34,7 @@ const Footer = ({content, links, language}) => {
                 <Link to="/empleo">Trabaja con nosotros</Link>
                 <Link to="/eticalLine">PQRS</Link>
                 <Link to="/data">{content.contactenos.td}</Link>
-                
+                <Link to="team">{content.team.title}</Link>
             </div> 
                  
         </div>
