@@ -181,9 +181,9 @@
           "curiousFact": "En Colombia, el bananito es conocido por su alto contenido de fósforo, potasio, hierro y vitaminas A y B.",
           "ftitle": "Ficha Técnica",
           "ttitle":"Información Nutricional",
-          "img1":"/img/0/1.jpg",
-          "img2":"/img/0/2.jpg",
-          "img3":"/img/0/3.jpg",
+          "img1":"/img/0/1.webp",
+          "img2":"/img/0/2.webp",
+          "img3":"/img/0/3.webp",
           "icon":"/img/iconos/bananitoicon.png",
           "table": [
             {
@@ -223,7 +223,7 @@
               "unit": "mg"
             }
           ],
-          "image": "/img/bananito2.png",
+          "image": "/img/bananito2.webp",
           "fichaTecnica": "ficha-tecnica-bananito.pdf",
           "t1": "ESPECIFICACIONES MICROBIOLÓGICAS",
           "d1": "Recuento Total de Aeróbicos (SPC) máx. 5000 CFU/g. Recuento de hongos filamentosos: <500 CFU/gramo. Recuento de hongos levaduriformes: <500 CFU/gramo. Recuento total de coliformes: <3 CFU/gramo.",
@@ -304,7 +304,7 @@
               "unit": "mg"
             }
           ],
-          "image": "/img/pitaya2.png",
+          "image": "/img/pitaya2.webp",
           "fichaTecnica": "ficha-tecnica-pitaya-amarilla.pdf",
           "t1": "ESPECIFICACIONES MICROBIOLÓGICAS",
           "d1": "Recuento total de microorganismos aerobios mesófilos: < 100,000 UFC/g. Coliformes totales: < 1000 UFC/g. Escherichia coli: Ausente en 1 g. Staphylococcus aureus: Ausente en 1 g. Salmonella spp.: Ausente en 25 g. Levaduras y mohos: < 1000 UFC/g.",
@@ -343,9 +343,9 @@
           "curiousFact": "El nombre maracuyá proviene del Tupi “mara kuya”, que significa “fruta que se sirve a sí misma” o “comida en una cuia”.",
           "ftitle": "Ficha Técnica",
           "ttitle":"Información Nutricional",
-          "img1":"/img/0/1.jpg",
-          "img2":"/img/0/2.jpg",
-          "img3":"/img/0/3.jpg",
+          "img1":"/img/0/1.webp",
+          "img2":"/img/0/2.webp",
+          "img3":"/img/0/3.webp",
           "icon":"/img/iconos/maracuyaicon.png",
           "table": [
             {
@@ -385,7 +385,7 @@
               "unit": "mg"
             }
           ],
-          "image": "/img/maracuya2.png",
+          "image": "/img/maracuya2.webp",
           "fichaTecnica": "ficha-tecnica-maracuya.pdf",
           "t1": "ESPECIFICACIONES MICROBIOLÓGICAS",
           "d1": "Recuento de mesófilos: 1000 UFC/g Máximo, Recuento de hongos: 10 UFC/g Máximo, Recuento de levaduras: 100 UFC/g Máximo, Coliformes totales N.M.P 200 UFC/g Máximo, Coliformes fecales N.M.P. 0.",
@@ -424,9 +424,9 @@
           "curiousFact": "A menudo se confunde con la fruta de la pasión, pero son frutas diferentes.",
           "ftitle": "Ficha Técnica",
           "ttitle":"Información Nutricional",
-          "img1":"/img/0/1.jpg",
-          "img2":"/img/0/2.jpg",
-          "img3":"/img/0/3.jpg",
+          "img1":"/img/0/1.webp",
+          "img2":"/img/0/2.webp",
+          "img3":"/img/0/3.webp",
           "icon":"/img/iconos/maracuyaicon.png",
           "table": [
             {
@@ -460,7 +460,7 @@
               "unit": "mg"
             }
           ],
-          "image": "/img/granadilla2.png",
+          "image": "/img/granadilla2.webp",
           "fichaTecnica": "ficha-tecnica-maracuya.pdf",
           "t1": "ESPECIFICACIONES MICROBIOLÓGICAS",
           "d1": "Recuento total de microorganismos aerobios mesófilos: < 100,000 UFC/g. Coliformes totales: < 1000 UFC/g. Escherichia coli: Ausente en 1 g. Staphylococcus aureus: Ausente en 1 g. Salmonella spp.: Ausente en 25 g. Levaduras y mohos: < 1000 UFC/g.",
@@ -499,9 +499,9 @@
           "curiousFact": "Es conocida por su efecto sedante que incluso se dice que ayuda a regular los sueños.",
           "ftitle": "Ficha Técnica",
           "ttitle":"Información Nutricional",
-          "img1":"/img/0/1.jpg",
-          "img2":"/img/0/2.jpg",
-          "img3":"/img/0/3.jpg",
+          "img1":"/img/0/1.webp",
+          "img2":"/img/0/2.webp",
+          "img3":"/img/0/3.webp",
           "icon":"/img/iconos/gulupaicon.png",
           "table": [
             {
@@ -535,7 +535,7 @@
               "unit": "del VD"
             }
           ],
-          "image": "/img/gulupa2.png",
+          "image": "/img/gulupa2.webp",
           "fichaTecnica": "ficha-tecnica-maracuya.pdf",
           "t1": "ESPECIFICACIONES MICROBIOLÓGICAS",
           "d1": "Recuento de mesófilos: 1000 UFC/g Máximo, Recuento de hongos: 10 UFC/g Máximo, Recuento de levaduras: 100 UFC/g Máximo, Coliformes totales N.M.P 200 UFC/g Máximo, Coliformes fecales N.M.P. 0.",
@@ -574,9 +574,9 @@
           "curiousFact": "A pesar de su nombre, no es un tomate sino una fruta con un sabor único que combina en muchas elaboraciones",
           "ftitle": "Ficha Tecnica",
           "ttitle":"Información Nutricional",
-          "img1":"/img/0/1.jpg",
-          "img2":"/img/0/2.jpg",
-          "img3":"/img/0/3.jpg",
+          "img1":"/img/0/1.webp",
+          "img2":"/img/0/2.webp",
+          "img3":"/img/0/3.webp",
           "icon":"/img/iconos/tomatearbolicon.png",
           "table": [
             {
@@ -610,7 +610,7 @@
               "unit": "g"
             }
           ],
-          "image": "/img/tomate_de_arbol2.png",
+          "image": "/img/tomate_de_arbol2.webp",
           "fichaTecnica": "ficha-tecnica-maracuya.pdf",
           "t1": "ESPECIFICACIONES MICROBIOLÓGICAS",
           "d1": "Recuento de mesofilos 100 UFC/g Máximo Levaduras y hongos 30 UFC/g Máximo Total Coliformes N.M.P. <3 Coliformes fecales N.M.P. 0.",
@@ -760,7 +760,7 @@
               "unit": "mg"
             }
           ],
-          "image": "/img/aguacate_hass.png",
+          "image": "/img/aguacate_hass.webp",
           "fichaTecnica": "ficha-tecnica-maracuya.pdf",
           "t1": "ESPECIFICACIONES MICROBIOLÓGICAS",
           "d1": "Debe estar libre de patógenos como Salmonella, E. coli y Listeria monocytogenes. Debe estar libre de patógenos como Salmonella, E. coli y Listeria monocytogenes.",
@@ -835,7 +835,7 @@
               "unit": "mg"
             }
           ],
-          "image": "/img/mangostino.png",
+          "image": "/img/mangostino.webp",
           "fichaTecnica": "ficha-tecnica-maracuya.pdf",
           "t1": "ESPECIFICACIONES MICROBIOLÓGICAS",
           "d1": "Debe estar libre de patógenos como Salmonella, E. coli y Listeria monocytogenes. El nivel de levaduras y mohos debe ser inferior a 1000 UFC/g.",
@@ -910,7 +910,7 @@
               "unit": "g"
             }
           ],
-          "image": "/img/limon_taiti.png",
+          "image": "/img/limon_taiti.webp",
           "fichaTecnica": "ficha-tecnica-limon-taiti.pdf",
           "t1": "ESPECIFICACIONES MICROBIOLÓGICAS",
           "d1": "Debe estar libre de patógenos como Salmonella, E. coli y Listeria monocytogenes. El nivel de levaduras y mohos debe ser inferior a 1000 UFC/g.",
@@ -1355,7 +1355,7 @@
               "unit": "mg"
             }
           ],
-          "image": "/img/0/uchuva.png",
+          "image": "/img/0/uchuva.webp",
           "fichaTecnica": "ficha-tecnica-uchuva.pdf",
           "t1": "MICRONIOLOGICAL SPACIFICATIONS",
           "d1": "Mesophilic Aerobic Count: ≤ 3000 CFU/g. Yeast and Molds: ≤ 100 CFU/g. Total Coliforms: ≤ 200 CFU/g. Fecal Coliforms: Not detectable (N.D.).",
@@ -1436,7 +1436,7 @@
               "unit": "mg"
             }
           ],
-          "image": "/img/bananito2.png",
+          "image": "/img/bananito2.webp",
           "fichaTecnica": "ficha-tecnica-bananito.pdf",
           "t1": "MICRONIOLOGICAL SPACIFICATIONS",
           "d1": "Total Aerobic Count (SPC): Max. 5000 CFU/g. Filamentous Fungi Count: <500 CFU/gram. Yeast Fungi Count: <500 CFU/gram. Total Coliform Count: <3 CFU/gram.",
@@ -1517,7 +1517,7 @@
               "unit": "mg"
             }
           ],
-          "image": "/img/pitaya2.png",
+          "image": "/img/pitaya2.webp",
           "fichaTecnica": "ficha-tecnica-pitaya-amarilla.pdf",
           "t1": "MICROBIOLOGICAL SPECIFICATIONS",
           "d1": "Total count of mesophilic aerobic microorganisms: < 100,000 CFU/g. Total coliforms: < 1000 CFU/g. Escherichia coli: Absent in 1 g. Staphylococcus aureus: Absent in 1 g. Salmonella spp.: Absent in 25 g. Yeasts and molds: < 1000 CFU/g.",
@@ -1598,7 +1598,7 @@
               "unit": "mg"
             }
           ],
-          "image": "/img/maracuya2.png",
+          "image": "/img/maracuya2.webp",
           "fichaTecnica": "ficha-tecnica-maracuya.pdf",
           "t1": "MICROBIOLOGICAL SPECIFICATIONS",
           "d1": "Mesophile count: 1000 CFU/g Maximum. Fungus count: 10 CFU/g Maximum. Yeast count: 100 CFU/g Maximum. Total coliforms N.M.P 200 UFC/g Maximum. Fecal coliforms N.M.P.0.",
@@ -1673,7 +1673,7 @@
               "unit": "mg"
             }
           ],
-          "image": "/img/granadilla2.png",
+          "image": "/img/granadilla2.webp",
           "fichaTecnica": "ficha-tecnica-maracuya.pdf",
           "t1": "MICROBIOLOGICAL SPECIFICATIONS",
           "d1": "Total count of mesophilic aerobic microorganisms: < 100,000 CFU/g. Total coliforms: < 1000 CFU/g. Escherichia coli: Absent in 1 g. Staphylococcus aureus: Absent in 1 g. Salmonella spp.: Absent in 25 g. Yeast and molds: < 1000 CFU/g.",
@@ -1748,7 +1748,7 @@
               "unit": "of the DV"
             }
           ],
-          "image": "/img/gulupa2.png",
+          "image": "/img/gulupa2.webp",
           "fichaTecnica": "ficha-tecnica-maracuya.pdf",
           "t1": "MICROBIOLOGICAL SPECIFICATIONS",
           "d1": "Mesophilic count: 1000 CFU/g Maximum Fungus count: 10 CFU/g Maximum Yeast count: 100 CFU/g Maximum Total coliforms N.M.P 200 CFU/g Maximum Fecal coliforms N.M.P.0.",
@@ -1823,7 +1823,7 @@
               "unit": "g"
             }
           ],
-          "image": "/img/tomate_de_arbol2.png",
+          "image": "/img/tomate_de_arbol2.webp",
           "fichaTecnica": "ficha-tecnica-maracuya.pdf",
           "t1": "MICROBIOLOGICAL SPECIFICATIONS",
           "d1": "Mesophilic count 100 CFU/g Maximum Yeast and molds 30 CFU/g Maximum Total Coliforms N.M.P. <3 Fecal coliforms N.M.P. 0.",
@@ -1973,7 +1973,7 @@
               "unit": "mg"
             }
           ],
-          "image": "/img/aguacate_hass.png",
+          "image": "/img/aguacate_hass.webp",
           "fichaTecnica": "ficha-tecnica-maracuya.pdf",
           "t1": "MICROBIOLOGICAL SPECIFICATIONS",
           "d1": "Must be free of pathogens such as Salmonella, E. coli and Listeria monocytogenes.",
@@ -2048,7 +2048,7 @@
               "unit": "mg"
             }
           ],
-          "image": "/img/mangostino.png",
+          "image": "/img/mangostino.webp",
           "fichaTecnica": "ficha-tecnica-maracuya.pdf",
           "t1": "MICROBIOLOGICAL SPECIFICATIONS",
           "d1": "Must be free of pathogens such as Salmonella, E. coli and Listeria monocytogenes. The level of yeast and molds must be less than 1000 CFU/g.",
@@ -2123,7 +2123,7 @@
               "unit": "g"
             }
           ],
-          "image": "/img/limon_taiti.png",
+          "image": "/img/limon_taiti.webp",
           "fichaTecnica": "technical-sheet-tahiti-lime.pdf",
           "t1": "MICROBIOLOGICAL SPECIFICATIONS",
           "d1": "Must be free of pathogens such as Salmonella, E. coli, and Listeria monocytogenes. The level of yeasts and molds must be below 1000 CFU/g.",

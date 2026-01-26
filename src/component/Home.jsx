@@ -37,10 +37,7 @@ const easeInOutQuad = (t) => t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) /
     window.scrollTo(0, 0);
   }, []);
 
-  useEffect(() => {
-    const cortina = document.querySelector('.cortina');
-    cortina.classList.add('animate');
-  }, []);
+ 
 
   
   const certs = certificaciones.certifications
