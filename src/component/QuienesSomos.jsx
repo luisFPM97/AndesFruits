@@ -94,7 +94,7 @@ const QuienesSomos = ({ QuienesSomos }) => {
                 key={section.id}
                 className="slider-card"
                 style={{ 
-                  backgroundImage: `linear-gradient(135deg, rgba(46, 60, 29, 0.85) 0%, rgba(131, 168, 65, 0.75) 100%), url(${section.image})`,
+                  backgroundImage: `linear-gradient(135deg, rgba(46, 60, 29, 0.5) 0%, rgba(131, 168, 65, 0.45) 100%), url(${section.image})`,
                   backgroundSize: "cover",
                   backgroundPosition: "center"
                 }}
