@@ -9,7 +9,7 @@ const ModalContact = ({showModalCOntact, setShowModalCOntact, contact}) => {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "cf29c7be-710b-448b-a92a-3c8716b092f9");
+    formData.append("access_key", import.meta.env.VITE_WEB3FORMS_ACCESS_KEY);
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",

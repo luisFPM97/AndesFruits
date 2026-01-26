@@ -1,8 +1,10 @@
 import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
+import { useAppContext } from '../context/AppContext'
 
-const Footer = ({content, links, language}) => {
+const Footer = () => {
     const location = useLocation();
+    const { content, links, language, setSelectedLink } = useAppContext();
     
   return (
     <footer>
@@ -21,7 +23,7 @@ const Footer = ({content, links, language}) => {
                             key={link.path}
                             className={`pagesMenu ${location.pathname === link.path ? "active" : ""}`}
                             to={link.path}
-                            onClick={()=>(setSelectedLink(link), setShowNav(!showNav))}
+                            onClick={() => setSelectedLink(link)}
                         >
                               
                             {link.label}

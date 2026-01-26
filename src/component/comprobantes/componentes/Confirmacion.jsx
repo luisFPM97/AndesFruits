@@ -27,7 +27,7 @@ const [empleadoVerificado, setEmpleadoVerificado] = useState(Empleados.find((emp
 
     const formData = new FormData(e.target);
 
-    formData.append('access_key', 'f7dc8472-34bf-44ca-b03b-cf62bc68aef7');
+    formData.append('access_key', import.meta.env.VITE_WEB3FORMS_ACCESS_KEY);
     
     const cedulaInput = formData.get('name'); // Obtén la cédula del formulario
     const selectedMes = formData.get('subject'); // Obtén el mes seleccionado del formulario
