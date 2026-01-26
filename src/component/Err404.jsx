@@ -19,15 +19,30 @@ const Err404 = ({err}) => {
     
   return (
     <div className='err404'>
-        <div className='content'>
-            <h1 className='titulo'>{titulo}</h1>
-            <p className='msj1'>{mensaje1}</p>
-            <p className='msj2'>{mensaje2}</p>
+        <div className='err404-background'>
+            <div className='floating-shape shape-1'></div>
+            <div className='floating-shape shape-2'></div>
+            <div className='floating-shape shape-3'></div>
         </div>
-        <button className='btn' onClick={() => nHome()}>
-            <img src="/img/lv.png" alt="" />
-            <span className='spbtn'>{home}</span>
-        </button>
+        
+        <div className='err404-container'>
+            <div className='err404-number'>
+                <span className='number-4 first'>4</span>
+                <span className='number-0'>0</span>
+                <span className='number-4 last'>4</span>
+            </div>
+            
+            <div className='content'>
+                <h1 className='titulo'>{titulo}</h1>
+                <p className='msj1'>{mensaje1}</p>
+                <p className='msj2'>{mensaje2}</p>
+            </div>
+            
+            <button className='btn' onClick={() => nHome()}>
+                <img src="/img/lv.png" alt="Logo" />
+                <span className='spbtn'>{home}</span>
+            </button>
+        </div>
     </div>
   )
 }

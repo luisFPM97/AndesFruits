@@ -8,7 +8,7 @@ const Loading = () => {
     // Iniciar animación de salida después de 2.5 segundos (antes de que termine los 3s)
     const timer = setTimeout(() => {
       setFadeOut(true);
-    }, 2500);
+    }, 1500);
 
     return () => clearTimeout(timer);
   }, []);

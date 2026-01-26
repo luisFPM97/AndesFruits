@@ -18,8 +18,8 @@ const RouteLoader = ({ children }) => {
       // Pequeño delay adicional antes de mostrar contenido para evitar flash
       setTimeout(() => {
         setShowContent(true);
-      }, 100);
-    }, 3000);
+      }, 50);
+    }, 1500);
 
     return () => clearTimeout(minLoadTime);
   }, [location.pathname]);
