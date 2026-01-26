@@ -74,9 +74,7 @@ const easeInOutQuad = (t) => t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) /
         url="/"
         jsonLd={organizationSchema}
       />
-      
-      <div className="cortina"></div>
-      
+
       {/* Hero Section */}
       <section className="home-hero">
         <div className="home-hero-content">
