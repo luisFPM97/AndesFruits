@@ -1,7 +1,7 @@
 const empleos = [
     {
       titulo: "Operaria de Producción",
-      estado: "inactivo",
+      estado: "Activo",
       area: "Producción",
       modalidad: "Presencial",
       direccion: "Colombia - Combita - Km1 vía Tunja - Paipa (Planta principal)",
@@ -11,7 +11,7 @@ const empleos = [
       conocimientos: ["Sin conocimientos previos", "Conocimientos básicos en control de calidad"],
       habilidades: ["Trabajo en equipo", "Atención al detalle", "Puntualidad"],
       responsabilidades: ["Clasificación de productos", "Control de calidad básico", "Mantenimiento del área de trabajo"],
-      correoAplicacion: "mailto:admitunja@andesexport.com?subject=Postulación vacante Operaria de producción"
+      correoAplicacion: "mailto:nomina@andesexport.com?subject=Postulación vacante Operaria de producción"
     },
     {
       titulo: "Analista de Calidad",
