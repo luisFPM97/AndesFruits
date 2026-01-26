@@ -12,7 +12,7 @@ footer {
   position: relative;
   margin-top: auto;
   opacity: 0;
-  animation: fadeInFooter 1.5s ease-in-out 15s forwards;
+  animation: fadeInFooter 1.5s ease-in-out 3s forwards;
 }
 
 /* Decorative Background Elements */
