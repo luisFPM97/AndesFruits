@@ -27,7 +27,6 @@ const Pqrs = ({ contact }) => {
       setVisible(true);
       setTimeout(() => setVisible(false), 2000); // 2 segundos
     } else {
-      console.log("Error", data);
       setResult(data.message);
     }
   };
@@ -58,7 +57,7 @@ const Pqrs = ({ contact }) => {
                     <img src="/img/LOGO VERTICAL.png" alt="" />
                     <p>{result}</p>
                   </div>
-                  <div class="h-captcha" data-captcha="true"></div>
+                  <div className="h-captcha" data-captcha="true"></div>
             </form>
             <div className="infoContact">
               <span className="title">{contact.title3}</span>
@@ -68,15 +67,16 @@ const Pqrs = ({ contact }) => {
               <span>
                 <b>{contact.ta}:</b> {contact.address}
               </span>
-              <div class="mapouter">
-                <div class="gmap_canvas">
+              <div className="mapouter">
+                <div className="gmap_canvas">
                   <iframe
                     id="gmap_canvas"
                     src="https://maps.google.com/maps?q=andes+export&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                    frameborder="0"
+                    frameBorder="0"
                     scrolling="no"
-                    marginheight="0"
-                    marginwidth="0"
+                    marginHeight="0"
+                    marginWidth="0"
+                    title="Google Maps - Andes Export location"
                   ></iframe>
                 </div>
               </div>

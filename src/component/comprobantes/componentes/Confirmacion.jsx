@@ -10,16 +10,14 @@ const [empleadoVerificado, setEmpleadoVerificado] = useState(Empleados.find((emp
 
   const buscarEmpleadoPorCedula = (cedula) => {
     if (Array.isArray(Empleados)) {
-        console.log(Empleados)
       const empleado = Empleados.find((empleado) => empleado.cedula === cedula);
       setEmpleadoEncontrado(empleado);
-      console.log(empleado)
       return empleado; // Retorna el empleado encontrado
     }
     return null; // En caso de que Empleados no sea un arreglo
   };
   useEffect(() => {
-   console.log(empleadoVerificado)
+    // Component mounted
   }, [])
   
   const handleSubmit = async (e) => {
@@ -32,7 +30,6 @@ const [empleadoVerificado, setEmpleadoVerificado] = useState(Empleados.find((emp
     const cedulaInput = formData.get('name'); // Obtén la cédula del formulario
     const selectedMes = formData.get('subject'); // Obtén el mes seleccionado del formulario
     const empleado = buscarEmpleadoPorCedula(cedulaInput); // Busca al empleado
-    console.log(empleado)
     if (empleadoVerificado) {
       setVisible(true); // Muestra los datos del empleado si se encuentra
 

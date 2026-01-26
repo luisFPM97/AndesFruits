@@ -24,7 +24,6 @@ const ModalContact = ({showModalCOntact, setShowModalCOntact, contact}) => {
       setVisible(true);
       setTimeout(() => setVisible(false), 5000); // 2 segundos
     } else {
-      console.log("Error", data);
       setResult(data.message);
     }
   };

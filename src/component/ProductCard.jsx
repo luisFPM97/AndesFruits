@@ -1,9 +1,9 @@
 import React, { useCallback, memo } from "react";
 import { Link } from "react-router-dom";
+import "./ProductCard.css";
 
 const ProductCard = ({ product, setProductid, productos, links, setSelectedLink }) => {
   
-  // useCallback para evitar recrear la función en cada render
   const handleClick = useCallback(() => {
     setProductid(product.id);
     if (setSelectedLink) {
@@ -16,26 +16,29 @@ const ProductCard = ({ product, setProductid, productos, links, setSelectedLink 
   }, [product.id, setProductid, setSelectedLink, productos.title]);
 
   return (
-    <div className="hpProductItem">
-      {/* Lazy loading nativo de imágenes */}
-      <img 
-        src={product.image} 
-        alt={product.title}
-        loading="lazy"
-        decoding="async"
-      />
-      <h3>{product.title}</h3>
-      <p>{product.phrase}</p>
-      <button>
+    <article className="product-card">
+      <div className="product-card-image-container">
+        <img 
+          className="product-card-image"
+          src={product.image} 
+          alt={product.title}
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+      <div className="product-card-content">
+        <h3 className="product-card-title">{product.title}</h3>
+        <p className="product-card-phrase">{product.phrase}</p>
         <Link 
-          className="linkP" 
-          to={`/FichaTecnica/${product.id}`} 
+          className="product-card-link" 
+          to={`/productos?id=${product.id}`} 
           onClick={handleClick}
         >
           {product.botton}
+          <i className='bx bx-right-arrow-alt'></i>
         </Link>
-      </button>
-    </div>
+      </div>
+    </article>
   );
 };
 

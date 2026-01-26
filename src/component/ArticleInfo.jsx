@@ -7,13 +7,10 @@ const ArticleInfo = ({ArticleId,articlesInfo,language}) => {
     const [title, setTitle] = useState('Articles')
     useEffect(() => {
         setArticulo(articlesInfo[language].articles[ArticleId])
-        console.log(articlesInfo[language])
-        console.log(language)
         if (articulo === undefined) {
             navigate('/articulos');
         }
     }, [language, ArticleId], articulo)
-    console.log(articulo)
   return (
     <div className='articleInfo'>
         <Link to={`/articulos`}>{title}/{articulo.title}</Link>

@@ -1,34 +1,72 @@
 import React from "react";
 
-const CertificacionesId = (certification) => {
-  const cert = certification.certification;
+const CertificacionesId = ({ certification }) => {
+  const cert = certification;
 
   return (
-    <div className={cert.id % 2 == 0 ? "cCard" : "cCard rev"}>
-      <div className="certCard">
-        <img src={cert.image} alt="" />
-        <a className="tit" href={cert.url} target="blank">
-          {cert.title}
-          {cert.pdf === "" ? (
-          <div></div>
+    <article className="cert-card">
+      <div className="cert-card-image">
+        <img 
+          src={cert.image} 
+          alt={cert.title}
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+      
+      <div className="cert-card-content">
+        <h2 className="cert-card-title">
+          {cert.url ? (
+            <a href={cert.url} target="_blank" rel="noopener noreferrer">
+              {cert.title}
+              <i className='bx bx-link-external'></i>
+            </a>
           ) : (
-            
-            <i className="bx bx-link-external"></i>
-            
+            cert.title
           )}
-        </a>
-        <span><span>{cert.concept} </span><span>{cert.number}</span></span>
-        <span>{cert.subtittle}</span>
-        <p>{cert.description}</p>
-        {cert.pdf === "" ? (
-          <div></div>
-        ) : (
-          <a className="cimage" href={cert.pdf} target="blank">
-            <i className="bx bxs-file-doc"></i>
-          </a>
+        </h2>
+        
+        {(cert.concept || cert.number) && (
+          <div className="cert-number">
+            {cert.concept && <span>{cert.concept}</span>}
+            {cert.number && <span>{cert.number}</span>}
+          </div>
+        )}
+        
+        {cert.subtittle && (
+          <div className="cert-subtitle">{cert.subtittle}</div>
+        )}
+        
+        <p className="cert-description">{cert.description}</p>
+        
+        {(cert.url || cert.pdf) && (
+          <div className="cert-card-actions">
+            {cert.url && (
+              <a 
+                href={cert.url} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="cert-btn cert-btn-primary"
+              >
+                <i className='bx bx-link'></i>
+                Ver certificado
+              </a>
+            )}
+            {cert.pdf && (
+              <a 
+                href={cert.pdf} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="cert-btn cert-btn-secondary"
+              >
+                <i className='bx bxs-file-pdf'></i>
+                Descargar PDF
+              </a>
+            )}
+          </div>
         )}
       </div>
-    </div>
+    </article>
   );
 };
 

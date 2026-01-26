@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import SEO from "./SEO";
+import "./Contact.css";
 
 const Contact = ({ contact }) => {
   const [result, setResult] = useState("");
@@ -7,7 +9,6 @@ const Contact = ({ contact }) => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-
 
   const onSubmit = async (event) => {
     event.preventDefault();
@@ -23,77 +24,194 @@ const Contact = ({ contact }) => {
 
     const data = await response.json();
 
-    
     if (data.success) {
       setResult("¡Muchas gracias por contactarnos en Andes Export! Hemos recibido tu mensaje y lo revisaremos a la brevedad.");
       event.target.reset();
       setVisible(true);
-      setTimeout(() => setVisible(false), 5000); // 2 segundos
+      setTimeout(() => setVisible(false), 5000);
     } else {
-      console.log("Error", data);
       setResult(data.message);
     }
   };
   
   return (
     <>
-      <div className="contactenos">
-        <div className="imgcont"></div>
-        <div className="contenedorInfo">
-          <div className="headerCont">
+      <SEO
+        title="Contact Us - Andes Fruits | Get in Touch"
+        description="Contact Andes Fruits for premium Colombian exotic fruits. Get quotes, product information, and export inquiries. We're here to help."
+        keywords="contact andes fruits, fruit export inquiry, colombian fruit supplier contact, exotic fruits quote"
+        url="/contact"
+      />
+      <div className="contact-container">
+        {/* Header Section */}
+        <section className="contact-header">
+          <div className="contact-header-bg"></div>
+          <div className="contact-header-content">
             <h1>{contact.title}</h1>
-            <h2>
-              {contact.description}, {contact.title2}
-            </h2>
+            <h2>{contact.description}, {contact.title2}</h2>
+          </div>
+        </section>
+
+        {/* Contact Content */}
+        <section className="contact-content">
+          {/* Form Section */}
+          <div className="contact-form-section">
+            <h3><i className='bx bxs-envelope'></i> {contact.button}</h3>
+            <form className="contact-form" onSubmit={onSubmit} aria-label="Contact form">
+              <input type="hidden" name="subject" value="SOLICITUD CONTACTO"/>
+              
+              <div className="form-row">
+                <div className="form-group">
+                  <label htmlFor="contact-firstname">
+                    <i className='bx bx-user'></i> First Name *
+                  </label>
+                  <input 
+                    id="contact-firstname"
+                    type="text" 
+                    placeholder="John" 
+                    name="name" 
+                    required 
+                    aria-required="true"
+                  />
+                </div>
+                
+                <div className="form-group">
+                  <label htmlFor="contact-lastname">
+                    <i className='bx bx-user'></i> Last Name *
+                  </label>
+                  <input 
+                    id="contact-lastname"
+                    type="text"  
+                    placeholder="Doe"   
+                    name="last_name"  
+                    required
+                    aria-required="true"
+                  />
+                </div>
+              </div>
+
+              <div className="form-row">
+                <div className="form-group">
+                  <label htmlFor="contact-phone">
+                    <i className='bx bx-phone'></i> Phone *
+                  </label>
+                  <input 
+                    id="contact-phone"
+                    type="tel" 
+                    placeholder="+1 234 567 8900" 
+                    name="phone" 
+                    required
+                    aria-required="true"
+                  />
+                </div>
+                
+                <div className="form-group">
+                  <label htmlFor="contact-email">
+                    <i className='bx bx-envelope'></i> Email *
+                  </label>
+                  <input 
+                    id="contact-email"
+                    type="email" 
+                    placeholder="john@company.com" 
+                    name="email" 
+                    required
+                    aria-required="true"
+                  />
+                </div>
+              </div>
+              
+              <div className="form-group">
+                <label htmlFor="contact-company">
+                  <i className='bx bx-buildings'></i> Company *
+                </label>
+                <input 
+                  id="contact-company"
+                  type="text" 
+                  placeholder="Your Company Name" 
+                  name="company" 
+                  required
+                  aria-required="true"
+                />
+              </div>
+              
+              <div className="form-group">
+                <label htmlFor="contact-message">
+                  <i className='bx bx-message-detail'></i> Message *
+                </label>
+                <textarea 
+                  id="contact-message"
+                  name="message" 
+                  placeholder="Tell us how we can help you..." 
+                  required
+                  aria-required="true"
+                ></textarea>
+              </div>
+              
+              <button type="submit" className="contact-submit-btn" aria-label="Send message">
+                <i className="bx bxs-send" aria-hidden="true"></i>
+                Send Message
+              </button>
+              
+              <div className={visible ? "contact-alert" : "contact-alert hidden"} role="status" aria-live="polite">
+                <img src="/img/lv.png" alt="" aria-hidden="true" />
+                <p>{result}</p>
+              </div>
+            </form>
           </div>
 
-          <div className="contForm">
-            <form action="" onSubmit={onSubmit}>
-              <input type="hidden" name="subject" value="SOLICITUD CONTACTO"/>
-              <input className="firstName" type="text" placeholder="First Name" name="name" required />
-              <input className="lastName"  type="text"  placeholder="Last Name"   name="last_name"  required/>
-              <input className="phone" type="text" placeholder="Phone" name="phone" required/>
-              <input className="email" type="email" placeholder="Email" name="email" required/>
-              <input className="company" type="text" placeholder="Company" name="company" required />
-              <textarea className="mensaje" name="message" id="" placeholder="Message" required ></textarea>
-              <button type="submit" className="btnForm">
-                <i className="bx bxs-send"></i>
-                {contact.button}
-              </button>
-                  <div className={visible?"alerta":"alerta hdd" }>
-                    <img src="/img/lv.png" alt="" />
-                    <p>{result}</p>
+          {/* Info Section */}
+          <div className="contact-info-section">
+            <div className="contact-info-card">
+              <h3><i className='bx bxs-contact'></i> {contact.title3}</h3>
+              <div className="contact-info-list">
+                <div className="contact-info-item">
+                  <i className='bx bxs-phone'></i>
+                  <div className="contact-info-text">
+                    <strong>{contact.tp}</strong>
+                    <span>{contact.phone2}</span>
                   </div>
-            </form>
-            <div className="infoContact">
-              <span className="title">{contact.title3}</span>
-              <span>
-                <b>{contact.tp}:</b> {contact.phone2}
-              </span>
-              <span>
-                <b>{contact.te}:</b> {contact.email}
-              </span>
-              <span>
-                <b>{contact.ta}:</b> {contact.address}
-              </span>
-              <a className='lk' href={contact.lk} target='_blank'>
-                <i className='bxl  bx-linkedin'  ></i> 
-              </a>
-              <div class="mapouter">
-                <div class="gmap_canvas">
-                  <iframe
-                    id="gmap_canvas"
-                    src="https://maps.google.com/maps?q=andes+export&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                    frameborder="0"
-                    scrolling="no"
-                    marginheight="0"
-                    marginwidth="0"
-                  ></iframe>
                 </div>
+                
+                <div className="contact-info-item">
+                  <i className='bx bxs-envelope'></i>
+                  <div className="contact-info-text">
+                    <strong>{contact.te}</strong>
+                    <span>{contact.email}</span>
+                  </div>
+                </div>
+                
+                <div className="contact-info-item">
+                  <i className='bx bxs-map'></i>
+                  <div className="contact-info-text">
+                    <strong>{contact.ta}</strong>
+                    <span>{contact.address}</span>
+                  </div>
+                </div>
+              </div>
+              
+              <a 
+                className='contact-linkedin' 
+                href={contact.lk} 
+                target='_blank' 
+                rel='noopener noreferrer'
+              >
+                <i className='bx bxl-linkedin'></i> 
+                Connect on LinkedIn
+              </a>
+            </div>
+
+            <div className="contact-info-card">
+              <h3><i className='bx bxs-map-pin'></i> Find Us</h3>
+              <div className="contact-map">
+                <iframe
+                  src="https://maps.google.com/maps?q=andes+export&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                  loading="lazy"
+                  title="Google Maps - Andes Export location"
+                ></iframe>
               </div>
             </div>
           </div>
-        </div>
+        </section>
       </div>
     </>
   );

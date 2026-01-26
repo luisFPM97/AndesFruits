@@ -556,14 +556,14 @@ jobs:
 - [ ] Auditar todo el código en busca de secretos
 
 ### Code Quality 🧹
-- [ ] Eliminar los 15 console.logs encontrados
-- [ ] Estandarizar rutas de imágenes a `/img/...`
+- [x] Eliminar los 15 console.logs encontrados
+- [x] Estandarizar rutas de imágenes a `/img/...`
 - [x] Corregir Footer.jsx (props faltantes)
 - [ ] Añadir PropTypes a todos los componentes
 - [ ] Eliminar todo el código comentado
-- [ ] Desinstalar dependencias no usadas
-- [ ] Configurar ESLint con rules estrictas
-- [ ] Configurar Prettier
+- [x] Desinstalar dependencias no usadas
+- [x] Configurar ESLint con rules estrictas
+- [x] Configurar Prettier
 - [ ] Corregir warnings de useEffect
 
 ### Arquitectura 🏗️
@@ -585,21 +585,21 @@ jobs:
 - [ ] Analizar bundle size
 
 ### SEO 🔍
-- [ ] Instalar react-helmet-async
-- [ ] Añadir meta tags en Home
-- [ ] Añadir meta tags en Productos
-- [ ] Añadir meta tags en QuienesSomos
-- [ ] Configurar Open Graph tags
+- [x] Instalar react-helmet-async
+- [x] Añadir meta tags en Home
+- [x] Añadir meta tags en Productos
+- [x] Añadir meta tags en QuienesSomos
+- [x] Configurar Open Graph tags
 - [ ] Crear sitemap.xml dinámico
-- [ ] Añadir JSON-LD para productos
+- [x] Añadir JSON-LD para productos
 
 ### Accesibilidad ♿
-- [ ] Auditoría con Lighthouse
-- [ ] Agregar ARIA labels faltantes
-- [ ] Mejorar contraste de colores
-- [ ] Implementar skip links
-- [ ] Mejorar navegación por teclado
-- [ ] Agregar alt text a todas las imágenes
+- [x] Auditoría con Lighthouse (inicial)
+- [x] Agregar ARIA labels faltantes (Navbar, formularios)
+- [x] Mejorar contraste de colores (focus visible)
+- [x] Implementar skip links
+- [x] Mejorar navegación por teclado
+- [ ] Agregar alt text a todas las imágenes (pendiente auditoría completa)
 
 ### Testing 🧪
 - [ ] Configurar Vitest
@@ -619,12 +619,12 @@ jobs:
 - [ ] Configurar Lighthouse CI
 
 ### PWA 📱
-- [ ] Instalar vite-plugin-pwa
-- [ ] Crear manifest.json
-- [ ] Configurar Service Worker
-- [ ] Implementar caché strategy
-- [ ] Probar funcionalidad offline
-- [ ] Probar Add to Home Screen
+- [x] Instalar vite-plugin-pwa
+- [x] Crear manifest.json
+- [x] Configurar Service Worker
+- [x] Implementar caché strategy
+- [x] Probar funcionalidad offline (básica)
+- [ ] Probar Add to Home Screen (requiere HTTPS/producción)
 
 ### Monitoring 📊
 - [ ] Configurar Google Analytics 4

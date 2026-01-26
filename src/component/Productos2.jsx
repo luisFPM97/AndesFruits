@@ -21,7 +21,6 @@ const Productos2 = ({ productos }) => {
     function updateScaleFade() {
       if (!slideRef.current) return;
       const slideRect = slideRef.current.getBoundingClientRect();
-      console.log(slideRect.width)
       const centerX = slideRect.left + slideRect.width / 2;
       imgRefs.current.forEach((img) => {
         if (!img) return;
@@ -32,7 +31,6 @@ const Productos2 = ({ productos }) => {
         // Scale: 1 en el centro, 0.6 en los extremos
         let scale = (1 - (dist / maxDist)) + 0.4;
         scale = Math.max(0, Math.min(1.15, scale));
-        console.log(scale)
         // Opacidad: 1 en el centro, 0.2 en los extremos
         let opacity = (1 - (dist / maxDist)) - 0.1;
         opacity = Math.max(0, Math.min(1, opacity));

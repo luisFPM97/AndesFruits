@@ -1,8 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* ============================================
+   Reset Global y Box Sizing
+   ============================================ */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-x: clip;
+  width: 100%;
+}
+
 body {
   margin: 0;
   width: 100%;
+  overflow-x: clip;
+  position: relative;
 }
+
 * {
   font-family: 'Inter', sans-serif;
+}
+
+/* ============================================
+   Accesibilidad - Focus Visible
+   ============================================ */
+/* Estilo de enfoque visible para navegación por teclado */
+*:focus-visible {
+  outline: 3px solid #4A90E2;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Mejoras para botones y enlaces */
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid #4A90E2;
+  outline-offset: 3px;
+}
+
+/* Mejoras para inputs de formularios */
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid #4A90E2;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px rgba(74, 144, 226, 0.1);
+}
+
+/* Remover outline por defecto para mouse pero mantenerlo para teclado */
+*:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* Skip to content link - mejorado */
+.skip-link:focus {
+  z-index: 10001;
 }

@@ -1,0 +1,551 @@
+/* EticCode - Diseño Moderno */
+.etic-container {
+  width: 100vw;
+  max-width: 100vw;
+  overflow-x: clip;
+  background-color: #f8f9fa;
+}
+
+/* Header Hero Section */
+.etic-header {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  overflow: hidden;
+}
+
+.etic-header-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #2e3c1d 0%, #83a841 100%);
+  z-index: 0;
+}
+
+.etic-header-bg::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -10%;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+  border-radius: 50%;
+}
+
+.etic-header-content {
+  position: relative;
+  z-index: 2;
+  max-width: 900px;
+  padding: 2rem;
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.etic-header-content h1 {
+  font-size: clamp(2.5rem, 6vw, 3.5rem);
+  font-weight: 700;
+  color: white;
+  margin-bottom: 1rem;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.etic-header-content p {
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  color: rgba(255, 255, 255, 0.95);
+  font-weight: 400;
+  line-height: 1.7;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Content Section */
+.etic-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+/* Section Card */
+.etic-section {
+  background: white;
+  border-radius: 16px;
+  padding: 3rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.etic-section-header {
+  margin-bottom: 2rem;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.etic-section-header::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 4px;
+  background: #83a841;
+  border-radius: 2px;
+}
+
+.etic-section-title {
+  font-size: clamp(1.8rem, 4vw, 2.2rem);
+  color: #2e3c1d;
+  margin: 0;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.etic-section-title i {
+  font-size: 2rem;
+  color: #83a841;
+}
+
+/* Items Grid */
+.etic-items-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.etic-item {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 2rem;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.etic-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  border-color: #83a841;
+  background: white;
+}
+
+.etic-item-title {
+  font-size: 1.4rem;
+  color: #2e3c1d;
+  margin: 0 0 1rem 0;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.etic-item-title i {
+  font-size: 1.5rem;
+  color: #83a841;
+}
+
+.etic-item-description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* Grupos de Interés Section - Lista Style */
+.etic-grupos-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.etic-grupo-item {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  border-left: 4px solid #83a841;
+  transition: all 0.3s ease;
+}
+
+.etic-grupo-item:hover {
+  transform: translateX(8px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, white 0%, #f8f9fa 100%);
+}
+
+.etic-grupo-title {
+  font-size: 1.3rem;
+  color: #2e3c1d;
+  margin: 0 0 0.75rem 0;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.etic-grupo-title i {
+  color: #83a841;
+  font-size: 1.5rem;
+}
+
+.etic-grupo-description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Denuncias Section - Destacado */
+.etic-denuncias-section {
+  background: linear-gradient(135deg, #2e3c1d 0%, #83a841 100%);
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.etic-denuncias-section::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -10%;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+  border-radius: 50%;
+}
+
+.etic-denuncias-section .etic-section-header::after {
+  background: white;
+}
+
+.etic-denuncias-section .etic-section-title {
+  color: white;
+}
+
+.etic-denuncias-section .etic-section-title i {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.etic-denuncias-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.etic-denuncias-box {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.etic-denuncias-label {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 0.75rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: white;
+}
+
+.etic-denuncias-label i {
+  font-size: 1.3rem;
+}
+
+.etic-denuncias-text {
+  font-size: 1rem;
+  line-height: 1.7;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+/* Contact CTA */
+.etic-contact-cta {
+  background: white;
+  border-radius: 16px;
+  padding: 3rem;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  animation: fadeInUp 0.8s ease-out 0.3s backwards;
+}
+
+/* Formulario de Denuncia */
+.etic-form-section {
+  background: white;
+}
+
+.etic-form-description {
+  font-size: 1.05rem;
+  color: #555;
+  line-height: 1.7;
+  margin: 0 0 2rem 0;
+  padding: 1rem 1.5rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid #83a841;
+}
+
+.etic-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #2e3c1d;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.form-group label i {
+  font-size: 1.2rem;
+  color: #83a841;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.875rem 1rem;
+  border: 2px solid #e9ecef;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: 'Inter', sans-serif;
+  transition: all 0.3s ease;
+  background-color: #f8f9fa;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #83a841;
+  background-color: white;
+  box-shadow: 0 0 0 3px rgba(131, 168, 65, 0.1);
+}
+
+.form-group textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #adb5bd;
+}
+
+.etic-submit-btn {
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, #83a841 0%, #6d8f35 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+  box-shadow: 0 4px 12px rgba(131, 168, 65, 0.3);
+}
+
+.etic-submit-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(131, 168, 65, 0.4);
+}
+
+.etic-submit-btn i {
+  font-size: 1.3rem;
+  transition: transform 0.3s ease;
+}
+
+.etic-submit-btn:hover i {
+  transform: rotate(-45deg);
+}
+
+.etic-alert {
+  padding: 1rem 1.5rem;
+  background: linear-gradient(135deg, #83a841 0%, #6d8f35 100%);
+  color: white;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  animation: slideInDown 0.5s ease-out;
+}
+
+.etic-alert.hidden {
+  display: none;
+}
+
+.etic-alert img {
+  width: 30px;
+  height: 30px;
+}
+
+.etic-alert p {
+  margin: 0;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+.etic-contact-cta {
+  background: white;
+  border-radius: 16px;
+  padding: 3rem;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  animation: fadeInUp 0.8s ease-out 0.3s backwards;
+}
+
+.etic-contact-title {
+  font-size: 1.8rem;
+  color: #2e3c1d;
+  margin: 0 0 1rem 0;
+  font-weight: 700;
+}
+
+.etic-contact-description {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.7;
+  margin: 0 0 2rem 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.etic-contact-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 2.5rem;
+  background: linear-gradient(135deg, #83a841 0%, #6d8f35 100%);
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(131, 168, 65, 0.3);
+}
+
+.etic-contact-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(131, 168, 65, 0.4);
+}
+
+.etic-contact-button i {
+  font-size: 1.3rem;
+  transition: transform 0.3s ease;
+}
+
+.etic-contact-button:hover i {
+  transform: scale(1.1);
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 980px) {
+  .etic-header {
+    height: 40vh;
+    min-height: 350px;
+  }
+
+  .etic-content {
+    padding: 2rem 1rem;
+    gap: 2rem;
+  }
+
+  .etic-section {
+    padding: 2rem;
+  }
+
+  .etic-items-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .etic-header-content {
+    padding: 1rem;
+  }
+
+  .etic-section {
+    padding: 1.5rem;
+  }
+
+  .etic-section-title {
+    font-size: 1.5rem;
+  }
+
+  .etic-item {
+    padding: 1.5rem;
+  }
+
+  .etic-item-title {
+    font-size: 1.2rem;
+  }
+
+  .etic-grupo-item {
+    padding: 1.25rem 1.5rem;
+  }
+
+  .etic-contact-cta {
+    padding: 2rem 1.5rem;
+  }
+
+  .etic-contact-button {
+    width: 100%;
+    justify-content: center;
+  }
+}

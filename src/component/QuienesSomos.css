@@ -1,0 +1,670 @@
+/* ============================================
+   ABOUT US PAGE - MODERN DESIGN
+   ============================================ */
+
+/* Hero Section */
+.about-hero {
+  position: relative;
+  height: 60vh;
+  min-height: 400px;
+  width: 100vw;
+  background: linear-gradient(135deg, #2e3c1d 0%, #83a841 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  
+  max-width: 100vw;
+  background-image: 
+    linear-gradient(135deg, rgba(46, 60, 29, 0.9) 0%, rgba(131, 168, 65, 0.85) 100%),
+    url('/img/raices.webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.about-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 50% 50%, transparent 0%, rgba(0, 0, 0, 0.3) 100%);
+}
+
+.about-hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 2rem;
+  animation: fadeInUp 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.about-hero-title {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 700;
+  color: white;
+  margin-bottom: 1rem;
+  letter-spacing: -0.02em;
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.about-hero-subtitle {
+  font-size: clamp(1.1rem, 2vw, 1.4rem);
+  color: rgba(255, 255, 255, 0.95);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Slider Section */
+.about-slider-section {
+  padding: 6rem 0;
+  background: linear-gradient(180deg, #f8f9fa 0%, #ffffff 50%, #f8f9fa 100%);
+  width: 100vw;
+  max-width: 100vw;
+  overflow-x: clip;
+}
+
+.about-slider-container {
+  position: relative;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Slider Wrapper */
+.slider-wrapper {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  gap: 0;
+  padding: 2rem 0;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.slider-wrapper::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+/* Slider Cards */
+.slider-card {
+  flex: 0 0 calc(100% - 1rem);
+  min-width: calc(100% - 1rem);
+  height: 500px;
+  border-radius: 20px;
+  margin-right: 1rem;
+  scroll-snap-align: start;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 
+    0 4px 20px rgba(0, 0, 0, 0.08),
+    0 8px 40px rgba(131, 168, 65, 0.1);
+  transition: all 0.4s cubic-bezier(0.22, 0.61, 0.36, 1);
+  animation: fadeIn 0.6s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.slider-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 
+    0 8px 30px rgba(0, 0, 0, 0.12),
+    0 12px 60px rgba(131, 168, 65, 0.15);
+}
+
+.slider-card-content {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem;
+  color: white;
+}
+
+.slider-card-number {
+  font-size: 6rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.15);
+  line-height: 1;
+  margin-bottom: 1rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.slider-card-title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: white;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  display: inline-block;
+}
+
+.slider-card-title::after {
+  content: '';
+  position: absolute;
+  bottom: -0.5rem;
+  left: 0;
+  width: 60px;
+  height: 4px;
+  background: white;
+  border-radius: 2px;
+}
+
+.slider-card-description {
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.95);
+  max-width: 700px;
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Navigation Buttons */
+.slider-nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background: white;
+  border: none;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.22, 0.61, 0.36, 1);
+  box-shadow: 
+    0 4px 20px rgba(0, 0, 0, 0.1),
+    0 2px 8px rgba(0, 0, 0, 0.06);
+  color: #2e3c1d;
+}
+
+.slider-nav-btn:hover:not(:disabled) {
+  background: #83a841;
+  color: white;
+  transform: translateY(-50%) scale(1.1);
+  box-shadow: 
+    0 6px 30px rgba(131, 168, 65, 0.3),
+    0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.slider-nav-btn:active:not(:disabled) {
+  transform: translateY(-50%) scale(0.95);
+}
+
+.slider-nav-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.slider-nav-btn i {
+  font-size: 2rem;
+}
+
+.slider-nav-left {
+  left: 32px;
+}
+
+.slider-nav-right {
+  right: 48px;
+}
+
+/* Indicator Dots */
+.slider-indicators {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 3rem;
+}
+
+.indicator-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid #83a841;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.22, 0.61, 0.36, 1);
+  padding: 0;
+}
+
+.indicator-dot:hover {
+  background: rgba(131, 168, 65, 0.3);
+  transform: scale(1.2);
+}
+
+.indicator-dot.active {
+  background: #83a841;
+  width: 40px;
+  border-radius: 6px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideHint {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-8px);
+  }
+  75% {
+    transform: translateX(8px);
+  }
+}
+
+@keyframes pulseHint {
+  0%, 100% {
+    box-shadow: 
+      0 4px 20px rgba(0, 0, 0, 0.08),
+      0 8px 40px rgba(131, 168, 65, 0.1),
+      0 0 0 0 rgba(131, 168, 65, 0.4);
+  }
+  50% {
+    box-shadow: 
+      0 4px 20px rgba(0, 0, 0, 0.08),
+      0 8px 40px rgba(131, 168, 65, 0.1),
+      0 0 0 15px rgba(131, 168, 65, 0);
+  }
+}
+
+/* ============================================
+   RESPONSIVE DESIGN
+   ============================================ */
+
+/* Tablets Landscape */
+@media (max-width: 1200px) {
+  .about-slider-container {
+    padding: 0 1rem;
+  }
+
+  .slider-nav-left {
+    left: 0.5rem;
+  }
+
+  .slider-nav-right {
+    right: 0.5rem;
+  }
+
+  .slider-card {
+    flex: 0 0 calc(100% - 0.5rem);
+    min-width: calc(100% - 0.5rem);
+    margin-right: 0.5rem;
+  }
+}
+
+/* Tablets Portrait */
+@media (max-width: 1024px) {
+  .about-hero {
+    height: 55vh;
+    min-height: 380px;
+  }
+
+  .about-hero-title {
+    font-size: 3rem;
+  }
+
+  .about-hero-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .about-slider-section {
+    padding: 5rem 0;
+  }
+
+  .about-slider-container {
+    padding: 0 1rem;
+  }
+
+  .slider-card {
+    height: 450px;
+    flex: 0 0 calc(100% - 0.5rem);
+    min-width: calc(100% - 0.5rem);
+    margin-right: 0.5rem;
+  }
+
+  .slider-card-content {
+    padding: 3rem 2.5rem;
+  }
+
+  .slider-card-number {
+    font-size: 5rem;
+  }
+
+  .slider-card-title {
+    font-size: 2.5rem;
+  }
+
+  .slider-card-description {
+    font-size: 1.1rem;
+  }
+}
+
+/* Mobile Landscape / Small Tablets */
+@media (max-width: 768px) {
+  /* Ocultar botones de navegación */
+  .slider-nav-btn {
+    display: none;
+  }
+
+  /* Agregar animación hint a las cards */
+  .slider-card:first-child {
+    animation: 
+      fadeIn 0.6s cubic-bezier(0.22, 0.61, 0.36, 1),
+      slideHint 2s ease-in-out 1s 2,
+      pulseHint 2s ease-in-out 1s 2;
+  }
+
+  .about-hero {
+    height: 50vh;
+    min-height: 320px;
+    background-attachment: scroll;
+  }
+
+  .about-hero-content {
+    padding: 1.5rem;
+  }
+
+  .about-hero-title {
+    font-size: 2.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .about-hero-subtitle {
+    font-size: 1.1rem;
+    max-width: 500px;
+  }
+
+  .about-slider-section {
+    padding: 3rem 0;
+  }
+
+  .about-slider-container {
+    padding: 0 0.75rem;
+  }
+
+  .slider-wrapper {
+    gap: 0;
+    padding: 1.5rem 0;
+  }
+
+  .slider-card {
+    height: 420px;
+    border-radius: 16px;
+    flex: 0 0 calc(100% - 0.5rem);
+    min-width: calc(100% - 0.5rem);
+    margin-right: 0.5rem;
+  }
+
+  .slider-card-content {
+    padding: 2.5rem 2rem;
+  }
+
+  .slider-card-number {
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .slider-card-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .slider-card-title::after {
+    width: 50px;
+    height: 3px;
+  }
+
+  .slider-card-description {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  /* Indicador visual de swipe */
+  .slider-wrapper::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 100px;
+    background: linear-gradient(90deg, transparent 0%, rgba(131, 168, 65, 0.15) 100%);
+    pointer-events: none;
+    animation: fadeIn 0.8s ease-in-out 2s;
+    border-radius: 20px 0 0 20px;
+  }
+
+  .slider-wrapper::before {
+    content: '\2794';
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+    color: rgba(131, 168, 65, 0.6);
+    z-index: 5;
+    pointer-events: none;
+    animation: 
+      fadeIn 0.8s ease-in-out 2s,
+      slideHint 2s ease-in-out 3s 2;
+  }
+
+  .slider-nav-btn {
+    width: 48px;
+    height: 48px;
+  }
+
+  .slider-nav-btn i {
+    font-size: 1.75rem;
+  }
+
+  .slider-nav-left {
+    left: 0.5rem;
+  }
+
+  .slider-nav-right {
+    right: 0.5rem;
+  }
+
+  .slider-indicators {
+    margin-top: 2rem;
+    gap: 0.6rem;
+  }
+
+  .indicator-dot {
+    width: 10px;
+    height: 10px;
+    border-width: 2px;
+  }
+
+  .indicator-dot.active {
+    width: 32px;
+  }
+}
+
+/* Mobile Portrait */
+@media (max-width: 480px) {
+  /* Botones de navegación permanecen ocultos */
+  .slider-nav-btn {
+    display: none;
+  }
+
+  .about-hero {
+    height: 45vh;
+    min-height: 280px;
+  }
+
+  .about-hero-content {
+    padding: 1rem;
+  }
+
+  .about-hero-title {
+    font-size: 1.85rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .about-hero-subtitle {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    max-width: 90%;
+  }
+
+  .about-slider-section {
+    padding: 2.5rem 0;
+  }
+
+  .about-slider-container {
+    padding: 0 0.5rem;
+  }
+
+  .slider-wrapper {
+    gap: 0;
+    padding: 1rem 0;
+  }
+
+  .slider-card {
+    height: 380px;
+    border-radius: 12px;
+    flex: 0 0 100%;
+    min-width: 100%;
+    margin-right: 0;
+  }
+
+  .slider-card-content {
+    padding: 2rem 1.5rem;
+  }
+
+  .slider-card-number {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .slider-card-title {
+    font-size: 1.6rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .slider-card-title::after {
+    width: 40px;
+    height: 3px;
+    bottom: -0.4rem;
+  }
+
+  .slider-card-description {
+    font-size: 0.95rem;
+    line-height: 1.65;
+    max-width: 100%;
+  }
+
+  .slider-nav-btn {
+    width: 42px;
+    height: 42px;
+  }
+
+  .slider-nav-btn i {
+    font-size: 1.5rem;
+  }
+
+  .slider-nav-left {
+    left: 0.25rem;
+  }
+
+  .slider-nav-right {
+    right: 0.25rem;
+  }
+
+  .slider-indicators {
+    margin-top: 1.5rem;
+    gap: 0.5rem;
+  }
+
+  .indicator-dot {
+    width: 8px;
+    height: 8px;
+    border-width: 1.5px;
+  }
+
+  .indicator-dot.active {
+    width: 28px;
+    border-radius: 4px;
+  }
+}
+
+/* Extra Small Devices */
+@media (max-width: 360px) {
+  .about-hero-title {
+    font-size: 1.65rem;
+  }
+
+  .about-hero-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .slider-card {
+    height: 340px;
+    flex: 0 0 100%;
+    min-width: 100%;
+    margin-right: 0;
+  }
+
+  .slider-card-content {
+    padding: 1.5rem 1.25rem;
+  }
+
+  .slider-card-number {
+    font-size: 2.5rem;
+  }
+
+  .slider-card-title {
+    font-size: 1.4rem;
+  }
+
+  .slider-card-description {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+
+  .slider-nav-btn {
+    width: 38px;
+    height: 38px;
+  }
+
+  .slider-nav-btn i {
+    font-size: 1.35rem;
+  }
+
+  .indicator-dot {
+    width: 7px;
+    height: 7px;
+  }
+
+  .indicator-dot.active {
+    width: 24px;
+  }
+}

@@ -1,6 +1,7 @@
 .modalcontact{
-    width: 100% !important;
-    height: 100vh !important;
+    width: 100%;
+    max-width: 100vw;
+    height: 100vh;
     position: fixed;
     z-index: 2000;
     display: flex;
@@ -12,6 +13,8 @@
     visibility: hidden;
     transition: all 0.3s ease-in-out;
     opacity: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
     .content{
         width: 85%;
         height: 90%;

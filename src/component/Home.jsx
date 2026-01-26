@@ -1,6 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import ProductCard from "./ProductCard";
+import SEO from "./SEO";
+import "./Home.css";
 
 
 const Home = ({ home, productos, setProductid, productid, contacto, setSelectedLink, links, certificaciones }) => {
@@ -44,111 +46,127 @@ const easeInOutQuad = (t) => t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) /
   const certs = certificaciones.certifications
   const products = productos.products;
 
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Andes Export Company S.A.S",
+    "alternateName": "Andes Fruits",
+    "url": "https://andesexport.com",
+    "logo": "https://andesexport.com/img/logo.png",
+    "description": "Leading exporter of premium Colombian exotic fruits with global certifications",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "CO"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/company/andes-fruits",
+      "https://www.instagram.com/andesfruits"
+    ]
+  };
+
   return (
     <div className="home">
-      <div className="cortina"></div> 
-      <section className="homeHeader">
-        <div>
-          <span className="hw">{home.welcome}</span>
-          <h1 className="ht">{home.titleE}</h1>
-          <span className="hh">{home.header}</span>
+      <SEO
+        title="Andes Fruits - Premium Colombian Exotic Fruits Exporter"
+        description="Leading exporter of premium Colombian exotic fruits: uchuva (golden berry), gulupa, granadilla, pitahaya. Global certifications: BASC, GlobalG.A.P., SMETA, Primus GFS."
+        keywords="exotic fruits, colombian fruits, uchuva, golden berry, gulupa, granadilla, pitahaya, dragon fruit, fruit export, tropical fruits, BASC certified, GlobalGAP certified"
+        image="/img/logo.png"
+        url="/"
+        jsonLd={organizationSchema}
+      />
+      
+      <div className="cortina"></div>
+      
+      {/* Hero Section */}
+      <section className="home-hero">
+        <div className="home-hero-content">
+          <span className="home-welcome">{home.welcome}</span>
+          <h1 className="home-title">{home.titleE}</h1>
+          <p className="home-subtitle">{home.header}</p>
         </div>
-        <div className="filter"></div>
       </section>
-      {/*<section className="homeContact">
-        <div className="bar">
-          <div className="barItem left">
-            <img className="icon" src="img/phone.png" alt="" />
-            <div className="barItemText">
-              <span className="subT">{contacto.ltext}</span>
-              <span className="cont">{contacto.phone2}</span>
-            </div>
-          </div>
-          <div className="barItem Center" >
-            <Link to="/contactenos" className="linkContact" onClick={()=>(setSelectedLink({ path: "/contactenos", label: contacto.title, icon: "bx bx-user" }))}>
-            {contacto.title}
-            </Link>
-          </div>
-          <div className="barItem Right">
-            <img className="icon" src="img/mail.png" alt="" />
-            <div className="barItemText">
-              <span className="subT">{contacto.lemail}</span>
-              <span className="cont">{contacto.email}</span>
-            </div>
-          </div>
+
+      {/* Products Section */}
+      <section className="home-products-section">
+        <div className="home-products-header">
+          <h2 className="home-products-title">{home.sections[1].description}</h2>
         </div>
-      </section>*/}
-      <section className="homeProduct">
-        <div className="hpTitle">
-          <span>{home.sections[1].description}</span> 
+        
+        <div className="home-products-container">
+          <button 
+            className="slider-nav-button slider-nav-left" 
+            onClick={() => scroll("left")}
+            aria-label="Desplazar productos a la izquierda"
+          >
+            <img src="/img/arrow-slider.png" alt="" loading="lazy" />
+          </button>
+          
+          <div className="products-slider-wrapper" ref={scrollContainer}>
+            {products.map((product, i) => (
+              <ProductCard
+                key={i}
+                productos={productos}
+                product={product}
+                setProductid={setProductid}
+                productid={productid}
+                links={links}
+                setSelectedLink={setSelectedLink}
+              />
+            ))}
+          </div>
+          
+          <button 
+            className="slider-nav-button slider-nav-right" 
+            onClick={() => scroll("right")}
+            aria-label="Desplazar productos a la derecha"
+          >
+            <img src="/img/arrow-end.png" alt="" loading="lazy" />
+          </button>
         </div>
-        <button 
-          className="arrowSlider aleft" 
-          onClick={() => scroll("left")}
-          aria-label="Desplazar a la izquierda"
-          title="Desplazar a la izquierda"
-        >
-          <img src="/img/arrow-slider.png" alt="Desplazar izquierda" loading="lazy" />
-        </button>
-        <div className="hpProduct" ref={scrollContainer}>
-          {products.map((product, i) => (
-            <ProductCard
-              key={i}
-              productos={productos}
-              product={product}
-              setProductid={setProductid}
-              productid={productid}
-              links={links}
-              setSelectedLink={setSelectedLink}
-            />
+      </section>
+
+      {/* Sections Grid */}
+      <section className="home-sections">
+        <div className="home-sections-header">
+          <h2>{home.description}</h2>
+        </div>
+        
+        <div className="sections-grid">
+          {home.sections.map((section, i) => (
+            <article className="section-card" key={i}>
+              <img 
+                className="section-card-image"
+                src={section.image} 
+                alt={section.description}
+                loading="lazy"
+                decoding="async"
+              />
+              <div className="section-card-overlay"></div>
+              <div className="section-card-content">
+                <p className="section-card-description">{section.description}</p>
+                <Link 
+                  className="section-card-link" 
+                  to={section.link} 
+                  onClick={() => setSelectedLink(links[i])}
+                >
+                  {section.btn}
+                  <i className='bx bx-right-arrow-alt'></i>
+                </Link>
+              </div>
+            </article>
           ))}
         </div>
-        {/* Flecha derecha */}
-        <button 
-          className="arrowSlider aright" 
-          onClick={() => scroll("right")}
-          aria-label="Desplazar a la derecha"
-          title="Desplazar a la derecha"
-        >
-        <img src="/img/arrow-end.png" alt="Desplazar derecha" loading="lazy" />
-        </button>
       </section>
-      <section className="shortPage">
-        <h1>{home.description}</h1>
-        <div className="spcont">
-        {home.sections.map((section, i) => (
-          <div className="shortPageItem" key={i}>
-            <img 
-              src={section.image} 
-              alt={section.description}
-              loading="lazy"
-              decoding="async"
-            />
-            <div className="contenido">
-            
-              <span>{section.description}</span>
-              
-              
-                <Link className="linkBtn linkP" to={section.link} onClick={()=>(setSelectedLink(links[i]))}>
-                  {section.btn}
-                </Link>
-              
-              
-              
-              
-            </div>
-            <div className="filter"></div>
-          </div>
-        ))}
-        </div>
-      </section>
-      <section className="shortCert">
 
-        <h1>{certificaciones.description}</h1>
-        <div className="certsCont">
-        {
-          certificaciones.certifications.map((cert, i) => (
-            <div className="cretcard" key={i}>
+      {/* Certifications Section */}
+      <section className="home-certifications">
+        <div className="home-certifications-header">
+          <h2>{certificaciones.description}</h2>
+        </div>
+        
+        <div className="certifications-grid">
+          {certificaciones.certifications.map((cert, i) => (
+            <article className="certification-card" key={i}>
               <img 
                 src={cert.image} 
                 alt={cert.title}
@@ -156,9 +174,8 @@ const easeInOutQuad = (t) => t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) /
                 decoding="async"
               />
               <span>{cert.title}</span>
-            </div>
-          ))
-        }
+            </article>
+          ))}
         </div>
       </section>
     </div>

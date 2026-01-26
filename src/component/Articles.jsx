@@ -10,8 +10,6 @@ const [loading, setLoading] = useState(true);
 useEffect(() => {
     // Simulamos la carga de datos
     setArticulos(articles[language])
-    console.log(language)
-    console.log(articulos)
     // Temporizador para cambiar el estado de carga después de 3 segundos
     const timer = setTimeout(() => {
         setLoading(false);

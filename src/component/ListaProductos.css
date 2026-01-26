@@ -1,63 +1,100 @@
+/* Lista Productos - Diseño Moderno */
 .lista-productos {
   min-width: 200px;
-  max-height: calc(100vh - 80px);
-  position: sticky;
-  top: 95px;
+  max-height: calc(100vh - 95px);
   overflow-y: auto;
   overscroll-behavior-y: contain;
-  z-index: 2;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  scrollbar-width: none;
-  -ms-overflow-style: none; 
+  scrollbar-width: thin;
+  scrollbar-color: #83a841 #f1f3f5;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
+
 .lista-productos::-webkit-scrollbar {
-  display: none; 
+  width: 6px;
 }
+
+.lista-productos::-webkit-scrollbar-track {
+  background: #f1f3f5;
+  border-radius: 10px;
+}
+
+.lista-productos::-webkit-scrollbar-thumb {
+  background: #83a841;
+  border-radius: 10px;
+}
+
+.lista-productos::-webkit-scrollbar-thumb:hover {
+  background: #6d8f35;
+}
+
 .lista-productos h2 {
-  margin-bottom: 16px;
-  padding-top: 2rem;
-  margin-bottom: 2rem;
+  padding: 1.5rem 1rem;
+  margin: 0;
   display: flex;
   width: 100%;
   justify-content: center;
   align-items: center;
-  font-weight: bold;
+  font-weight: 700;
+  font-size: 1.3rem;
   position: sticky;
   top: 0;
   z-index: 999;
-  background-color: #DAE0AA;
+  background: linear-gradient(135deg, #83a841 0%, #6d8f35 100%);
+  color: white;
+  border-radius: 12px 12px 0 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 .lista-productos ul {
   list-style: none;
-  padding: 0;
+  padding: 0.5rem 0;
   margin: 0;
   flex: 1;
-  padding-bottom: 15px;
 }
+
 .lista-productos li {
   cursor: pointer;
-  padding: 10px 18px;
-  font-size: 18px;
+  padding: 0.875rem 1.25rem;
+  font-size: 0.95rem;
   border-left: 4px solid transparent;
-  transition: background 0.2s, color 0.2s, border 0.2s;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: start;
-  gap: 10px;
+  justify-content: flex-start;
+  gap: 0.75rem;
+  color: #495057;
+  font-weight: 500;
 }
+
+.lista-productos li:hover {
+  background: linear-gradient(90deg, rgba(131, 168, 65, 0.08) 0%, transparent 100%);
+  border-left-color: #83a841;
+  padding-left: 1.5rem;
+  color: #2e3c1d;
+}
+
+.lista-productos li.selected {
+  background: linear-gradient(90deg, rgba(131, 168, 65, 0.12) 0%, rgba(131, 168, 65, 0.04) 100%);
+  border-left-color: #83a841;
+  border-left-width: 5px;
+  color: #2e3c1d;
+  font-weight: 600;
+}
+
 .lista-productos li .hover-img {
   display: inline-block;
-  position: static;
-  width: 27px;
-  height: 27px;
-  object-fit: contain;
-  border-radius: 6px;
-  box-shadow: 0 1px 4px rgba(131,168,65,0.10);
-  margin-right: 8px;
-  /* Animation styles */
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(131, 168, 65, 0.15);
+  transition: all 0.3s ease;
   opacity: 0;
   transform: scale(0.8);
   animation: fadeInScale 0.3s forwards;
@@ -69,12 +106,19 @@
     transform: scale(1);
   }
 }
+
+.lista-productos li:hover .hover-img {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(131, 168, 65, 0.25);
+}
+
 .lista-productos li .inline-img {
   display: inline-block;
 }
+
 .lista-productos li .hovered-name {
-  color: #83a841;
-  font-weight: bold;
+  color: #2e3c1d;
+  font-weight: 600;
   opacity: 1;
   transform: translateX(0);
   animation: slideRightThenBack 0.3s;

@@ -7,9 +7,11 @@ import { useAppContext } from "./context/AppContext.jsx";
 import Navbar from "./component/Navbar";
 import Footer from "./component/Footer";
 import ModalContact from "./component/modalContact/ModalContact";
+import SkipLink from "./component/SkipLink";
 
 // Componente de carga (Loading fallback)
 import Loading from "./component/Loading";
+import RouteLoader from "./component/RouteLoader";
 
 // Lazy loading de componentes de ruta
 const Home = lazy(() => import("./component/Home"));
@@ -56,9 +58,13 @@ function App() {
 
   return (
     <div className="App">
+      <SkipLink />
+      
       <button 
         className="btncontacthp" 
         onClick={() => setShowModalContact(true)}
+        aria-label="Open contact modal"
+        aria-expanded={showModalContact}
       >
         <i className='bx bxs-message-circle-notification bx-flip-horizontal'></i>
       </button>
@@ -77,84 +83,89 @@ function App() {
         setShowModalCOntact={setShowModalContact}
         contact={content.contactenos}
       />
-      <Suspense fallback={<Loading />}>
-        <Routes>
-          <Route 
-            path="/" 
-            element={
-              <Home 
-                home={content.home} 
-                setSelectedLink={setSelectedLink} 
-                productos={content.productos} 
-                setProductid={setProductid}
-                productid={productid} 
-                links={links}  
-                contacto={content.contactenos} 
-                certificaciones={content.certificaciones}
-              />
-            } 
-          />
-          <Route 
-            path="/quienes-somos" 
-            element={<QuienesSomos QuienesSomos={content.quienesSomos} />} 
-          />
-          <Route path="/instalaciones" element={<Instalaciones />} />
-          <Route 
-            path="/certificaciones" 
-            element={<Certificaciones certificaciones={content.certificaciones} />} 
-          />
-          <Route 
-            path="/contactenos" 
-            element={<Contact contact={content.contactenos} />} 
-          />
-          <Route 
-            path="/productos" 
-            element={<Productos1 setProductid={setProductid} productos={content.productos} />} 
-          />
-          <Route 
-            path="/FichaTecnica/:id" 
-            element={
-              <FichaTecnica 
-                productid={productid} 
-                productos={content.productos} 
-                language={language} 
-              />
-            } 
-          />
-          <Route 
-            path="/data" 
-            element={<Datatreat content={content.datat}/>}
-          />
-          <Route path="/empleo" element={<DashboardEmpleos/>} />
-          <Route 
-            path="/articulos" 
-            element={<Articles language={language} setArticleId={setArticleId}/>}
-          />
-          <Route 
-            path="/articulos/:name" 
-            element={
-              <ArticleInfo 
-                ArticleId={ArticleId} 
-                articlesInfo={articlesInfo} 
-                language={language}
-              />
-            }
-          />
-          <Route 
-            path="/codigoEtica" 
-            element={<EticCode code={content.etic}/>}
-          />
-          <Route 
-            path="/eticalLine" 
-            element={<Pqrs contact={content.contactenos} />} 
-          />
-          <Route 
-            path="/team" 
-            element={<Team team={content.team}/>}
-          />
-          <Route path="*" element={<Err404 err={content.err}/>}/>
-        </Routes>
+      
+      <main id="main-content" tabIndex="-1">
+        <Suspense fallback={<Loading />}>
+          <RouteLoader>
+            <Routes>
+              <Route 
+                path="/" 
+                element={
+                  <Home 
+                  home={content.home} 
+                  setSelectedLink={setSelectedLink} 
+                  productos={content.productos} 
+                  setProductid={setProductid}
+                  productid={productid} 
+                  links={links}  
+                  contacto={content.contactenos} 
+                  certificaciones={content.certificaciones}
+                />
+              } 
+            />
+            <Route 
+              path="/quienes-somos" 
+              element={<QuienesSomos QuienesSomos={content.quienesSomos} />} 
+            />
+            <Route path="/instalaciones" element={<Instalaciones />} />
+            <Route 
+              path="/certificaciones" 
+              element={<Certificaciones certificaciones={content.certificaciones} />} 
+            />
+            <Route 
+              path="/contactenos" 
+              element={<Contact contact={content.contactenos} />} 
+            />
+            <Route 
+              path="/productos" 
+              element={<Productos1 setProductid={setProductid} productos={content.productos} />} 
+            />
+            <Route 
+              path="/FichaTecnica/:id" 
+              element={
+                <FichaTecnica 
+                  productid={productid} 
+                  productos={content.productos} 
+                  language={language} 
+                />
+              } 
+            />
+            <Route 
+              path="/data" 
+              element={<Datatreat content={content.datat}/>}
+            />
+            <Route path="/empleo" element={<DashboardEmpleos/>} />
+            <Route 
+              path="/articulos" 
+              element={<Articles language={language} setArticleId={setArticleId}/>}
+            />
+            <Route 
+              path="/articulos/:name" 
+              element={
+                <ArticleInfo 
+                  ArticleId={ArticleId} 
+                  articlesInfo={articlesInfo} 
+                  language={language}
+                />
+              }
+            />
+            <Route 
+              path="/codigoEtica" 
+              element={<EticCode code={content.etic}/>}
+            />
+            <Route 
+              path="/eticalLine" 
+              element={<EticCode code={content.etic}/>} 
+            />
+            <Route 
+              path="/team" 
+              element={<Team team={content.team}/>}
+            />
+            <Route path="*" element={<Err404 err={content.err}/>}/>
+          </Routes>
+        </RouteLoader>
       </Suspense>
+      </main>
       
       <Footer content={content} links={links} language={language}/>
     </div>

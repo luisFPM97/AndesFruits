@@ -14,8 +14,7 @@ const Err404 = ({err}) => {
 
         //eliminar useEffect()
     useEffect(() => {
-        console.log(err)
-        
+        window.scrollTo(0, 0);
     }, [err])
     
   return (

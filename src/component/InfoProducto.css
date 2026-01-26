@@ -1,100 +1,281 @@
+/* Info Producto - Diseño Moderno */
 .info-producto {
   flex: 1;
+  width: 100%;
+  max-width: 100%;
   min-width: 300px;
-  border-radius: 12px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
-  padding: 2rem 1.5rem;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  padding: 3rem 2.5rem;
   margin-left: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-sizing: border-box;
+  transition: box-shadow 0.3s ease;
 }
+
+.info-producto:hover {
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+}
+
 .info-main {
-  width: 70%;
+  width: 100%;
+  max-width: 800px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 18px;
+  gap: 2rem;
 }
+
 .info-img-title {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
+  gap: 1rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid #f1f3f5;
+  width: 100%;
 }
+
 .info-img-title img {
-  box-shadow: 0 2px 8px rgba(131,168,65,0.08);
-  background: transparent;
-  transition: all 0.3s ease-in-out;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(131, 168, 65, 0.15);
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 1.5rem;
+  transition: all 0.3s ease;
 }
-.info-img-title{
-  img:hover{
-    filter: drop-shadow(0 0 10px white);
-    transform: scale(1.1);
-    transition: all 0.3s ease-in-out;
-  }
+
+.info-img-title img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 32px rgba(131, 168, 65, 0.25);
 }
+
 .info-img-title h2 {
   margin: 0;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-weight: 700;
   color: #2e3c1d;
+  text-align: center;
+  letter-spacing: -0.5px;
 }
+
 .info-img-title h3 {
   margin: 0;
-  font-size: 1.1rem;
-  color: #4a4a4a;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #6c757d;
+  font-style: italic;
+  text-align: center;
 }
+
 .info-desc {
   width: 100%;
   text-align: center;
-  color: #222;
+  color: #495057;
   font-size: 1.1rem;
-  line-height: 1.5;
+  line-height: 1.7;
+  padding: 1rem 0;
 }
+
+.info-desc p {
+  margin-bottom: 0.75rem;
+}
+
+.info-desc p strong {
+  color: #2e3c1d;
+  font-weight: 600;
+}
+
+/* Sección Nutricional */
 .info-nutricional {
   width: 100%;
-  margin: 18px 0 0 0;
+  margin: 2rem 0 0 0;
   text-align: center;
 }
+
 .info-nutricional h3 {
-  margin-bottom: 10px;
+  margin-bottom: 1.5rem;
   color: #2e3c1d;
+  font-size: 1.8rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
+
+.info-nutricional h3::before,
+.info-nutricional h3::after {
+  content: '';
+  flex: 1;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #83a841, transparent);
+  max-width: 100px;
+}
+
 .tabla-nutricional {
   width: 100%;
   border-collapse: collapse;
   margin: 0 auto;
-  border-radius: 8px;
+  border-radius: 12px;
   overflow: hidden;
-  background: #f3f7e7;
-  color: #1a2b0a;
-  box-shadow: 0 1px 6px rgba(44,62,80,0.07);
+  background: white;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
 }
-.tabla-nutricional th, .tabla-nutricional td {
-  padding: 10px 14px;
+
+.tabla-nutricional th,
+.tabla-nutricional td {
+  padding: 1rem 1.25rem;
   text-align: left;
+  border-bottom: 1px solid #e9ecef;
 }
+
 .tabla-nutricional th {
-  background: #b6d36b;
-  color: #1a2b0a;
-  font-weight: bold;
+  background: linear-gradient(135deg, #83a841 0%, #6d8f35 100%);
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
-.tabla-nutricional tr:nth-child(even) {
-  background: #eaf7d6;
+
+.tabla-nutricional tbody tr {
+  transition: background 0.2s ease;
 }
+
+.tabla-nutricional tbody tr:hover {
+  background: #f8f9fa;
+}
+
+.tabla-nutricional tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.tabla-nutricional td {
+  color: #495057;
+  font-size: 0.95rem;
+}
+.tabla-nutricional td {
+  color: #495057;
+  font-size: 0.95rem;
+}
+
 .aleft {
   text-align: left;
 }
+
 .aright {
   text-align: right;
 }
+
+/* Bloques de Información */
 .info-bloque {
   width: 100%;
-  margin: 18px 0 0 0;
-  border-radius: 8px;
-  padding: 14px 20px;
-  color: #1a2b0a;
-  background: #eaf7d6;
+  margin: 1.5rem 0;
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  color: #2e3c1d;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-left: 4px solid #83a841;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.info-bloque:hover {
+  transform: translateX(5px);
+  box-shadow: 0 4px 12px rgba(131, 168, 65, 0.15);
+}
+
+.info-bloque h4 {
+  margin: 0 0 0.75rem 0;
+  color: #2e3c1d;
+  font-size: 1.3rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.info-bloque h4 i {
+  color: #83a841;
+  font-size: 1.5rem;
+}
+
+.info-bloque p {
+  margin: 0;
+  line-height: 1.6;
+  color: #495057;
+}
+
+.info-bloque ul {
+  margin: 0.5rem 0 0 1.5rem;
+  padding: 0;
+}
+
+.info-bloque ul li {
+  margin-bottom: 0.5rem;
+  color: #495057;
+  line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 980px) {
+  .info-producto {
+    padding: 2rem 1.5rem;
+  }
+
+  .info-main {
+    width: 100%;
+  }
+
+  .info-img-title h2 {
+    font-size: 2rem;
+  }
+
+  .info-img-title img {
+    max-width: 250px;
+  }
+
+  .tabla-nutricional th,
+  .tabla-nutricional td {
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .info-bloque {
+    padding: 1.25rem 1.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .info-producto {
+    padding: 1.5rem 1rem;
+  }
+
+  .info-img-title h2 {
+    font-size: 1.75rem;
+  }
+
+  .info-img-title h3 {
+    font-size: 1rem;
+  }
+
+  .info-nutricional h3 {
+    font-size: 1.5rem;
+  }
+
+  .tabla-nutricional th,
+  .tabla-nutricional td {
+    padding: 0.625rem 0.75rem;
+    font-size: 0.85rem;
+  }
+}
   box-shadow: 0 1px 4px rgba(131,168,65,0.08);
   text-align: left;
 }

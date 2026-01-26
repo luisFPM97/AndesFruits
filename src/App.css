@@ -1,5 +1,6 @@
 .App {
   width: 100%;
+  max-width: 100vw;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -8,6 +9,39 @@
   position: relative;
   user-select: none;
   background-color: #DAE0AA;
+  overflow-x: clip;
+}
+
+/* ============================================
+   Accesibilidad - Screen Reader Only
+   ============================================ */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Estilo para el botón del menú móvil */
+.menu-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: none;
+  font-size: 24px;
+  color: inherit;
+  padding: 8px;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
 }
 
 a {
@@ -18,10 +52,6 @@ a {
 
 .arrowSlider:hover {
   transform: scale(1.2);
-}
-
-*:focus {
-  outline: none !important;
 }
 
 .btn-lang {
@@ -62,6 +92,7 @@ a {
 footer {
   height: auto;
   width: 100%;
+  max-width: 100vw;
   background-color: #343828;
   color: rgb(149, 255, 145);
   padding-left: 30px;
@@ -69,6 +100,7 @@ footer {
   display: flex;
   flex-direction: column;
   font-weight: 200;
+  overflow-x: hidden;
 
   .contFooter {
     display: flex;
@@ -192,6 +224,7 @@ footer {
 .mainM {
   background-color: rgba(0, 0, 0, 0.1);
   width: 100%;
+  max-width: 100vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -201,6 +234,7 @@ footer {
   color: white;
   padding: 10px 50px;
   font-size: 24px;
+  box-sizing: border-box;
 
   .logoA {
     width: 100px;
@@ -324,7 +358,7 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
-
+    
     h1 {
       font-size: 3rem;
     }
@@ -478,7 +512,9 @@ footer {
   margin: 0;
   padding: 0;
   width: 100%;
+  max-width: 100vw;
   height: 100%;
+  overflow-x: hidden;
 
   .homeHeader {
     background-image: url(/img/2.webp);
@@ -705,19 +741,20 @@ footer {
     .hpProduct {
       font-weight: bold;
       width: 100%;
+      max-width: 100vw;
       height: 80vh;
       display: flex;
       justify-content: center;
       flex-wrap: nowrap;
       padding-left: 50px;
       padding-right: 50px;
-      overflow: scroll;
-      scroll-snap-type: x mandatory;
       overflow-x: auto;
       overflow-y: hidden;
+      scroll-snap-type: x mandatory;
       justify-content: start;
       margin: 0;
       scroll-behavior: smooth;
+      box-sizing: border-box;
 
       .hpProductItem {
         padding-left: 20px;
@@ -994,20 +1031,21 @@ footer {
 
 .aboutUs {
   width: 100%;
+  max-width: 100vw;
   height: auto;
   display: flex;
-  overflow: scroll;
-  scroll-snap-type: x mandatory;
   overflow-x: hidden;
   overflow-y: hidden;
+  scroll-snap-type: x mandatory;
   justify-content: start;
   margin: 0;
   scroll-behavior: smooth;
 
   .aboutUsSec {
     margin-top: 5vh;
+    width: 100%;
     min-width: 100%;
-    max-width: 100vw;
+    max-width: 100%;
     height: 90vh;
     position: sticky;
     object-fit: cover;
@@ -1017,9 +1055,7 @@ footer {
     justify-content: center;
     text-align: center;
     gap: 30px;
-    position: relative;
     overflow: hidden;
-    object-fit: cover;
     scroll-snap-align: center;
 
     .filter {
@@ -1112,9 +1148,11 @@ footer {
 
 .productos {
   width: 100%;
+  max-width: 100vw;
   height: auto;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 
   .pHeader {
     position: relative;
@@ -1297,6 +1335,7 @@ footer {
 /*ficha tecnica*/
 .fichaTecnica {
   width: 100%;
+  max-width: 100vw;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -1305,6 +1344,7 @@ footer {
   background-color: #bed98f;
   text-align: center;
   flex-direction: column;
+  overflow-x: hidden;
 
   .rute {
     width: 100%;
@@ -1563,7 +1603,8 @@ footer {
 
 /*certificaciones*/
 .certificaciones {
-  width: 100%;
+  width: 100vw;
+  max-width: 100vw;
   height: auto;
   display: flex;
   flex-wrap: wrap;
@@ -1573,6 +1614,7 @@ footer {
   text-align: center;
   color: black;
   transition: all 0.3s ease-in-out;
+  overflow-x: hidden;
 
   .header {
     display: flex;
@@ -1670,8 +1712,9 @@ footer {
 }
 
 .contactenos {
-  width: 100%;
-  height: 100vh;
+  width: 100vw;
+  max-width: 100vw;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1679,11 +1722,16 @@ footer {
   background-color: #2e3c1d;
   position: relative;
   overflow: hidden;
+  box-sizing: border-box;
+  padding-top: 100px;
+  padding-bottom: 50px;
 
   .imgcont {
     width: 100%;
     height: 100%;
     position: absolute;
+    top: 0;
+    left: 0;
     z-index: 0;
     background-image: url(/img/3.jpg);
     background-size: cover;
@@ -1692,21 +1740,23 @@ footer {
   }
 
   .contenedorInfo {
-    position: absolute;
-    width: 100%;
-    padding-left: 10%;
-    padding-right: 10%;
+    position: relative;
+    width: 80%;
+    max-width: 1400px;
     min-width: 350px;
-    height: 80%;
+    height: auto;
+    min-height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 
     .headerCont {
       width: 100%;
-      height: 15%;
-      padding-left: 20px;
+      height: auto;
+      min-height: 80px;
+      padding: 20px;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -1716,7 +1766,7 @@ footer {
       background-color: rgba(255, 255, 255, 0.1);
       backdrop-filter: blur(5px);
       border-radius: 15px 15px 0 0;
-      gap: 0;
+      gap: 5px;
 
       h1 {
         margin: 0;
@@ -1730,7 +1780,8 @@ footer {
     }
 
     .contForm {
-      width: 100%;
+      width: 1auto;
+      min-height: 500px;
       height: 90%;
       background-color: #587239;
       display: flex;
@@ -1882,6 +1933,7 @@ footer {
 
 .pqrs {
   width: 100%;
+  max-width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -1890,6 +1942,7 @@ footer {
   background-color: #2e3c1d;
   position: relative;
   overflow: hidden;
+  box-sizing: border-box;
 
   .imgcont {
     width: 100%;
@@ -2498,17 +2551,21 @@ footer {
 @media screen and (max-width: 980px) {
   .App {
     width: 100%;
-    overflow: hidden;
+    max-width: 100vw;
+    overflow-x: hidden;
   }
 
   .mainM {
     width: 100%;
+    max-width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
     background-color: white;
     color: black;
+    box-sizing: border-box;
+    overflow: hidden;
 
     .respLink {
       display: flex;
@@ -2532,8 +2589,14 @@ footer {
       align-items: center;
       position: absolute;
       top: 100%;
+      left: 0;
+      right: 0;
       background-color: white;
-      width: calc(100% - 20px);
+      width: 100%;
+      max-width: 100vw;
+      box-sizing: border-box;
+      padding: 10px;
+      overflow: hidden;
 
       ul {
         display: flex;
@@ -2541,6 +2604,10 @@ footer {
         justify-content: center;
         align-items: center;
         text-align: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
 
         .pagesMenu {
           color: black;
