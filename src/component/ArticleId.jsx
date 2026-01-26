@@ -10,7 +10,13 @@ const ArticleId = ({article,setArticleId,key}) => {
     }
   return (
     <div className='articleCard' onClick={()=> gotoart(article.title)}>
-        <img className='cardImage' src={article.image} alt="" />
+        <img 
+          className='cardImage' 
+          src={article.image} 
+          alt={article.title}
+          loading="lazy"
+          decoding="async"
+        />
         <div className='cardTitle'>
             <h2>{article.title}</h2>
         </div>

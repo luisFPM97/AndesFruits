@@ -577,11 +577,11 @@ jobs:
 
 ### Performance ⚡
 - [x] Implementar React.lazy en componentes pesados
-- [ ] Agregar React.memo a ProductCard
-- [ ] Agregar React.memo a ListaProductos
-- [ ] Implementar lazy loading de imágenes
+- [x] Agregar React.memo a ProductCard
+- [x] Agregar React.memo a ListaProductos
+- [x] Implementar lazy loading de imágenes
 - [ ] Optimizar imágenes a WebP
-- [ ] Configurar code splitting
+- [x] Configurar code splitting (via lazy loading)
 - [ ] Analizar bundle size
 
 ### SEO 🔍

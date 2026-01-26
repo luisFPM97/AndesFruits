@@ -88,7 +88,7 @@ const easeInOutQuad = (t) => t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) /
           aria-label="Desplazar a la izquierda"
           title="Desplazar a la izquierda"
         >
-          <img src="img/arrow-slider.png" alt="" />
+          <img src="/img/arrow-slider.png" alt="Desplazar izquierda" loading="lazy" />
         </button>
         <div className="hpProduct" ref={scrollContainer}>
           {products.map((product, i) => (
@@ -110,7 +110,7 @@ const easeInOutQuad = (t) => t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) /
           aria-label="Desplazar a la derecha"
           title="Desplazar a la derecha"
         >
-        <img src="img/arrow-end.png" alt="" />
+        <img src="/img/arrow-end.png" alt="Desplazar derecha" loading="lazy" />
         </button>
       </section>
       <section className="shortPage">
@@ -118,7 +118,12 @@ const easeInOutQuad = (t) => t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) /
         <div className="spcont">
         {home.sections.map((section, i) => (
           <div className="shortPageItem" key={i}>
-            <img src={section.image} alt={section.description} />
+            <img 
+              src={section.image} 
+              alt={section.description}
+              loading="lazy"
+              decoding="async"
+            />
             <div className="contenido">
             
               <span>{section.description}</span>
@@ -144,7 +149,12 @@ const easeInOutQuad = (t) => t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) /
         {
           certificaciones.certifications.map((cert, i) => (
             <div className="cretcard" key={i}>
-              <img src={cert.image} alt={cert.title} />
+              <img 
+                src={cert.image} 
+                alt={cert.title}
+                loading="lazy"
+                decoding="async"
+              />
               <span>{cert.title}</span>
             </div>
           ))

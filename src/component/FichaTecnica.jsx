@@ -56,7 +56,12 @@ const FichaTecnica = ({ productos, productid, language }) => {
             <div className="fichaTecnicaPrueba">
               <section className="sectionInfo cero">
                 <div className="content first vis">
-                  <img src={product.image} alt="" />
+                  <img 
+                    src={product.image} 
+                    alt={product.title}
+                    loading="lazy"
+                    decoding="async"
+                  />
                   <h1>{product.title}</h1>
                   <h2>{product.scientificName}</h2>
                 </div>

@@ -21,7 +21,15 @@ const ArticleInfo = ({ArticleId,articlesInfo,language}) => {
         {
             articulo ?(
                 <div className='contain'>
-                    <div className='image'><img className='img' src={articulo.image} alt="" /></div>
+                    <div className='image'>
+                      <img 
+                        className='img' 
+                        src={articulo.image} 
+                        alt={articulo.title}
+                        loading="lazy"
+                        decoding="async"
+                      />
+                    </div>
                     <h2>{articulo.title}</h2>
                     <hr />
                     <p>{articulo.resume}</p>
