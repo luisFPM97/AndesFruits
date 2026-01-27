@@ -60,14 +60,15 @@ function App() {
     <div className="App">
       <SkipLink />
       
-      <button 
+      <a 
+        href="https://wa.me/573108197934?text=Hola,%20me%20gustaría%20obtener%20más%20información" 
+        target="_blank" 
+        rel="noopener noreferrer"
         className="btncontacthp" 
-        onClick={() => setShowModalContact(true)}
-        aria-label="Open contact modal"
-        aria-expanded={showModalContact}
+        aria-label="Contact us on WhatsApp"
       >
-        <i className='bx bxs-message-circle-notification bx-flip-horizontal'></i>
-      </button>
+        <i className='bx bxl-whatsapp'></i>
+      </a>
       
       <Navbar 
         selectedLink={selectedLink} 

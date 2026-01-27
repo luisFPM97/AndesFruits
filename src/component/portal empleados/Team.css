@@ -71,6 +71,8 @@
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 2rem;
   animation: fadeInUp 0.8s ease-out;
+  justify-items: center;
+  
 }
 
 /* Member Card */
@@ -78,6 +80,7 @@
   background: white;
   border-radius: 16px;
   padding: 2.5rem 2rem;
+  width: 280px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease;
   cursor: pointer;

@@ -31,7 +31,8 @@ const DashboardEmpleos = () => {
             {/* Supplier Contact Card */}
             <div className='supplier-card'>
                 <div className='supplier-content'>
-                    <h2 className='supplier-title'>Contacto de Proveeduría</h2>
+                    <h2 className='supplier-title'>¿Eres productor y quieres trabajar con nosotros?</h2>
+                    <h3 className='supplier-title'>Contacto de Proveeduría</h3>
                     <div className='supplier-info'>
                         <div className='supplier-detail'>
                             <i className='bx bxs-user-circle'></i>
