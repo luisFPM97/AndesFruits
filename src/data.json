@@ -969,7 +969,7 @@
           "subtittle": "Seguridad y confianza en cada paso del proceso.",
           "description": "La Norma BASC (Business Alliance for Secure Commerce o Alianza Empresarial para un Comercio Seguro) es un programa de cooperación público-privada cuyo objetivo principal es fortalecer la seguridad de la cadena de suministro y prevenir el contrabando, la falsificación y el terrorismo en el comercio internacional.",
           "image": "/img/basc.svg",
-          "pdf": "/pdf/certbasc.png",
+          "pdf": "/pdf/certbasc.pdf",
           "number": " ",
           "concept": " ",
           "url": "https://www.wbasco.org/es"
@@ -980,7 +980,7 @@
           "subtittle": "Calidad y trazabilidad desde el origen hasta tu hogar.",
           "description": "El estándar de Cadena de Custodia (CoC) GLOBALG.AP garantiza que cualquier producto vendido con un reclamo GLOBALG.AP o que lleve el logotipo de una etiqueta GGN proviene verdaderamente de un proceso de producción certificado GLOBALG.AP.",
           "image": "/img/globalgap.png",
-          "pdf": "/pdf/certglobal.png",
+          "pdf": "/pdf/certglobal.pdf",
           "number": 7709997326430,
           "concept": "CoC_",
           "url": "https://database.globalgap.org/globalgap/search/SearchMain.faces"
@@ -2182,7 +2182,7 @@
           "subtittle": "Safety and Trust in Every Step of the Process",
           "description": "The BASC Standard (Business Alliance for Secure Commerce) is a public-private cooperation program whose main objective is to strengthen the security of the supply chain and prevent smuggling, counterfeiting, and terrorism in international trade.",
           "image": "/img/basc.svg",
-          "pdf": "/pdf/certbasc.png",
+          "pdf": "/pdf/certbasc.pdf",
           "number": " ",
           "concept": " ",
           "url": "https://www.wbasco.org/es"
@@ -2193,7 +2193,7 @@
           "subtittle": "Quality and Traceability from Farm to Table",
           "description": "The GLOBALG.A.P. Chain of Custody (CoC) standard ensures that any product sold with a GLOBALG.A.P. claim or bearing a GGN label logo is truly sourced from a GLOBALG.A.P. certified production process.",
           "image": "/img/globalgap.png",
-          "pdf": "/pdf/certglobal.png",
+          "pdf": "/pdf/certglobal.pdf",
           "number": 7709997326430,
           "concept": "CoC_",
           "url": "https://database.globalgap.org/globalgap/search/SearchMain.faces"
